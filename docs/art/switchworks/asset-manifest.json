@@ -1,0 +1,370 @@
+{
+  "schema_version": 1,
+  "art_direction_brief": "DIRECTIONS_ARTISTIQUES.md",
+  "scope": "Concept art only; not gameplay code or shipped assets. Historical prototypes and all revisions preserved.",
+  "final_candidates": [
+    "a-atelier-17-v5.png",
+    "b-archipel-postal-v3.png",
+    "c-nuit-de-service-v2.png"
+  ],
+  "assets": [
+    {
+      "id": "a-atelier-17-v1",
+      "path": "concepts/a-atelier-17-v1.png",
+      "status": "superseded-study-preserved",
+      "technical": {
+        "dimensions": "830x1896",
+        "alpha": false,
+        "frames": 1,
+        "role": "full-screen concept, no runtime import",
+        "bytes": 2504526,
+        "sha256": "a93337260f10c33f9672f6c13e2d3cb2c67ec94cde6da520813d5503057ff283"
+      },
+      "source": {
+        "kind": "generated",
+        "tool": "image_gen built-in",
+        "created_at": "2026-11-14",
+        "license": "Concept generated for this study; provider terms apply; commercial rights review pending. No competitor image used as generation input.",
+        "prompt_or_source_record": "PROMPTS_CONCEPTS.md"
+      },
+      "verification": {
+        "technical_checks_passed": true,
+        "native_scale_reviewed": false,
+        "in_engine_reviewed": false,
+        "production_ready": false,
+        "approved_by": null,
+        "technical_scope": "PNG decode, format, actual dimensions and opaque full-screen usage only; not native game readiness."
+      }
+    },
+    {
+      "id": "a-atelier-17-v2",
+      "path": "concepts/a-atelier-17-v2.png",
+      "status": "superseded-study-preserved",
+      "technical": {
+        "dimensions": "830x1894",
+        "alpha": false,
+        "frames": 1,
+        "role": "full-screen concept, no runtime import",
+        "bytes": 2378489,
+        "sha256": "a846af29b0c85a99715a64b4e9e45eb217c2a1abb9648b7c131c5ea88a21587c"
+      },
+      "source": {
+        "kind": "generated",
+        "tool": "image_gen built-in",
+        "created_at": "2026-11-14",
+        "license": "Concept generated for this study; provider terms apply; commercial rights review pending. No competitor image used as generation input.",
+        "prompt_or_source_record": "PROMPTS_CONCEPTS.md"
+      },
+      "verification": {
+        "technical_checks_passed": true,
+        "native_scale_reviewed": false,
+        "in_engine_reviewed": false,
+        "production_ready": false,
+        "approved_by": null,
+        "technical_scope": "PNG decode, format, actual dimensions and opaque full-screen usage only; not native game readiness."
+      }
+    },
+    {
+      "id": "a-atelier-17-v3",
+      "path": "concepts/a-atelier-17-v3.png",
+      "status": "superseded-study-preserved",
+      "technical": {
+        "dimensions": "830x1894",
+        "alpha": false,
+        "frames": 1,
+        "role": "full-screen concept, no runtime import",
+        "bytes": 2160533,
+        "sha256": "5edc33bd0b724e0c2812075989545e858b39e78a5821d520a6c2bd8f30057226"
+      },
+      "source": {
+        "kind": "generated",
+        "tool": "image_gen built-in",
+        "created_at": "2026-11-14",
+        "license": "Concept generated for this study; provider terms apply; commercial rights review pending. No competitor image used as generation input.",
+        "prompt_or_source_record": "PROMPTS_CONCEPTS.md"
+      },
+      "verification": {
+        "technical_checks_passed": true,
+        "native_scale_reviewed": false,
+        "in_engine_reviewed": false,
+        "production_ready": false,
+        "approved_by": null,
+        "technical_scope": "PNG decode, format, actual dimensions and opaque full-screen usage only; not native game readiness."
+      }
+    },
+    {
+      "id": "a-atelier-17-v4",
+      "path": "concepts/a-atelier-17-v4.png",
+      "status": "superseded-study-preserved",
+      "technical": {
+        "dimensions": "830x1894",
+        "alpha": false,
+        "frames": 1,
+        "role": "full-screen concept, no runtime import",
+        "bytes": 2570074,
+        "sha256": "6d17871e1263adb3ff53a5dedb0b1fd96965df63d5a5934bd5fee06f224c0af9"
+      },
+      "source": {
+        "kind": "generated",
+        "tool": "image_gen built-in",
+        "created_at": "2026-11-14",
+        "license": "Concept generated for this study; provider terms apply; commercial rights review pending. No competitor image used as generation input.",
+        "prompt_or_source_record": "PROMPTS_CONCEPTS.md"
+      },
+      "verification": {
+        "technical_checks_passed": true,
+        "native_scale_reviewed": false,
+        "in_engine_reviewed": false,
+        "production_ready": false,
+        "approved_by": null,
+        "technical_scope": "PNG decode, format, actual dimensions and opaque full-screen usage only; not native game readiness."
+      }
+    },
+    {
+      "id": "a-atelier-17-v5",
+      "path": "concepts/a-atelier-17-v5.png",
+      "status": "candidate-for-direction-selection",
+      "technical": {
+        "dimensions": "830x1894",
+        "alpha": false,
+        "frames": 1,
+        "role": "full-screen concept, no runtime import",
+        "bytes": 2306171,
+        "sha256": "7908f918c3620b8e97e384280b0bca55f97e4624450e1311a26c03d9a1fa3d9f"
+      },
+      "source": {
+        "kind": "generated",
+        "tool": "image_gen built-in",
+        "created_at": "2026-11-14",
+        "license": "Concept generated for this study; provider terms apply; commercial rights review pending. No competitor image used as generation input.",
+        "prompt_or_source_record": "PROMPTS_CONCEPTS.md"
+      },
+      "verification": {
+        "technical_checks_passed": true,
+        "native_scale_reviewed": true,
+        "in_engine_reviewed": false,
+        "production_ready": false,
+        "approved_by": null,
+        "technical_scope": "PNG decode, format, actual dimensions and opaque full-screen usage only; not native game readiness."
+      }
+    },
+    {
+      "id": "b-archipel-postal-v1",
+      "path": "concepts/b-archipel-postal-v1.png",
+      "status": "superseded-study-preserved",
+      "technical": {
+        "dimensions": "830x1896",
+        "alpha": false,
+        "frames": 1,
+        "role": "full-screen concept, no runtime import",
+        "bytes": 2242579,
+        "sha256": "5e696d232820610aaf919460ad1a3b70f321dfd609ee9cbc21a6bd0b19381888"
+      },
+      "source": {
+        "kind": "generated",
+        "tool": "image_gen built-in",
+        "created_at": "2026-11-14",
+        "license": "Concept generated for this study; provider terms apply; commercial rights review pending. No competitor image used as generation input.",
+        "prompt_or_source_record": "PROMPTS_CONCEPTS.md"
+      },
+      "verification": {
+        "technical_checks_passed": true,
+        "native_scale_reviewed": false,
+        "in_engine_reviewed": false,
+        "production_ready": false,
+        "approved_by": null,
+        "technical_scope": "PNG decode, format, actual dimensions and opaque full-screen usage only; not native game readiness."
+      }
+    },
+    {
+      "id": "b-archipel-postal-v2",
+      "path": "concepts/b-archipel-postal-v2.png",
+      "status": "superseded-study-preserved",
+      "technical": {
+        "dimensions": "830x1895",
+        "alpha": false,
+        "frames": 1,
+        "role": "full-screen concept, no runtime import",
+        "bytes": 1950734,
+        "sha256": "256bf7a8bf14bf76bc231c5fd5875792ac81a2bf2c33814cc74168a5e5b59c42"
+      },
+      "source": {
+        "kind": "generated",
+        "tool": "image_gen built-in",
+        "created_at": "2026-11-14",
+        "license": "Concept generated for this study; provider terms apply; commercial rights review pending. No competitor image used as generation input.",
+        "prompt_or_source_record": "PROMPTS_CONCEPTS.md"
+      },
+      "verification": {
+        "technical_checks_passed": true,
+        "native_scale_reviewed": false,
+        "in_engine_reviewed": false,
+        "production_ready": false,
+        "approved_by": null,
+        "technical_scope": "PNG decode, format, actual dimensions and opaque full-screen usage only; not native game readiness."
+      }
+    },
+    {
+      "id": "b-archipel-postal-v3",
+      "path": "concepts/b-archipel-postal-v3.png",
+      "status": "candidate-for-direction-selection",
+      "technical": {
+        "dimensions": "830x1894",
+        "alpha": false,
+        "frames": 1,
+        "role": "full-screen concept, no runtime import",
+        "bytes": 1923109,
+        "sha256": "c855a0bce6699e8f0540570a6e530f2c74146bd0ed2682e7044570aacd341f55"
+      },
+      "source": {
+        "kind": "generated",
+        "tool": "image_gen built-in",
+        "created_at": "2026-11-14",
+        "license": "Concept generated for this study; provider terms apply; commercial rights review pending. No competitor image used as generation input.",
+        "prompt_or_source_record": "PROMPTS_CONCEPTS.md"
+      },
+      "verification": {
+        "technical_checks_passed": true,
+        "native_scale_reviewed": true,
+        "in_engine_reviewed": false,
+        "production_ready": false,
+        "approved_by": null,
+        "technical_scope": "PNG decode, format, actual dimensions and opaque full-screen usage only; not native game readiness."
+      }
+    },
+    {
+      "id": "c-nuit-de-service-v1",
+      "path": "concepts/c-nuit-de-service-v1.png",
+      "status": "superseded-study-preserved",
+      "technical": {
+        "dimensions": "830x1896",
+        "alpha": false,
+        "frames": 1,
+        "role": "full-screen concept, no runtime import",
+        "bytes": 2366330,
+        "sha256": "4b79eb446dffc00102352307d7964552daed5def35719543df749f0b36e6094d"
+      },
+      "source": {
+        "kind": "generated",
+        "tool": "image_gen built-in",
+        "created_at": "2026-11-14",
+        "license": "Concept generated for this study; provider terms apply; commercial rights review pending. No competitor image used as generation input.",
+        "prompt_or_source_record": "PROMPTS_CONCEPTS.md"
+      },
+      "verification": {
+        "technical_checks_passed": true,
+        "native_scale_reviewed": false,
+        "in_engine_reviewed": false,
+        "production_ready": false,
+        "approved_by": null,
+        "technical_scope": "PNG decode, format, actual dimensions and opaque full-screen usage only; not native game readiness."
+      }
+    },
+    {
+      "id": "c-nuit-de-service-v2",
+      "path": "concepts/c-nuit-de-service-v2.png",
+      "status": "candidate-for-direction-selection",
+      "technical": {
+        "dimensions": "830x1895",
+        "alpha": false,
+        "frames": 1,
+        "role": "full-screen concept, no runtime import",
+        "bytes": 2293091,
+        "sha256": "ab4fe99c48431a156cb4fbc34178cf5caaaf5e969c0ccfaba11037a67dcc010e"
+      },
+      "source": {
+        "kind": "generated",
+        "tool": "image_gen built-in",
+        "created_at": "2026-11-14",
+        "license": "Concept generated for this study; provider terms apply; commercial rights review pending. No competitor image used as generation input.",
+        "prompt_or_source_record": "PROMPTS_CONCEPTS.md"
+      },
+      "verification": {
+        "technical_checks_passed": true,
+        "native_scale_reviewed": true,
+        "in_engine_reviewed": false,
+        "production_ready": false,
+        "approved_by": null,
+        "technical_scope": "PNG decode, format, actual dimensions and opaque full-screen usage only; not native game readiness."
+      }
+    },
+    {
+      "id": "comparaison-finale",
+      "path": "concepts/comparaison-finale.png",
+      "status": "comparison",
+      "technical": {
+        "dimensions": "2522x1895",
+        "alpha": false,
+        "frames": 1,
+        "role": "full-screen concept, no runtime import",
+        "bytes": 6246056,
+        "sha256": "c1ed4139e96f5006b3f223d5998e78191d3440f4b98e9fc12057e602d7dfb06e"
+      },
+      "source": {
+        "kind": "authored-contact-sheet",
+        "tool": "deterministic contact sheet; originals unmodified",
+        "created_at": "2026-11-14",
+        "license": "Concept generated for this study; provider terms apply; commercial rights review pending. No competitor image used as generation input.",
+        "prompt_or_source_record": "PROMPTS_CONCEPTS.md"
+      },
+      "verification": {
+        "technical_checks_passed": true,
+        "native_scale_reviewed": false,
+        "in_engine_reviewed": false,
+        "production_ready": false,
+        "approved_by": null,
+        "technical_scope": "PNG decode, format, actual dimensions and opaque full-screen usage only; not native game readiness."
+      }
+    },
+    {
+      "id": "comparaison-v1",
+      "path": "concepts/comparaison-v1.png",
+      "status": "superseded-study-preserved",
+      "technical": {
+        "dimensions": "1920x664",
+        "alpha": false,
+        "frames": 1,
+        "role": "full-screen concept, no runtime import",
+        "bytes": 920787,
+        "sha256": "2dffd85bc06668615aa52685e0108996f717089a7681e3f1a670347a72061304"
+      },
+      "source": {
+        "kind": "authored-contact-sheet",
+        "tool": "deterministic contact sheet; originals unmodified",
+        "created_at": "2026-11-14",
+        "license": "Concept generated for this study; provider terms apply; commercial rights review pending. No competitor image used as generation input.",
+        "prompt_or_source_record": "PROMPTS_CONCEPTS.md"
+      },
+      "verification": {
+        "technical_checks_passed": true,
+        "native_scale_reviewed": false,
+        "in_engine_reviewed": false,
+        "production_ready": false,
+        "approved_by": null,
+        "technical_scope": "PNG decode, format, actual dimensions and opaque full-screen usage only; not native game readiness."
+      }
+    }
+  ],
+  "planned_runtime_families": [
+    "board_6x6",
+    "straight_rail_2ports",
+    "elbow_rail_2ports_4orientations",
+    "source_A_B_fixed",
+    "destination_A_B_fixed_west_port",
+    "parcel_A_B_matching_shape_letter",
+    "selection_invalid_overlays",
+    "fixed_crossing_signal",
+    "HUD_buttons_and_native_typography"
+  ],
+  "fonts": {
+    "A": "IBM Plex Sans Condensed + Plex Sans + Plex Mono (OFL-1.1, not downloaded)",
+    "B": "Nunito Sans (OFL-1.1, not downloaded)",
+    "C": "Space Grotesk + Inter (OFL-1.1, not downloaded)"
+  },
+  "qa": {
+    "tool": ".agents/skills/create-game-assets/scripts/asset_report.py",
+    "pillow": "13.0.0 (isolated under tools/.local/art-python)",
+    "checks": "Each file checked with --expect-size matching recorded dimensions and --json; alpha not required for opaque concepts.",
+    "report": "RASTER_QA.json"
+  }
+}

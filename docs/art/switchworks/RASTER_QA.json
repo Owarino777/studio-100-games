@@ -1,0 +1,246 @@
+{
+  "ok": true,
+  "assets": [
+    {
+      "path": "docs/art/switchworks/concepts/a-atelier-17-v1.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 830,
+      "height": 1896,
+      "bytes": 2504526,
+      "color_count": ">65535",
+      "has_alpha": false,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        830,
+        1896
+      ],
+      "problems": []
+    },
+    {
+      "path": "docs/art/switchworks/concepts/a-atelier-17-v2.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 830,
+      "height": 1894,
+      "bytes": 2378489,
+      "color_count": ">65535",
+      "has_alpha": false,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        830,
+        1894
+      ],
+      "problems": []
+    },
+    {
+      "path": "docs/art/switchworks/concepts/a-atelier-17-v3.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 830,
+      "height": 1894,
+      "bytes": 2160533,
+      "color_count": ">65535",
+      "has_alpha": false,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        830,
+        1894
+      ],
+      "problems": []
+    },
+    {
+      "path": "docs/art/switchworks/concepts/a-atelier-17-v4.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 830,
+      "height": 1894,
+      "bytes": 2570074,
+      "color_count": ">65535",
+      "has_alpha": false,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        830,
+        1894
+      ],
+      "problems": []
+    },
+    {
+      "path": "docs/art/switchworks/concepts/a-atelier-17-v5.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 830,
+      "height": 1894,
+      "bytes": 2306171,
+      "color_count": ">65535",
+      "has_alpha": false,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        830,
+        1894
+      ],
+      "problems": []
+    },
+    {
+      "path": "docs/art/switchworks/concepts/b-archipel-postal-v1.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 830,
+      "height": 1896,
+      "bytes": 2242579,
+      "color_count": ">65535",
+      "has_alpha": false,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        830,
+        1896
+      ],
+      "problems": []
+    },
+    {
+      "path": "docs/art/switchworks/concepts/b-archipel-postal-v2.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 830,
+      "height": 1895,
+      "bytes": 1950734,
+      "color_count": ">65535",
+      "has_alpha": false,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        830,
+        1895
+      ],
+      "problems": []
+    },
+    {
+      "path": "docs/art/switchworks/concepts/b-archipel-postal-v3.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 830,
+      "height": 1894,
+      "bytes": 1923109,
+      "color_count": ">65535",
+      "has_alpha": false,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        830,
+        1894
+      ],
+      "problems": []
+    },
+    {
+      "path": "docs/art/switchworks/concepts/c-nuit-de-service-v1.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 830,
+      "height": 1896,
+      "bytes": 2366330,
+      "color_count": ">65535",
+      "has_alpha": false,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        830,
+        1896
+      ],
+      "problems": []
+    },
+    {
+      "path": "docs/art/switchworks/concepts/c-nuit-de-service-v2.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 830,
+      "height": 1895,
+      "bytes": 2293091,
+      "color_count": ">65535",
+      "has_alpha": false,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        830,
+        1895
+      ],
+      "problems": []
+    },
+    {
+      "path": "docs/art/switchworks/concepts/comparaison-finale.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 2522,
+      "height": 1895,
+      "bytes": 6246056,
+      "color_count": ">65535",
+      "has_alpha": false,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        2522,
+        1895
+      ],
+      "problems": []
+    },
+    {
+      "path": "docs/art/switchworks/concepts/comparaison-v1.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 1920,
+      "height": 664,
+      "bytes": 920787,
+      "color_count": ">65535",
+      "has_alpha": false,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        1920,
+        664
+      ],
+      "problems": []
+    }
+  ],
+  "scope": "PNG integrity/dimensions only; not gameplay, accessibility or commercial validation"
+}

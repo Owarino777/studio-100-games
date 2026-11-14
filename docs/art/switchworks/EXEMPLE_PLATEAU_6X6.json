@@ -1,0 +1,281 @@
+{
+  "id": "NATIVE-EXEMPLE-01",
+  "status": "new illustrative scenario, not recovered historical level",
+  "indexing": "rows/columns 1-based in this report",
+  "initial_grid": [
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "EW",
+      "EW",
+      "SE",
+      "",
+      "SE",
+      "EW"
+    ],
+    [
+      "",
+      "",
+      "NE",
+      "EW",
+      "NW",
+      ""
+    ],
+    [
+      "",
+      "SE",
+      "EW",
+      "SE",
+      "",
+      ""
+    ],
+    [
+      "EW",
+      "NW",
+      "",
+      "NE",
+      "EW",
+      "EW"
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  ],
+  "solved_grid": [
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "EW",
+      "EW",
+      "SW",
+      "",
+      "SE",
+      "EW"
+    ],
+    [
+      "",
+      "",
+      "NE",
+      "EW",
+      "NW",
+      ""
+    ],
+    [
+      "",
+      "SE",
+      "EW",
+      "SW",
+      "",
+      ""
+    ],
+    [
+      "EW",
+      "NW",
+      "",
+      "NE",
+      "EW",
+      "EW"
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  ],
+  "sources": {
+    "A": [
+      2,
+      1
+    ],
+    "B": [
+      5,
+      1
+    ]
+  },
+  "destinations": {
+    "A": [
+      2,
+      6
+    ],
+    "B": [
+      5,
+      6
+    ]
+  },
+  "fixed_stations": [
+    [
+      2,
+      1
+    ],
+    [
+      5,
+      1
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      5,
+      6
+    ]
+  ],
+  "required_cw_rotations": [
+    [
+      2,
+      3
+    ],
+    [
+      4,
+      4
+    ]
+  ],
+  "paths": {
+    "A": [
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ]
+    ],
+    "B": [
+      [
+        5,
+        1
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ]
+  },
+  "checks": {
+    "all_tiles_two_ports": true,
+    "initial_both_fail": true,
+    "one_rotation_fixes_only_A": true,
+    "two_rotations_solve_both": true,
+    "routes_disjoint": true,
+    "four_rotations_identity": true,
+    "fixed_station_rejected": true
+  },
+  "date": "2026-11-14",
+  "purpose": "Original illustrative board for comparing art directions; not a recovered G1/G2/G3 level and not production gameplay.",
+  "historical_rules": [
+    {
+      "file": "../../historique-projet/03-prototypes/Specifications_SWITCHWORKS_G1.pdf",
+      "page": 2
+    },
+    {
+      "file": "../../historique-projet/03-prototypes/Conception_Recette_SWITCHWORKS_G3.pdf",
+      "page": 2
+    }
+  ],
+  "tile_ports": "N/E/S/W; every occupied tile has exactly two ports. Rotate clockwise maps N->E->S->W->N.",
+  "solution_commands": [
+    {
+      "action": "rotate_cw",
+      "row": 2,
+      "column": 3,
+      "quarter_turns": 1
+    },
+    {
+      "action": "rotate_cw",
+      "row": 4,
+      "column": 4,
+      "quarter_turns": 1
+    },
+    {
+      "action": "dispatch"
+    }
+  ],
+  "reference_rotation_count": 2,
+  "optimality_proven": false,
+  "concept_snapshot": {
+    "grid": "solved_grid",
+    "state": "prepared_before_dispatch",
+    "deliveries_complete": 0,
+    "deliveries_required": 2,
+    "selected_cell": [
+      2,
+      3
+    ],
+    "selected_ports": "SW",
+    "colors": {
+      "A": "blue",
+      "B": "coral"
+    },
+    "no_countdown": true,
+    "no_signal_delay": true
+  }
+}
