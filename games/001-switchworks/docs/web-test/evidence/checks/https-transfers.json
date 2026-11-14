@@ -1,0 +1,30 @@
+[
+  {
+    "file": "index.html",
+    "content_length": null,
+    "encoding": "gzip",
+    "mime": "text/html; charset=utf-8",
+    "note": "length may be omitted by HTTPS proxy"
+  },
+  {
+    "file": "index.js",
+    "content_length": 69462,
+    "encoding": "gzip",
+    "mime": "application/javascript",
+    "note": "length may be omitted by HTTPS proxy"
+  },
+  {
+    "file": "index.wasm",
+    "content_length": 10241681,
+    "encoding": "gzip",
+    "mime": "application/wasm",
+    "note": "length may be omitted by HTTPS proxy"
+  },
+  {
+    "file": "index.pck",
+    "content_length": 4432089,
+    "encoding": "gzip",
+    "mime": "application/octet-stream",
+    "note": "length may be omitted by HTTPS proxy"
+  }
+]

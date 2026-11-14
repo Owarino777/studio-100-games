@@ -1,0 +1,104 @@
+{
+  "scope": "Windows Chrome actual WASM execution, touch/mobile emulation; not physical iPhone or Safari",
+  "profile": "pro",
+  "url": "https://drops-discover-bicycle-wear.trycloudflare.com/",
+  "checks": [
+    {
+      "name": "pack request accepted",
+      "passed": true,
+      "detail": {
+        "status": 200
+      }
+    },
+    {
+      "name": "served PCK equals current export",
+      "passed": true
+    },
+    {
+      "name": "actual Godot canvas loaded",
+      "passed": true
+    },
+    {
+      "name": "single threaded export",
+      "passed": true
+    },
+    {
+      "name": "no cross origin isolation required",
+      "passed": true
+    },
+    {
+      "name": "one touch gives exactly one rotation",
+      "passed": true
+    },
+    {
+      "name": "reload restores real saved preparation",
+      "passed": true,
+      "detail": {
+        "attempts": 0,
+        "css_height": 852,
+        "css_width": 393,
+        "device_pixel_ratio": 3,
+        "hints": 0,
+        "phase": "planning",
+        "ports_hash": "d576f73bc43027c2972832997f6dd59841b961052b8f0c8d7436ddc5b8f746dd",
+        "reason": "ready",
+        "rotations": 1,
+        "secure_context": true,
+        "storage_reported_persistent": true
+      }
+    },
+    {
+      "name": "both local reception animations completed",
+      "passed": true
+    },
+    {
+      "name": "page return stays paused",
+      "passed": true
+    },
+    {
+      "name": "full desktop browser restart keeps preparation",
+      "passed": true,
+      "detail": {
+        "attempts": 2,
+        "css_height": 852,
+        "css_width": 393,
+        "device_pixel_ratio": 3,
+        "hints": 0,
+        "phase": "planning",
+        "ports_hash": "46e88af6f07e9efb98d810b057f044c6d7a07872fb3425c7f9ca8fe9bcc6e7bb",
+        "reason": "ready",
+        "rotations": 6,
+        "secure_context": true,
+        "storage_reported_persistent": true
+      }
+    },
+    {
+      "name": "no script or fatal browser error",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "status": "passed",
+  "served_pck_sha256": "5ba7b0e797f60642cdd9fb458338a395a13510c27ef0485ff9298041212f8da6",
+  "initial_load_ms": 9995,
+  "environment": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+    "secureContext": true,
+    "css": [
+      393,
+      852
+    ],
+    "dpr": 3,
+    "canvas": [
+      1179,
+      2556
+    ]
+  },
+  "headless_visibility": {
+    "hidden": false,
+    "state": "visible",
+    "focus": true
+  },
+  "suspension_test": "Synthetic browser blur/focus events; physical Safari Home remains untested",
+  "console_errors": []
+}

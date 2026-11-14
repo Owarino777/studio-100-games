@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "scope": "TLS loopback with explicit local CA, not iPhone trust or LAN access",
+  "auth_without_password": 401,
+  "served_index_matches_build": true,
+  "private_file_probes": 5,
+  "private_files_not_served": true,
+  "os_certificate_store_changed": false,
+  "firewall_changed": false,
+  "external_publication": false
+}

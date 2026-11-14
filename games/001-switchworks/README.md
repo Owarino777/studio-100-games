@@ -2,6 +2,8 @@
 
 Ce dossier conserve la **mire historique du bootstrap** et ajoute une **tranche verticale expérimentale native**, fondée sur la direction candidate **B — Archipel Postal**. SWITCHWORKS reste **TEST / HOLD**, sans validation artistique ou commerciale définitive.
 
+Sur la branche `test/archipel-postal-web-iphone`, une [version Web Godot de test](docs/web-test/REPORT.md) et son [accès HTTPS temporaire autorisé](docs/web-test/ACCESS.md) permettent de préparer les essais Safari. Le [protocole iPhone Safari](docs/user-tests/safari-web-5/README.md) ne remplace pas la campagne Android native ; les résultats sont séparés.
+
 La [passe ciblée issue de la revue critique](docs/polish/REPORT.md) améliore le même niveau : quais distincts, consignes, ombres/matières, voies, réception et HUD. Ses [captures comparatives](docs/polish/evidence/diagnostics/comparison-planning-1080x2400.png) et sa [vidéo Android](docs/polish/evidence/regression/android-gameplay.mp4) proviennent du jeu exécuté. Le nouvel export séparé est `build/android/switchworks-archipel-polish-debug.apk` ; l'APK initial reste conservé. Une validation humaine est requise avant toute extension.
 
 La [référence de stabilisation et les seconds regards indépendants](docs/stabilization/README.md) préparent une revue humaine et une éventuelle finition limitée. Le [kit externe autonome](docs/stabilization/review-kit/README.md) conserve les captures et la vidéo originales ; aucune extension du gameplay n'est ajoutée à ce jalon.

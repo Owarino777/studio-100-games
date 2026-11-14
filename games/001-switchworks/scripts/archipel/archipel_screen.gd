@@ -46,6 +46,13 @@ var _original_scale_size: Vector2i
 var _restored_preparation: bool = false
 var _guidance_state: String = "fresh"
 var _layout_log_queued: bool = false
+var _web_window: JavaScriptObject
+var _web_document: JavaScriptObject
+var _web_safe_area_probe: JavaScriptObject
+var _web_visibility_callback: JavaScriptObject
+var _web_hide_callback: JavaScriptObject
+var _web_show_callback: JavaScriptObject
+var _web_storage_available: bool = true
 
 
 func _ready() -> void:
@@ -53,6 +60,7 @@ func _ready() -> void:
 	_old_fps = Engine.max_fps
 	Engine.max_fps = 60
 	_original_scale_size = get_window().content_scale_size
+	_setup_web_environment()
 	_adapt_window_scale()
 	get_window().size_changed.connect(_adapt_window_scale)
 	theme = PostalTheme.make_theme()
@@ -88,6 +96,11 @@ func _ready() -> void:
 	print("SLICE_READY engine=%s platform=%s level=%s" % [Engine.get_version_info()["string"], OS.get_name(), level.id])
 	_queue_layout_log()
 	call_deferred("_first_frame_marker")
+	if OS.has_feature("web"):
+		_report_web_state("ready")
+		_warn_web_storage()
+		if _web_document != null and bool(_web_document.hidden):
+			_suspend_web("initially_hidden")
 
 
 func _build_ui() -> void:
@@ -104,8 +117,9 @@ func _build_ui() -> void:
 	_header.add_theme_stylebox_override("panel", PostalTheme.panel())
 	add_child(_header)
 	_title = _label("ARCHIPEL POSTAL", 18, 850)
-	_subtitle = _label("Livrez A → A et B → B", 15, 750)
-	_buttons["pause"] = _button("Ⅱ", pause_game, "Pause")
+	# Web exports cannot rely on native-system fallback glyphs for these symbols.
+	_subtitle = _label("Livrez A à A et B à B" if OS.has_feature("web") else "Livrez A → A et B → B", 15, 750)
+	_buttons["pause"] = _button("II" if OS.has_feature("web") else "Ⅱ", pause_game, "Pause")
 	_buttons["pause"].tooltip_text = "Mettre en pause et ouvrir les options"
 	_stats_panel = PanelContainer.new()
 	var stats_box: StyleBoxFlat = PostalTheme.panel(PostalTheme.CREAM, 14)
@@ -309,6 +323,17 @@ static func _place(control: Control, rect: Rect2) -> void:
 
 func _safe_rect() -> Rect2:
 	var full := Rect2(Vector2.ZERO, get_viewport_rect().size)
+	if OS.has_feature("web") and _web_window != null and _web_safe_area_probe != null:
+		var css_size := Vector2(float(_web_window.innerWidth), float(_web_window.innerHeight))
+		if css_size.x > 0.0 and css_size.y > 0.0:
+			var style: JavaScriptObject = _web_window.getComputedStyle(_web_safe_area_probe)
+			var left: float = maxf(0.0, float(str(style.paddingLeft).trim_suffix("px")))
+			var top: float = maxf(0.0, float(str(style.paddingTop).trim_suffix("px")))
+			var right: float = maxf(0.0, float(str(style.paddingRight).trim_suffix("px")))
+			var bottom: float = maxf(0.0, float(str(style.paddingBottom).trim_suffix("px")))
+			var ratio: Vector2 = full.size / css_size
+			var inset := Rect2(Vector2(left, top) * ratio, full.size - Vector2(left + right, top + bottom) * ratio)
+			return inset if inset.has_area() else full
 	if not (OS.has_feature("android") or OS.has_feature("ios")):
 		return full
 	var window := Rect2(Vector2(DisplayServer.window_get_position()), Vector2(DisplayServer.window_get_size()))
@@ -584,7 +609,13 @@ func _adapt_window_scale() -> void:
 		return
 	var window: Window = get_window()
 	var target: Vector2i = _original_scale_size
-	if window.size.x > window.size.y * 1.2:
+	if OS.has_feature("web") and _web_window != null:
+		# Browser framebuffer pixels include DPR. A short landscape phone still
+		# needs 48 CSS-pixel controls, not a desktop rule applied to physical pixels.
+		var css_size := Vector2i(int(_web_window.innerWidth), int(_web_window.innerHeight))
+		if css_size.x > css_size.y * 1.2 and css_size.x > 0 and css_size.y > 0:
+			target = css_size
+	elif window.size.x > window.size.y * 1.2:
 		var scale: float = clampf(float(window.size.y) / 640.0, 1.0, 3.0)
 		target = Vector2i(roundi(float(window.size.x) / scale), roundi(float(window.size.y) / scale))
 	if window.content_scale_size != target:
@@ -594,7 +625,7 @@ func _adapt_window_scale() -> void:
 func _notification(what: int) -> void:
 	if _board == null:
 		return
-	if what == NOTIFICATION_APPLICATION_PAUSED or (what == NOTIFICATION_APPLICATION_FOCUS_OUT and (OS.has_feature("android") or OS.has_feature("ios"))):
+	if what == NOTIFICATION_APPLICATION_PAUSED or (what == NOTIFICATION_APPLICATION_FOCUS_OUT and (OS.has_feature("android") or OS.has_feature("ios") or OS.has_feature("web"))):
 		pause_game()
 	elif what == NOTIFICATION_APPLICATION_RESUMED:
 		_view.invalidate_render()
@@ -622,6 +653,9 @@ func _save_local_state() -> void:
 	if save_error != OK:
 		_set_guidance("Préparation gardée en mémoire.\nSauvegarde locale indisponible.", "storage_warning")
 		push_warning("SLICE_LOCAL_SAVE_RENAME_FAILED code=%d" % save_error)
+	elif OS.has_feature("web"):
+		_web_storage_available = OS.is_userfs_persistent()
+		_warn_web_storage()
 
 
 func _load_local_state() -> void:
@@ -679,6 +713,10 @@ func _play_tone(frequency: float, duration: float) -> void:
 	stream.data = bytes
 	var player := AudioStreamPlayer.new()
 	player.stream = stream
+	if OS.has_feature("web"):
+		# Runtime-generated WAV tones use the engine's stream path; Web samples
+		# intentionally support a narrower feature set. Sound remains optional/off.
+		player.playback_type = AudioServer.PLAYBACK_TYPE_STREAM
 	add_child(player)
 	player.finished.connect(player.queue_free)
 	player.play()
@@ -771,6 +809,111 @@ func _capture_frame() -> void:
 
 
 func _exit_tree() -> void:
+	_teardown_web_environment()
 	Engine.max_fps = _old_fps
 	if get_window() != null and get_viewport() is Window:
 		get_window().content_scale_size = _original_scale_size
+
+
+func _setup_web_environment() -> void:
+	if not OS.has_feature("web"):
+		return
+	_web_window = JavaScriptBridge.get_interface("window")
+	_web_document = JavaScriptBridge.get_interface("document")
+	_web_storage_available = OS.is_userfs_persistent()
+	if _web_window == null or _web_document == null:
+		push_warning("SLICE_WEB_BROWSER_INTERFACE_UNAVAILABLE")
+		return
+	# This invisible CSS probe reads browser-provided insets; it is not a UI or a
+	# substitute for the Godot canvas. Without viewport-fit=cover, insets may be zero.
+	_web_safe_area_probe = _web_document.createElement("div")
+	_web_safe_area_probe.style.cssText = "position:fixed;visibility:hidden;pointer-events:none;width:0;height:0;padding:env(safe-area-inset-top,0px) env(safe-area-inset-right,0px) env(safe-area-inset-bottom,0px) env(safe-area-inset-left,0px);"
+	_web_document.body.appendChild(_web_safe_area_probe)
+	_web_visibility_callback = JavaScriptBridge.create_callback(_on_web_visibility)
+	_web_hide_callback = JavaScriptBridge.create_callback(_on_web_hidden)
+	_web_show_callback = JavaScriptBridge.create_callback(_on_web_shown)
+	_web_document.addEventListener("visibilitychange", _web_visibility_callback, false)
+	_web_window.addEventListener("pagehide", _web_hide_callback, false)
+	_web_window.addEventListener("pageshow", _web_show_callback, false)
+	_web_window.addEventListener("blur", _web_hide_callback, false)
+	_web_window.addEventListener("focus", _web_show_callback, false)
+
+
+func _on_web_visibility(_arguments: Array) -> void:
+	if _web_document != null and bool(_web_document.hidden):
+		_suspend_web("visibility_hidden")
+	else:
+		_restore_web_surface("visibility_visible")
+
+
+func _on_web_hidden(_arguments: Array) -> void:
+	_suspend_web("pagehide_or_blur")
+
+
+func _on_web_shown(_arguments: Array) -> void:
+	_restore_web_surface("pageshow_or_focus")
+
+
+func _suspend_web(reason: String) -> void:
+	if _board == null:
+		return
+	if _paused:
+		_save_local_state()
+	else:
+		pause_game()
+	_previous_frame_us = 0
+	_report_web_state(reason)
+
+
+func _restore_web_surface(reason: String) -> void:
+	if _board == null:
+		return
+	# A normal page return redraws the cached viewport but never resumes simulation
+	# automatically. A genuine WebGL context loss still requires the engine's reload.
+	_view.invalidate_render()
+	_adapt_window_scale()
+	call_deferred("_layout")
+	_previous_frame_us = 0
+	_report_web_state(reason)
+
+
+func _warn_web_storage() -> void:
+	if OS.has_feature("web") and not _web_storage_available and _status != null:
+		_set_guidance("Partie gardée dans cet onglet.\nLe navigateur ne la conserve pas.", "storage_warning")
+
+
+func _report_web_state(reason: String) -> void:
+	# Read-only state fingerprint lets a reload test compare the restored preparation
+	# without depending on an Emscripten FS implementation detail or a gameplay API.
+	var state: Dictionary = {"reason": reason, "phase": get_phase(), "storage_reported_persistent": _web_storage_available,
+		"secure_context": bool(_web_window.isSecureContext) if _web_window != null else false,
+		"rotations": _board.rotations if _board != null else 0,
+		"attempts": _board.attempts if _board != null else 0,
+		"hints": _board.hints if _board != null else 0,
+		"ports_hash": JSON.stringify(Array(_board.ports)).sha256_text() if _board != null else "",
+		"css_width": int(_web_window.innerWidth) if _web_window != null else 0,
+		"css_height": int(_web_window.innerHeight) if _web_window != null else 0,
+		"device_pixel_ratio": float(_web_window.devicePixelRatio) if _web_window != null else 1.0}
+	print("SLICE_WEB %s" % JSON.stringify(state))
+
+
+func _teardown_web_environment() -> void:
+	if not OS.has_feature("web"):
+		return
+	if _web_document != null and _web_visibility_callback != null:
+		_web_document.removeEventListener("visibilitychange", _web_visibility_callback, false)
+	if _web_window != null:
+		if _web_hide_callback != null:
+			_web_window.removeEventListener("pagehide", _web_hide_callback, false)
+			_web_window.removeEventListener("blur", _web_hide_callback, false)
+		if _web_show_callback != null:
+			_web_window.removeEventListener("pageshow", _web_show_callback, false)
+			_web_window.removeEventListener("focus", _web_show_callback, false)
+	if _web_safe_area_probe != null:
+		_web_safe_area_probe.remove()
+	_web_visibility_callback = null
+	_web_hide_callback = null
+	_web_show_callback = null
+	_web_safe_area_probe = null
+	_web_document = null
+	_web_window = null

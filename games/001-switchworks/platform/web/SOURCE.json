@@ -1,0 +1,14 @@
+{
+  "source": "official Godot4.7.2-stable web_nothreads_release.zip/godot.html",
+  "official_source_url": "https://github.com/godotengine/godot/blob/4.7.2-stable/misc/dist/html/full-size.html",
+  "template_zip_sha256": "d3ee2f08cef0cf3cf6678a6355a92a8db48ccdd35cbd2e8bfd5f0e8a0b4032a0",
+  "upstream_html_sha256": "3a5f265e788646513c32494fc0faead64c6b7f92ef005bf475da0c622bd481f4",
+  "local_html_sha256": "6b5bbb181942e64508bce4022f6b3da1d39e21b10014f3a5ffff4a1749e6bb32",
+  "license": "Godot MIT notice preserved in HTML comment; full project notice at assets/licenses/GODOT_LICENSE.txt",
+  "visible_changes": [
+    "lang=fr",
+    "viewport-fit=cover; no user-scalable=no"
+  ],
+  "runtime_changes": [],
+  "notes": "No body/canvas padding, game markup replacement or third-party network request added. Safe areas are handled by GDScript Web adapter."
+}

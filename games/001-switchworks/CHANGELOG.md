@@ -1,5 +1,14 @@
 # SWITCHWORKS — Journal du jeu
 
+## 2026-11-14 — Branche de test Web iPhone, sans extension du jeu
+
+- Export Web Godot Compatibility sans threads/extensions/PWA depuis `108e2b04` ; modèles 4.7.2 déjà présents, presets natifs conservés.
+- Adaptations Web conditionnelles : safe areas CSS, suspension/reprise explicite, persistance navigateur, audio et glyphes compatibles ; mêmes données, assets et règles.
+- Vrai WASM exécuté avec toucher, réception, sauvegarde et redémarrage navigateur ; contexte Chrome de bureau distingué de Safari physique.
+- Tunnel HTTPS Cloudflare temporaire protégé, explicitement autorisé par le propriétaire ; aucun GitHub/store, certificat iPhone ou pare-feu modifié.
+- Campagne Safari SW01–SW05 séparée de la validation Android native maintenue ; fichiers joueurs vierges, voie iOS macOS/Xcode documentée si nécessaire.
+- Accès, rotation, restauration après reload et affichage de reprise confirmés par le propriétaire sur iPhone 15 Pro ; déception artistique et démarrage lent consignés, sans durée inventée ni nouvelle refonte. Aucun joueur indépendant testé.
+
 ## 2026-11-14 — Correction ciblée P1/P2/P3 après revue critique
 
 - Même niveau et moteur : aucun changement des données, règles, ports ou anciens runners.

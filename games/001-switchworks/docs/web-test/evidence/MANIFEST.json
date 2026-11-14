@@ -1,0 +1,517 @@
+{
+  "schema_version": 1,
+  "base_commit": "108e2b04a3109f8f67d00a65caf0d60d7f1c979e",
+  "branch": "test/archipel-postal-web-iphone",
+  "engine": "Godot4.7.2.stable.official.ed1daf0bf Standard",
+  "wasm_threads": false,
+  "context": "Actual desktop Chrome, mobile/touch emulation; physical owner observations recorded separately in REPORT.md",
+  "served_pck_sha256": "5ba7b0e797f60642cdd9fb458338a395a13510c27ef0485ff9298041212f8da6",
+  "external_authorization": "Owner explicitly approved temporary password-protected Cloudflare tunnel; no native certificates or firewall changes",
+  "files": [
+    {
+      "path": "https-pro/browser-restarted.png",
+      "source": "games/001-switchworks/artifacts/web-test/browser-2026-11-14T07-03-42-866Z/browser-restarted.png",
+      "bytes": 2314844,
+      "sha256": "1607552e1f601c1742255ab5ea51a67a624e091da304e77f31f17525733eaa93",
+      "kind": "actual Windows Chrome WASM execution, not physical iPhone",
+      "unchanged_copy": true,
+      "pixels": [
+        1179,
+        2556
+      ]
+    },
+    {
+      "path": "https-pro/console.log",
+      "source": "games/001-switchworks/artifacts/web-test/browser-2026-11-14T07-03-42-866Z/console.log",
+      "bytes": 26464,
+      "sha256": "5707ae8b25b30dfb3d44a172fc9caf59c65a156d6320f50a166020e4474c544e",
+      "kind": "actual Windows Chrome WASM execution, not physical iPhone",
+      "unchanged_copy": true
+    },
+    {
+      "path": "https-pro/failed.png",
+      "source": "games/001-switchworks/artifacts/web-test/browser-2026-11-14T07-03-42-866Z/failed.png",
+      "bytes": 2309754,
+      "sha256": "66116a917d40d09d3293a677a6bd75942edc8790ad56f1c8f41a3bdc840bfaf5",
+      "kind": "actual Windows Chrome WASM execution, not physical iPhone",
+      "unchanged_copy": true,
+      "pixels": [
+        1179,
+        2556
+      ]
+    },
+    {
+      "path": "https-pro/planning.png",
+      "source": "games/001-switchworks/artifacts/web-test/browser-2026-11-14T07-03-42-866Z/planning.png",
+      "bytes": 2310818,
+      "sha256": "c07c3f8a0a1ede249f6007ef22588b495e7493d3cd9051d6f659af75dc410801",
+      "kind": "actual Windows Chrome WASM execution, not physical iPhone",
+      "unchanged_copy": true,
+      "pixels": [
+        1179,
+        2556
+      ]
+    },
+    {
+      "path": "https-pro/receipt.json",
+      "source": "games/001-switchworks/artifacts/web-test/browser-2026-11-14T07-03-42-866Z/receipt.json",
+      "bytes": 2659,
+      "sha256": "b03d462d91d3248537265328e361d2de441a8a2d70daef13c16ab40dd3f40d08",
+      "kind": "actual Windows Chrome WASM execution, not physical iPhone",
+      "unchanged_copy": true
+    },
+    {
+      "path": "https-pro/restored.png",
+      "source": "games/001-switchworks/artifacts/web-test/browser-2026-11-14T07-03-42-866Z/restored.png",
+      "bytes": 2314946,
+      "sha256": "65e90e024c85bb9c2afa3aa7b0a8b7d2445d03790c63dd93223b48384b4daeac",
+      "kind": "actual Windows Chrome WASM execution, not physical iPhone",
+      "unchanged_copy": true,
+      "pixels": [
+        1179,
+        2556
+      ]
+    },
+    {
+      "path": "https-pro/returned-paused.png",
+      "source": "games/001-switchworks/artifacts/web-test/browser-2026-11-14T07-03-42-866Z/returned-paused.png",
+      "bytes": 904938,
+      "sha256": "b04670eefda707514d0d93f50a0684ec0738b1cf53805559b5110c5a8e32ebe2",
+      "kind": "actual Windows Chrome WASM execution, not physical iPhone",
+      "unchanged_copy": true,
+      "pixels": [
+        1179,
+        2556
+      ]
+    },
+    {
+      "path": "https-pro/won.png",
+      "source": "games/001-switchworks/artifacts/web-test/browser-2026-11-14T07-03-42-866Z/won.png",
+      "bytes": 2045720,
+      "sha256": "fabf00c7b9810d471ab0e04d4a4332662a411fcd6b8e757bb66ba3da4f11d730",
+      "kind": "actual Windows Chrome WASM execution, not physical iPhone",
+      "unchanged_copy": true,
+      "pixels": [
+        1179,
+        2556
+      ]
+    },
+    {
+      "path": "chrome-max/browser-restarted.png",
+      "source": "games/001-switchworks/artifacts/web-test/browser-2026-11-14T06-59-06-457Z/browser-restarted.png",
+      "bytes": 2703341,
+      "sha256": "76cd20e7731aacb98c17eb001fb0c2004631f11e8c3d53d2624873986a3b23df",
+      "kind": "actual Windows Chrome WASM execution, not physical iPhone",
+      "unchanged_copy": true,
+      "pixels": [
+        1290,
+        2796
+      ]
+    },
+    {
+      "path": "chrome-max/console.log",
+      "source": "games/001-switchworks/artifacts/web-test/browser-2026-11-14T06-59-06-457Z/console.log",
+      "bytes": 26572,
+      "sha256": "a6fdec7b74aca1f1018d23b4d43a3423a56db5e14360a8b7aa4912cb0fdd4e13",
+      "kind": "actual Windows Chrome WASM execution, not physical iPhone",
+      "unchanged_copy": true
+    },
+    {
+      "path": "chrome-max/failed.png",
+      "source": "games/001-switchworks/artifacts/web-test/browser-2026-11-14T06-59-06-457Z/failed.png",
+      "bytes": 2696763,
+      "sha256": "0fe86d0a34c19317486b0a9c016452588aeb928f1645f7e8b6dca3453d5c2597",
+      "kind": "actual Windows Chrome WASM execution, not physical iPhone",
+      "unchanged_copy": true,
+      "pixels": [
+        1290,
+        2796
+      ]
+    },
+    {
+      "path": "chrome-max/planning.png",
+      "source": "games/001-switchworks/artifacts/web-test/browser-2026-11-14T06-59-06-457Z/planning.png",
+      "bytes": 2698322,
+      "sha256": "59b5228f9677772dc53d43279c9df7b2f3fc53c1762c557967c75f2334728b44",
+      "kind": "actual Windows Chrome WASM execution, not physical iPhone",
+      "unchanged_copy": true,
+      "pixels": [
+        1290,
+        2796
+      ]
+    },
+    {
+      "path": "chrome-max/receipt.json",
+      "source": "games/001-switchworks/artifacts/web-test/browser-2026-11-14T06-59-06-457Z/receipt.json",
+      "bytes": 2505,
+      "sha256": "3d226884b7e2704431cbb59104aa46daa3aed2b2f018d9c5282262493624de3a",
+      "kind": "actual Windows Chrome WASM execution, not physical iPhone",
+      "unchanged_copy": true
+    },
+    {
+      "path": "chrome-max/restored.png",
+      "source": "games/001-switchworks/artifacts/web-test/browser-2026-11-14T06-59-06-457Z/restored.png",
+      "bytes": 2703400,
+      "sha256": "2de87616959193cae8015dc42e03c35eb95188e1afcda98984a4e24053a78b0c",
+      "kind": "actual Windows Chrome WASM execution, not physical iPhone",
+      "unchanged_copy": true,
+      "pixels": [
+        1290,
+        2796
+      ]
+    },
+    {
+      "path": "chrome-max/returned-paused.png",
+      "source": "games/001-switchworks/artifacts/web-test/browser-2026-11-14T06-59-06-457Z/returned-paused.png",
+      "bytes": 1033955,
+      "sha256": "9351b4e04470516e14fcaaa6036586ee499a716d29df35aabb7ec9dc24c1749f",
+      "kind": "actual Windows Chrome WASM execution, not physical iPhone",
+      "unchanged_copy": true,
+      "pixels": [
+        1290,
+        2796
+      ]
+    },
+    {
+      "path": "chrome-max/won.png",
+      "source": "games/001-switchworks/artifacts/web-test/browser-2026-11-14T06-59-06-457Z/won.png",
+      "bytes": 2395568,
+      "sha256": "d27e534379497fb5af0369c9c3eb215de43f902b27c577fdbf9a5f74e174c6fd",
+      "kind": "actual Windows Chrome WASM execution, not physical iPhone",
+      "unchanged_copy": true,
+      "pixels": [
+        1290,
+        2796
+      ]
+    },
+    {
+      "path": "chrome-landscape/browser-restarted.png",
+      "source": "games/001-switchworks/artifacts/web-test/browser-2026-11-14T07-01-17-078Z/browser-restarted.png",
+      "bytes": 1900634,
+      "sha256": "832a13785ef24313d2bb67549ab13ad2680916fd2befa61015706de4a82e3151",
+      "kind": "actual Windows Chrome WASM execution, not physical iPhone",
+      "unchanged_copy": true,
+      "pixels": [
+        2556,
+        1179
+      ]
+    },
+    {
+      "path": "chrome-landscape/console.log",
+      "source": "games/001-switchworks/artifacts/web-test/browser-2026-11-14T07-01-17-078Z/console.log",
+      "bytes": 25682,
+      "sha256": "b4f64c15b52b2bdad4ffe8baaebf8493782c072516f1cc8ad07d8c931bdeea09",
+      "kind": "actual Windows Chrome WASM execution, not physical iPhone",
+      "unchanged_copy": true
+    },
+    {
+      "path": "chrome-landscape/failed.png",
+      "source": "games/001-switchworks/artifacts/web-test/browser-2026-11-14T07-01-17-078Z/failed.png",
+      "bytes": 1894678,
+      "sha256": "83c6ad904742477a4f75d9c2ec9a0ae68e4a225df4c1bcc9683a69bae7af30cf",
+      "kind": "actual Windows Chrome WASM execution, not physical iPhone",
+      "unchanged_copy": true,
+      "pixels": [
+        2556,
+        1179
+      ]
+    },
+    {
+      "path": "chrome-landscape/planning.png",
+      "source": "games/001-switchworks/artifacts/web-test/browser-2026-11-14T07-01-17-078Z/planning.png",
+      "bytes": 1893916,
+      "sha256": "a9efd9727fb708ba866647dac09efd70fa4022ce1d5eae182ec12d00e803319a",
+      "kind": "actual Windows Chrome WASM execution, not physical iPhone",
+      "unchanged_copy": true,
+      "pixels": [
+        2556,
+        1179
+      ]
+    },
+    {
+      "path": "chrome-landscape/receipt.json",
+      "source": "games/001-switchworks/artifacts/web-test/browser-2026-11-14T07-01-17-078Z/receipt.json",
+      "bytes": 2511,
+      "sha256": "fbb50131e1db68a188a92e78f59195cc8b33c4aa29f8cd810c5014dd82f00320",
+      "kind": "actual Windows Chrome WASM execution, not physical iPhone",
+      "unchanged_copy": true
+    },
+    {
+      "path": "chrome-landscape/restored.png",
+      "source": "games/001-switchworks/artifacts/web-test/browser-2026-11-14T07-01-17-078Z/restored.png",
+      "bytes": 1900188,
+      "sha256": "79a55d610d6eb601c7c96f53126aabd62cf643f3dd4c84b94264e321b677e5fb",
+      "kind": "actual Windows Chrome WASM execution, not physical iPhone",
+      "unchanged_copy": true,
+      "pixels": [
+        2556,
+        1179
+      ]
+    },
+    {
+      "path": "chrome-landscape/returned-paused.png",
+      "source": "games/001-switchworks/artifacts/web-test/browser-2026-11-14T07-01-17-078Z/returned-paused.png",
+      "bytes": 1047804,
+      "sha256": "cd90a61f0cf92b4785646afabf2551c2327753fc77898d11cf40ccd734a2ffdf",
+      "kind": "actual Windows Chrome WASM execution, not physical iPhone",
+      "unchanged_copy": true,
+      "pixels": [
+        2556,
+        1179
+      ]
+    },
+    {
+      "path": "chrome-landscape/won.png",
+      "source": "games/001-switchworks/artifacts/web-test/browser-2026-11-14T07-01-17-078Z/won.png",
+      "bytes": 1705894,
+      "sha256": "4cc114d337ed5b79bf24196aaea6dc3a901cf549d1d11bd945891036800aad68",
+      "kind": "actual Windows Chrome WASM execution, not physical iPhone",
+      "unchanged_copy": true,
+      "pixels": [
+        2556,
+        1179
+      ]
+    },
+    {
+      "path": "export/web-files.json",
+      "source": "games/001-switchworks/artifacts/web-test/export/web-files.json",
+      "bytes": 1495,
+      "sha256": "b98e341ea5bb549d130e2a7e2cb98bd384ff401c5ed358bef7138e067d40d615",
+      "kind": "official Godot local tool output",
+      "unchanged_copy": true
+    },
+    {
+      "path": "export/import.log",
+      "source": "games/001-switchworks/artifacts/web-test/export/import.log",
+      "bytes": 1562,
+      "sha256": "71c4ed434f6f8f8a7209d327bcf5b2396200ed532ca3145372c5ccae1b491e99",
+      "kind": "official Godot local tool output",
+      "unchanged_copy": true
+    },
+    {
+      "path": "export/web-export.log",
+      "source": "games/001-switchworks/artifacts/web-test/export/web-export.log",
+      "bytes": 6612,
+      "sha256": "9bb399133a03c3a76ee846685c465b9751c30c610bdf4bc7d0f5b67896d9a234",
+      "kind": "official Godot local tool output",
+      "unchanged_copy": true
+    },
+    {
+      "path": "export/pack-smoke.log",
+      "source": "games/001-switchworks/artifacts/web-test/export/pack-smoke.log",
+      "bytes": 1274,
+      "sha256": "2a2f7e700ff5283e6e2db3417336a96a6bb2b534c4172e7eabbab2cb043c5446",
+      "kind": "official Godot local tool output",
+      "unchanged_copy": true
+    },
+    {
+      "path": "network/tls-local-check.json",
+      "source": "games/001-switchworks/artifacts/web-test/tls-local-check.json",
+      "bytes": 355,
+      "sha256": "3dbb80dde7cd3e65c32be68d93d819978071a91d1cdd3a08e67f9bca66ee4e31",
+      "kind": "owner-authorized tunnel or loopback checks; no credentials",
+      "unchanged_copy": true
+    },
+    {
+      "path": "network/tunnel-check.json",
+      "source": "games/001-switchworks/artifacts/web-test/tunnel-check.json",
+      "bytes": 401,
+      "sha256": "b2b826f07cb533abd5f3ba59a91b78b9cbf1a746d70647f2b49353f060f3f055",
+      "kind": "owner-authorized tunnel or loopback checks; no credentials",
+      "unchanged_copy": true
+    },
+    {
+      "path": "checks/native-regression.log",
+      "source": "games/001-switchworks/artifacts/web-test/final-native-regression.log",
+      "bytes": 247077,
+      "sha256": "205c9ace09921711bc005229b9afdf7ab0cfa99459bd9e2220d99eb16ffe450f",
+      "kind": "local final verification, no phone result inferred",
+      "unchanged_copy": true
+    },
+    {
+      "path": "checks/https-transfers.json",
+      "source": "games/001-switchworks/artifacts/web-test/https-transfers.json",
+      "bytes": 740,
+      "sha256": "417596a02d884aa74cffed822e8f783ecdf0a69273bd2098d1e21cab62238649",
+      "kind": "local final verification, no phone result inferred",
+      "unchanged_copy": true
+    }
+  ],
+  "web_runtime_snapshot": [
+    {
+      "path": "scripts/archipel/archipel_screen.gd",
+      "sha256": "9980ac2e7309954ca13139f6c3ba4b00be174214be2b1ac153dd2a3cac491c79",
+      "bytes": 38554
+    },
+    {
+      "path": "scripts/archipel/board_view.gd",
+      "sha256": "6da786aab97f02a5aa25e419a74ad414218ea49365d08538d44be805ef4eaa99",
+      "bytes": 19172
+    },
+    {
+      "path": "scripts/archipel/postal_theme.gd",
+      "sha256": "1da9b9cd1a37219124bcb20bedd5592acd68eb7339175f1444db6c20be1a8841",
+      "bytes": 2008
+    },
+    {
+      "path": "scripts/domain/postal_board.gd",
+      "sha256": "80694da5cb63dffa6baa82ab7048049953e1700f9aeb12a6abceb8b5a3886168",
+      "bytes": 8116
+    },
+    {
+      "path": "scripts/domain/postal_level.gd",
+      "sha256": "8a1ba3795bbf24d7e13d8c92a87b6619cd7cb4ded407155b80a01a1817b2251f",
+      "bytes": 8143
+    },
+    {
+      "path": "scripts/verification.gd",
+      "sha256": "daf9f93f9d654b2fbc101d8b4613d51b4f7455cc91476b040508519aeb14cc33",
+      "bytes": 2025
+    },
+    {
+      "path": "scripts/visuals/postal_art_factory.gd",
+      "sha256": "ddf9ee273857acae01ba2cacf2b01024fc2c00e1e217a814e1e71b848bc10d42",
+      "bytes": 26711
+    },
+    {
+      "path": "data/archipel_double_flux.json",
+      "sha256": "1898b66cf31b4b7d10a2eea9a540162202fcc041869146c766565604d89676fa",
+      "bytes": 2126
+    },
+    {
+      "path": "scenes/archipel_postal.tscn",
+      "sha256": "1d07d6ce0c7f9ed19975c6d3c381b984d908aaf0955ea3e298353a24a43250b0",
+      "bytes": 303
+    },
+    {
+      "path": "scenes/verification.tscn",
+      "sha256": "588ef7f0ef657a0170e666d0e212395768464b00b19188e41f4dfd59910cae70",
+      "bytes": 2612
+    },
+    {
+      "path": "assets/archipel/asset-manifest.json",
+      "sha256": "acecc6ed0fa0e1b72d83935dab07bfbc57b6799fe1a6865834384a3c61241cdf",
+      "bytes": 8696
+    },
+    {
+      "path": "assets/archipel/textures/paper-albedo-v1.png",
+      "sha256": "27ebbb0ad5df495faf5335057559f2960cd8f5d937cdcb7780bf28d9ce7cc142",
+      "bytes": 2529707
+    },
+    {
+      "path": "assets/archipel/textures/paper-albedo-v1.png.import",
+      "sha256": "2a00e591d455001deb9f4c6fca09cbecbaa22567cec04cf745875cbd3b3f658e",
+      "bytes": 976
+    },
+    {
+      "path": "assets/archipel/textures/paper_fibres.svg",
+      "sha256": "9bd32b605b48651d1636a358d938207061e9694102281c91067c429d62428dd4",
+      "bytes": 13677
+    },
+    {
+      "path": "assets/archipel/textures/paper_fibres.svg.import",
+      "sha256": "17325e746870a243b167efb419f0d249b48679a27c7dceca6ab4b00c0fc31b42",
+      "bytes": 1062
+    },
+    {
+      "path": "assets/archipel/textures/porcelain-albedo-v1.png",
+      "sha256": "c9fb5d7509dd3c0b06e95770a4e3d62bcf9240512e0a49d11cd6231c36362d95",
+      "bytes": 1841327
+    },
+    {
+      "path": "assets/archipel/textures/porcelain-albedo-v1.png.import",
+      "sha256": "8d8d94a95ea5beff9782466cecc1e19e6533c7c18a911aa59ece6a940dc87391",
+      "bytes": 987
+    },
+    {
+      "path": "assets/archipel/textures/porcelain_micro.svg",
+      "sha256": "920ad7ef7348c58013435d24125704c23809573eb1966bce2d690ca2894eba23",
+      "bytes": 13584
+    },
+    {
+      "path": "assets/archipel/textures/porcelain_micro.svg.import",
+      "sha256": "725840da3bba5932c0f7340213b37e57852e06a576c2fa6942851786ea5bcacd",
+      "bytes": 1071
+    },
+    {
+      "path": "assets/archipel/textures/sky-paper-v1.png",
+      "sha256": "f76b161de830ad958b01be2097c3ae8835be592584b5edac228d996fff3c28dd",
+      "bytes": 2109413
+    },
+    {
+      "path": "assets/archipel/textures/sky-paper-v1.png.import",
+      "sha256": "84307fa28df8ffa34760f498238b7226363e41a2b7711c27eed316f1905e6a45",
+      "bytes": 965
+    },
+    {
+      "path": "assets/fonts/NunitoSans-Variable.ttf",
+      "sha256": "f934d7142fb4784bf828da485b7dcbd90c0c80d514e9d49a5da0ed3a1ae2491d",
+      "bytes": 571240
+    },
+    {
+      "path": "assets/fonts/NunitoSans-Variable.ttf.import",
+      "sha256": "ae78ec7bd3e27e705c539da3a4e47deeda9269432113a1083d00a6c3ddc7316b",
+      "bytes": 795
+    },
+    {
+      "path": "assets/fonts/OFL-NunitoSans.txt",
+      "sha256": "efbb0c9e864cef973982d9a17567e6be5c3d1759695574586f3f18c7ecca064b",
+      "bytes": 4393
+    },
+    {
+      "path": "assets/fonts/SOURCE.json",
+      "sha256": "5b0c9ccd6eff35dbfc2154103e55ef1dc5ada3b6efc0f350b7701144975f8c9b",
+      "bytes": 498
+    },
+    {
+      "path": "assets/licenses/GODOT_COPYRIGHT.txt",
+      "sha256": "cb1980c88089573bcacd7221d777c689bb8bbd778799f24c27fca0fe5f774d6d",
+      "bytes": 100108
+    },
+    {
+      "path": "assets/licenses/GODOT_LICENSE.txt",
+      "sha256": "b0435e3b3e4e55238f05f4b306f30524a1b2e20147810d436eaa554fa6855c80",
+      "bytes": 1149
+    },
+    {
+      "path": "icons/archipel.svg",
+      "sha256": "b2c808f9d487e00ff4ad17cc2cd6f39f3285b17316ff91c1b37316d7ab461c4a",
+      "bytes": 477
+    },
+    {
+      "path": "icons/archipel.svg.import",
+      "sha256": "cbf1644f11a0e7ccbe8e0dc83f7d07eb3b89dcb480f6ed856d0fa8580cc83809",
+      "bytes": 1031
+    },
+    {
+      "path": "icons/verification.svg",
+      "sha256": "f963c4701ead75d676922f51b52aeca0be057b3ff17a059911e5e2b82fbf903e",
+      "bytes": 280
+    },
+    {
+      "path": "icons/verification.svg.import",
+      "sha256": "7cd5a86bc540e3097d9b58789792d2840be659244946f0e352b538be1af56d61",
+      "bytes": 1043
+    },
+    {
+      "path": "platform/web/godot_shell.html",
+      "sha256": "6b5bbb181942e64508bce4022f6b3da1d39e21b10014f3a5ffff4a1749e6bb32",
+      "bytes": 6415
+    },
+    {
+      "path": "platform/web/SOURCE.json",
+      "sha256": "b97eadb829303592396190e414a2ea99bba7241c77925a870737cb08a3d483cd",
+      "bytes": 852
+    },
+    {
+      "path": "project.godot",
+      "sha256": "4de3f5c5e58e3eeddcd5ef1b4253f6e1d10fd47ac950d7afedeb6e6915c64a91",
+      "bytes": 1142
+    },
+    {
+      "path": "export_presets.cfg",
+      "sha256": "e5e9d2a1c6948eb4731964144049da25ae8527367fd9d0b2d46b16eaa3bf3558",
+      "bytes": 22120
+    }
+  ]
+}

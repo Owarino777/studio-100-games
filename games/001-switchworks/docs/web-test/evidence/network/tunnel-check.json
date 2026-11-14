@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "url": "https://drops-discover-bicycle-wear.trycloudflare.com/",
+  "anonymous_status": 401,
+  "authenticated_html": "matches frozen Godot export",
+  "origin_tls_verified_by_cloudflared": true,
+  "password_not_in_receipt": true,
+  "external_scope": "owner-approved temporary Godot files only; no Git repository/private key/APK",
+  "phone_status": "not tested yet"
+}

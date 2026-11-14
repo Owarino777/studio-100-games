@@ -1,0 +1,59 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started Initialisation du projet (5 steps)[39m[0m
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Analyse de la structure des fichiers…[39m[0m
+[  16% ] [90m[1mfirst_scan_filesystem[22m | Chargement des noms des classes globales…[39m[0m
+[  33% ] [90m[1mfirst_scan_filesystem[22m | Vérification des GDExtensions…[39m[0m
+[  50% ] [90m[1mfirst_scan_filesystem[22m | Création des scripts de chargement automatique…[39m[0m
+[  66% ] [90m[1mfirst_scan_filesystem[22m | Initialisation des extensions…[39m[0m
+[  83% ] [90m[1mfirst_scan_filesystem[22m | Démarrage du scan de fichiers…[39m[0m
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+[0m
+[   0% ] [90m[1msavepack[22m | Started Empaquetage (102 steps)[39m[0m
+[   1% ] [90m[1msavepack[22m | Stockage du fichier en cours : res://.godot/imported/porcelain_micro.svg-b6143385dda88347bc87482ef79fb7d6.ctex[39m[0m
+[   1% ] [90m[1msavepack[22m | Stockage du fichier en cours : res://assets/archipel/textures/porcelain_micro.svg.import[39m[0m
+[   5% ] [90m[1msavepack[22m | Stockage du fichier en cours : res://.godot/imported/porcelain-albedo-v1.png-f2f614884aee59fda158cace03831ed2.ctex[39m[0m
+[   5% ] [90m[1msavepack[22m | Stockage du fichier en cours : res://assets/archipel/textures/porcelain-albedo-v1.png.import[39m[0m
+[   9% ] [90m[1msavepack[22m | Stockage du fichier en cours : res://.godot/imported/paper_fibres.svg-e9777f6a8b1c15b2949c95dc7afdd481.ctex[39m[0m
+[   9% ] [90m[1msavepack[22m | Stockage du fichier en cours : res://assets/archipel/textures/paper_fibres.svg.import[39m[0m
+[  13% ] [90m[1msavepack[22m | Stockage du fichier en cours : res://scripts/verification.gdc[39m[0m
+[  17% ] [90m[1msavepack[22m | Stockage du fichier en cours : res://scripts/visuals/postal_art_factory.gdc[39m[0m
+[  21% ] [90m[1msavepack[22m | Stockage du fichier en cours : res://scripts/domain/postal_level.gdc[39m[0m
+[  26% ] [90m[1msavepack[22m | Stockage du fichier en cours : res://assets/licenses/GODOT_LICENSE.txt[39m[0m
+[  30% ] [90m[1msavepack[22m | Stockage du fichier en cours : res://assets/licenses/GODOT_COPYRIGHT.txt[39m[0m
+[  33% ] [90m[1msavepack[22m | Stockage du fichier en cours : res://assets/fonts/OFL-NunitoSans.txt[39m[0m
+[  37% ] [90m[1msavepack[22m | Stockage du fichier en cours : res://scripts/archipel/postal_theme.gdc[39m[0m
+[  41% ] [90m[1msavepack[22m | Stockage du fichier en cours : res://scripts/archipel/board_view.gdc[39m[0m
+[  45% ] [90m[1msavepack[22m | Stockage du fichier en cours : res://scripts/archipel/archipel_screen.gdc[39m[0m
+[  50% ] [90m[1msavepack[22m | Stockage du fichier en cours : res://scripts/domain/postal_board.gdc[39m[0m
+[  54% ] [90m[1msavepack[22m | Stockage du fichier en cours : res://.godot/exported/133200997/export-d7168b16133b38c3acd43fa0076f535f-archipel_postal.scn[39m[0m
+[  58% ] [90m[1msavepack[22m | Stockage du fichier en cours : res://platform/web/SOURCE.json[39m[0m
+[  62% ] [90m[1msavepack[22m | Stockage du fichier en cours : res://.godot/imported/verification.svg-882edd3edbc0fd764ef09074edd3ad87.ctex[39m[0m
+[  62% ] [90m[1msavepack[22m | Stockage du fichier en cours : res://icons/verification.svg.import[39m[0m
+[  66% ] [90m[1msavepack[22m | Stockage du fichier en cours : res://.godot/exported/133200997/export-6d547c23056aee1b9af40ab5018edbf7-verification.scn[39m[0m
+[  69% ] [90m[1msavepack[22m | Stockage du fichier en cours : res://.godot/imported/archipel.svg-3369433ae68ca680bc8923592841f708.ctex[39m[0m
+[  69% ] [90m[1msavepack[22m | Stockage du fichier en cours : res://icons/archipel.svg.import[39m[0m
+[  74% ] [90m[1msavepack[22m | Stockage du fichier en cours : res://data/archipel_double_flux.json[39m[0m
+[  78% ] [90m[1msavepack[22m | Stockage du fichier en cours : res://.godot/imported/paper-albedo-v1.png-103fbbbad39d46cfba03ba1fb6b1e5ce.ctex[39m[0m
+[  78% ] [90m[1msavepack[22m | Stockage du fichier en cours : res://assets/archipel/textures/paper-albedo-v1.png.import[39m[0m
+[  82% ] [90m[1msavepack[22m | Stockage du fichier en cours : res://.godot/imported/sky-paper-v1.png-b9393366879e9423611d840ad898c6fd.ctex[39m[0m
+[  82% ] [90m[1msavepack[22m | Stockage du fichier en cours : res://assets/archipel/textures/sky-paper-v1.png.import[39m[0m
+[  86% ] [90m[1msavepack[22m | Stockage du fichier en cours : res://assets/fonts/SOURCE.json[39m[0m
+[  90% ] [90m[1msavepack[22m | Stockage du fichier en cours : res://.godot/imported/NunitoSans-Variable.ttf-4b113767d2bfa03b5a0180790b11dffb.fontdata[39m[0m
+[  90% ] [90m[1msavepack[22m | Stockage du fichier en cours : res://assets/fonts/NunitoSans-Variable.ttf.import[39m[0m
+[  94% ] [90m[1msavepack[22m | Stockage du fichier en cours : res://assets/archipel/asset-manifest.json[39m[0m
+[  94% ] [90m[1msavepack[22m | Stockage du fichier en cours : res://scripts/verification.gd.remap[39m[0m
+[  94% ] [90m[1msavepack[22m | Stockage du fichier en cours : res://scripts/visuals/postal_art_factory.gd.remap[39m[0m
+[  94% ] [90m[1msavepack[22m | Stockage du fichier en cours : res://scripts/domain/postal_level.gd.remap[39m[0m
+[  94% ] [90m[1msavepack[22m | Stockage du fichier en cours : res://scripts/archipel/postal_theme.gd.remap[39m[0m
+[  94% ] [90m[1msavepack[22m | Stockage du fichier en cours : res://scripts/archipel/board_view.gd.remap[39m[0m
+[  94% ] [90m[1msavepack[22m | Stockage du fichier en cours : res://scripts/archipel/archipel_screen.gd.remap[39m[0m
+[  94% ] [90m[1msavepack[22m | Stockage du fichier en cours : res://scripts/domain/postal_board.gd.remap[39m[0m
+[  94% ] [90m[1msavepack[22m | Stockage du fichier en cours : res://scenes/archipel_postal.tscn.remap[39m[0m
+[  94% ] [90m[1msavepack[22m | Stockage du fichier en cours : res://scenes/verification.tscn.remap[39m[0m
+[  94% ] [90m[1msavepack[22m | Stockage du fichier en cours : res://.godot/global_script_class_cache.cfg[39m[0m
+[  94% ] [90m[1msavepack[22m | Stockage du fichier en cours : res://icons/verification.svg[39m[0m
+[  94% ] [90m[1msavepack[22m | Stockage du fichier en cours : res://.godot/uid_cache.bin[39m[0m
+[  94% ] [90m[1msavepack[22m | Stockage du fichier en cours : res://project.binary[39m[0m
+[92m[ DONE ][39m [1msavepack[22m
+[0m
