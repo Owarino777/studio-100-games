@@ -19,6 +19,12 @@ func _run() -> void:
 	var tile_bounds: AABB = tile_mesh.get_aabb()
 	_expect(is_equal_approx(tile_bounds.end.y, 0.12), "tile top remains at the shared height")
 	_expect(tile_bounds.size.x < 1.0 and tile_bounds.size.z < 1.0, "tile leaves a physical seam inside one cell")
+	var cap := tile.get_node_or_null("GlazeCap") as MeshInstance3D
+	_expect(cap != null and cap.mesh != null, "porcelain reference tile has a separate glaze cap")
+	if cap != null and cap.mesh != null:
+		var cap_bounds: AABB = cap.transform * cap.mesh.get_aabb()
+		_expect(is_equal_approx(cap_bounds.end.y, 0.12), "glaze cap retains the common tile top and rail clearance")
+		_expect(cap_bounds.position.x >= tile_bounds.position.x and cap_bounds.end.x <= tile_bounds.end.x and cap_bounds.position.z >= tile_bounds.position.z and cap_bounds.end.z <= tile_bounds.end.z, "glaze cap stays inside its ceramic rim")
 	_inspect(tile)
 	tile.free()
 	for mask: int in [3, 5, 6, 9, 10, 12]:
@@ -33,13 +39,33 @@ func _run() -> void:
 		rail.free()
 	for label: String in ["A", "B"]:
 		var color: Color = ART.BLUE if label == "A" else ART.CORAL
+		var role_bounds: Dictionary[String, Vector3] = {}
 		for source: bool in [true, false]:
 			var station: Node3D = ART.create_station(label, source, color)
 			root.add_child(station)
 			_expect(station.get_meta("port") == ("E" if source else "W"), "station has an explicit physical role and port")
 			_expect(is_zero_approx((station.get_node("StationTrack") as Node3D).position.y), "fixed and rotatable rail ports share the same height")
+			var role: String = "dispatch" if source else "reception"
+			_expect(str(station.get_meta("role", "")) == role, "station declares its functional role independently of color")
+			var expected_name: String = "DispatchCanopy" if source else "ReceptionBody"
+			var absent_name: String = "ReceptionBody" if source else "DispatchCanopy"
+			var role_mesh := station.get_node_or_null(expected_name) as MeshInstance3D
+			_expect(role_mesh != null and role_mesh.mesh != null, "role has its own native silhouette mesh: " + expected_name)
+			_expect(station.get_node_or_null(absent_name) == null, "dispatch and reception do not share the same silhouette subtree")
+			if role_mesh != null and role_mesh.mesh != null:
+				role_bounds[role] = role_mesh.mesh.get_aabb().size
+			if not source:
+				var lid := station.get_node_or_null("ReceptionLid") as Node3D
+				var seal := station.get_node_or_null("ReceiptSeal") as Node3D
+				_expect(lid != null, "receiver has a native lid pivot")
+				_expect(seal != null and not seal.visible, "receipt seal starts hidden before any delivery")
+				if lid != null:
+					_expect(lid.rotation.is_zero_approx(), "receiver lid starts at its closed rest pose")
 			_inspect(station)
 			station.free()
+		_expect(role_bounds.has_all(["dispatch", "reception"]), "both role silhouettes were actually inspected")
+		if role_bounds.has_all(["dispatch", "reception"]):
+			_expect(not (role_bounds["dispatch"] as Vector3).is_equal_approx(role_bounds["reception"]), "source canopy and receiving body have different geometric proportions")
 		var parcel: Node3D = ART.create_parcel(label, color)
 		root.add_child(parcel)
 		_expect(parcel.get_meta("shape") == ("triangle" if label == "B" else "circle"), "parcel shape matches its address identity")

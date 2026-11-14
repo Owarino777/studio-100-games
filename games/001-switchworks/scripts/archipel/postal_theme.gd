@@ -20,9 +20,9 @@ static func panel(color: Color = CREAM, radius: int = 18) -> StyleBoxFlat:
 	box.set_corner_radius_all(radius)
 	box.border_color = Color("fffbf2")
 	box.set_border_width_all(1)
-	box.shadow_color = Color(0.12, 0.24, 0.30, 0.16)
-	box.shadow_size = 5
-	box.shadow_offset = Vector2(0, 3)
+	box.shadow_color = Color(0.18, 0.25, 0.27, 0.10)
+	box.shadow_size = 4
+	box.shadow_offset = Vector2(0, 2)
 	box.set_content_margin_all(12)
 	return box
 

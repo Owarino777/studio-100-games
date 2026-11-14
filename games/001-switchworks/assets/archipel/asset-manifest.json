@@ -1,198 +1,206 @@
 {
-    "schema_version":  1,
-    "scope":  "Native 3D assets for an experimental TEST/HOLD vertical slice, not commercial readiness",
-    "asset_factory":  {
-                          "path":  "scripts/visuals/postal_art_factory.gd",
-                          "source":  "Original GDScript authored for this project",
-                          "mesh_families":  [
-                                                "beveled porcelain tile",
-                                                "straight and elbow paired rails",
-                                                "folded paper source and west-facing reception",
-                                                "paper parcel with circle-A or triangle-B badge",
-                                                "porcelain island",
-                                                "paper flower",
-                                                "optional cloud",
-                                                "selection brackets"
-                                            ],
-                          "mesh_scale":  "one world unit per cell; tile topY0.12; +X east/-Z north",
-                          "runtime_external_model_dependencies":  [
-
-                                                                  ],
-                          "address_signage":  "One tilted 45-degree station sign; cargo seal retained on a kraft backing. A=circle/A, B=triangle/B."
-                      },
-    "textures":  [
-                     {
-                         "id":  "paper-albedo-v1",
-                         "path":  "assets/archipel/textures/paper-albedo-v1.png",
-                         "role":  "3D albedo",
-                         "used_by_runtime":  true,
-                         "source":  {
-                                        "kind":  "generated",
-                                        "tool":  "image_gen built-in",
-                                        "record":  "assets/archipel/GENERATED_PROMPTS.md",
-                                        "date":  "2026-11-14",
-                                        "third_party_reference_images_used":  false
-                                    },
-                         "license":  "Generated for this project, provider terms apply; commercial rights review pending",
-                         "technical":  {
-                                           "format":  "png",
-                                           "source_width":  1254,
-                                           "source_height":  1254,
-                                           "bytes":  2529707,
-                                           "sha256":  "27ebbb0ad5df495faf5335057559f2960cd8f5d937cdcb7780bf28d9ce7cc142",
-                                           "alpha_required":  false,
-                                           "runtime_import_limit":  1024,
-                                           "mipmaps":  true
-                                       },
-                         "checks":  {
-                                        "resource_imported":  true,
-                                        "production_or_store_ready":  false,
-                                        "technical_checks_passed":  true,
-                                        "scope":  "PNG decode and actual dimensions, or SVG XML validity; imported resources checked in Godot. Not material appearance approval."
-                                    }
-                     },
-                     {
-                         "id":  "paper_fibres",
-                         "path":  "assets/archipel/textures/paper_fibres.svg",
-                         "role":  "neutral paper fibre albedo for colored roofs",
-                         "used_by_runtime":  true,
-                         "source":  {
-                                        "kind":  "authored-code-native",
-                                        "tool":  "original deterministic SVG, seed17",
-                                        "record":  "assets/archipel/README.md",
-                                        "date":  "2026-11-14",
-                                        "third_party_reference_images_used":  false
-                                    },
-                         "license":  "Original work authored for this project; no external asset copied",
-                         "technical":  {
-                                           "format":  "svg",
-                                           "source_width":  null,
-                                           "source_height":  null,
-                                           "bytes":  13677,
-                                           "sha256":  "9bd32b605b48651d1636a358d938207061e9694102281c91067c429d62428dd4",
-                                           "alpha_required":  false,
-                                           "runtime_import_limit":  null,
-                                           "mipmaps":  false
-                                       },
-                         "checks":  {
-                                        "resource_imported":  true,
-                                        "production_or_store_ready":  false,
-                                        "technical_checks_passed":  true,
-                                        "scope":  "PNG decode and actual dimensions, or SVG XML validity; imported resources checked in Godot. Not material appearance approval."
-                                    }
-                     },
-                     {
-                         "id":  "porcelain-albedo-v1",
-                         "path":  "assets/archipel/textures/porcelain-albedo-v1.png",
-                         "role":  "3D albedo",
-                         "used_by_runtime":  true,
-                         "source":  {
-                                        "kind":  "generated",
-                                        "tool":  "image_gen built-in",
-                                        "record":  "assets/archipel/GENERATED_PROMPTS.md",
-                                        "date":  "2026-11-14",
-                                        "third_party_reference_images_used":  false
-                                    },
-                         "license":  "Generated for this project, provider terms apply; commercial rights review pending",
-                         "technical":  {
-                                           "format":  "png",
-                                           "source_width":  1254,
-                                           "source_height":  1254,
-                                           "bytes":  1841327,
-                                           "sha256":  "c9fb5d7509dd3c0b06e95770a4e3d62bcf9240512e0a49d11cd6231c36362d95",
-                                           "alpha_required":  false,
-                                           "runtime_import_limit":  1024,
-                                           "mipmaps":  true
-                                       },
-                         "checks":  {
-                                        "resource_imported":  true,
-                                        "production_or_store_ready":  false,
-                                        "technical_checks_passed":  true,
-                                        "scope":  "PNG decode and actual dimensions, or SVG XML validity; imported resources checked in Godot. Not material appearance approval."
-                                    }
-                     },
-                     {
-                         "id":  "porcelain_micro",
-                         "path":  "assets/archipel/textures/porcelain_micro.svg",
-                         "role":  "preserved authored porcelain fallback study",
-                         "used_by_runtime":  false,
-                         "source":  {
-                                        "kind":  "authored-code-native",
-                                        "tool":  "original deterministic SVG, seed17",
-                                        "record":  "assets/archipel/README.md",
-                                        "date":  "2026-11-14",
-                                        "third_party_reference_images_used":  false
-                                    },
-                         "license":  "Original work authored for this project; no external asset copied",
-                         "technical":  {
-                                           "format":  "svg",
-                                           "source_width":  null,
-                                           "source_height":  null,
-                                           "bytes":  13584,
-                                           "sha256":  "920ad7ef7348c58013435d24125704c23809573eb1966bce2d690ca2894eba23",
-                                           "alpha_required":  false,
-                                           "runtime_import_limit":  null,
-                                           "mipmaps":  false
-                                       },
-                         "checks":  {
-                                        "resource_imported":  false,
-                                        "production_or_store_ready":  false,
-                                        "technical_checks_passed":  true,
-                                        "scope":  "PNG decode and actual dimensions, or SVG XML validity; imported resources checked in Godot. Not material appearance approval."
-                                    }
-                     },
-                     {
-                         "id":  "sky-paper-v1",
-                         "path":  "assets/archipel/textures/sky-paper-v1.png",
-                         "role":  "background",
-                         "used_by_runtime":  true,
-                         "source":  {
-                                        "kind":  "generated",
-                                        "tool":  "image_gen built-in",
-                                        "record":  "assets/archipel/GENERATED_PROMPTS.md",
-                                        "date":  "2026-11-14",
-                                        "third_party_reference_images_used":  false
-                                    },
-                         "license":  "Generated for this project, provider terms apply; commercial rights review pending",
-                         "technical":  {
-                                           "format":  "png",
-                                           "source_width":  852,
-                                           "source_height":  1846,
-                                           "bytes":  2109413,
-                                           "sha256":  "f76b161de830ad958b01be2097c3ae8835be592584b5edac228d996fff3c28dd",
-                                           "alpha_required":  false,
-                                           "runtime_import_limit":  null,
-                                           "mipmaps":  false
-                                       },
-                         "checks":  {
-                                        "resource_imported":  true,
-                                        "production_or_store_ready":  false,
-                                        "technical_checks_passed":  true,
-                                        "scope":  "PNG decode and actual dimensions, or SVG XML validity; imported resources checked in Godot. Not material appearance approval."
-                                    }
-                     }
-                 ],
-    "fonts":  {
-                  "path":  "assets/fonts",
-                  "license_record":  "assets/fonts/OFL-NunitoSans.txt and assets/fonts/SOURCE.json",
-                  "note":  "Font family supplied by root; configure_font binds native Label3D text, not baked generated text"
-              },
-    "validation":  {
-                       "godot_version":  "4.7.2.stable.official.ed1daf0bf",
-                       "renderer":  "gl_compatibility",
-                       "factory_script_compiles":  true,
-                       "asset_family_smoke_passed":  true,
-                       "geometry_checks":  {
-                                               "runner":  "assets/archipel/qa/check_art_family.gd",
-                                               "passed":  386,
-                                               "failed":  0,
-                                               "scope":  "sample family: finite bounds/normals, six rail masks, A/B glyphs, selection mesh and matching fixed/rotatable port heights; repeated assertions, not independent gameplay tests or performance validation",
-                                               "sample_mesh_instances":  96,
-                                               "sample_custom_triangles":  11005,
-                                               "note":  "Count decreased after removal of the four duplicate station-floor badges; coverage and semantic invariants retained."
-                                           },
-                       "native_captures":  "artifacts/art-factory/ (local working captures)",
-                       "android_full_scene_review":  "Not certified by this asset manifest. The root report records the final APK, Android capture and full-scene review separately.",
-                       "raster_report":  "artifacts/art-factory/raster-qa.json"
-                   }
+  "schema_version": 1,
+  "scope": "Native 3D assets for an experimental TEST/HOLD vertical slice, not commercial readiness",
+  "asset_factory": {
+    "path": "scripts/visuals/postal_art_factory.gd",
+    "source": "Original GDScript authored for this project",
+    "mesh_families": [
+      "celadon porcelain shell and recessed glazed cap",
+      "straight/elbow paired enamel rails with four subdued sleepers",
+      "folded-paper dispatch booth and east arrow",
+      "west-facing vaulted ceramic reception box, envelope, hinged lid and received seal",
+      "kraft parcel circle-A or triangle-B",
+      "porcelain island",
+      "rounded peripheral flowers",
+      "selection brackets"
+    ],
+    "mesh_scale": "one world unit per cell; tile topY0.12; +X east/-Z north",
+    "runtime_external_model_dependencies": [],
+    "address_signage": "A/circle and B/triangle invariant; dispatch arrow and receiver envelope distinguish roles without colour alone. Received check is a separate status symbol."
+  },
+  "textures": [
+    {
+      "id": "paper-albedo-v1",
+      "path": "assets/archipel/textures/paper-albedo-v1.png",
+      "role": "3D albedo",
+      "used_by_runtime": true,
+      "source": {
+        "kind": "generated",
+        "tool": "image_gen built-in",
+        "record": "assets/archipel/GENERATED_PROMPTS.md",
+        "date": "2026-11-14",
+        "third_party_reference_images_used": false
+      },
+      "license": "Generated for this project, provider terms apply; commercial rights review pending",
+      "technical": {
+        "format": "png",
+        "source_width": 1254,
+        "source_height": 1254,
+        "bytes": 2529707,
+        "sha256": "27ebbb0ad5df495faf5335057559f2960cd8f5d937cdcb7780bf28d9ce7cc142",
+        "alpha_required": false,
+        "runtime_import_limit": 1024,
+        "mipmaps": true
+      },
+      "checks": {
+        "resource_imported": true,
+        "production_or_store_ready": false,
+        "technical_checks_passed": true,
+        "scope": "PNG decode and actual dimensions, or SVG XML validity; imported resources checked in Godot. Not material appearance approval."
+      }
+    },
+    {
+      "id": "paper_fibres",
+      "path": "assets/archipel/textures/paper_fibres.svg",
+      "role": "neutral paper fibre albedo for colored roofs",
+      "used_by_runtime": true,
+      "source": {
+        "kind": "authored-code-native",
+        "tool": "original deterministic SVG, seed17",
+        "record": "assets/archipel/README.md",
+        "date": "2026-11-14",
+        "third_party_reference_images_used": false
+      },
+      "license": "Original work authored for this project; no external asset copied",
+      "technical": {
+        "format": "svg",
+        "source_width": null,
+        "source_height": null,
+        "bytes": 13677,
+        "sha256": "9bd32b605b48651d1636a358d938207061e9694102281c91067c429d62428dd4",
+        "alpha_required": false,
+        "runtime_import_limit": null,
+        "mipmaps": false
+      },
+      "checks": {
+        "resource_imported": true,
+        "production_or_store_ready": false,
+        "technical_checks_passed": true,
+        "scope": "PNG decode and actual dimensions, or SVG XML validity; imported resources checked in Godot. Not material appearance approval."
+      }
+    },
+    {
+      "id": "porcelain-albedo-v1",
+      "path": "assets/archipel/textures/porcelain-albedo-v1.png",
+      "role": "3D albedo",
+      "used_by_runtime": true,
+      "source": {
+        "kind": "generated",
+        "tool": "image_gen built-in",
+        "record": "assets/archipel/GENERATED_PROMPTS.md",
+        "date": "2026-11-14",
+        "third_party_reference_images_used": false
+      },
+      "license": "Generated for this project, provider terms apply; commercial rights review pending",
+      "technical": {
+        "format": "png",
+        "source_width": 1254,
+        "source_height": 1254,
+        "bytes": 1841327,
+        "sha256": "c9fb5d7509dd3c0b06e95770a4e3d62bcf9240512e0a49d11cd6231c36362d95",
+        "alpha_required": false,
+        "runtime_import_limit": 1024,
+        "mipmaps": true
+      },
+      "checks": {
+        "resource_imported": true,
+        "production_or_store_ready": false,
+        "technical_checks_passed": true,
+        "scope": "PNG decode and actual dimensions, or SVG XML validity; imported resources checked in Godot. Not material appearance approval."
+      }
+    },
+    {
+      "id": "porcelain_micro",
+      "path": "assets/archipel/textures/porcelain_micro.svg",
+      "role": "preserved authored porcelain fallback study",
+      "used_by_runtime": false,
+      "source": {
+        "kind": "authored-code-native",
+        "tool": "original deterministic SVG, seed17",
+        "record": "assets/archipel/README.md",
+        "date": "2026-11-14",
+        "third_party_reference_images_used": false
+      },
+      "license": "Original work authored for this project; no external asset copied",
+      "technical": {
+        "format": "svg",
+        "source_width": null,
+        "source_height": null,
+        "bytes": 13584,
+        "sha256": "920ad7ef7348c58013435d24125704c23809573eb1966bce2d690ca2894eba23",
+        "alpha_required": false,
+        "runtime_import_limit": null,
+        "mipmaps": false
+      },
+      "checks": {
+        "resource_imported": false,
+        "production_or_store_ready": false,
+        "technical_checks_passed": true,
+        "scope": "PNG decode and actual dimensions, or SVG XML validity; imported resources checked in Godot. Not material appearance approval."
+      }
+    },
+    {
+      "id": "sky-paper-v1",
+      "path": "assets/archipel/textures/sky-paper-v1.png",
+      "role": "background",
+      "used_by_runtime": true,
+      "source": {
+        "kind": "generated",
+        "tool": "image_gen built-in",
+        "record": "assets/archipel/GENERATED_PROMPTS.md",
+        "date": "2026-11-14",
+        "third_party_reference_images_used": false
+      },
+      "license": "Generated for this project, provider terms apply; commercial rights review pending",
+      "technical": {
+        "format": "png",
+        "source_width": 852,
+        "source_height": 1846,
+        "bytes": 2109413,
+        "sha256": "f76b161de830ad958b01be2097c3ae8835be592584b5edac228d996fff3c28dd",
+        "alpha_required": false,
+        "runtime_import_limit": null,
+        "mipmaps": false
+      },
+      "checks": {
+        "resource_imported": true,
+        "production_or_store_ready": false,
+        "technical_checks_passed": true,
+        "scope": "PNG decode and actual dimensions, or SVG XML validity; imported resources checked in Godot. Not material appearance approval."
+      }
+    }
+  ],
+  "fonts": {
+    "path": "assets/fonts",
+    "license_record": "assets/fonts/OFL-NunitoSans.txt and assets/fonts/SOURCE.json",
+    "note": "Font family supplied by root; configure_font binds native Label3D text, not baked generated text"
+  },
+  "validation": {
+    "godot_version": "4.7.2.stable.official.ed1daf0bf",
+    "renderer": "gl_compatibility",
+    "factory_script_compiles": true,
+    "asset_family_smoke_passed": true,
+    "geometry_checks": {
+      "runner": "assets/archipel/qa/check_art_family.gd",
+      "passed": 467,
+      "failed": 0,
+      "scope": "sample family: finite bounds/normals, six rail masks, A/B glyphs, selection mesh and matching fixed/rotatable port heights; repeated assertions, not independent gameplay tests or performance validation",
+      "sample_mesh_instances": 111,
+      "sample_custom_triangles": 12051,
+      "note": "Prior validations retained in Git; this count covers the polished sample family and new role/cap/lid invariants, not full-scene FPS."
+    },
+    "native_captures": "docs/polish/evidence/; raw candidates under artifacts/polish/",
+    "android_full_scene_review": "Not certified by this asset manifest. The root report records the final APK, Android capture and full-scene review separately.",
+    "raster_report": "artifacts/art-factory/raster-qa.json"
+  },
+  "revision": "2026-11-14-targeted-polish",
+  "polish_provenance": {
+    "base_commit": "d36af097ff169a807639b6ce9c50a9149b91ba3e",
+    "new_external_assets": false,
+    "new_generated_textures": false,
+    "existing_texture_hashes_unchanged": true,
+    "geometry_authorship": "Original local modifications of existing GDScript factory; no copied external model or identity",
+    "notes": "assets/archipel/POLISH_NOTES.md",
+    "status": "Technical/visual review pending human acceptance; TEST / HOLD"
+  }
 }

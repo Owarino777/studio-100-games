@@ -1,0 +1,107 @@
+﻿4.7.2.stable.official.ed1daf0bf
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started Initialisation du projet (5 steps)[39m[0m
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Analyse de la structure des fichiers…[39m[0m
+[  16% ] [90m[1mfirst_scan_filesystem[22m | Chargement des noms des classes globales…[39m[0m
+[  33% ] [90m[1mfirst_scan_filesystem[22m | Vérification des GDExtensions…[39m[0m
+[  50% ] [90m[1mfirst_scan_filesystem[22m | Création des scripts de chargement automatique…[39m[0m
+[  66% ] [90m[1mfirst_scan_filesystem[22m | Initialisation des extensions…[39m[0m
+[  83% ] [90m[1mfirst_scan_filesystem[22m | Démarrage du scan de fichiers…[39m[0m
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | Started Enregistrement des classes globales… (2 steps)[39m[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | ArchipelScreen[39m[0m
+[  33% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[92m[ DONE ][39m [1mupdate_scripts_classes[22m
+[0m
+[   0% ] [90m[1m_update_scan_actions[22m | Started Analyse des actions… (19 steps)[39m[0m
+[   0% ] [90m[1m_update_scan_actions[22m | failed.png[39m[0m
+[   5% ] [90m[1m_update_scan_actions[22m | planning.png[39m[0m
+[  10% ] [90m[1m_update_scan_actions[22m | prepared.png[39m[0m
+[  15% ] [90m[1m_update_scan_actions[22m | restored.png[39m[0m
+[  20% ] [90m[1m_update_scan_actions[22m | transport.png[39m[0m
+[  25% ] [90m[1m_update_scan_actions[22m | won.png[39m[0m
+[  30% ] [90m[1m_update_scan_actions[22m | failed.png[39m[0m
+[  35% ] [90m[1m_update_scan_actions[22m | planning.png[39m[0m
+[  40% ] [90m[1m_update_scan_actions[22m | prepared.png[39m[0m
+[  45% ] [90m[1m_update_scan_actions[22m | restored.png[39m[0m
+[  50% ] [90m[1m_update_scan_actions[22m | transport.png[39m[0m
+[  55% ] [90m[1m_update_scan_actions[22m | won-reduced.png[39m[0m
+[  60% ] [90m[1m_update_scan_actions[22m | won.png[39m[0m
+[  65% ] [90m[1m_update_scan_actions[22m | failed.png[39m[0m
+[  70% ] [90m[1m_update_scan_actions[22m | planning.png[39m[0m
+[  75% ] [90m[1m_update_scan_actions[22m | prepared.png[39m[0m
+[  80% ] [90m[1m_update_scan_actions[22m | restored.png[39m[0m
+[  85% ] [90m[1m_update_scan_actions[22m | transport.png[39m[0m
+[  90% ] [90m[1m_update_scan_actions[22m | won.png[39m[0m
+[92m[ DONE ][39m [1m_update_scan_actions[22m
+[0m
+[   0% ] [90m[1mreimport[22m | Started Ré-importation des assets (19 steps)[39m[0m
+[   0% ] [90m[1mreimport[22m | Préparation des fichiers pour la réimportation…[39m[0m
+[   5% ] [90m[1mreimport[22m | Préparation des fichiers pour la réimportation…[39m[0m
+[  10% ] [90m[1mreimport[22m | Préparation des fichiers pour la réimportation…[39m[0m
+[  15% ] [90m[1mreimport[22m | Préparation des fichiers pour la réimportation…[39m[0m
+[  20% ] [90m[1mreimport[22m | Préparation des fichiers pour la réimportation…[39m[0m
+[  25% ] [90m[1mreimport[22m | Préparation des fichiers pour la réimportation…[39m[0m
+[  30% ] [90m[1mreimport[22m | Préparation des fichiers pour la réimportation…[39m[0m
+[  35% ] [90m[1mreimport[22m | Préparation des fichiers pour la réimportation…[39m[0m
+[  40% ] [90m[1mreimport[22m | Préparation des fichiers pour la réimportation…[39m[0m
+[  45% ] [90m[1mreimport[22m | Préparation des fichiers pour la réimportation…[39m[0m
+[  50% ] [90m[1mreimport[22m | Préparation des fichiers pour la réimportation…[39m[0m
+[  55% ] [90m[1mreimport[22m | Préparation des fichiers pour la réimportation…[39m[0m
+[  60% ] [90m[1mreimport[22m | Préparation des fichiers pour la réimportation…[39m[0m
+[  65% ] [90m[1mreimport[22m | Préparation des fichiers pour la réimportation…[39m[0m
+[  70% ] [90m[1mreimport[22m | Préparation des fichiers pour la réimportation…[39m[0m
+[  75% ] [90m[1mreimport[22m | Préparation des fichiers pour la réimportation…[39m[0m
+[  80% ] [90m[1mreimport[22m | Préparation des fichiers pour la réimportation…[39m[0m
+[  85% ] [90m[1mreimport[22m | Préparation des fichiers pour la réimportation…[39m[0m
+[  90% ] [90m[1mreimport[22m | Préparation des fichiers pour la réimportation…[39m[0m
+[   0% ] [90m[1mreimport[22m | Exécution des opérations de pré-réimportation…[39m[0m
+[   0% ] [90m[1mreimport[22m | won.png[39m[0m
+[   5% ] [90m[1mreimport[22m | transport.png[39m[0m
+[  10% ] [90m[1mreimport[22m | restored.png[39m[0m
+[  15% ] [90m[1mreimport[22m | prepared.png[39m[0m
+[  20% ] [90m[1mreimport[22m | planning.png[39m[0m
+[  25% ] [90m[1mreimport[22m | failed.png[39m[0m
+[  30% ] [90m[1mreimport[22m | won.png[39m[0m
+[  35% ] [90m[1mreimport[22m | won-reduced.png[39m[0m
+[  40% ] [90m[1mreimport[22m | transport.png[39m[0m
+[  45% ] [90m[1mreimport[22m | restored.png[39m[0m
+[  50% ] [90m[1mreimport[22m | prepared.png[39m[0m
+[  55% ] [90m[1mreimport[22m | planning.png[39m[0m
+[  60% ] [90m[1mreimport[22m | failed.png[39m[0m
+[  65% ] [90m[1mreimport[22m | won.png[39m[0m
+[  70% ] [90m[1mreimport[22m | transport.png[39m[0m
+[  75% ] [90m[1mreimport[22m | restored.png[39m[0m
+[  80% ] [90m[1mreimport[22m | prepared.png[39m[0m
+[  85% ] [90m[1mreimport[22m | planning.png[39m[0m
+[  90% ] [90m[1mreimport[22m | failed.png[39m[0m
+[  95% ] [90m[1mreimport[22m | Finalisation des importations de ressources…[39m[0m
+[92m[ DONE ][39m [1mreimport[22m
+[0m
+[   0% ] [90m[1mreimport[22m | Started Ré-importation des assets (19 steps)[39m[0m
+[   0% ] [90m[1mreimport[22m | Exécution des opérations post-réimportation…[39m[0m
+[92m[ DONE ][39m [1mreimport[22m
+[0m
+[   0% ] [90m[1mloading_editor_layout[22m | Started Chargement de l’éditeur (5 steps)[39m[0m
+[   0% ] [90m[1mloading_editor_layout[22m | Chargement de la disposition de l’éditeur…[39m[0m
+[  16% ] [90m[1mloading_editor_layout[22m | Chargement des docks…[39m[0m
+[  33% ] [90m[1mloading_editor_layout[22m | Réouverture des scènes…[39m[0m
+[  50% ] [90m[1mloading_editor_layout[22m | Chargement de la disposition de l’éditeur central…[39m[0m
+[  66% ] [90m[1mloading_editor_layout[22m | Chargement de la disposition de la fenêtre des plugins…[39m[0m
+[  83% ] [90m[1mloading_editor_layout[22m | Disposition de l’éditeur prête.[39m[0m
+[92m[ DONE ][39m [1mloading_editor_layout[22m
+[0m
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 621.24 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 4060 Laptop GPU
+
+SLICE_GUIDANCE {"phase":"planning","state":"fresh","text":"Touchez une voie pour la tourner,\npuis expédiez."}
+SLICE_READY engine=4.7.2-stable (official) platform=Windows level=archipel-double-flux-01
+SLICE_LAYOUT {"buttons":{"dispatch":[180,600],"hint":[306,600],"pause":[308,60],"reduce_motion":[106,169],"restart":[113,169],"resume":[61,169],"sound":[87,169],"undo":[56,600],"victory_replay":[104,530]},"cells":{"0":[49,254],"1":[101,254],"10":[259,302],"11":[311,302],"12":[49,351],"13":[101,351],"14":[154,351],"15":[206,351],"16":[259,351],"17":[311,351],"18":[49,400],"19":[101,400],"2":[154,254],"20":[154,400],"21":[206,400],"22":[259,400],"23":[311,400],"24":[49,449],"25":[101,449],"26":[154,449],"27":[206,449],"28":[259,449],"29":[311,449],"3":[206,254],"30":[49,498],"31":[101,498],"32":[154,498],"33":[206,498],"34":[259,498],"35":[311,498],"4":[259,254],"5":[311,254],"6":[49,302],"7":[101,302],"8":[154,302],"9":[206,302]},"logical_viewport":[360.0,640.0],"phase":"planning","window":[360,640]}
+SLICE_GUIDANCE_LAYOUT {"guidance":{"font_rids":["506806140936"],"font_size":14,"line_height":20,"lines":2,"minimum_size":[214.0,43.0],"rect":[16.0,150.600006103516,328.0,44.0],"state":"fresh","visible":true,"visible_lines":2},"logical_viewport":[360.0,640.0],"window":[360,640]}
+SLICE_GUIDANCE {"phase":"planning","state":"fresh","text":"Touchez une voie pour la tourner,\npuis expédiez."}
+SLICE_LAYOUT {"buttons":{"dispatch":[180,600],"hint":[306,600],"pause":[308,60],"reduce_motion":[106,169],"restart":[113,169],"resume":[61,169],"sound":[87,169],"undo":[56,600],"victory_replay":[104,530]},"cells":{"0":[49,254],"1":[101,254],"10":[259,302],"11":[311,302],"12":[49,351],"13":[101,351],"14":[154,351],"15":[206,351],"16":[259,351],"17":[311,351],"18":[49,400],"19":[101,400],"2":[154,254],"20":[154,400],"21":[206,400],"22":[259,400],"23":[311,400],"24":[49,449],"25":[101,449],"26":[154,449],"27":[206,449],"28":[259,449],"29":[311,449],"3":[206,254],"30":[49,498],"31":[101,498],"32":[154,498],"33":[206,498],"34":[259,498],"35":[311,498],"4":[259,254],"5":[311,254],"6":[49,302],"7":[101,302],"8":[154,302],"9":[206,302]},"logical_viewport":[360.0,640.0],"phase":"planning","window":[360,640]}
+SLICE_GUIDANCE_LAYOUT {"guidance":{"font_rids":["506806140936"],"font_size":14,"line_height":20,"lines":2,"minimum_size":[214.0,43.0],"rect":[16.0,150.600006103516,328.0,44.0],"state":"fresh","visible":true,"visible_lines":2},"logical_viewport":[360.0,640.0],"window":[360,640]}
+SLICE_FIRST_FRAME since_ready_ms=98.80
+SLICE_CAPTURE result=0 path=C:\Users\malik\Developpement\studio-100-games\games\001-switchworks\artifacts\polish\desktop-captures\desktop-360x640-planning.png

@@ -19,4 +19,9 @@ games/001-switchworks/data/archipel_double_flux.json -text
 games/001-switchworks/assets/archipel/textures/paper_fibres.svg -text
 games/001-switchworks/assets/archipel/textures/porcelain_micro.svg -text
 games/001-switchworks/assets/fonts/SOURCE.json -text
+games/001-switchworks/assets/archipel/asset-manifest.json -text
 games/001-switchworks/export_presets.cfg -text
+
+# Preserve supplied critique and the new paired native capture evidence.
+games/001-switchworks/docs/revue-critique-ia-2026-11-14/** -text
+games/001-switchworks/docs/polish/evidence/** -text

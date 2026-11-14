@@ -1,0 +1,1784 @@
+{
+  "schema_version": 1,
+  "base_commit": "d36af097ff169a807639b6ce9c50a9149b91ba3e",
+  "branch": "fix/archipel-postal-finition-p1-p2",
+  "engine": "Godot4.7.2.stable.official.ed1daf0bf Standard Compatibility",
+  "scene": "res://scenes/archipel_postal.tscn",
+  "before_apk_sha256": "7112e363b030f75dc549a70f26d7d75ff88b7eccda4fa2aa660229abc4b394b1",
+  "after_apk_sha256": "6f3b3853bda59dbde4697814aa5afe547f37e7513408ce0d6a719c194769e965",
+  "before_after_scope": "Same level/ports/camera, same AVD/density420/physical viewport sizes. HUD deliberately reflows; live transport frames need not have identical timestamps. Original PNG and MP4 bytes unchanged.",
+  "files": [
+    {
+      "path": "before/1080x2400/app-3747-play.log",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/1080x2400/app-3747-play.log",
+      "bytes": 12280,
+      "sha256": "23daff54be761f8655b207a81eb5939a7bb787b958a970fcfce8b09ee7e2446f",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "before/1080x2400/app-4422-restored.log",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/1080x2400/app-4422-restored.log",
+      "bytes": 13518,
+      "sha256": "f0de65113e1c0cad47787978bb38d2d0ccc51c730acdf51f2c7f3b1548e41025",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "before/1080x2400/arrivals.mp4",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/1080x2400/arrivals.mp4",
+      "bytes": 5426533,
+      "sha256": "e4014bcf6b88b1fedfbf67d86ad6ce3cf039989e37aab09d20c09b64c8edb4c0",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "before/1080x2400/failed.png",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/1080x2400/failed.png",
+      "bytes": 2120414,
+      "sha256": "e2e8b98aa51f77deceffc63e3cb47b37cec1338caa24e76976ce5d7e6c763df4",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true,
+      "pixels": [
+        1080,
+        2400
+      ]
+    },
+    {
+      "path": "before/1080x2400/failed.png.import",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/1080x2400/failed.png.import",
+      "bytes": 987,
+      "sha256": "564c154ee676d90bdeae336a687006cc99571e80590168f7b8e5781ae1a1f432",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "before/1080x2400/launch-3747.log",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/1080x2400/launch-3747.log",
+      "bytes": 261,
+      "sha256": "1c8c582427f0a51e79d6a9fba4aa10a74f0c6887f6d5240c04e2f54c9b8d422f",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "before/1080x2400/launch-4422.log",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/1080x2400/launch-4422.log",
+      "bytes": 261,
+      "sha256": "3d13c5aa7e83aaaf18c125b186b7147ea1b5d5b1ef9cd2e74262083ff9ddfd80",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "before/1080x2400/memory.log",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/1080x2400/memory.log",
+      "bytes": 3312,
+      "sha256": "b1613a19cc64842adca7809f14be49f054d8082e74390ff0120871b68431763f",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "before/1080x2400/planning.png",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/1080x2400/planning.png",
+      "bytes": 2121729,
+      "sha256": "f1614696d66ca46044e7361ba5a2926545ec2956f0f953e0ef4240e11b794c92",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true,
+      "pixels": [
+        1080,
+        2400
+      ]
+    },
+    {
+      "path": "before/1080x2400/planning.png.import",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/1080x2400/planning.png.import",
+      "bytes": 993,
+      "sha256": "494c4d3380ae40f0dab5cba5a0fce0be5abfc4aca2d148def479fe2bf404c8fb",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "before/1080x2400/prepared.png",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/1080x2400/prepared.png",
+      "bytes": 2115150,
+      "sha256": "07e8f5e3118304c7ba1e90e937fd2f4e2cb13ac2827f1963cc84884d679ef2d2",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true,
+      "pixels": [
+        1080,
+        2400
+      ]
+    },
+    {
+      "path": "before/1080x2400/prepared.png.import",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/1080x2400/prepared.png.import",
+      "bytes": 993,
+      "sha256": "5f7ee3c2d62aa61d9d0be66fabf381a6a87bd96b3563369d4bd206817ebdbdc5",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "before/1080x2400/restored.png",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/1080x2400/restored.png",
+      "bytes": 2115863,
+      "sha256": "1f78d6c09ebed7fecec85394e31536a27b587e2315df57292c556702c60e199e",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true,
+      "pixels": [
+        1080,
+        2400
+      ]
+    },
+    {
+      "path": "before/1080x2400/restored.png.import",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/1080x2400/restored.png.import",
+      "bytes": 993,
+      "sha256": "7a2c467b68b6ebb3802fbcbda7eaed7c5300c47d2cd134a7f2f4fdb1357acfc5",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "before/1080x2400/screenrecord.log",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/1080x2400/screenrecord.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "before/1080x2400/state-planning.json",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/1080x2400/state-planning.json",
+      "bytes": 515,
+      "sha256": "6d699ec3791d64254429f42af1a264ce9107df8d356e8a4fac3b79da016dd4c8",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "before/1080x2400/state-won.json",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/1080x2400/state-won.json",
+      "bytes": 515,
+      "sha256": "928b4a2ac81c32d4ae215c54b3e707cedd30e25d967ec60bb90987caec27d74b",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "before/1080x2400/transport.png",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/1080x2400/transport.png",
+      "bytes": 2109297,
+      "sha256": "3c48795982f82e50671cfe869b3db5b0380c5047a80663717dbf87349ecc8723",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true,
+      "pixels": [
+        1080,
+        2400
+      ]
+    },
+    {
+      "path": "before/1080x2400/transport.png.import",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/1080x2400/transport.png.import",
+      "bytes": 995,
+      "sha256": "578fbc0dc21bdd79426182eb5c2fb2e31e6b1732bf72017422cfe77819bb31ac",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "before/1080x2400/won-reduced.png",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/1080x2400/won-reduced.png",
+      "bytes": 1762582,
+      "sha256": "31f100da61c02a067f8a2777872e19d0f8fcaf68e570a580610a6bf11b41bd80",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true,
+      "pixels": [
+        1080,
+        2400
+      ]
+    },
+    {
+      "path": "before/1080x2400/won-reduced.png.import",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/1080x2400/won-reduced.png.import",
+      "bytes": 1002,
+      "sha256": "140a295b887e12f0b0273f5cdea95c9e7111a6db06fed44d7aa131ecc851e1f4",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "before/1080x2400/won.png",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/1080x2400/won.png",
+      "bytes": 1762991,
+      "sha256": "fb3ca6e4006729746024ad62f2b43a4326b5d1f19ea048e82c2d0b069ca29d0b",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true,
+      "pixels": [
+        1080,
+        2400
+      ]
+    },
+    {
+      "path": "before/1080x2400/won.png.import",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/1080x2400/won.png.import",
+      "bytes": 977,
+      "sha256": "75e40a62936639e0db33dbb4ddf2ba7548daf71864ce23b0733ea5f430e11676",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "before/1200x1600/app-5349-play.log",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/1200x1600/app-5349-play.log",
+      "bytes": 11599,
+      "sha256": "a72484208d6a8775d6527221eb928442a5701a5cebf98559ef1fc2bc62506bf2",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "before/1200x1600/app-5653-restored.log",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/1200x1600/app-5653-restored.log",
+      "bytes": 10938,
+      "sha256": "dbb5ff85e74515554cf5ac296af8341d8baeac8de6f0a99382c70fc587035d7e",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "before/1200x1600/failed.png",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/1200x1600/failed.png",
+      "bytes": 1507017,
+      "sha256": "0504182596fa17662424681e3f10f572dce5cdf07e6759260255b00d8c651f26",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true,
+      "pixels": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "path": "before/1200x1600/failed.png.import",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/1200x1600/failed.png.import",
+      "bytes": 986,
+      "sha256": "5eebbfff470ec30552ef1c2ed5e9779d41f86a4b0e5a96ab48fb2889104a52ff",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "before/1200x1600/launch-5349.log",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/1200x1600/launch-5349.log",
+      "bytes": 263,
+      "sha256": "e457bc6317427e47c6c82370cf4260df5114f5c52e0f1526777fae2b219cc9ac",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "before/1200x1600/launch-5653.log",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/1200x1600/launch-5653.log",
+      "bytes": 261,
+      "sha256": "4d431b4efbe3c51cad5f0ff5f2dc1234c7eb6c8c9e6297d0dbd530c7eb4ac6a4",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "before/1200x1600/memory.log",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/1200x1600/memory.log",
+      "bytes": 3312,
+      "sha256": "6c7542ac54cd163cc6ff2e96ae0d52ffd13ce4e6cb586c866633edd07d00724a",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "before/1200x1600/planning.png",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/1200x1600/planning.png",
+      "bytes": 1508838,
+      "sha256": "4af9222740df7430d8c3a42f72007abaf745abe5d410e3eb1697d0a1b2315202",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true,
+      "pixels": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "path": "before/1200x1600/planning.png.import",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/1200x1600/planning.png.import",
+      "bytes": 993,
+      "sha256": "35d545594aac73cf8176f129dcae2ade5a5def3fd6704b4f8d2e554b41c78947",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "before/1200x1600/prepared.png",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/1200x1600/prepared.png",
+      "bytes": 1505607,
+      "sha256": "13199ed3b4080f6a5a3f0142271b9395a64ad104c67f979b857650841e633b71",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true,
+      "pixels": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "path": "before/1200x1600/prepared.png.import",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/1200x1600/prepared.png.import",
+      "bytes": 992,
+      "sha256": "c0abe90ee0e8f73c31edfa82d068faafc024067810da6c6ac50735ff6d0c0d28",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "before/1200x1600/restored.png",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/1200x1600/restored.png",
+      "bytes": 1505869,
+      "sha256": "3d3c893a7132185c55645f14ff455322e37ce273de0350b116a5cf0f3eb99818",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true,
+      "pixels": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "path": "before/1200x1600/restored.png.import",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/1200x1600/restored.png.import",
+      "bytes": 993,
+      "sha256": "85cf9db24007a583283274af4f6ef6ad0ef0db5f3fc1790361cb904dc664acfd",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "before/1200x1600/state-planning.json",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/1200x1600/state-planning.json",
+      "bytes": 515,
+      "sha256": "6d699ec3791d64254429f42af1a264ce9107df8d356e8a4fac3b79da016dd4c8",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "before/1200x1600/state-won.json",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/1200x1600/state-won.json",
+      "bytes": 515,
+      "sha256": "928b4a2ac81c32d4ae215c54b3e707cedd30e25d967ec60bb90987caec27d74b",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "before/1200x1600/transport.png",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/1200x1600/transport.png",
+      "bytes": 1499437,
+      "sha256": "839c6d8aa218a14c5d6d09b24ff8070fe69066eb4cc9da150bd1c2eaee4333e1",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true,
+      "pixels": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "path": "before/1200x1600/transport.png.import",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/1200x1600/transport.png.import",
+      "bytes": 995,
+      "sha256": "367cbd8383c6e91134bbff8ab95df5be5cf917cd4153e873a6c79ced81f80588",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "before/1200x1600/won.png",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/1200x1600/won.png",
+      "bytes": 1326959,
+      "sha256": "289ccea8e3f4f7f27e6e67c1fe6c43357c4aedc8bc1b95e5b873a97554428753",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true,
+      "pixels": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "path": "before/1200x1600/won.png.import",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/1200x1600/won.png.import",
+      "bytes": 978,
+      "sha256": "f298aa2c58b7448b8ae2e3520779a6f0054e6518a92c9d4530eb339a017562da",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "before/720x1280/app-4808-play.log",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/720x1280/app-4808-play.log",
+      "bytes": 11281,
+      "sha256": "c69f3988236df425e14c5a52bc22aafd1b836559214e5543d72fbf0f8c15689b",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "before/720x1280/app-5122-restored.log",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/720x1280/app-5122-restored.log",
+      "bytes": 10907,
+      "sha256": "a23ea09990b5dbb736dbf0e80e607245b9ff1257313ecb91680ebff30c34bad9",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "before/720x1280/failed.png",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/720x1280/failed.png",
+      "bytes": 829138,
+      "sha256": "1b81680d1511206e1b540e3aefe797bb6c437f736b83803500760a84a18d29dd",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true,
+      "pixels": [
+        720,
+        1280
+      ]
+    },
+    {
+      "path": "before/720x1280/failed.png.import",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/720x1280/failed.png.import",
+      "bytes": 985,
+      "sha256": "611c20376e01dd615ee80347199ebc4d789c6e85dc4035d8145e82bedfe1802e",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "before/720x1280/launch-4808.log",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/720x1280/launch-4808.log",
+      "bytes": 261,
+      "sha256": "a7eca64b133e4da5f3dfe0b043d9a63ef4d64dc4a8c84a32a1f221b3f388c37c",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "before/720x1280/launch-5122.log",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/720x1280/launch-5122.log",
+      "bytes": 261,
+      "sha256": "a85f3d92afa3de72c51b505ce0307070928f902594bc8f410c47ec79ebcf4e9a",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "before/720x1280/memory.log",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/720x1280/memory.log",
+      "bytes": 3312,
+      "sha256": "8c14ae97ee5ccf605a9fec1b5f30bcae8aecd4d8586be2688743b38b30f58464",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "before/720x1280/planning.png",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/720x1280/planning.png",
+      "bytes": 830738,
+      "sha256": "cbfbe489aefcd66117b71faf5c357dddad81d1b22ba1c4b963b1299045df4de2",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true,
+      "pixels": [
+        720,
+        1280
+      ]
+    },
+    {
+      "path": "before/720x1280/planning.png.import",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/720x1280/planning.png.import",
+      "bytes": 992,
+      "sha256": "6819e09f3c62574b5c03579b3aebaa2b9f2608cf88856f87e149ac4d34f092f9",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "before/720x1280/prepared.png",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/720x1280/prepared.png",
+      "bytes": 825843,
+      "sha256": "55bdb14b2d4da83d273523c5807d7556f6ba8517dba66586b2816c134829b097",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true,
+      "pixels": [
+        720,
+        1280
+      ]
+    },
+    {
+      "path": "before/720x1280/prepared.png.import",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/720x1280/prepared.png.import",
+      "bytes": 992,
+      "sha256": "23475213c5cde851e6f3c9ac87d35ae3fe053e3786dd4af518ddfe837d527d2f",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "before/720x1280/restored.png",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/720x1280/restored.png",
+      "bytes": 826043,
+      "sha256": "1d7e0592afa9b88149ccde88c0fd9b8f4d39544215ff0d6aa4438490acc7694c",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true,
+      "pixels": [
+        720,
+        1280
+      ]
+    },
+    {
+      "path": "before/720x1280/restored.png.import",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/720x1280/restored.png.import",
+      "bytes": 991,
+      "sha256": "fe86f350fb6e26c3e8bd9303910f06fbcba8a6612c2ef295e527573c44eedcd1",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "before/720x1280/state-planning.json",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/720x1280/state-planning.json",
+      "bytes": 515,
+      "sha256": "6d699ec3791d64254429f42af1a264ce9107df8d356e8a4fac3b79da016dd4c8",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "before/720x1280/state-won.json",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/720x1280/state-won.json",
+      "bytes": 515,
+      "sha256": "928b4a2ac81c32d4ae215c54b3e707cedd30e25d967ec60bb90987caec27d74b",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "before/720x1280/transport.png",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/720x1280/transport.png",
+      "bytes": 821646,
+      "sha256": "211d3269ad2d9e7a003970442d579484f317d4f4f118d43ac8da33f1e633124d",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true,
+      "pixels": [
+        720,
+        1280
+      ]
+    },
+    {
+      "path": "before/720x1280/transport.png.import",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/720x1280/transport.png.import",
+      "bytes": 995,
+      "sha256": "58f7865641fbea7eacc2409a97b7c07d8a3789dc2a60aeffb6d75128252092ad",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "before/720x1280/won.png",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/720x1280/won.png",
+      "bytes": 673851,
+      "sha256": "31c73fb646dc15457730c30727fd8ee41b9f940dc996826409cabe1241fdef46",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true,
+      "pixels": [
+        720,
+        1280
+      ]
+    },
+    {
+      "path": "before/720x1280/won.png.import",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/720x1280/won.png.import",
+      "bytes": 977,
+      "sha256": "0e3e123a41cd33291e79ce99c10b9c9a32019d317b682e5377f37ff8d2783e18",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "before/launch-5881.log",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/launch-5881.log",
+      "bytes": 261,
+      "sha256": "494e784f4d09362a66520d77238972259a36e8c1444acdf8d7bec658bf1c1efd",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "before/receipt.json",
+      "source": "games/001-switchworks/artifacts/polish/android-before-20261114T045408403729Z/receipt.json",
+      "bytes": 17179,
+      "sha256": "fcb74a17fd6d3e8661dd134c5eaad9ecfff14fb6adfa1ed3022f5f371df8991d",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "after/1080x2400/app-11217-play.log",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T052853173219Z/1080x2400/app-11217-play.log",
+      "bytes": 31844,
+      "sha256": "1acd7d94c740e9ce70cb8e1fcc5317db71299d27a13cac87c4aafe665e834a1c",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "after/1080x2400/app-11842-restored.log",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T052853173219Z/1080x2400/app-11842-restored.log",
+      "bytes": 28352,
+      "sha256": "052e980fc04a853dfcf7c476735ca6dbcbdce1ea7d46cee698f2bc32ec92395a",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "after/1080x2400/arrivals.mp4",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T052853173219Z/1080x2400/arrivals.mp4",
+      "bytes": 4655457,
+      "sha256": "f2a45866e267608f1d391b939b9297aa179faf2f942bbe5be33bf332640054c3",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "after/1080x2400/failed.png",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T052853173219Z/1080x2400/failed.png",
+      "bytes": 2198919,
+      "sha256": "e95b3089ac112581c3e44535c19030fb551f4058a0ef49d02c6c23daaa7cc9c0",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true,
+      "pixels": [
+        1080,
+        2400
+      ]
+    },
+    {
+      "path": "after/1080x2400/launch-11217.log",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T052853173219Z/1080x2400/launch-11217.log",
+      "bytes": 261,
+      "sha256": "97574a137d94361425edee3ee2f0c35289d78f2fc41cb9cb47fa7a1b68499c98",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "after/1080x2400/launch-11842.log",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T052853173219Z/1080x2400/launch-11842.log",
+      "bytes": 263,
+      "sha256": "cf70f64413983371f1ecbcb94c879e67985a94b7ac25e8ba8583d0714f77d1ac",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "after/1080x2400/memory.log",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T052853173219Z/1080x2400/memory.log",
+      "bytes": 3315,
+      "sha256": "2be7955c5f2ec73e27af5683eba668be8014f9430e35f0c65e3f2c438407eada",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "after/1080x2400/planning.png",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T052853173219Z/1080x2400/planning.png",
+      "bytes": 2197902,
+      "sha256": "0e68ea8b3038227b5f1e33d2778b1866d73c6f4da0d1e621b7aa7264869718b9",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true,
+      "pixels": [
+        1080,
+        2400
+      ]
+    },
+    {
+      "path": "after/1080x2400/prepared.png",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T052853173219Z/1080x2400/prepared.png",
+      "bytes": 2201214,
+      "sha256": "a187fd67086225efdec538e6eebc9b3dc166f34e293ed5a2a68c99f56aecb044",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true,
+      "pixels": [
+        1080,
+        2400
+      ]
+    },
+    {
+      "path": "after/1080x2400/restored.png",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T052853173219Z/1080x2400/restored.png",
+      "bytes": 2204587,
+      "sha256": "b4f85c757d190c7ce3717ebebbf9564aa81aefcd96ef31b5ff8cf4f2c516fdb6",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true,
+      "pixels": [
+        1080,
+        2400
+      ]
+    },
+    {
+      "path": "after/1080x2400/screenrecord.log",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T052853173219Z/1080x2400/screenrecord.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "after/1080x2400/state-planning.json",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T052853173219Z/1080x2400/state-planning.json",
+      "bytes": 515,
+      "sha256": "6d699ec3791d64254429f42af1a264ce9107df8d356e8a4fac3b79da016dd4c8",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "after/1080x2400/state-won.json",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T052853173219Z/1080x2400/state-won.json",
+      "bytes": 515,
+      "sha256": "928b4a2ac81c32d4ae215c54b3e707cedd30e25d967ec60bb90987caec27d74b",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "after/1080x2400/transport.png",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T052853173219Z/1080x2400/transport.png",
+      "bytes": 2195242,
+      "sha256": "1f755c6d851066f1b428c7c319d18a0672794639d3b17d86ab10efd2e23acc86",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true,
+      "pixels": [
+        1080,
+        2400
+      ]
+    },
+    {
+      "path": "after/1080x2400/won-reduced.png",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T052853173219Z/1080x2400/won-reduced.png",
+      "bytes": 1936072,
+      "sha256": "f5708e4f8f6b3bf568e0cb985a3762619b6bc9c9677eae453ed43e32b76a7922",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true,
+      "pixels": [
+        1080,
+        2400
+      ]
+    },
+    {
+      "path": "after/1080x2400/won.png",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T052853173219Z/1080x2400/won.png",
+      "bytes": 1937668,
+      "sha256": "f6161cba4a5266b1131214d69facc2fe6c405557e7716d8f0d38353b7dc2e6ad",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true,
+      "pixels": [
+        1080,
+        2400
+      ]
+    },
+    {
+      "path": "after/1200x1600/app-12707-play.log",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T052853173219Z/1200x1600/app-12707-play.log",
+      "bytes": 28759,
+      "sha256": "9b4fa6da63317eef9550d70c695546105a7073c0dae41f8b72180241497254ae",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "after/1200x1600/app-13019-restored.log",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T052853173219Z/1200x1600/app-13019-restored.log",
+      "bytes": 13863,
+      "sha256": "7920ed67336539ee15b4d38d74c756142c7accbba067d1fee9dc7ebc9ee618dd",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "after/1200x1600/failed.png",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T052853173219Z/1200x1600/failed.png",
+      "bytes": 1502229,
+      "sha256": "a69ddb1f47bfa6d95273db0a43b1105502e0baa8779c0e04db671c8d0bf2c0c6",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true,
+      "pixels": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "path": "after/1200x1600/launch-12707.log",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T052853173219Z/1200x1600/launch-12707.log",
+      "bytes": 263,
+      "sha256": "e31562dfa1a200fe9504dd55c357ef134f51522b04214417eb8362a543830fb6",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "after/1200x1600/launch-13019.log",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T052853173219Z/1200x1600/launch-13019.log",
+      "bytes": 261,
+      "sha256": "6c152d6463fbfc8644c2e3e89cd9d61b6ec5a95ec46a946618f2d45ee2ffcda4",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "after/1200x1600/memory.log",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T052853173219Z/1200x1600/memory.log",
+      "bytes": 3315,
+      "sha256": "2818ce89f25b62103faf00c135736680fcf425d0e63ee1407381c031610365a1",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "after/1200x1600/planning.png",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T052853173219Z/1200x1600/planning.png",
+      "bytes": 1500650,
+      "sha256": "4921788e299700008eda9d85d0407aef91946a53b647e2883ea8fbf0f2414f47",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true,
+      "pixels": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "path": "after/1200x1600/prepared.png",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T052853173219Z/1200x1600/prepared.png",
+      "bytes": 1502361,
+      "sha256": "3569142ec56c9d89f75d2979c20f93337e5f580743e71dbeb052b7198af0e9fb",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true,
+      "pixels": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "path": "after/1200x1600/restored.png",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T052853173219Z/1200x1600/restored.png",
+      "bytes": 1505841,
+      "sha256": "7d5444868054945c6b7f08d83ff8feebf24de80c26ba21737ccadffc8fb0e8c0",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true,
+      "pixels": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "path": "after/1200x1600/state-planning.json",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T052853173219Z/1200x1600/state-planning.json",
+      "bytes": 515,
+      "sha256": "6d699ec3791d64254429f42af1a264ce9107df8d356e8a4fac3b79da016dd4c8",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "after/1200x1600/state-won.json",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T052853173219Z/1200x1600/state-won.json",
+      "bytes": 515,
+      "sha256": "928b4a2ac81c32d4ae215c54b3e707cedd30e25d967ec60bb90987caec27d74b",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "after/1200x1600/transport.png",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T052853173219Z/1200x1600/transport.png",
+      "bytes": 1495439,
+      "sha256": "0e4897d660381d30813f8aa73549652960a4cacd4abc6320fe4d7f809898de5a",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true,
+      "pixels": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "path": "after/1200x1600/won.png",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T052853173219Z/1200x1600/won.png",
+      "bytes": 1408978,
+      "sha256": "9982056ac5a5d59a023e007292721251d8f0c5c3b9bf8fc3137096d726d7e7c5",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true,
+      "pixels": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "path": "after/720x1280/app-12178-play.log",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T052853173219Z/720x1280/app-12178-play.log",
+      "bytes": 27307,
+      "sha256": "c6b87f8a7976d51c125264560c14841c10c9ab3171b80c0ba61a3e29bd356f72",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "after/720x1280/app-12485-restored.log",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T052853173219Z/720x1280/app-12485-restored.log",
+      "bytes": 13778,
+      "sha256": "7d363a481bca28b0116c55878d5feee6dd0f258c4a7da74fd1a0ffc6ec5a2dc5",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "after/720x1280/failed.png",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T052853173219Z/720x1280/failed.png",
+      "bytes": 847998,
+      "sha256": "6650cc273dc30c26542c9a91f5b50a942d4deb29540e752d92c34de18a39b268",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true,
+      "pixels": [
+        720,
+        1280
+      ]
+    },
+    {
+      "path": "after/720x1280/launch-12178.log",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T052853173219Z/720x1280/launch-12178.log",
+      "bytes": 263,
+      "sha256": "3d282dc8283ab1b4e24dbb80dd3991bc75976cb4c66c6c68c7234bf8aff4c32b",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "after/720x1280/launch-12485.log",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T052853173219Z/720x1280/launch-12485.log",
+      "bytes": 261,
+      "sha256": "d9f1bdaed16d0b5a15f692cf2010359fa88a35728f994fe2c97732f16fefad33",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "after/720x1280/memory.log",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T052853173219Z/720x1280/memory.log",
+      "bytes": 3379,
+      "sha256": "91b95d6fa84b6edf2d087fbbd6ec43af45d5c3974845261cd7df902810cdd63b",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "after/720x1280/planning.png",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T052853173219Z/720x1280/planning.png",
+      "bytes": 847470,
+      "sha256": "c43544677d7e44b629fff04e9966efb66c067f21d645d93fd4d44b89f0dd6295",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true,
+      "pixels": [
+        720,
+        1280
+      ]
+    },
+    {
+      "path": "after/720x1280/prepared.png",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T052853173219Z/720x1280/prepared.png",
+      "bytes": 849208,
+      "sha256": "cfdda3696da231a2c8228e430edc76be6717342025a372e087764348842af25f",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true,
+      "pixels": [
+        720,
+        1280
+      ]
+    },
+    {
+      "path": "after/720x1280/restored.png",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T052853173219Z/720x1280/restored.png",
+      "bytes": 852484,
+      "sha256": "09af6cd277c2f30bf036206a9a4859bf64c5219406307a90746390dafbe83d49",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true,
+      "pixels": [
+        720,
+        1280
+      ]
+    },
+    {
+      "path": "after/720x1280/state-planning.json",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T052853173219Z/720x1280/state-planning.json",
+      "bytes": 515,
+      "sha256": "6d699ec3791d64254429f42af1a264ce9107df8d356e8a4fac3b79da016dd4c8",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "after/720x1280/state-won.json",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T052853173219Z/720x1280/state-won.json",
+      "bytes": 515,
+      "sha256": "928b4a2ac81c32d4ae215c54b3e707cedd30e25d967ec60bb90987caec27d74b",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "after/720x1280/transport.png",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T052853173219Z/720x1280/transport.png",
+      "bytes": 844252,
+      "sha256": "d14286c4890081c8262b8da5a0b43fa90ce79c2194aafb6bbb09930802690321",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true,
+      "pixels": [
+        720,
+        1280
+      ]
+    },
+    {
+      "path": "after/720x1280/won.png",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T052853173219Z/720x1280/won.png",
+      "bytes": 741517,
+      "sha256": "2d5908d4c1ae9e878bd23f740e00e60f00590b4442c1b6f97263a82d9d8a2940",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true,
+      "pixels": [
+        720,
+        1280
+      ]
+    },
+    {
+      "path": "after/launch-13235.log",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T052853173219Z/launch-13235.log",
+      "bytes": 263,
+      "sha256": "90506b3f893edbac44bcd977b89a7fbbfa866d9f0adff159cd069284395fff02",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "after/receipt.json",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T052853173219Z/receipt.json",
+      "bytes": 22375,
+      "sha256": "53045f438cb3cfc298abdf326fd8a1da357b934a92e201306498436324c2e9aa",
+      "kind": "authentic ADB capture/receipt/log; no image retouch",
+      "unchanged_copy": true
+    },
+    {
+      "path": "candidates/candidate-03.png",
+      "source": "games/001-switchworks/artifacts/polish/candidate-03.png",
+      "bytes": 351370,
+      "sha256": "ebe709915c609fbb689fb00fb375f1b59d77c6d4effb146090cc5fde26611ba6",
+      "kind": "native candidate or compact proof; actual dimensions in manifest",
+      "unchanged_copy": true,
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "candidates/a17bed94-restored-rejected.png",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T050318497285Z/1080x2400/restored.png",
+      "bytes": 2196029,
+      "sha256": "b3ff7696d5339ead9135b0376e1ecbca02dfc94d6993de0bdaafdaba11202b4f",
+      "kind": "native candidate or compact proof; actual dimensions in manifest",
+      "unchanged_copy": true,
+      "pixels": [
+        1080,
+        2400
+      ]
+    },
+    {
+      "path": "candidates/v5-1200x1600-won.png",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T051837886476Z/1200x1600/won.png",
+      "bytes": 1384789,
+      "sha256": "9a9d3e05a1e44e4e806d0ce82c84a86203407889f6846d6c6131b8fa5677d99d",
+      "kind": "native candidate or compact proof; actual dimensions in manifest",
+      "unchanged_copy": true,
+      "pixels": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "path": "candidates/v4-guidance-smoke.png",
+      "source": "games/001-switchworks/artifacts/polish/v4-restored-smoke.png",
+      "bytes": 2202340,
+      "sha256": "43c78d08c8d0267b98680dade255429db5807104da101d6916e9f746c30e32cd",
+      "kind": "native candidate or compact proof; actual dimensions in manifest",
+      "unchanged_copy": true,
+      "pixels": [
+        1080,
+        2400
+      ]
+    },
+    {
+      "path": "compact/after-360x640-planning.png",
+      "source": "games/001-switchworks/artifacts/polish/desktop-captures/desktop-360x640-planning.png",
+      "bytes": 243424,
+      "sha256": "26da7599c518894dbc676fdbd18161f7cc13da0173b2f7dfa0b89d49ebbce4aa",
+      "kind": "native candidate or compact proof; actual dimensions in manifest",
+      "unchanged_copy": true,
+      "pixels": [
+        360,
+        640
+      ]
+    },
+    {
+      "path": "compact/before-360x640-planning.png",
+      "source": "games/001-switchworks/docs/vertical-slice/evidence/desktop/desktop-360x640-planning.png",
+      "bytes": 236168,
+      "sha256": "5f443af88e67509fc999715d6ab0fb05cdb33619598adf390cb5eb7761da662d",
+      "kind": "native candidate or compact proof; actual dimensions in manifest",
+      "unchanged_copy": true,
+      "pixels": [
+        360,
+        640
+      ]
+    },
+    {
+      "path": "tests/baseline-tests.log",
+      "source": "games/001-switchworks/artifacts/polish/baseline-tests.log",
+      "bytes": 18604,
+      "sha256": "277ea370553a539c2dc327b198bd5442192d151ad43d89e2ad37e8a1f50aca5a",
+      "kind": "test/tool original log; negative-control failures intentional",
+      "unchanged_copy": true
+    },
+    {
+      "path": "tests/final-v4-tests.log",
+      "source": "games/001-switchworks/artifacts/polish/final-v4-tests.log",
+      "bytes": 232264,
+      "sha256": "67191b73eed5621df8c4387843e528f655191c3afad8b7e0d7b54ddf2ac155b5",
+      "kind": "test/tool original log; negative-control failures intentional",
+      "unchanged_copy": true
+    },
+    {
+      "path": "tests/polish-state-visibility-final.log",
+      "source": "games/001-switchworks/artifacts/polish/polish-state-visibility-final.log",
+      "bytes": 119858,
+      "sha256": "16c96c3edf1da0a4c9e5916235a01318ba6c7062d7d00f3460578441b06695d2",
+      "kind": "test/tool original log; negative-control failures intentional",
+      "unchanged_copy": true
+    },
+    {
+      "path": "tests/polish-state-visibility-negative.log",
+      "source": "games/001-switchworks/artifacts/polish/polish-state-visibility-negative.log",
+      "bytes": 120301,
+      "sha256": "690ded51dc60e5d9b062dfc95c807f7c4e51f0e3fafc514f8b910c947a97ba5c",
+      "kind": "test/tool original log; negative-control failures intentional",
+      "unchanged_copy": true
+    },
+    {
+      "path": "tests/art-glaze-final.log",
+      "source": "games/001-switchworks/artifacts/polish/art-glaze-final.log",
+      "bytes": 152,
+      "sha256": "d051a1897d56368f68ccf066c7d5b05d8b46e3e031e0a293fe90b026bcf236d0",
+      "kind": "test/tool original log; negative-control failures intentional",
+      "unchanged_copy": true
+    },
+    {
+      "path": "tests/compile-all.log",
+      "source": "games/001-switchworks/artifacts/polish/compile-all.log",
+      "bytes": 110,
+      "sha256": "588a487ab69f19864f960d5b5f3aa51438827f4cda4b352b970da8246047c83a",
+      "kind": "test/tool original log; negative-control failures intentional",
+      "unchanged_copy": true
+    },
+    {
+      "path": "tests/compact-final.log",
+      "source": "games/001-switchworks/artifacts/polish/compact-final.log",
+      "bytes": 9679,
+      "sha256": "52c19d4083d860375f4eabaf81364541c290dd431367aa1ef6a54e6a563ce92b",
+      "kind": "test/tool original log; negative-control failures intentional",
+      "unchanged_copy": true
+    },
+    {
+      "path": "tests/export-polish-v6.log",
+      "source": "games/001-switchworks/artifacts/polish/export-polish-v6.log",
+      "bytes": 8772,
+      "sha256": "7383be142250b30a9054035ece7ef636fbcef89745ea2c44a7af820f47777c56",
+      "kind": "test/tool original log; negative-control failures intentional",
+      "unchanged_copy": true
+    },
+    {
+      "path": "diagnostics/comparison-planning-1080x2400.png",
+      "kind": "diagnostic assembly, not a new engine capture; source pixels copied at 1:1",
+      "sources": [
+        "before/1080x2400/planning.png",
+        "after/1080x2400/planning.png"
+      ],
+      "bytes": 3169299,
+      "sha256": "7f9a30e85b656a79122205022eb023b0569d0282ed94b65736673ec5a6b55c8b",
+      "pixels": [
+        2160,
+        2464
+      ],
+      "unchanged_copy": false
+    },
+    {
+      "path": "diagnostics/comparison-won-1080x2400.png",
+      "kind": "diagnostic assembly, not a new engine capture; source pixels copied at 1:1",
+      "sources": [
+        "before/1080x2400/won.png",
+        "after/1080x2400/won.png"
+      ],
+      "bytes": 2860026,
+      "sha256": "248467d3830c3940a34ee20944ec2ea0c7ac5fcc5f8d83b9f29d897732d0dfe6",
+      "pixels": [
+        2160,
+        2464
+      ],
+      "unchanged_copy": false
+    },
+    {
+      "path": "diagnostics/comparison-restored-1080x2400.png",
+      "kind": "diagnostic assembly, not a new engine capture; source pixels copied at 1:1",
+      "sources": [
+        "before/1080x2400/restored.png",
+        "after/1080x2400/restored.png"
+      ],
+      "bytes": 3170385,
+      "sha256": "e4e7e9d4e6a5a54553a24dbc5aab09558d1297c921d4ec41d7759798c1bd75b2",
+      "pixels": [
+        2160,
+        2464
+      ],
+      "unchanged_copy": false
+    },
+    {
+      "path": "diagnostics/before-prepared-grayscale.png",
+      "kind": "derived grayscale inspection, not an original native capture or colour-vision simulation",
+      "sources": [
+        "before/1080x2400/prepared.png"
+      ],
+      "bytes": 705852,
+      "sha256": "438f20fded59c9c87cae8746b409cf278bf6252d2a5b82ce0bd8ce126fa66bc3",
+      "pixels": [
+        1080,
+        2400
+      ],
+      "unchanged_copy": false
+    },
+    {
+      "path": "diagnostics/after-prepared-grayscale.png",
+      "kind": "derived grayscale inspection, not an original native capture or colour-vision simulation",
+      "sources": [
+        "after/1080x2400/prepared.png"
+      ],
+      "bytes": 740142,
+      "sha256": "ab6114b12cb41c50b1e6b4c3db466103a701560f6d6d04bd1091ac2e2786c309",
+      "pixels": [
+        1080,
+        2400
+      ],
+      "unchanged_copy": false
+    },
+    {
+      "path": "regression/android-gameplay.mp4",
+      "source": "games/001-switchworks/artifacts/slice-android/final-20261114T053914646806Z/android-gameplay.mp4",
+      "bytes": 3712687,
+      "sha256": "b5eec73d4a90b5f21f2c063d5a95ec3be67cfec092b24ce6e09296581787846c",
+      "kind": "additional authentic V6 Android regression and 720x1600 movie",
+      "unchanged_copy": true
+    },
+    {
+      "path": "regression/apk-badging.log",
+      "source": "games/001-switchworks/artifacts/slice-android/final-20261114T053914646806Z/apk-badging.log",
+      "bytes": 6000,
+      "sha256": "2f038bbfcd5d11d6cf0b58f7270cff9f17e8c9a42274d46922da887ca301d7e3",
+      "kind": "additional authentic V6 Android regression and 720x1600 movie",
+      "unchanged_copy": true
+    },
+    {
+      "path": "regression/app-3675.log",
+      "source": "games/001-switchworks/artifacts/slice-android/final-20261114T053914646806Z/app-3675.log",
+      "bytes": 56075,
+      "sha256": "a0efbf114bd2700e7f829ce6df2d5ffc309294bf04d28c63bc04b04301b4038b",
+      "kind": "additional authentic V6 Android regression and 720x1600 movie",
+      "unchanged_copy": true
+    },
+    {
+      "path": "regression/app-4669.log",
+      "source": "games/001-switchworks/artifacts/slice-android/final-20261114T053914646806Z/app-4669.log",
+      "bytes": 19247,
+      "sha256": "5b9123bbc7e3b1025f9b156e090c7508e4bdac746c74d2aa658fd83bf4a988cd",
+      "kind": "additional authentic V6 Android regression and 720x1600 movie",
+      "unchanged_copy": true
+    },
+    {
+      "path": "regression/home-resumed-paused.png",
+      "source": "games/001-switchworks/artifacts/slice-android/final-20261114T053914646806Z/home-resumed-paused.png",
+      "bytes": 950961,
+      "sha256": "4ee393369a6401255bae0d083c476deb7c3f642fc43bbc6a6dabbec36f610d00",
+      "kind": "additional authentic V6 Android regression and 720x1600 movie",
+      "unchanged_copy": true,
+      "pixels": [
+        1080,
+        2400
+      ]
+    },
+    {
+      "path": "regression/launch-3675.log",
+      "source": "games/001-switchworks/artifacts/slice-android/final-20261114T053914646806Z/launch-3675.log",
+      "bytes": 262,
+      "sha256": "a62851a7b98f945186261adca1503eb295762afe956e4ae5c7ba77a01a994cce",
+      "kind": "additional authentic V6 Android regression and 720x1600 movie",
+      "unchanged_copy": true
+    },
+    {
+      "path": "regression/launch-4669.log",
+      "source": "games/001-switchworks/artifacts/slice-android/final-20261114T053914646806Z/launch-4669.log",
+      "bytes": 263,
+      "sha256": "4396e8e74a07c5516b0792703c2d44427691a27f7088a728b8f8878025e93786",
+      "kind": "additional authentic V6 Android regression and 720x1600 movie",
+      "unchanged_copy": true
+    },
+    {
+      "path": "regression/memory.log",
+      "source": "games/001-switchworks/artifacts/slice-android/final-20261114T053914646806Z/memory.log",
+      "bytes": 3312,
+      "sha256": "f66fde365d4b5b20bce3832a71d91877aae49334fad65cb25f2206873ce4dafc",
+      "kind": "additional authentic V6 Android regression and 720x1600 movie",
+      "unchanged_copy": true
+    },
+    {
+      "path": "regression/receipt.json",
+      "source": "games/001-switchworks/artifacts/slice-android/final-20261114T053914646806Z/receipt.json",
+      "bytes": 13428,
+      "sha256": "f3df16b0fdf3a85dc17d97c7a82924593bb48357ec78009a01e5cc3fa767cb6f",
+      "kind": "additional authentic V6 Android regression and 720x1600 movie",
+      "unchanged_copy": true
+    },
+    {
+      "path": "regression/running-resumed-paused.png",
+      "source": "games/001-switchworks/artifacts/slice-android/final-20261114T053914646806Z/running-resumed-paused.png",
+      "bytes": 1127306,
+      "sha256": "0206c3c4a1deef85055a7dc9c12da27fc27c3f6aa3f81dc7b8b4fecdc04e4e1c",
+      "kind": "additional authentic V6 Android regression and 720x1600 movie",
+      "unchanged_copy": true,
+      "pixels": [
+        1080,
+        2400
+      ]
+    },
+    {
+      "path": "regression/screenrecord.log",
+      "source": "games/001-switchworks/artifacts/slice-android/final-20261114T053914646806Z/screenrecord.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "additional authentic V6 Android regression and 720x1600 movie",
+      "unchanged_copy": true
+    },
+    {
+      "path": "regression/state-before-force-stop.json",
+      "source": "games/001-switchworks/artifacts/slice-android/final-20261114T053914646806Z/state-before-force-stop.json",
+      "bytes": 515,
+      "sha256": "6bfb6b5f8d8dd8bf3f251cc6f79ca9a53fdced6a595659a943984b843eb284c5",
+      "kind": "additional authentic V6 Android regression and 720x1600 movie",
+      "unchanged_copy": true
+    },
+    {
+      "path": "regression/state-failed.json",
+      "source": "games/001-switchworks/artifacts/slice-android/final-20261114T053914646806Z/state-failed.json",
+      "bytes": 515,
+      "sha256": "cc7ce02f48e0e8ed6f139927dfff7927d4f7c9ec5c874081de19b5f2bc52eda4",
+      "kind": "additional authentic V6 Android regression and 720x1600 movie",
+      "unchanged_copy": true
+    },
+    {
+      "path": "regression/state-handoff.json",
+      "source": "games/001-switchworks/artifacts/slice-android/final-20261114T053914646806Z/state-handoff.json",
+      "bytes": 515,
+      "sha256": "6d699ec3791d64254429f42af1a264ce9107df8d356e8a4fac3b79da016dd4c8",
+      "kind": "additional authentic V6 Android regression and 720x1600 movie",
+      "unchanged_copy": true
+    },
+    {
+      "path": "regression/state-initial.json",
+      "source": "games/001-switchworks/artifacts/slice-android/final-20261114T053914646806Z/state-initial.json",
+      "bytes": 515,
+      "sha256": "6d699ec3791d64254429f42af1a264ce9107df8d356e8a4fac3b79da016dd4c8",
+      "kind": "additional authentic V6 Android regression and 720x1600 movie",
+      "unchanged_copy": true
+    },
+    {
+      "path": "regression/state-prepared.json",
+      "source": "games/001-switchworks/artifacts/slice-android/final-20261114T053914646806Z/state-prepared.json",
+      "bytes": 515,
+      "sha256": "f7438d46d964133163c7b2f62cc024212d775b943bfa35beb8178a418a699257",
+      "kind": "additional authentic V6 Android regression and 720x1600 movie",
+      "unchanged_copy": true
+    },
+    {
+      "path": "regression/state-won.json",
+      "source": "games/001-switchworks/artifacts/slice-android/final-20261114T053914646806Z/state-won.json",
+      "bytes": 515,
+      "sha256": "ab218a8707ac4dbb7b5d533c5395e0ec31895a4cf4512114893c3f3f0f434084",
+      "kind": "additional authentic V6 Android regression and 720x1600 movie",
+      "unchanged_copy": true
+    },
+    {
+      "path": "regression/won-after-running-resume.png",
+      "source": "games/001-switchworks/artifacts/slice-android/final-20261114T053914646806Z/won-after-running-resume.png",
+      "bytes": 1936072,
+      "sha256": "f5708e4f8f6b3bf568e0cb985a3762619b6bc9c9677eae453ed43e32b76a7922",
+      "kind": "additional authentic V6 Android regression and 720x1600 movie",
+      "unchanged_copy": true,
+      "pixels": [
+        1080,
+        2400
+      ]
+    },
+    {
+      "path": "video-analysis/video-final/samples.log",
+      "source": "games/001-switchworks/artifacts/polish/video-final/samples.log",
+      "bytes": 22287,
+      "sha256": "d522a52d1fde469c9a1984d12eecfd25e8d261a9784ab51243b6a247921e40dd",
+      "kind": "decoder observations; not motor/GPU/input latency",
+      "unchanged_copy": true
+    },
+    {
+      "path": "video-analysis/video-final/full-decode.log",
+      "source": "games/001-switchworks/artifacts/polish/video-final/full-decode.log",
+      "bytes": 103187,
+      "sha256": "a2cef9b7ea10bd798fad9c5dfddb531cd17f9cd5aa2fbced87e373c7cf9a2389",
+      "kind": "decoder observations; not motor/GPU/input latency",
+      "unchanged_copy": true
+    },
+    {
+      "path": "video-analysis/video-720-final/samples.log",
+      "source": "games/001-switchworks/artifacts/polish/video-720-final/samples.log",
+      "bytes": 36763,
+      "sha256": "c03f7292054a509ab5922c12ee9ff71777b93be50d040a1276a2d852d8c8f9b0",
+      "kind": "decoder observations; not motor/GPU/input latency",
+      "unchanged_copy": true
+    },
+    {
+      "path": "video-analysis/video-720-final/full-decode.log",
+      "source": "games/001-switchworks/artifacts/polish/video-720-final/full-decode.log",
+      "bytes": 177497,
+      "sha256": "a95b1c308d61fe44cf8338904af44059bc09f269db09cfba65bb0299c813bcdd",
+      "kind": "decoder observations; not motor/GPU/input latency",
+      "unchanged_copy": true
+    },
+    {
+      "path": "video-analysis/video-720-final/analysis.json",
+      "source": "games/001-switchworks/artifacts/polish/video-720-final/analysis.json",
+      "bytes": 388,
+      "sha256": "a53a13d4340938c36a63961cb28a6fbdc73d78814609b7bb6e0f28f8b2f46e28",
+      "kind": "decoder observations; not motor/GPU/input latency",
+      "unchanged_copy": true
+    },
+    {
+      "path": "video-analysis/arrival-frame-021.png",
+      "source": "games/001-switchworks/artifacts/polish/video-720-final/frame-021.png",
+      "bytes": 572707,
+      "sha256": "321cf85307d8bcf9d62b8bfc5aee6be088371f095b24ab4675de1c8b8b073ce3",
+      "kind": "decoded movie sample, not a native framebuffer PNG",
+      "unchanged_copy": true,
+      "pixels": [
+        720,
+        1600
+      ]
+    },
+    {
+      "path": "video-analysis/arrival-frame-023.png",
+      "source": "games/001-switchworks/artifacts/polish/video-720-final/frame-023.png",
+      "bytes": 572449,
+      "sha256": "e303d8be09ac794220e8213a79af6fb151197ce4ad6298863f18572e1e187122",
+      "kind": "decoded movie sample, not a native framebuffer PNG",
+      "unchanged_copy": true,
+      "pixels": [
+        720,
+        1600
+      ]
+    },
+    {
+      "path": "video-analysis/arrival-frame-025.png",
+      "source": "games/001-switchworks/artifacts/polish/video-720-final/frame-025.png",
+      "bytes": 572126,
+      "sha256": "2455d105b0b8bccda9e88331ae2c83c97c709a9eb8150f2ced2e27f89f403bca",
+      "kind": "decoded movie sample, not a native framebuffer PNG",
+      "unchanged_copy": true,
+      "pixels": [
+        720,
+        1600
+      ]
+    },
+    {
+      "path": "reports-original/VISUAL_QA_DRAFT.md",
+      "source": "games/001-switchworks/docs/polish/VISUAL_QA_DRAFT.md",
+      "bytes": 7089,
+      "sha256": "57a2ba15c940dc3bfaa1bdb8d007d0a2a3eda017e82b27bbd45bbe50657eed0a",
+      "kind": "original intermediate report; analysis preserved before relinking",
+      "unchanged_copy": true
+    },
+    {
+      "path": "reports-original/VISUAL_QA_V5.md",
+      "source": "games/001-switchworks/docs/polish/VISUAL_QA_V5.md",
+      "bytes": 12064,
+      "sha256": "4bf2f75920fdbef96100dd91f5b4a63559dbce57233886da57cd45847abf7654",
+      "kind": "original intermediate report; analysis preserved before relinking",
+      "unchanged_copy": true
+    },
+    {
+      "path": "candidates/v5/1080x2400/restored.png",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T051837886476Z/1080x2400/restored.png",
+      "bytes": 2204587,
+      "sha256": "b4f85c757d190c7ce3717ebebbf9564aa81aefcd96ef31b5ff8cf4f2c516fdb6",
+      "kind": "original V5 proof for intermediate report",
+      "unchanged_copy": true
+    },
+    {
+      "path": "candidates/v5/receipt.json",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T051837886476Z/receipt.json",
+      "bytes": 22365,
+      "sha256": "7e904918bb9668516fb066d520b09c4fd257c8ff9f7e6e528466e96fae27b24c",
+      "kind": "original V5 proof for intermediate report",
+      "unchanged_copy": true
+    },
+    {
+      "path": "candidates/v5/1080x2400/won.png",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T051837886476Z/1080x2400/won.png",
+      "bytes": 1937673,
+      "sha256": "264fc97aef27c66cb02c1d6e1aeb7ab8c54ed2cabb1bdb724c7a5e16a9140cc5",
+      "kind": "original V5 proof for intermediate report",
+      "unchanged_copy": true
+    },
+    {
+      "path": "candidates/v5/720x1280/restored.png",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T051837886476Z/720x1280/restored.png",
+      "bytes": 852484,
+      "sha256": "09af6cd277c2f30bf036206a9a4859bf64c5219406307a90746390dafbe83d49",
+      "kind": "original V5 proof for intermediate report",
+      "unchanged_copy": true
+    },
+    {
+      "path": "candidates/v5/1200x1600/restored.png",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T051837886476Z/1200x1600/restored.png",
+      "bytes": 1505841,
+      "sha256": "7d5444868054945c6b7f08d83ff8feebf24de80c26ba21737ccadffc8fb0e8c0",
+      "kind": "original V5 proof for intermediate report",
+      "unchanged_copy": true
+    },
+    {
+      "path": "candidates/v5/1200x1600/won.png",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T051837886476Z/1200x1600/won.png",
+      "bytes": 1384789,
+      "sha256": "9a9d3e05a1e44e4e806d0ce82c84a86203407889f6846d6c6131b8fa5677d99d",
+      "kind": "original V5 proof for intermediate report",
+      "unchanged_copy": true
+    },
+    {
+      "path": "candidates/v5/1080x2400/planning.png",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T051837886476Z/1080x2400/planning.png",
+      "bytes": 2197902,
+      "sha256": "0e68ea8b3038227b5f1e33d2778b1866d73c6f4da0d1e621b7aa7264869718b9",
+      "kind": "original V5 proof for intermediate report",
+      "unchanged_copy": true
+    },
+    {
+      "path": "candidates/v5/1200x1600/planning.png",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T051837886476Z/1200x1600/planning.png",
+      "bytes": 1500650,
+      "sha256": "8879b888d016de03ae27d481d9f23d9dc09a8187b380f1841c3e827100d373b6",
+      "kind": "original V5 proof for intermediate report",
+      "unchanged_copy": true
+    },
+    {
+      "path": "candidates/v5/720x1280/planning.png",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T051837886476Z/720x1280/planning.png",
+      "bytes": 847470,
+      "sha256": "c43544677d7e44b629fff04e9966efb66c067f21d645d93fd4d44b89f0dd6295",
+      "kind": "original V5 proof for intermediate report",
+      "unchanged_copy": true
+    },
+    {
+      "path": "candidates/v5/1080x2400/transport.png",
+      "source": "games/001-switchworks/artifacts/polish/android-after-20261114T051837886476Z/1080x2400/transport.png",
+      "bytes": 2195129,
+      "sha256": "9da9c75c17b044bcdf6f2eb62d398ab6c5708e59389150e12e71934b648ee891",
+      "kind": "original V5 proof for intermediate report",
+      "unchanged_copy": true
+    },
+    {
+      "path": "reports-original/README.txt",
+      "kind": "archive context note",
+      "bytes": 322,
+      "sha256": "0dac16ddaaa15790f5fa58f5b2cce9f2f9fa3676e040b3f710e3ba4db3fc3858",
+      "unchanged_copy": false
+    }
+  ],
+  "supplied_review_inputs": [
+    {
+      "path": "games/001-switchworks/docs/revue-critique-ia-2026-11-14/COMPARAISON_CONCEPT_REEL.png",
+      "sha256": "1100f5c84d4b067e640d304826b66cf0852ca2ab5fce9229d57195e0fc8531bd",
+      "bytes": 1521112
+    },
+    {
+      "path": "games/001-switchworks/docs/revue-critique-ia-2026-11-14/PROMPT_CODEX.md",
+      "sha256": "1845c1f3a622de11e3dc9edde5352b0bad7faf4f60b285a9edb924295512de9a",
+      "bytes": 4120
+    },
+    {
+      "path": "games/001-switchworks/docs/revue-critique-ia-2026-11-14/REVUE_CRITIQUE.md",
+      "sha256": "6689cb98e4f4fc6a4321bf8fe8772c3a0c4d1ba5fcc5ed8485a71c726efd1c4d",
+      "bytes": 10967
+    }
+  ],
+  "current_runtime_snapshot": [
+    {
+      "path": "scripts/archipel/archipel_screen.gd",
+      "sha256": "d565a52c4930ff0d9eeeacc50a14f396797514f94de0273221a6dfdda3b94529",
+      "bytes": 31875
+    },
+    {
+      "path": "scripts/archipel/archipel_screen.gd.uid",
+      "sha256": "c7afd0cc77a3aa4e158429a36a42490d11b8ab1ff7e52eae67c0dcc105495cc2",
+      "bytes": 19
+    },
+    {
+      "path": "scripts/archipel/board_view.gd",
+      "sha256": "6da786aab97f02a5aa25e419a74ad414218ea49365d08538d44be805ef4eaa99",
+      "bytes": 19172
+    },
+    {
+      "path": "scripts/archipel/board_view.gd.uid",
+      "sha256": "16f911321be339ac95814705c8e5775065f7e398561785852dd18e5f86266451",
+      "bytes": 20
+    },
+    {
+      "path": "scripts/archipel/postal_theme.gd",
+      "sha256": "1da9b9cd1a37219124bcb20bedd5592acd68eb7339175f1444db6c20be1a8841",
+      "bytes": 2008
+    },
+    {
+      "path": "scripts/archipel/postal_theme.gd.uid",
+      "sha256": "834e7358529259b5d0763531798362801fd606c14e2a948e8489a9af650849d1",
+      "bytes": 20
+    },
+    {
+      "path": "scripts/domain/postal_board.gd",
+      "sha256": "80694da5cb63dffa6baa82ab7048049953e1700f9aeb12a6abceb8b5a3886168",
+      "bytes": 8116
+    },
+    {
+      "path": "scripts/domain/postal_board.gd.uid",
+      "sha256": "f492d81b1a443ee2a0ab816792db1cdbd326f5ebc17380a4ef342d7af2beeee7",
+      "bytes": 20
+    },
+    {
+      "path": "scripts/domain/postal_level.gd",
+      "sha256": "8a1ba3795bbf24d7e13d8c92a87b6619cd7cb4ded407155b80a01a1817b2251f",
+      "bytes": 8143
+    },
+    {
+      "path": "scripts/domain/postal_level.gd.uid",
+      "sha256": "047d28284bfaddeeb7a6302885d97b7ed8bf959d715db83a7698a15e0239a763",
+      "bytes": 19
+    },
+    {
+      "path": "scripts/verification.gd",
+      "sha256": "daf9f93f9d654b2fbc101d8b4613d51b4f7455cc91476b040508519aeb14cc33",
+      "bytes": 2025
+    },
+    {
+      "path": "scripts/verification.gd.uid",
+      "sha256": "a2b3d0639e41b0eef4e944fcf79c4ade3111efb90ea20d24fe5ff3ae291e4229",
+      "bytes": 19
+    },
+    {
+      "path": "scripts/visuals/postal_art_factory.gd",
+      "sha256": "ddf9ee273857acae01ba2cacf2b01024fc2c00e1e217a814e1e71b848bc10d42",
+      "bytes": 26711
+    },
+    {
+      "path": "scripts/visuals/postal_art_factory.gd.uid",
+      "sha256": "da0dfb0c26b9913c74db34b6e5c11a7e23fc84106a248ecf60919b47f3588f9e",
+      "bytes": 20
+    },
+    {
+      "path": "scenes/archipel_postal.tscn",
+      "sha256": "1d07d6ce0c7f9ed19975c6d3c381b984d908aaf0955ea3e298353a24a43250b0",
+      "bytes": 303
+    },
+    {
+      "path": "scenes/verification.tscn",
+      "sha256": "588ef7f0ef657a0170e666d0e212395768464b00b19188e41f4dfd59910cae70",
+      "bytes": 2612
+    },
+    {
+      "path": "data/archipel_double_flux.json",
+      "sha256": "1898b66cf31b4b7d10a2eea9a540162202fcc041869146c766565604d89676fa",
+      "bytes": 2126
+    },
+    {
+      "path": "assets/archipel/asset-manifest.json",
+      "sha256": "acecc6ed0fa0e1b72d83935dab07bfbc57b6799fe1a6865834384a3c61241cdf",
+      "bytes": 8696
+    },
+    {
+      "path": "assets/archipel/textures/paper-albedo-v1.png",
+      "sha256": "27ebbb0ad5df495faf5335057559f2960cd8f5d937cdcb7780bf28d9ce7cc142",
+      "bytes": 2529707
+    },
+    {
+      "path": "assets/archipel/textures/paper-albedo-v1.png.import",
+      "sha256": "2a00e591d455001deb9f4c6fca09cbecbaa22567cec04cf745875cbd3b3f658e",
+      "bytes": 976
+    },
+    {
+      "path": "assets/archipel/textures/paper_fibres.svg",
+      "sha256": "9bd32b605b48651d1636a358d938207061e9694102281c91067c429d62428dd4",
+      "bytes": 13677
+    },
+    {
+      "path": "assets/archipel/textures/paper_fibres.svg.import",
+      "sha256": "17325e746870a243b167efb419f0d249b48679a27c7dceca6ab4b00c0fc31b42",
+      "bytes": 1062
+    },
+    {
+      "path": "assets/archipel/textures/porcelain-albedo-v1.png",
+      "sha256": "c9fb5d7509dd3c0b06e95770a4e3d62bcf9240512e0a49d11cd6231c36362d95",
+      "bytes": 1841327
+    },
+    {
+      "path": "assets/archipel/textures/porcelain-albedo-v1.png.import",
+      "sha256": "8d8d94a95ea5beff9782466cecc1e19e6533c7c18a911aa59ece6a940dc87391",
+      "bytes": 987
+    },
+    {
+      "path": "assets/archipel/textures/porcelain_micro.svg",
+      "sha256": "920ad7ef7348c58013435d24125704c23809573eb1966bce2d690ca2894eba23",
+      "bytes": 13584
+    },
+    {
+      "path": "assets/archipel/textures/porcelain_micro.svg.import",
+      "sha256": "725840da3bba5932c0f7340213b37e57852e06a576c2fa6942851786ea5bcacd",
+      "bytes": 1071
+    },
+    {
+      "path": "assets/archipel/textures/sky-paper-v1.png",
+      "sha256": "f76b161de830ad958b01be2097c3ae8835be592584b5edac228d996fff3c28dd",
+      "bytes": 2109413
+    },
+    {
+      "path": "assets/archipel/textures/sky-paper-v1.png.import",
+      "sha256": "84307fa28df8ffa34760f498238b7226363e41a2b7711c27eed316f1905e6a45",
+      "bytes": 965
+    },
+    {
+      "path": "assets/fonts/NunitoSans-Variable.ttf",
+      "sha256": "f934d7142fb4784bf828da485b7dcbd90c0c80d514e9d49a5da0ed3a1ae2491d",
+      "bytes": 571240
+    },
+    {
+      "path": "assets/fonts/NunitoSans-Variable.ttf.import",
+      "sha256": "ae78ec7bd3e27e705c539da3a4e47deeda9269432113a1083d00a6c3ddc7316b",
+      "bytes": 795
+    },
+    {
+      "path": "assets/fonts/OFL-NunitoSans.txt",
+      "sha256": "efbb0c9e864cef973982d9a17567e6be5c3d1759695574586f3f18c7ecca064b",
+      "bytes": 4393
+    },
+    {
+      "path": "assets/fonts/SOURCE.json",
+      "sha256": "5b0c9ccd6eff35dbfc2154103e55ef1dc5ada3b6efc0f350b7701144975f8c9b",
+      "bytes": 498
+    },
+    {
+      "path": "assets/licenses/GODOT_COPYRIGHT.txt",
+      "sha256": "cb1980c88089573bcacd7221d777c689bb8bbd778799f24c27fca0fe5f774d6d",
+      "bytes": 100108
+    },
+    {
+      "path": "assets/licenses/GODOT_LICENSE.txt",
+      "sha256": "b0435e3b3e4e55238f05f4b306f30524a1b2e20147810d436eaa554fa6855c80",
+      "bytes": 1149
+    },
+    {
+      "path": "icons/archipel.svg",
+      "sha256": "b2c808f9d487e00ff4ad17cc2cd6f39f3285b17316ff91c1b37316d7ab461c4a",
+      "bytes": 477
+    },
+    {
+      "path": "icons/archipel.svg.import",
+      "sha256": "cbf1644f11a0e7ccbe8e0dc83f7d07eb3b89dcb480f6ed856d0fa8580cc83809",
+      "bytes": 1031
+    },
+    {
+      "path": "icons/verification.svg",
+      "sha256": "f963c4701ead75d676922f51b52aeca0be057b3ff17a059911e5e2b82fbf903e",
+      "bytes": 280
+    },
+    {
+      "path": "icons/verification.svg.import",
+      "sha256": "7cd5a86bc540e3097d9b58789792d2840be659244946f0e352b538be1af56d61",
+      "bytes": 1043
+    },
+    {
+      "path": "project.godot",
+      "sha256": "cdc36267b81e3258d2526fa1ab7ccb96b021c82bd8b6fc589b9cd6e5053d3c2a",
+      "bytes": 1085
+    },
+    {
+      "path": "export_presets.cfg",
+      "sha256": "40e5b8180681cc890f0543e79420c55ede90d1bdff90a2a3b111789ee005cff8",
+      "bytes": 20831
+    }
+  ],
+  "additional_regression_apk_sha256": "6f3b3853bda59dbde4697814aa5afe547f37e7513408ce0d6a719c194769e965"
+}

@@ -14,6 +14,8 @@ var _world: Node3D
 var _camera: Camera3D
 var _rails: Dictionary[int, Node3D] = {}
 var _parcels: Dictionary[String, Node3D] = {}
+var _receptions: Dictionary[String, Node3D] = {}
+var _lid_tweens: Dictionary[String, Tween] = {}
 var _level: PostalLevel
 var _ports: PackedInt32Array = PackedInt32Array()
 var _selection: Node3D
@@ -51,22 +53,44 @@ func _ready() -> void:
 	environment.background_color = Color("b7d8e3")
 	environment.ambient_light_source = Environment.AMBIENT_SOURCE_COLOR
 	environment.ambient_light_color = Color("dceaf0")
-	environment.ambient_light_energy = 0.22
+	environment.ambient_light_energy = 0.32
 	environment.tonemap_mode = Environment.TONE_MAPPER_LINEAR
+	# Static, low-resolution reflections give the glazed edges a material response.
+	# This sky is not the visible background and does not add noise to the puzzle.
+	var reflection_material := ProceduralSkyMaterial.new()
+	reflection_material.sky_top_color = Color("8faebc")
+	reflection_material.sky_horizon_color = Color("eee7d6")
+	reflection_material.ground_horizon_color = Color("d1d9cc")
+	reflection_material.ground_bottom_color = Color("687d7b")
+	reflection_material.energy_multiplier = 0.65
+	var reflection_sky := Sky.new()
+	reflection_sky.radiance_size = Sky.RADIANCE_SIZE_128
+	reflection_sky.process_mode = Sky.PROCESS_MODE_QUALITY
+	reflection_sky.sky_material = reflection_material
+	environment.sky = reflection_sky
+	environment.reflected_light_source = Environment.REFLECTION_SOURCE_SKY
 	var world_environment := WorldEnvironment.new()
 	world_environment.environment = environment
 	_world.add_child(world_environment)
 	var sun := DirectionalLight3D.new()
-	sun.rotation_degrees = Vector3(-58, -32, 0)
+	sun.rotation_degrees = Vector3(-68, -28, 0)
 	sun.light_color = Color("fffaf0")
-	sun.light_energy = 0.60
+	sun.light_energy = 0.56
+	sun.sky_mode = DirectionalLight3D.SKY_MODE_LIGHT_ONLY
 	sun.shadow_enabled = true
-	sun.directional_shadow_max_distance = 22.0
+	# A short, low-opacity orthogonal shadow fits this six-cell miniature.
+	# Compatibility does not provide Forward+'s physical penumbra; inspect native pixels.
+	sun.directional_shadow_mode = DirectionalLight3D.SHADOW_ORTHOGONAL
+	sun.directional_shadow_max_distance = 16.0
+	sun.shadow_opacity = 0.24
+	sun.shadow_blur = 2.0
+	sun.shadow_normal_bias = 0.4
 	_world.add_child(sun)
 	var fill := DirectionalLight3D.new()
 	fill.rotation_degrees = Vector3(-40, 140, 0)
 	fill.light_color = Color("dbeaf3")
-	fill.light_energy = 0.26
+	fill.light_energy = 0.14
+	fill.sky_mode = DirectionalLight3D.SKY_MODE_LIGHT_ONLY
 	_world.add_child(fill)
 	_camera = Camera3D.new()
 	_camera.projection = Camera3D.PROJECTION_ORTHOGONAL
@@ -107,13 +131,15 @@ func configure(level: PostalLevel, ports: PackedInt32Array) -> void:
 			var station: Node3D = PostalArtFactory.create_station(label, is_source, color)
 			station.position = cell_position(index)
 			_world.add_child(station)
+			if not is_source:
+				_receptions[label] = station
 		var parcel: Node3D = PostalArtFactory.create_parcel(label, color)
 		_world.add_child(parcel)
 		_parcels[label] = parcel
 	for point: Vector3 in [Vector3(-3.0, 0.10, 3.0), Vector3(3.0, 0.10, 3.0)]:
 		var flower: Node3D = PostalArtFactory.create_flower()
 		flower.position = point
-		flower.scale = Vector3.ONE * 1.25
+		flower.scale = Vector3.ONE * 1.05
 		_world.add_child(flower)
 	reset_parcels()
 	set_selected(_selected_index)
@@ -153,7 +179,13 @@ func finish_transitions() -> void:
 	for tween: Tween in _arrival_tweens:
 		if tween.is_valid(): tween.kill()
 	_arrival_tweens.clear()
-	for parcel: Node3D in _parcels.values(): parcel.scale = Vector3.ONE
+	_lid_tweens.clear()
+	for label: String in _parcels:
+		_parcels[label].scale = Vector3.ONE
+		if _animation.has(label) and bool(_animation[label].get("arrived", false)):
+			_complete_receipt(label)
+		else:
+			_set_lid_angle(label, 0.0)
 	sync_ports(_ports)
 
 
@@ -162,7 +194,8 @@ func _rebuild_rail(index: int) -> void:
 		_rails[index].queue_free()
 	# This level presents two independent upper/lower postal routes. Colour supports
 	# the address letters and shapes; it is never used by the rules engine.
-	var rail_color := Color("355e86") if index < 18 else Color("bd7157")
+	# Match the material used by the fixed station continuation at each port.
+	var rail_color: Color = (BLUE if index < 18 else CORAL).darkened(0.12)
 	var rail: Node3D = PostalArtFactory.create_rail(_ports[index], rail_color)
 	rail.position = cell_position(index)
 	_world.add_child(rail)
@@ -193,18 +226,26 @@ func reset_parcels() -> void:
 	for tween: Tween in _arrival_tweens:
 		if tween.is_valid(): tween.kill()
 	_arrival_tweens.clear()
+	_lid_tweens.clear()
 	_animation.clear()
 	if _level == null:
 		return
 	for label: String in _parcels:
 		_parcels[label].position = cell_position(_level.source_indices[label]) + Vector3(0.30, 0.23, 0)
 		_parcels[label].scale = Vector3.ONE
+		_parcels[label].show()
+		_set_lid_angle(label, 0.0)
+		var seal: Node3D = _reception_part(label, "ReceiptSeal")
+		if seal != null:
+			seal.hide()
+			seal.scale = Vector3.ONE
 	_request_frame()
 
 
 func prepare_simulation(result: Dictionary) -> void:
 	reset_parcels()
 	_simulating = true
+	_selection.hide()
 	for label: String in ["A", "B"]:
 		var path: PackedInt32Array = result["paths"][label]
 		var points: PackedVector3Array = _route_points(path, label)
@@ -216,6 +257,7 @@ func prepare_simulation(result: Dictionary) -> void:
 			"duration": maxf(1.0, float(result["traces"][label]["tick"])) * STEP_SECONDS,
 			"success": bool(result["traces"][label]["success"]),
 			"arrived": false,
+			"lid_opening": false,
 		}
 	_request_frame()
 
@@ -226,6 +268,9 @@ func advance_simulation(elapsed: float, instantly: bool = false) -> Dictionary:
 	for label: String in _animation:
 		var animation: Dictionary = _animation[label]
 		var progress: float = 1.0 if instantly else clampf(elapsed / float(animation["duration"]), 0.0, 1.0)
+		if progress >= 0.84 and bool(animation["success"]) and not instantly and not bool(animation["lid_opening"]):
+			animation["lid_opening"] = true
+			_open_reception(label)
 		finished = finished and progress >= 1.0
 		if progress >= 1.0 and bool(animation["success"]):
 			deliveries += 1
@@ -238,21 +283,88 @@ func advance_simulation(elapsed: float, instantly: bool = false) -> Dictionary:
 				var interval: float = maxf(0.0001, lengths[i] - lengths[i - 1])
 				position = points[i - 1].lerp(points[i], (distance - lengths[i - 1]) / interval)
 				break
-		_parcels[label].position = position
+		if not bool(animation["arrived"]):
+			_parcels[label].position = position
 		if progress >= 1.0 and bool(animation["success"]) and not bool(animation["arrived"]):
 			animation["arrived"] = true
-			if not instantly:
-				_parcels[label].scale = Vector3(1.04, 0.96, 1.04)
-				var arrival := create_tween()
-				arrival.tween_property(_parcels[label], "scale", Vector3.ONE, 0.18).set_trans(Tween.TRANS_BACK).set_ease(Tween.EASE_OUT)
-				arrival.finished.connect(_transition_finished)
-				_arrival_tweens.append(arrival)
+			_receive_parcel(label, instantly)
 	return {"finished": finished, "deliveries": deliveries}
 
 
 func end_simulation() -> void:
 	_simulating = false
 	_request_frame()
+
+
+func _reception_part(label: String, part: String) -> Node3D:
+	if not _receptions.has(label): return null
+	return _receptions[label].get_node_or_null(NodePath(part)) as Node3D
+
+
+func _set_lid_angle(label: String, angle: float) -> void:
+	var lid: Node3D = _reception_part(label, "ReceptionLid")
+	if lid != null: lid.rotation.z = angle
+
+
+func _open_reception(label: String) -> void:
+	var lid: Node3D = _reception_part(label, "ReceptionLid")
+	if lid == null: return
+	var tween := create_tween()
+	tween.tween_property(lid, "rotation:z", 0.75, 0.14).set_trans(Tween.TRANS_SINE).set_ease(Tween.EASE_OUT)
+	tween.finished.connect(_transition_finished)
+	_lid_tweens[label] = tween
+	_arrival_tweens.append(tween)
+	print("SLICE_RECEPTION_OPEN address=%s" % label)
+
+
+func _receive_parcel(label: String, instantly: bool) -> void:
+	if _lid_tweens.has(label) and _lid_tweens[label].is_valid(): _lid_tweens[label].kill()
+	if instantly:
+		_complete_receipt(label)
+		return
+	var parcel: Node3D = _parcels[label]
+	var lid: Node3D = _reception_part(label, "ReceptionLid")
+	var seal: Node3D = _reception_part(label, "ReceiptSeal")
+	# Only presentation continues after the logical delivery: replay stays immediately available.
+	_set_lid_angle(label, 0.75)
+	var arrival := create_tween()
+	arrival.set_parallel(true)
+	arrival.tween_property(parcel, "position", cell_position(_level.destination_indices[label]) + Vector3(0.06, 0.255, 0), 0.24).set_trans(Tween.TRANS_QUAD).set_ease(Tween.EASE_IN)
+	if lid != null:
+		arrival.tween_property(lid, "rotation:z", 0.0, 0.18).set_delay(0.14).set_trans(Tween.TRANS_SINE).set_ease(Tween.EASE_IN_OUT)
+	if seal != null:
+		seal.scale = Vector3.ONE * 0.82
+		arrival.tween_callback(seal.show).set_delay(0.20)
+		arrival.tween_property(seal, "scale", Vector3.ONE, 0.18).set_delay(0.20).set_trans(Tween.TRANS_BACK).set_ease(Tween.EASE_OUT)
+	arrival.tween_callback(parcel.hide).set_delay(0.24)
+	arrival.chain().tween_callback(_complete_receipt.bind(label))
+	arrival.finished.connect(_transition_finished)
+	_arrival_tweens.append(arrival)
+	_request_frame()
+
+
+func _complete_receipt(label: String) -> void:
+	_set_lid_angle(label, 0.0)
+	var seal: Node3D = _reception_part(label, "ReceiptSeal")
+	if seal != null:
+		seal.show()
+		seal.scale = Vector3.ONE
+	if _parcels.has(label):
+		_parcels[label].hide()
+		_parcels[label].scale = Vector3.ONE
+	_request_frame()
+	print("SLICE_RECEIVED address=%s" % label)
+
+
+func get_reception_state(label: String) -> Dictionary:
+	var seal: Node3D = _reception_part(label, "ReceiptSeal")
+	var lid: Node3D = _reception_part(label, "ReceptionLid")
+	var parcel: Node3D = _parcels.get(label) as Node3D
+	return {"seal_visible": seal != null and seal.visible,
+		"lid_rotation": lid.rotation if lid != null else Vector3.ZERO,
+		"parcel_scale": parcel.scale if parcel != null else Vector3.ONE,
+		"parcel_visible": parcel != null and parcel.visible,
+		"received": _animation.has(label) and bool(_animation[label].get("arrived", false))}
 
 
 func _route_points(path: PackedInt32Array, label: String) -> PackedVector3Array:

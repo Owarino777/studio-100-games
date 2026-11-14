@@ -1,0 +1,83 @@
+--------- beginning of main
+11-14 05:30:26.935 13019 13019 I .archipel.slice: Late-enabling -Xcheck:jni
+11-14 05:30:26.953 13019 13019 I .archipel.slice: Using CollectorTypeCMC GC.
+11-14 05:30:26.954 13019 13019 W .archipel.slice: Unexpected CPU variant for x86: x86_64.
+11-14 05:30:26.954 13019 13019 W .archipel.slice: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, alderlake, default
+11-14 05:30:26.956 13019 13019 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+11-14 05:30:27.154 13019 13019 D nativeloader: Configuring clns-9 for other apk /data/app/~~NhmvWtOodcLsaE7gJJQL0Q==/org.studio100games.switchworks.archipel.slice-EED6mrSv9bg0VCGfVVqtoQ==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~NhmvWtOodcLsaE7gJJQL0Q==/org.studio100games.switchworks.archipel.slice-EED6mrSv9bg0VCGfVVqtoQ==/lib/x86_64:/data/app/~~NhmvWtOodcLsaE7gJJQL0Q==/org.studio100games.switchworks.archipel.slice-EED6mrSv9bg0VCGfVVqtoQ==/base.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/org.studio100games.switchworks.archipel.slice
+11-14 05:30:27.160 13019 13019 I .archipel.slice: AssetManager2(0x7a307b833ed8) locale list changing from [] to [en-US]
+11-14 05:30:27.164 13019 13019 V GraphicsEnvironment: Currently set values for:
+11-14 05:30:27.164 13019 13019 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+11-14 05:30:27.164 13019 13019 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+11-14 05:30:27.165 13019 13019 V GraphicsEnvironment: org.studio100games.switchworks.archipel.slice is not listed in per-application setting
+11-14 05:30:27.165 13019 13019 V GraphicsEnvironment: ANGLE allowlist from config: com.dreamgames.royalmatch com.dts.freefiremax com.dxx.firenow com.gramgames.mergedragons com.ludo.king com.mojang.minecraftpe com.my.defense com.nintendo.zaka com.os.airforce com.playrix.fishdomdd.gplay io.teslatech.callbreak jp.konami.prospia net.peakgames.toonblast
+11-14 05:30:27.165 13019 13019 V GraphicsEnvironment: org.studio100games.switchworks.archipel.slice is not listed in ANGLE allowlist or settings, returning default
+11-14 05:30:27.165 13019 13019 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+--------- beginning of system
+11-14 05:30:27.232 13019 13035 I DisplayManager: Choreographer implicitly registered for the refresh rate.
+11-14 05:30:27.235 13019 13019 I .archipel.slice: AssetManager2(0x7a307b82a298) locale list changing from [] to [en-US]
+11-14 05:30:27.279 13019 13019 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+11-14 05:30:27.293 13019 13019 D CompatChangeReporter: Compat change id reported: 377864165; UID 10218; state: ENABLED
+11-14 05:30:27.294 13019 13019 D DesktopModeFlags: Toggle override initialized to: OVERRIDE_UNSET
+11-14 05:30:27.298 13019 13019 D GodotActivity: Project command line parameters: [--xr_mode_regular, --xr-mode, off, --fullscreen, --background_color, #000000]
+11-14 05:30:27.298 13019 13019 D GodotActivity: Launch intent Intent { flg=0x10000000 xflg=0x5 cmp=org.studio100games.switchworks.archipel.slice/com.godot.game.GodotAppLauncher } with parameters []
+11-14 05:30:27.305 13019 13035 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+11-14 05:30:27.305 13019 13035 I EGL_emulation: Opening libGLESv2_emulation.so
+11-14 05:30:27.340 13019 13019 V GodotActivity: Creating new Godot fragment instance.
+11-14 05:30:27.348 13019 13019 V Godot   : Initializing Godot plugin registry
+11-14 05:30:27.349 13019 13035 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+11-14 05:30:27.349 13019 13035 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-14 05:30:27.352 13019 13019 I GodotPluginRegistry: Registering runtime plugin AndroidRuntime
+11-14 05:30:27.353 13019 13019 V Godot   : InitEngine with params: [--xr_mode_regular, --xr-mode, off, --fullscreen, --background_color, #000000]
+11-14 05:30:27.359 13019 13019 D nativeloader: Load /data/app/~~NhmvWtOodcLsaE7gJJQL0Q==/org.studio100games.switchworks.archipel.slice-EED6mrSv9bg0VCGfVVqtoQ==/lib/x86_64/libgodot_android.so using class loader ns clns-9 (caller=/data/app/~~NhmvWtOodcLsaE7gJJQL0Q==/org.studio100games.switchworks.archipel.slice-EED6mrSv9bg0VCGfVVqtoQ==/base.apk!classes7.dex): ok
+11-14 05:30:27.361 13019 13019 V Godot   : Godot native layer initialization completed: true
+11-14 05:30:27.361 13019 13019 V Godot   : Setting up native layer with params: [--xr-mode, off, --fullscreen]
+11-14 05:30:27.380 13019 13019 V Godot   : Godot native layer setup completed
+11-14 05:30:27.380 13019 13019 V Godot   : OnInitRenderView: GodotFragment{dc710ff} (2d417cc3-8891-42cb-b553-7b194b269efe id=0x7f07002c)
+11-14 05:30:27.381 13019 13019 W HWUI    : Image decoding logging dropped!
+11-14 05:30:27.382 13019 13019 W HWUI    : Image decoding logging dropped!
+11-14 05:30:27.382 13019 13019 W HWUI    : Image decoding logging dropped!
+11-14 05:30:27.421 13019 13019 D Godot   : Render view should be transparent: false
+11-14 05:30:27.421 13019 13019 D Godot   : renderingDevice: opengl3 (ProjectSettings)
+11-14 05:30:27.421 13019 13019 D Godot   : 			renderer: gl_compatibility (ProjectSettings)
+11-14 05:30:27.431 13019 13019 V Godot   : OnStart: GodotFragment{dc710ff} (2d417cc3-8891-42cb-b553-7b194b269efe id=0x7f07002c)
+11-14 05:30:27.433 13019 13019 V Godot   : OnResume: GodotFragment{dc710ff} (2d417cc3-8891-42cb-b553-7b194b269efe id=0x7f07002c)
+11-14 05:30:27.442 13019 13019 W HWUI    : Unknown dataspace 0
+11-14 05:30:27.449 13019 13019 D InsetsController: Setting requestedVisibleTypes to -16 (was -9)
+11-14 05:30:27.510 13019 13040 W RegularContextFactory: creating OpenGL ES 3.0 context :
+11-14 05:30:27.564 13019 13040 I godot   : Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+11-14 05:30:27.682 13019 13019 D InsetsController: hide(ime(), fromIme=false)
+11-14 05:30:27.682 13019 13019 I ImeTracker: org.studio100games.switchworks.archipel.slice:a73d18f6: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+11-14 05:30:27.712 13019 13040 E godot   : WARNING: Failed to load cached shader, recompiling.
+11-14 05:30:27.712 13019 13040 E godot   :    at: _load_from_cache (drivers/gles3/shader_gles3.cpp:615)
+11-14 05:30:27.993 13019 13019 W InteractionJankMonitor: Initializing without READ_DEVICE_CONFIG permission. enabled=false, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=org.studio100games.switchworks.archipel.slice
+11-14 05:30:28.363 13019 13024 I .archipel.slice: Compiler allocated 5042KB to compile void android.view.ViewRootImpl.performTraversals()
+11-14 05:30:28.506 13019 13040 I godot   : OpenGL API OpenGL ES 3.1 (4.5.0 NVIDIA 621.24) - Compatibility - Using Device: Google (NVIDIA Corporation) - Android Emulator OpenGL ES Translator (NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2)
+11-14 05:30:28.506 13019 13040 D AudioSystem: onNewServiceWithAdapter: media.audio_flinger service obtained 0x7a2f6b8b67b0
+11-14 05:30:28.507 13019 13040 D AudioSystem: getService: checking for service media.audio_flinger: 0x7a304b932c10
+11-14 05:30:28.507 13019 13040 D .archipel.slice: PlayerBase::PlayerBase()
+11-14 05:30:28.507 13019 13040 D .archipel.slice: TrackPlayerBase::TrackPlayerBase()
+11-14 05:30:28.507 13019 13040 I libOpenSLES: Emulating old channel mask behavior (ignoring positional mask 0x3, using default mask 0x3 based on channel count of 2)
+11-14 05:30:28.514 13019 13040 I godot   : 
+11-14 05:30:28.566 13019 13046 E SurfaceSyncGroup: Failed to receive transaction ready in 1000ms. Marking SurfaceSyncGroup(wmsSync-VRI[GodotAppLauncher]#1) as ready
+11-14 05:30:28.566 13019 13046 E SurfaceSyncGroup: Failed to receive transaction ready in 1000ms. Marking SurfaceSyncGroup(VRI[GodotAppLauncher]#2) as ready
+11-14 05:30:28.566 13019 13046 E SurfaceSyncGroup: Failed to receive transaction ready in 1000ms. Marking SurfaceSyncGroup(SurfaceView[org.studio100games.switchworks.archipel.slice/com.godot.game.GodotAppLauncher]#0) as ready
+11-14 05:30:29.021 13019 13040 V Godot   : OnGodotSetupCompleted
+11-14 05:30:29.101 13019 13040 I godot   : SLICE_GUIDANCE {"phase":"planning","state":"restored_ready","text":"Préparation retrouvée : voies prêtes.\nVous pouvez expédier."}
+11-14 05:30:29.102 13019 13040 I godot   : SLICE_LOCAL_STATE_RESTORED
+11-14 05:30:29.102 13019 13040 I godot   : SLICE_READY engine=4.7.2-stable (official) platform=Android level=archipel-double-flux-01
+11-14 05:30:29.102 13019 13040 V Godot   : OnGodotMainLoopStarted
+11-14 05:30:29.125 13019 13040 I godot   : SLICE_LAYOUT {"buttons":{"dispatch":[600,1500],"hint":[1065,1500],"pause":[1070,238],"reduce_motion":[409,467],"restart":[426,467],"resume":[298,467],"sound":[363,467],"undo":[139,1500],"victory_replay":[405,1325]},"cells":{"0":[302,708],"1":[421,708],"10":[779,819],"11":[898,819],"12":[302,929],"13":[421,929],"14":[540,929],"15":[660,929],"16":[779,929],"17":[898,929],"18":[302,1040],"19":[421,1040],"2":[540,708],"20":[540,1040],"21":[660,1040],"22":[779,1040],"23":[898,1040],"24":[302,1151],"25":[421,1151],"26":[540,1151],"27":[660,1151],"28":[779,1151],"29":[898,1151],"3":[660,708],"30":[302,1262],"31":[421,1262],"32":[540,1262],"33":[660,1262],"34":[779,1262],"35":[898,1262],"4":[779,708],"5":[898,708],"6":[302,819],"7":[421,819],"8":[540,819],"9":[660,819]},"logical_viewport":[480.0,640.0],"phase":"planning","window":[1200,1600]}
+11-14 05:30:29.125 13019 13040 I godot   : SLICE_GUIDANCE_LAYOUT {"guidance":{"font_rids":["511101108232"],"font_size":14,"line_height":20,"lines":2,"minimum_size":[233.0,43.0],"rect":[16.0,185.199996948242,448.0,44.0],"state":"restored_ready","visible":true,"visible_lines":2},"logical_viewport":[480.0,640.0],"window":[1200,1600]}
+11-14 05:30:31.064 13019 13040 I godot   : SLICE_FIRST_FRAME since_ready_ms=2041.24
+11-14 05:30:36.056 13019 13040 I godot   : SLICE_METRICS {"draw_calls":27.0,"fps":60.0,"measurement":"wall_clock_process_interval_after_60_frames","p50_frame_ms":16.6459999084473,"p95_frame_ms":18.2290000915527,"phase":"planning","platform":"Android","samples":240,"static_memory_bytes":48233858.0}
+11-14 05:30:41.056 13019 13040 I godot   : SLICE_METRICS {"draw_calls":27.0,"fps":60.0,"measurement":"wall_clock_process_interval_after_60_frames","p50_frame_ms":16.6469993591309,"p95_frame_ms":18.1959991455078,"phase":"planning","platform":"Android","samples":540,"static_memory_bytes":48237018.0}
+11-14 05:30:43.480 13019 13032 I .archipel.slice: Explicit concurrent mark compact GC freed 256KB AllocSpace bytes, 0(0B) LOS objects, 49% free, 2249KB/4499KB, paused 105us,1.184ms total 8.154ms
+11-14 05:30:43.659 13019 13040 I godot   : SLICE_PAUSE phase=planning
+11-14 05:30:43.659 13019 13040 I godot   : SLICE_GUIDANCE {"phase":"paused","state":"paused","text":"Votre préparation est conservée."}
+11-14 05:30:43.674 13019 13040 I godot   : SLICE_LAYOUT {"buttons":{"dispatch":[600,1500],"hint":[1065,1500],"pause":[1070,238],"reduce_motion":[600,944],"restart":[600,804],"resume":[600,664],"sound":[600,1084],"undo":[139,1500],"victory_replay":[405,1325]},"cells":{"0":[302,708],"1":[421,708],"10":[779,819],"11":[898,819],"12":[302,929],"13":[421,929],"14":[540,929],"15":[660,929],"16":[779,929],"17":[898,929],"18":[302,1040],"19":[421,1040],"2":[540,708],"20":[540,1040],"21":[660,1040],"22":[779,1040],"23":[898,1040],"24":[302,1151],"25":[421,1151],"26":[540,1151],"27":[660,1151],"28":[779,1151],"29":[898,1151],"3":[660,708],"30":[302,1262],"31":[421,1262],"32":[540,1262],"33":[660,1262],"34":[779,1262],"35":[898,1262],"4":[779,708],"5":[898,708],"6":[302,819],"7":[421,819],"8":[540,819],"9":[660,819]},"logical_viewport":[480.0,640.0],"phase":"paused","window":[1200,1600]}
+11-14 05:30:43.674 13019 13040 I godot   : SLICE_GUIDANCE_LAYOUT {"guidance":{"font_rids":["511101108232"],"font_size":14,"line_height":20,"lines":2,"minimum_size":[233.0,43.0],"rect":[16.0,185.199996948242,448.0,44.0],"state":"paused","visible":false,"visible_lines":2},"logical_viewport":[480.0,640.0],"window":[1200,1600]}
+11-14 05:30:44.123 13019 13040 I godot   : SLICE_GUIDANCE {"phase":"planning","state":"fresh","text":"Touchez une voie pour la tourner,\npuis expédiez."}
+11-14 05:30:44.124 13019 13040 I godot   : SLICE_RESET
+11-14 05:30:44.126 13019 13040 I godot   : SLICE_LAYOUT {"buttons":{"dispatch":[600,1500],"hint":[1065,1500],"pause":[1070,238],"reduce_motion":[600,944],"restart":[600,804],"resume":[600,664],"sound":[600,1084],"undo":[139,1500],"victory_replay":[405,1325]},"cells":{"0":[302,708],"1":[421,708],"10":[779,819],"11":[898,819],"12":[302,929],"13":[421,929],"14":[540,929],"15":[660,929],"16":[779,929],"17":[898,929],"18":[302,1040],"19":[421,1040],"2":[540,708],"20":[540,1040],"21":[660,1040],"22":[779,1040],"23":[898,1040],"24":[302,1151],"25":[421,1151],"26":[540,1151],"27":[660,1151],"28":[779,1151],"29":[898,1151],"3":[660,708],"30":[302,1262],"31":[421,1262],"32":[540,1262],"33":[660,1262],"34":[779,1262],"35":[898,1262],"4":[779,708],"5":[898,708],"6":[302,819],"7":[421,819],"8":[540,819],"9":[660,819]},"logical_viewport":[480.0,640.0],"phase":"planning","window":[1200,1600]}
+11-14 05:30:44.126 13019 13040 I godot   : SLICE_GUIDANCE_LAYOUT {"guidance":{"font_rids":["511101108232"],"font_size":14,"line_height":20,"lines":2,"minimum_size":[214.0,43.0],"rect":[16.0,185.199996948242,448.0,44.0],"state":"fresh","visible":true,"visible_lines":2},"logical_viewport":[480.0,640.0],"window":[1200,1600]}

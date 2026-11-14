@@ -1,0 +1,522 @@
+{
+  "package": "org.studio100games.switchworks.archipel.slice",
+  "serial": "emulator-5580",
+  "avd": "Studio_API_36",
+  "adb_server_port": 5041,
+  "checks": [
+    {
+      "name": "dedicated AVD identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "APK belongs to studio slice",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "APK install succeeds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "launcher resolves to this package",
+      "passed": true,
+      "detail": "org.studio100games.switchworks.archipel.slice/com.godot.game.GodotAppLauncher"
+    },
+    {
+      "name": "one application PID",
+      "passed": true,
+      "detail": "3675"
+    },
+    {
+      "name": "target buttons/pause inside device",
+      "passed": true,
+      "detail": [
+        924,
+        312
+      ]
+    },
+    {
+      "name": "target buttons/restart inside device",
+      "passed": true,
+      "detail": [
+        540,
+        1218
+      ]
+    },
+    {
+      "name": "capture planning is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target cells/8 inside device",
+      "passed": true,
+      "detail": [
+        461,
+        1144
+      ]
+    },
+    {
+      "name": "one real tap makes one rotation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/undo inside device",
+      "passed": true,
+      "detail": [
+        167,
+        2280
+      ]
+    },
+    {
+      "name": "undo restores initial rails",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target cells/6 inside device",
+      "passed": true,
+      "detail": [
+        146,
+        1144
+      ]
+    },
+    {
+      "name": "fixed source is not rotated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/hint inside device",
+      "passed": true,
+      "detail": [
+        919,
+        2280
+      ]
+    },
+    {
+      "name": "hint does not move rails",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/dispatch inside device",
+      "passed": true,
+      "detail": [
+        540,
+        2280
+      ]
+    },
+    {
+      "name": "failed attempt counted",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "capture failed is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target cells/8 inside device",
+      "passed": true,
+      "detail": [
+        461,
+        1144
+      ]
+    },
+    {
+      "name": "target cells/16 inside device",
+      "passed": true,
+      "detail": [
+        776,
+        1290
+      ]
+    },
+    {
+      "name": "target cells/19 inside device",
+      "passed": true,
+      "detail": [
+        304,
+        1437
+      ]
+    },
+    {
+      "name": "target cells/21 inside device",
+      "passed": true,
+      "detail": [
+        619,
+        1437
+      ]
+    },
+    {
+      "name": "target cells/25 inside device",
+      "passed": true,
+      "detail": [
+        304,
+        1583
+      ]
+    },
+    {
+      "name": "target cells/27 inside device",
+      "passed": true,
+      "detail": [
+        619,
+        1583
+      ]
+    },
+    {
+      "name": "authored preparation reached",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "capture prepared is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/dispatch inside device",
+      "passed": true,
+      "detail": [
+        540,
+        2280
+      ]
+    },
+    {
+      "name": "capture in-motion is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "six rotations and two attempts preserved at victory",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "capture won is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Home returns to same application process",
+      "passed": true,
+      "detail": {
+        "before_pid": "3675",
+        "after_pid": "3675",
+        "am_output": "Starting: Intent { cmp=org.studio100games.switchworks.archipel.slice/com.godot.game.GodotAppLauncher }\r\nWarning: Activity not started, its current task has been brought to the front\r\nStatus: ok\r\nLaunchState: UNKNOWN (0)\r\nActivity: org.studio100games.switchworks.archipel.slice/com.godot.game.GodotApp\r\nWaitTime: 11\r\nComplete",
+        "observed_launch_state": "UNKNOWN (0)\r"
+      }
+    },
+    {
+      "name": "capture home-resumed-paused is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/resume inside device",
+      "passed": true,
+      "detail": [
+        540,
+        1050
+      ]
+    },
+    {
+      "name": "Home retains counters and rails",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/victory_replay inside device",
+      "passed": true,
+      "detail": [
+        540,
+        2277
+      ]
+    },
+    {
+      "name": "target cells/8 inside device",
+      "passed": true,
+      "detail": [
+        461,
+        1144
+      ]
+    },
+    {
+      "name": "target cells/16 inside device",
+      "passed": true,
+      "detail": [
+        776,
+        1290
+      ]
+    },
+    {
+      "name": "target cells/19 inside device",
+      "passed": true,
+      "detail": [
+        304,
+        1437
+      ]
+    },
+    {
+      "name": "target cells/21 inside device",
+      "passed": true,
+      "detail": [
+        619,
+        1437
+      ]
+    },
+    {
+      "name": "target cells/25 inside device",
+      "passed": true,
+      "detail": [
+        304,
+        1583
+      ]
+    },
+    {
+      "name": "target cells/27 inside device",
+      "passed": true,
+      "detail": [
+        619,
+        1583
+      ]
+    },
+    {
+      "name": "target buttons/dispatch inside device",
+      "passed": true,
+      "detail": [
+        540,
+        2280
+      ]
+    },
+    {
+      "name": "capture running-before-home is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "capture running-resumed-paused is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/resume inside device",
+      "passed": true,
+      "detail": [
+        540,
+        1050
+      ]
+    },
+    {
+      "name": "mid-run resume does not redispatch",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "capture won-after-running-resume is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one application PID",
+      "passed": true,
+      "detail": "4669"
+    },
+    {
+      "name": "new process restores saved preparation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "restoration was observed by the game",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "capture restored-preparation is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/pause inside device",
+      "passed": true,
+      "detail": [
+        924,
+        312
+      ]
+    },
+    {
+      "name": "target buttons/reduce_motion inside device",
+      "passed": true,
+      "detail": [
+        540,
+        1386
+      ]
+    },
+    {
+      "name": "target buttons/sound inside device",
+      "passed": true,
+      "detail": [
+        540,
+        1554
+      ]
+    },
+    {
+      "name": "target buttons/resume inside device",
+      "passed": true,
+      "detail": [
+        540,
+        1050
+      ]
+    },
+    {
+      "name": "target cells/8 inside device",
+      "passed": true,
+      "detail": [
+        461,
+        1144
+      ]
+    },
+    {
+      "name": "target buttons/undo inside device",
+      "passed": true,
+      "detail": [
+        167,
+        2280
+      ]
+    },
+    {
+      "name": "options and reduced-motion input work",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "idle metrics observed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "application PSS was measured",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/pause inside device",
+      "passed": true,
+      "detail": [
+        924,
+        312
+      ]
+    },
+    {
+      "name": "target buttons/reduce_motion inside device",
+      "passed": true,
+      "detail": [
+        540,
+        1386
+      ]
+    },
+    {
+      "name": "target buttons/sound inside device",
+      "passed": true,
+      "detail": [
+        540,
+        1554
+      ]
+    },
+    {
+      "name": "target buttons/restart inside device",
+      "passed": true,
+      "detail": [
+        540,
+        1218
+      ]
+    },
+    {
+      "name": "capture handoff-planning is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "APK bytes unchanged during recipe",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "stamp": "20261114T053914646806Z",
+  "apk_sha256": "6f3b3853bda59dbde4697814aa5afe547f37e7513408ce0d6a719c194769e965",
+  "apk_bytes": 61448663,
+  "android_api": "36",
+  "android_release": "16",
+  "display": "Physical size: 1080x2400",
+  "density": "Physical density: 420",
+  "gpu_backend": "host (configured AVD)",
+  "activity": "org.studio100games.switchworks.archipel.slice/com.godot.game.GodotAppLauncher",
+  "processes": [
+    {
+      "pid": "3675",
+      "launch": "Starting: Intent { cmp=org.studio100games.switchworks.archipel.slice/com.godot.game.GodotAppLauncher }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: org.studio100games.switchworks.archipel.slice/com.godot.game.GodotApp\r\nTotalTime: 988\r\nWaitTime: 1006\r\nComplete",
+      "first_frame_since_ready_ms": 1914.86
+    },
+    {
+      "pid": "4669",
+      "launch": "Starting: Intent { cmp=org.studio100games.switchworks.archipel.slice/com.godot.game.GodotAppLauncher }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: org.studio100games.switchworks.archipel.slice/com.godot.game.GodotApp\r\nTotalTime: 1163\r\nWaitTime: 1198\r\nComplete",
+      "first_frame_since_ready_ms": 1966.79
+    }
+  ],
+  "video": {
+    "requested_seconds": 8,
+    "requested_size": [
+      720,
+      1600
+    ],
+    "actual_track_size": [
+      720,
+      1600
+    ],
+    "exit_code": 0,
+    "saved": true,
+    "audio_recorded": false
+  },
+  "home_resume": {
+    "before_pid": "3675",
+    "after_pid": "3675",
+    "am_output": "Starting: Intent { cmp=org.studio100games.switchworks.archipel.slice/com.godot.game.GodotAppLauncher }\r\nWarning: Activity not started, its current task has been brought to the front\r\nStatus: ok\r\nLaunchState: UNKNOWN (0)\r\nActivity: org.studio100games.switchworks.archipel.slice/com.godot.game.GodotApp\r\nWaitTime: 11\r\nComplete",
+    "observed_launch_state": "UNKNOWN (0)\r"
+  },
+  "audio_listened": false,
+  "idle_observation_seconds": 11,
+  "metrics": {
+    "draw_calls": 26.0,
+    "fps": 60.0,
+    "measurement": "wall_clock_process_interval_after_60_frames",
+    "p50_frame_ms": 16.6630001068115,
+    "p95_frame_ms": 18.0909996032715,
+    "phase": "planning",
+    "platform": "Android",
+    "samples": 540,
+    "static_memory_bytes": 51306866.0
+  },
+  "total_pss_kib": 187354,
+  "status": "passed",
+  "godot_error_lines": [],
+  "native_error_lines": [
+    "11-14 05:39:15.997  3675  3675 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.",
+    "11-14 05:39:16.548  3675  3711 E godot   : WARNING: Failed to load cached shader, recompiling.",
+    "11-14 05:39:16.548  3675  3711 E godot   :    at: _load_from_cache (drivers/gles3/shader_gles3.cpp:615)",
+    "11-14 05:39:17.327  3675  3717 E SurfaceSyncGroup: Failed to receive transaction ready in 1000ms. Marking SurfaceSyncGroup(wmsSync-VRI[GodotAppLauncher]#1) as ready",
+    "11-14 05:39:17.329  3675  3717 E SurfaceSyncGroup: Failed to receive transaction ready in 1000ms. Marking SurfaceSyncGroup(VRI[GodotAppLauncher]#2) as ready",
+    "11-14 05:39:17.330  3675  3717 E SurfaceSyncGroup: Failed to receive transaction ready in 1000ms. Marking SurfaceSyncGroup(SurfaceView[org.studio100games.switchworks.archipel.slice/com.godot.game.GodotAppLauncher]#0) as ready",
+    "11-14 05:39:46.624  4669  4669 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.",
+    "11-14 05:39:46.921  4669  4689 E godot   : WARNING: Failed to load cached shader, recompiling.",
+    "11-14 05:39:46.921  4669  4689 E godot   :    at: _load_from_cache (drivers/gles3/shader_gles3.cpp:615)"
+  ],
+  "renderer_log": [
+    "11-14 05:39:17.149  3675  3711 I godot   : OpenGL API OpenGL ES 3.1 (4.5.0 NVIDIA 621.24) - Compatibility - Using Device: Google (NVIDIA Corporation) - Android Emulator OpenGL ES Translator (NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2)",
+    "11-14 05:39:47.455  4669  4689 I godot   : OpenGL API OpenGL ES 3.1 (4.5.0 NVIDIA 621.24) - Compatibility - Using Device: Google (NVIDIA Corporation) - Android Emulator OpenGL ES Translator (NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2)"
+  ]
+}

@@ -1,0 +1,763 @@
+{
+  "package": "org.studio100games.switchworks.archipel.slice",
+  "serial": "emulator-5580",
+  "avd": "Studio_API_36",
+  "adb_server_port": 5041,
+  "checks": [
+    {
+      "name": "dedicated AVD",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "only studio package",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "install only this APK",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resolved own activity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one application PID",
+      "passed": true,
+      "detail": "3747"
+    },
+    {
+      "name": "1080x2400 native dimensions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/pause inside device",
+      "passed": true,
+      "detail": [
+        927,
+        321
+      ]
+    },
+    {
+      "name": "target buttons/restart inside device",
+      "passed": true,
+      "detail": [
+        540,
+        1218
+      ]
+    },
+    {
+      "name": "capture planning is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/dispatch inside device",
+      "passed": true,
+      "detail": [
+        540,
+        2268
+      ]
+    },
+    {
+      "name": "capture failed is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target cells/8 inside device",
+      "passed": true,
+      "detail": [
+        461,
+        1099
+      ]
+    },
+    {
+      "name": "target buttons/undo inside device",
+      "passed": true,
+      "detail": [
+        167,
+        2268
+      ]
+    },
+    {
+      "name": "target cells/8 inside device",
+      "passed": true,
+      "detail": [
+        461,
+        1099
+      ]
+    },
+    {
+      "name": "target cells/16 inside device",
+      "passed": true,
+      "detail": [
+        776,
+        1245
+      ]
+    },
+    {
+      "name": "target cells/19 inside device",
+      "passed": true,
+      "detail": [
+        304,
+        1392
+      ]
+    },
+    {
+      "name": "target cells/21 inside device",
+      "passed": true,
+      "detail": [
+        619,
+        1392
+      ]
+    },
+    {
+      "name": "target cells/25 inside device",
+      "passed": true,
+      "detail": [
+        304,
+        1538
+      ]
+    },
+    {
+      "name": "target cells/27 inside device",
+      "passed": true,
+      "detail": [
+        619,
+        1538
+      ]
+    },
+    {
+      "name": "capture prepared is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1080x2400 six witness rotations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/dispatch inside device",
+      "passed": true,
+      "detail": [
+        540,
+        2268
+      ]
+    },
+    {
+      "name": "capture transport is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "capture won is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1080x2400 genuine two-delivery result",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "native movie recording",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one application PID",
+      "passed": true,
+      "detail": "4422"
+    },
+    {
+      "name": "1080x2400 restored preparation unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "capture restored is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1080x2400 idle metrics recorded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/pause inside device",
+      "passed": true,
+      "detail": [
+        927,
+        321
+      ]
+    },
+    {
+      "name": "target buttons/reduce_motion inside device",
+      "passed": true,
+      "detail": [
+        540,
+        1386
+      ]
+    },
+    {
+      "name": "target buttons/restart inside device",
+      "passed": true,
+      "detail": [
+        540,
+        1218
+      ]
+    },
+    {
+      "name": "target cells/8 inside device",
+      "passed": true,
+      "detail": [
+        461,
+        1099
+      ]
+    },
+    {
+      "name": "target cells/16 inside device",
+      "passed": true,
+      "detail": [
+        776,
+        1245
+      ]
+    },
+    {
+      "name": "target cells/19 inside device",
+      "passed": true,
+      "detail": [
+        304,
+        1392
+      ]
+    },
+    {
+      "name": "target cells/21 inside device",
+      "passed": true,
+      "detail": [
+        619,
+        1392
+      ]
+    },
+    {
+      "name": "target cells/25 inside device",
+      "passed": true,
+      "detail": [
+        304,
+        1538
+      ]
+    },
+    {
+      "name": "target cells/27 inside device",
+      "passed": true,
+      "detail": [
+        619,
+        1538
+      ]
+    },
+    {
+      "name": "target buttons/dispatch inside device",
+      "passed": true,
+      "detail": [
+        540,
+        2268
+      ]
+    },
+    {
+      "name": "capture won-reduced is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reduced motion preserves witness",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/pause inside device",
+      "passed": true,
+      "detail": [
+        927,
+        321
+      ]
+    },
+    {
+      "name": "target buttons/reduce_motion inside device",
+      "passed": true,
+      "detail": [
+        540,
+        1386
+      ]
+    },
+    {
+      "name": "target buttons/restart inside device",
+      "passed": true,
+      "detail": [
+        540,
+        1218
+      ]
+    },
+    {
+      "name": "1080x2400 no Godot or fatal error",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "one application PID",
+      "passed": true,
+      "detail": "4808"
+    },
+    {
+      "name": "720x1280 native dimensions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/pause inside device",
+      "passed": true,
+      "detail": [
+        618,
+        174
+      ]
+    },
+    {
+      "name": "target buttons/restart inside device",
+      "passed": true,
+      "detail": [
+        360,
+        643
+      ]
+    },
+    {
+      "name": "capture planning is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/dispatch inside device",
+      "passed": true,
+      "detail": [
+        360,
+        1192
+      ]
+    },
+    {
+      "name": "capture failed is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target cells/8 inside device",
+      "passed": true,
+      "detail": [
+        313,
+        578
+      ]
+    },
+    {
+      "name": "target cells/16 inside device",
+      "passed": true,
+      "detail": [
+        502,
+        666
+      ]
+    },
+    {
+      "name": "target cells/19 inside device",
+      "passed": true,
+      "detail": [
+        218,
+        754
+      ]
+    },
+    {
+      "name": "target cells/21 inside device",
+      "passed": true,
+      "detail": [
+        407,
+        754
+      ]
+    },
+    {
+      "name": "target cells/25 inside device",
+      "passed": true,
+      "detail": [
+        218,
+        842
+      ]
+    },
+    {
+      "name": "target cells/27 inside device",
+      "passed": true,
+      "detail": [
+        407,
+        842
+      ]
+    },
+    {
+      "name": "capture prepared is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "720x1280 six witness rotations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/dispatch inside device",
+      "passed": true,
+      "detail": [
+        360,
+        1192
+      ]
+    },
+    {
+      "name": "capture transport is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "capture won is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "720x1280 genuine two-delivery result",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one application PID",
+      "passed": true,
+      "detail": "5122"
+    },
+    {
+      "name": "720x1280 restored preparation unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "capture restored is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "720x1280 idle metrics recorded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/pause inside device",
+      "passed": true,
+      "detail": [
+        618,
+        174
+      ]
+    },
+    {
+      "name": "target buttons/restart inside device",
+      "passed": true,
+      "detail": [
+        360,
+        643
+      ]
+    },
+    {
+      "name": "720x1280 no Godot or fatal error",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "one application PID",
+      "passed": true,
+      "detail": "5349"
+    },
+    {
+      "name": "1200x1600 native dimensions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/pause inside device",
+      "passed": true,
+      "detail": [
+        1073,
+        218
+      ]
+    },
+    {
+      "name": "target buttons/restart inside device",
+      "passed": true,
+      "detail": [
+        600,
+        804
+      ]
+    },
+    {
+      "name": "capture planning is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/dispatch inside device",
+      "passed": true,
+      "detail": [
+        600,
+        1490
+      ]
+    },
+    {
+      "name": "capture failed is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target cells/8 inside device",
+      "passed": true,
+      "detail": [
+        541,
+        722
+      ]
+    },
+    {
+      "name": "target cells/16 inside device",
+      "passed": true,
+      "detail": [
+        778,
+        832
+      ]
+    },
+    {
+      "name": "target cells/19 inside device",
+      "passed": true,
+      "detail": [
+        422,
+        942
+      ]
+    },
+    {
+      "name": "target cells/21 inside device",
+      "passed": true,
+      "detail": [
+        659,
+        942
+      ]
+    },
+    {
+      "name": "target cells/25 inside device",
+      "passed": true,
+      "detail": [
+        422,
+        1053
+      ]
+    },
+    {
+      "name": "target cells/27 inside device",
+      "passed": true,
+      "detail": [
+        659,
+        1053
+      ]
+    },
+    {
+      "name": "capture prepared is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1200x1600 six witness rotations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/dispatch inside device",
+      "passed": true,
+      "detail": [
+        600,
+        1490
+      ]
+    },
+    {
+      "name": "capture transport is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "capture won is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1200x1600 genuine two-delivery result",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one application PID",
+      "passed": true,
+      "detail": "5653"
+    },
+    {
+      "name": "1200x1600 restored preparation unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "capture restored is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1200x1600 idle metrics recorded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/pause inside device",
+      "passed": true,
+      "detail": [
+        1073,
+        218
+      ]
+    },
+    {
+      "name": "target buttons/restart inside device",
+      "passed": true,
+      "detail": [
+        600,
+        804
+      ]
+    },
+    {
+      "name": "1200x1600 no Godot or fatal error",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "APK unchanged during comparisons",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one application PID",
+      "passed": true,
+      "detail": "5881"
+    },
+    {
+      "name": "original display restored",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "label": "before",
+  "apk_sha256": "7112e363b030f75dc549a70f26d7d75ff88b7eccda4fa2aa660229abc4b394b1",
+  "apk_bytes": 61432091,
+  "original_display": "Physical size: 1080x2400",
+  "density": "Physical density: 420",
+  "profiles": [
+    {
+      "pixels": [
+        1080,
+        2400
+      ],
+      "idle_seconds": 11,
+      "metrics": {
+        "draw_calls": 24.0,
+        "fps": 60.0,
+        "measurement": "wall_clock_process_interval_after_60_frames",
+        "p50_frame_ms": 16.6569995880127,
+        "p95_frame_ms": 17.7199993133545,
+        "phase": "planning",
+        "platform": "Android",
+        "samples": 540,
+        "static_memory_bytes": 51963360.0
+      },
+      "pss_kib": 187479
+    },
+    {
+      "pixels": [
+        720,
+        1280
+      ],
+      "idle_seconds": 11,
+      "metrics": {
+        "draw_calls": 24.0,
+        "fps": 60.0,
+        "measurement": "wall_clock_process_interval_after_60_frames",
+        "p50_frame_ms": 16.6550006866455,
+        "p95_frame_ms": 18.1900005340576,
+        "phase": "planning",
+        "platform": "Android",
+        "samples": 540,
+        "static_memory_bytes": 46065512.0
+      },
+      "pss_kib": 180471
+    },
+    {
+      "pixels": [
+        1200,
+        1600
+      ],
+      "idle_seconds": 11,
+      "metrics": {
+        "draw_calls": 24.0,
+        "fps": 60.0,
+        "measurement": "wall_clock_process_interval_after_60_frames",
+        "p50_frame_ms": 16.681999206543,
+        "p95_frame_ms": 18.0769996643066,
+        "phase": "planning",
+        "platform": "Android",
+        "samples": 540,
+        "static_memory_bytes": 46458376.0
+      },
+      "pss_kib": 182037
+    }
+  ],
+  "activity": "org.studio100games.switchworks.archipel.slice/com.godot.game.GodotAppLauncher",
+  "processes": [
+    {
+      "pid": "3747",
+      "launch": "Starting: Intent { cmp=org.studio100games.switchworks.archipel.slice/com.godot.game.GodotAppLauncher }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: org.studio100games.switchworks.archipel.slice/com.godot.game.GodotApp\r\nTotalTime: 970\r\nWaitTime: 973\r\nComplete",
+      "first_frame_since_ready_ms": 1934.88
+    },
+    {
+      "pid": "4422",
+      "launch": "Starting: Intent { cmp=org.studio100games.switchworks.archipel.slice/com.godot.game.GodotAppLauncher }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: org.studio100games.switchworks.archipel.slice/com.godot.game.GodotApp\r\nTotalTime: 620\r\nWaitTime: 622\r\nComplete",
+      "first_frame_since_ready_ms": 1905.53
+    },
+    {
+      "pid": "4808",
+      "launch": "Starting: Intent { cmp=org.studio100games.switchworks.archipel.slice/com.godot.game.GodotAppLauncher }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: org.studio100games.switchworks.archipel.slice/com.godot.game.GodotApp\r\nTotalTime: 625\r\nWaitTime: 628\r\nComplete",
+      "first_frame_since_ready_ms": 1930.2
+    },
+    {
+      "pid": "5122",
+      "launch": "Starting: Intent { cmp=org.studio100games.switchworks.archipel.slice/com.godot.game.GodotAppLauncher }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: org.studio100games.switchworks.archipel.slice/com.godot.game.GodotApp\r\nTotalTime: 545\r\nWaitTime: 564\r\nComplete",
+      "first_frame_since_ready_ms": 1936.21
+    },
+    {
+      "pid": "5349",
+      "launch": "Starting: Intent { cmp=org.studio100games.switchworks.archipel.slice/com.godot.game.GodotAppLauncher }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: org.studio100games.switchworks.archipel.slice/com.godot.game.GodotApp\r\nTotalTime: 1044\r\nWaitTime: 1046\r\nComplete",
+      "first_frame_since_ready_ms": 1924.21
+    },
+    {
+      "pid": "5653",
+      "launch": "Starting: Intent { cmp=org.studio100games.switchworks.archipel.slice/com.godot.game.GodotAppLauncher }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: org.studio100games.switchworks.archipel.slice/com.godot.game.GodotApp\r\nTotalTime: 542\r\nWaitTime: 544\r\nComplete",
+      "first_frame_since_ready_ms": 1972.34
+    },
+    {
+      "pid": "5881",
+      "launch": "Starting: Intent { cmp=org.studio100games.switchworks.archipel.slice/com.godot.game.GodotAppLauncher }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: org.studio100games.switchworks.archipel.slice/com.godot.game.GodotApp\r\nTotalTime: 854\r\nWaitTime: 862\r\nComplete",
+      "first_frame_since_ready_ms": 1920.23
+    }
+  ],
+  "status": "passed"
+}

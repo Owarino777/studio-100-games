@@ -9,14 +9,14 @@ $gameRoot = Split-Path -Parent $PSScriptRoot
 $studioDirectory = Split-Path -Parent (Split-Path -Parent $gameRoot)
 . (Join-Path $studioDirectory 'tools\Studio.Common.ps1')
 $paths = Get-StudioPaths
-$logs = Join-Path $gameRoot 'artifacts\slice-tests'
-$captures = Join-Path $gameRoot 'artifacts\slice-captures'
+$logs = Join-Path $gameRoot 'artifacts\polish\commands'
+$captures = Join-Path $gameRoot 'artifacts\polish\desktop-captures'
 try {
     Assert-StudioGodot $paths
     $import = Invoke-StudioProcess -FilePath $paths.Godot -Arguments @('--headless', '--path', $gameRoot, '--import') -LogPath (Join-Path $logs 'slice-import.log')
     if ($import.Output -match '(?m)SCRIPT ERROR:|^ERROR:') { throw 'Slice import reported an error.' }
     if ($Action -eq 'Test') {
-        foreach ($runner in @('test_runner.gd', 'slice_gameplay_runner.gd', 'slice_ui_runner.gd')) {
+        foreach ($runner in @('test_runner.gd', 'slice_gameplay_runner.gd', 'slice_ui_runner.gd', 'polish_state_runner.gd')) {
             $result = Invoke-StudioProcess -FilePath $paths.Godot -Arguments @('--headless', '--path', $gameRoot, '--script', ('res://tests/' + $runner)) -LogPath (Join-Path $logs ($runner + '.log'))
             if ($result.Output -match '(?m)SCRIPT ERROR:|^ERROR:') { throw "Runner reported an error: $runner" }
         }
@@ -24,7 +24,7 @@ try {
     elseif ($Action -eq 'ExportAndroid') {
         Set-StudioAndroidSettings $paths
         Set-StudioGradleSettings $paths
-        $output = Join-Path $gameRoot 'build\android\switchworks-archipel-slice-debug.apk'
+        $output = Join-Path $gameRoot 'build\android\switchworks-archipel-polish-debug.apk'
         [void][System.IO.Directory]::CreateDirectory((Split-Path -Parent $output))
         $result = Invoke-StudioProcess -FilePath $paths.Godot -Arguments @('--headless', '--path', $gameRoot, '--export-debug', 'Android Archipel Slice', $output) -LogPath (Join-Path $logs 'export-slice.log') -TimeoutSeconds 600
         if ($result.Output -match '(?m)SCRIPT ERROR:|^ERROR:' -or -not (Test-Path -LiteralPath $output)) { throw 'Slice APK export failed validation.' }

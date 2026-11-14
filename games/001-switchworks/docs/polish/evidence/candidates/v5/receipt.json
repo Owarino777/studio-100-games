@@ -1,0 +1,1003 @@
+{
+  "package": "org.studio100games.switchworks.archipel.slice",
+  "serial": "emulator-5580",
+  "avd": "Studio_API_36",
+  "adb_server_port": 5041,
+  "checks": [
+    {
+      "name": "dedicated AVD",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "only studio package",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "install only this APK",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resolved own activity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one application PID",
+      "passed": true,
+      "detail": "8916"
+    },
+    {
+      "name": "1080x2400 native dimensions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/pause inside device",
+      "passed": true,
+      "detail": [
+        924,
+        312
+      ]
+    },
+    {
+      "name": "target buttons/restart inside device",
+      "passed": true,
+      "detail": [
+        540,
+        1218
+      ]
+    },
+    {
+      "name": "native instruction visible and bounded: fresh",
+      "passed": true,
+      "detail": {
+        "font_rids": [
+          "511101108232"
+        ],
+        "font_size": 14,
+        "line_height": 20,
+        "lines": 2,
+        "minimum_size": [
+          214.0,
+          43.0
+        ],
+        "rect": [
+          16.0,
+          229.399993896484,
+          328.0,
+          44.0
+        ],
+        "state": "fresh",
+        "visible": true,
+        "visible_lines": 2
+      }
+    },
+    {
+      "name": "capture planning is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/dispatch inside device",
+      "passed": true,
+      "detail": [
+        540,
+        2280
+      ]
+    },
+    {
+      "name": "capture failed is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target cells/8 inside device",
+      "passed": true,
+      "detail": [
+        461,
+        1144
+      ]
+    },
+    {
+      "name": "target buttons/undo inside device",
+      "passed": true,
+      "detail": [
+        167,
+        2280
+      ]
+    },
+    {
+      "name": "target cells/8 inside device",
+      "passed": true,
+      "detail": [
+        461,
+        1144
+      ]
+    },
+    {
+      "name": "target cells/16 inside device",
+      "passed": true,
+      "detail": [
+        776,
+        1290
+      ]
+    },
+    {
+      "name": "target cells/19 inside device",
+      "passed": true,
+      "detail": [
+        304,
+        1437
+      ]
+    },
+    {
+      "name": "target cells/21 inside device",
+      "passed": true,
+      "detail": [
+        619,
+        1437
+      ]
+    },
+    {
+      "name": "target cells/25 inside device",
+      "passed": true,
+      "detail": [
+        304,
+        1583
+      ]
+    },
+    {
+      "name": "target cells/27 inside device",
+      "passed": true,
+      "detail": [
+        619,
+        1583
+      ]
+    },
+    {
+      "name": "capture prepared is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1080x2400 six witness rotations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/dispatch inside device",
+      "passed": true,
+      "detail": [
+        540,
+        2280
+      ]
+    },
+    {
+      "name": "capture transport is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "native instruction visible and bounded: running",
+      "passed": true,
+      "detail": {
+        "font_rids": [
+          "511101108232"
+        ],
+        "font_size": 14,
+        "line_height": 20,
+        "lines": 2,
+        "minimum_size": [
+          207.0,
+          43.0
+        ],
+        "rect": [
+          16.0,
+          229.399993896484,
+          328.0,
+          44.0
+        ],
+        "state": "running",
+        "visible": true,
+        "visible_lines": 2
+      }
+    },
+    {
+      "name": "capture won is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1080x2400 genuine two-delivery result",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1080x2400 both local receipts completed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "native movie recording",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one application PID",
+      "passed": true,
+      "detail": "9555"
+    },
+    {
+      "name": "1080x2400 restored preparation unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "native instruction visible and bounded: restored_ready",
+      "passed": true,
+      "detail": {
+        "font_rids": [
+          "511101108232"
+        ],
+        "font_size": 14,
+        "line_height": 20,
+        "lines": 2,
+        "minimum_size": [
+          233.0,
+          43.0
+        ],
+        "rect": [
+          16.0,
+          229.399993896484,
+          328.0,
+          44.0
+        ],
+        "state": "restored_ready",
+        "visible": true,
+        "visible_lines": 2
+      }
+    },
+    {
+      "name": "capture restored is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1080x2400 idle metrics recorded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/pause inside device",
+      "passed": true,
+      "detail": [
+        924,
+        312
+      ]
+    },
+    {
+      "name": "target buttons/reduce_motion inside device",
+      "passed": true,
+      "detail": [
+        540,
+        1386
+      ]
+    },
+    {
+      "name": "target buttons/restart inside device",
+      "passed": true,
+      "detail": [
+        540,
+        1218
+      ]
+    },
+    {
+      "name": "target cells/8 inside device",
+      "passed": true,
+      "detail": [
+        461,
+        1144
+      ]
+    },
+    {
+      "name": "target cells/16 inside device",
+      "passed": true,
+      "detail": [
+        776,
+        1290
+      ]
+    },
+    {
+      "name": "target cells/19 inside device",
+      "passed": true,
+      "detail": [
+        304,
+        1437
+      ]
+    },
+    {
+      "name": "target cells/21 inside device",
+      "passed": true,
+      "detail": [
+        619,
+        1437
+      ]
+    },
+    {
+      "name": "target cells/25 inside device",
+      "passed": true,
+      "detail": [
+        304,
+        1583
+      ]
+    },
+    {
+      "name": "target cells/27 inside device",
+      "passed": true,
+      "detail": [
+        619,
+        1583
+      ]
+    },
+    {
+      "name": "target buttons/dispatch inside device",
+      "passed": true,
+      "detail": [
+        540,
+        2280
+      ]
+    },
+    {
+      "name": "capture won-reduced is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reduced motion preserves witness",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/pause inside device",
+      "passed": true,
+      "detail": [
+        924,
+        312
+      ]
+    },
+    {
+      "name": "target buttons/reduce_motion inside device",
+      "passed": true,
+      "detail": [
+        540,
+        1386
+      ]
+    },
+    {
+      "name": "target buttons/restart inside device",
+      "passed": true,
+      "detail": [
+        540,
+        1218
+      ]
+    },
+    {
+      "name": "1080x2400 no Godot or fatal error",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "one application PID",
+      "passed": true,
+      "detail": "9911"
+    },
+    {
+      "name": "720x1280 native dimensions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/pause inside device",
+      "passed": true,
+      "detail": [
+        616,
+        190
+      ]
+    },
+    {
+      "name": "target buttons/restart inside device",
+      "passed": true,
+      "detail": [
+        360,
+        643
+      ]
+    },
+    {
+      "name": "native instruction visible and bounded: fresh",
+      "passed": true,
+      "detail": {
+        "font_rids": [
+          "511101108232"
+        ],
+        "font_size": 14,
+        "line_height": 20,
+        "lines": 2,
+        "minimum_size": [
+          214.0,
+          43.0
+        ],
+        "rect": [
+          16.0,
+          185.0,
+          328.0,
+          44.0
+        ],
+        "state": "fresh",
+        "visible": true,
+        "visible_lines": 2
+      }
+    },
+    {
+      "name": "capture planning is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/dispatch inside device",
+      "passed": true,
+      "detail": [
+        360,
+        1200
+      ]
+    },
+    {
+      "name": "capture failed is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target cells/8 inside device",
+      "passed": true,
+      "detail": [
+        312,
+        655
+      ]
+    },
+    {
+      "name": "target cells/16 inside device",
+      "passed": true,
+      "detail": [
+        503,
+        743
+      ]
+    },
+    {
+      "name": "target cells/19 inside device",
+      "passed": true,
+      "detail": [
+        217,
+        832
+      ]
+    },
+    {
+      "name": "target cells/21 inside device",
+      "passed": true,
+      "detail": [
+        408,
+        832
+      ]
+    },
+    {
+      "name": "target cells/25 inside device",
+      "passed": true,
+      "detail": [
+        217,
+        921
+      ]
+    },
+    {
+      "name": "target cells/27 inside device",
+      "passed": true,
+      "detail": [
+        408,
+        921
+      ]
+    },
+    {
+      "name": "capture prepared is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "720x1280 six witness rotations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/dispatch inside device",
+      "passed": true,
+      "detail": [
+        360,
+        1200
+      ]
+    },
+    {
+      "name": "capture transport is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "native instruction visible and bounded: running",
+      "passed": true,
+      "detail": {
+        "font_rids": [
+          "511101108232"
+        ],
+        "font_size": 14,
+        "line_height": 20,
+        "lines": 2,
+        "minimum_size": [
+          207.0,
+          43.0
+        ],
+        "rect": [
+          16.0,
+          185.0,
+          328.0,
+          44.0
+        ],
+        "state": "running",
+        "visible": true,
+        "visible_lines": 2
+      }
+    },
+    {
+      "name": "capture won is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "720x1280 genuine two-delivery result",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "720x1280 both local receipts completed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one application PID",
+      "passed": true,
+      "detail": "10230"
+    },
+    {
+      "name": "720x1280 restored preparation unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "native instruction visible and bounded: restored_ready",
+      "passed": true,
+      "detail": {
+        "font_rids": [
+          "511101108232"
+        ],
+        "font_size": 14,
+        "line_height": 20,
+        "lines": 2,
+        "minimum_size": [
+          233.0,
+          43.0
+        ],
+        "rect": [
+          16.0,
+          185.0,
+          328.0,
+          44.0
+        ],
+        "state": "restored_ready",
+        "visible": true,
+        "visible_lines": 2
+      }
+    },
+    {
+      "name": "capture restored is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "720x1280 idle metrics recorded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/pause inside device",
+      "passed": true,
+      "detail": [
+        616,
+        190
+      ]
+    },
+    {
+      "name": "target buttons/restart inside device",
+      "passed": true,
+      "detail": [
+        360,
+        643
+      ]
+    },
+    {
+      "name": "720x1280 no Godot or fatal error",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "one application PID",
+      "passed": true,
+      "detail": "10440"
+    },
+    {
+      "name": "1200x1600 native dimensions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/pause inside device",
+      "passed": true,
+      "detail": [
+        1070,
+        238
+      ]
+    },
+    {
+      "name": "target buttons/restart inside device",
+      "passed": true,
+      "detail": [
+        600,
+        804
+      ]
+    },
+    {
+      "name": "native instruction visible and bounded: fresh",
+      "passed": true,
+      "detail": {
+        "font_rids": [
+          "511101108232"
+        ],
+        "font_size": 14,
+        "line_height": 20,
+        "lines": 2,
+        "minimum_size": [
+          214.0,
+          43.0
+        ],
+        "rect": [
+          16.0,
+          185.199996948242,
+          448.0,
+          44.0
+        ],
+        "state": "fresh",
+        "visible": true,
+        "visible_lines": 2
+      }
+    },
+    {
+      "name": "capture planning is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/dispatch inside device",
+      "passed": true,
+      "detail": [
+        600,
+        1500
+      ]
+    },
+    {
+      "name": "capture failed is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target cells/8 inside device",
+      "passed": true,
+      "detail": [
+        540,
+        819
+      ]
+    },
+    {
+      "name": "target cells/16 inside device",
+      "passed": true,
+      "detail": [
+        779,
+        929
+      ]
+    },
+    {
+      "name": "target cells/19 inside device",
+      "passed": true,
+      "detail": [
+        421,
+        1040
+      ]
+    },
+    {
+      "name": "target cells/21 inside device",
+      "passed": true,
+      "detail": [
+        660,
+        1040
+      ]
+    },
+    {
+      "name": "target cells/25 inside device",
+      "passed": true,
+      "detail": [
+        421,
+        1151
+      ]
+    },
+    {
+      "name": "target cells/27 inside device",
+      "passed": true,
+      "detail": [
+        660,
+        1151
+      ]
+    },
+    {
+      "name": "capture prepared is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1200x1600 six witness rotations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/dispatch inside device",
+      "passed": true,
+      "detail": [
+        600,
+        1500
+      ]
+    },
+    {
+      "name": "capture transport is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "native instruction visible and bounded: running",
+      "passed": true,
+      "detail": {
+        "font_rids": [
+          "511101108232"
+        ],
+        "font_size": 14,
+        "line_height": 20,
+        "lines": 2,
+        "minimum_size": [
+          207.0,
+          43.0
+        ],
+        "rect": [
+          16.0,
+          185.199996948242,
+          448.0,
+          44.0
+        ],
+        "state": "running",
+        "visible": true,
+        "visible_lines": 2
+      }
+    },
+    {
+      "name": "capture won is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1200x1600 genuine two-delivery result",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1200x1600 both local receipts completed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one application PID",
+      "passed": true,
+      "detail": "10754"
+    },
+    {
+      "name": "1200x1600 restored preparation unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "native instruction visible and bounded: restored_ready",
+      "passed": true,
+      "detail": {
+        "font_rids": [
+          "511101108232"
+        ],
+        "font_size": 14,
+        "line_height": 20,
+        "lines": 2,
+        "minimum_size": [
+          233.0,
+          43.0
+        ],
+        "rect": [
+          16.0,
+          185.199996948242,
+          448.0,
+          44.0
+        ],
+        "state": "restored_ready",
+        "visible": true,
+        "visible_lines": 2
+      }
+    },
+    {
+      "name": "capture restored is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1200x1600 idle metrics recorded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/pause inside device",
+      "passed": true,
+      "detail": [
+        1070,
+        238
+      ]
+    },
+    {
+      "name": "target buttons/restart inside device",
+      "passed": true,
+      "detail": [
+        600,
+        804
+      ]
+    },
+    {
+      "name": "1200x1600 no Godot or fatal error",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "APK unchanged during comparisons",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one application PID",
+      "passed": true,
+      "detail": "10968"
+    },
+    {
+      "name": "original display restored",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "label": "after",
+  "apk_sha256": "a384923a6d8fa2900844b94937089c84f1ab9800a54284fa7bd0fd02802e1d42",
+  "apk_bytes": 61448663,
+  "original_display": "Physical size: 1080x2400",
+  "density": "Physical density: 420",
+  "profiles": [
+    {
+      "pixels": [
+        1080,
+        2400
+      ],
+      "idle_seconds": 11,
+      "metrics": {
+        "draw_calls": 27.0,
+        "fps": 60.0,
+        "measurement": "wall_clock_process_interval_after_60_frames",
+        "p50_frame_ms": 16.6429996490479,
+        "p95_frame_ms": 18.181999206543,
+        "phase": "planning",
+        "platform": "Android",
+        "samples": 540,
+        "static_memory_bytes": 48236286.0
+      },
+      "pss_kib": 185627
+    },
+    {
+      "pixels": [
+        720,
+        1280
+      ],
+      "idle_seconds": 11,
+      "metrics": {
+        "draw_calls": 27.0,
+        "fps": 60.0,
+        "measurement": "wall_clock_process_interval_after_60_frames",
+        "p50_frame_ms": 16.6809997558594,
+        "p95_frame_ms": 18.1900005340576,
+        "phase": "planning",
+        "platform": "Android",
+        "samples": 540,
+        "static_memory_bytes": 46663806.0
+      },
+      "pss_kib": 183408
+    },
+    {
+      "pixels": [
+        1200,
+        1600
+      ],
+      "idle_seconds": 11,
+      "metrics": {
+        "draw_calls": 27.0,
+        "fps": 60.0,
+        "measurement": "wall_clock_process_interval_after_60_frames",
+        "p50_frame_ms": 16.6299991607666,
+        "p95_frame_ms": 18.0669994354248,
+        "phase": "planning",
+        "platform": "Android",
+        "samples": 540,
+        "static_memory_bytes": 48236206.0
+      },
+      "pss_kib": 185665
+    }
+  ],
+  "activity": "org.studio100games.switchworks.archipel.slice/com.godot.game.GodotAppLauncher",
+  "processes": [
+    {
+      "pid": "8916",
+      "launch": "Starting: Intent { cmp=org.studio100games.switchworks.archipel.slice/com.godot.game.GodotAppLauncher }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: org.studio100games.switchworks.archipel.slice/com.godot.game.GodotApp\r\nTotalTime: 957\r\nWaitTime: 962\r\nComplete",
+      "first_frame_since_ready_ms": 1967.23
+    },
+    {
+      "pid": "9555",
+      "launch": "Starting: Intent { cmp=org.studio100games.switchworks.archipel.slice/com.godot.game.GodotAppLauncher }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: org.studio100games.switchworks.archipel.slice/com.godot.game.GodotApp\r\nTotalTime: 643\r\nWaitTime: 649\r\nComplete",
+      "first_frame_since_ready_ms": 1963.96
+    },
+    {
+      "pid": "9911",
+      "launch": "Starting: Intent { cmp=org.studio100games.switchworks.archipel.slice/com.godot.game.GodotAppLauncher }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: org.studio100games.switchworks.archipel.slice/com.godot.game.GodotApp\r\nTotalTime: 759\r\nWaitTime: 760\r\nComplete",
+      "first_frame_since_ready_ms": 1989.68
+    },
+    {
+      "pid": "10230",
+      "launch": "Starting: Intent { cmp=org.studio100games.switchworks.archipel.slice/com.godot.game.GodotAppLauncher }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: org.studio100games.switchworks.archipel.slice/com.godot.game.GodotApp\r\nTotalTime: 1191\r\nWaitTime: 1194\r\nComplete",
+      "first_frame_since_ready_ms": 2111.04
+    },
+    {
+      "pid": "10440",
+      "launch": "Starting: Intent { cmp=org.studio100games.switchworks.archipel.slice/com.godot.game.GodotAppLauncher }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: org.studio100games.switchworks.archipel.slice/com.godot.game.GodotApp\r\nTotalTime: 848\r\nWaitTime: 851\r\nComplete",
+      "first_frame_since_ready_ms": 1981.01
+    },
+    {
+      "pid": "10754",
+      "launch": "Starting: Intent { cmp=org.studio100games.switchworks.archipel.slice/com.godot.game.GodotAppLauncher }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: org.studio100games.switchworks.archipel.slice/com.godot.game.GodotApp\r\nTotalTime: 1296\r\nWaitTime: 1301\r\nComplete",
+      "first_frame_since_ready_ms": 2034.73
+    },
+    {
+      "pid": "10968",
+      "launch": "Starting: Intent { cmp=org.studio100games.switchworks.archipel.slice/com.godot.game.GodotAppLauncher }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: org.studio100games.switchworks.archipel.slice/com.godot.game.GodotApp\r\nTotalTime: 886\r\nWaitTime: 893\r\nComplete",
+      "first_frame_since_ready_ms": 1982.11
+    }
+  ],
+  "status": "passed"
+}

@@ -2,6 +2,8 @@
 
 Ce dossier conserve la **mire historique du bootstrap** et ajoute une **tranche verticale expérimentale native**, fondée sur la direction candidate **B — Archipel Postal**. SWITCHWORKS reste **TEST / HOLD**, sans validation artistique ou commerciale définitive.
 
+La [passe ciblée issue de la revue critique](docs/polish/REPORT.md) améliore le même niveau : quais distincts, consignes, ombres/matières, voies, réception et HUD. Ses [captures comparatives](docs/polish/evidence/diagnostics/comparison-planning-1080x2400.png) et sa [vidéo Android](docs/polish/evidence/regression/android-gameplay.mp4) proviennent du jeu exécuté. Le nouvel export séparé est `build/android/switchworks-archipel-polish-debug.apk` ; l'APK initial reste conservé. Une validation humaine est requise avant toute extension.
+
 La [référence de stabilisation et les seconds regards indépendants](docs/stabilization/README.md) préparent une revue humaine et une éventuelle finition limitée. Le [kit externe autonome](docs/stabilization/review-kit/README.md) conserve les captures et la vidéo originales ; aucune extension du gameplay n'est ajoutée à ce jalon.
 
 ## Jouer à la tranche Archipel Postal
@@ -27,7 +29,7 @@ Le niveau « Les deux tournées » est nouveau : grille 6×6, deux flux A/B, six
 
 La préparation, les compteurs et les préférences sont sauvegardés localement avec un schéma versionné et remplacement atomique. Home/reprise garde la session en mémoire et demande Reprendre ; un redémarrage du processus retrouve la préparation en phase de planification, sans relancer un colis automatiquement. L'historique d'annulation et la phase de simulation ne sont pas restaurés après destruction du processus. Aucune migration des sauvegardes HTML G2/G3 n'est prétendue.
 
-L'APK debug est généré sous `build/android/switchworks-archipel-slice-debug.apk`, avec le package distinct `org.studio100games.switchworks.archipel.slice`. Les notices Godot et Nunito Sans sont incluses. Les captures, les mesures et les limites de la recette figurent dans [le rapport de tranche](docs/vertical-slice/REPORT.md).
+L'APK debug courant est généré sous `build/android/switchworks-archipel-polish-debug.apk`, avec le package distinct `org.studio100games.switchworks.archipel.slice`. L'APK initial `switchworks-archipel-slice-debug.apk` est conservé. Les notices Godot et Nunito Sans sont incluses. Les captures, les mesures et les limites historiques figurent dans [le rapport de tranche](docs/vertical-slice/REPORT.md) ; le correctif actuel est documenté dans [la recette de finition](docs/polish/REPORT.md).
 
 Le plateau, les rails, pavillons et colis sont de vraies géométries indépendantes ; seuls les albedos et le décor de ciel sont des textures. Aucun poster conceptuel ne remplace le jeu ou les contrôles. Les sources d'assets et leurs conditions sont dans [assets/archipel/README.md](assets/archipel/README.md), le manifeste et les licences embarquées.
 

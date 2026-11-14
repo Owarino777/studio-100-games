@@ -1,5 +1,14 @@
 # SWITCHWORKS — Journal du jeu
 
+## 2026-11-14 — Correction ciblée P1/P2/P3 après revue critique
+
+- Même niveau et moteur : aucun changement des données, règles, ports ou anciens runners.
+- Guichet à flèche distinct de la boîte de réception ; tuiles coque/cap céramique, éclairage doux, voies et fleurs apaisées, textures existantes conservées.
+- Objectif A → A / B → B, consigne unique par état et reprise explicite ; correction du minimum de label au chargement, pluriels naturels, HUD allégé et victoire sans boutons résiduels.
+- Réception locale avec entrée du colis, clapet et sceau, équivalent instantané en mouvement réduit, sans retard logique ou blocage de Rejouer.
+- APK V6 distinct, captures avant/après sur trois ratios Android et format compact ; vidéo native et reprise Home réellement vérifiées.
+- Nouveaux contrôles d'états et de chargement précoce, QA critique et empreintes ; candidats rejetés et rapports conservés. Statut artistique humain et commercial : TEST / HOLD.
+
 ## 2026-11-14 — Stabilisation et référence de revue
 
 - Gel du gameplay et des assets ; seconds regards artistique, UX et temporel distincts des auteurs, sans validation humaine inventée.

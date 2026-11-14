@@ -1,0 +1,15 @@
+{
+  "frames": 427,
+  "last_pts_seconds": 7.953833,
+  "container_duration": "00:00:07.97",
+  "resolution": [
+    720,
+    1600
+  ],
+  "p50_capture_interval_ms": 16.69450000000011,
+  "p95_capture_interval_ms": 34.34499999999985,
+  "max_capture_interval_ms": 99.634,
+  "audio": false,
+  "decode_exit_code": 0,
+  "scope": "encoded capture cadence, not game/GPU/input timing"
+}
