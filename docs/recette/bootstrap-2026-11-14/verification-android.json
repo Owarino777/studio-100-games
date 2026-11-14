@@ -1,0 +1,60 @@
+{
+  "apk": "games/001-switchworks/build/android/switchworks-verification-debug.apk",
+  "apk_sha256": "de19cccacb618b4c55db76964c0da07e2269dd55d7121e4d8e66dccc8a29aea0",
+  "apk_bytes": 56984562,
+  "version_name": "0.0.1",
+  "version_code": 1,
+  "min_sdk": 24,
+  "target_sdk": 36,
+  "engine": "4.7.2.stable.official.ed1daf0bf",
+  "scene": "res://scenes/verification.tscn",
+  "emulator": "37.1.11",
+  "avd": "Studio_API_36",
+  "image": "system-images;android-36;google_apis_playstore;x86_64",
+  "android_release": "16",
+  "api": 36,
+  "resolution": [
+    1080,
+    2400
+  ],
+  "gpu": "host NVIDIA GeForce RTX 4060 Laptop GPU",
+  "opengl_log": [
+    "11-14 01:45:41.861  4918  4973 I godot   : OpenGL API OpenGL ES 3.1 (4.5.0 NVIDIA 621.24) - Compatibility - Using Device: Google (NVIDIA Corporation) - Android Emulator OpenGL ES Translator (NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2)"
+  ],
+  "hypervisor": "WHPX",
+  "serial": "emulator-5580",
+  "adb_server_port": 5041,
+  "package": "org.studio100games.switchworks.verification",
+  "activity": "com.godot.game.GodotAppLauncher",
+  "pid": "4918",
+  "boot_completed": true,
+  "input_tap": [
+    540,
+    1275
+  ],
+  "counter_before": 0,
+  "errors": [],
+  "warnings": [
+    "11-14 01:45:40.727  4918  4973 E godot   : WARNING: Failed to load cached shader, recompiling."
+  ],
+  "counter_after": 1,
+  "resume_preserves_process": true,
+  "resume_launch_state": "HOT",
+  "events": [
+    "11-14 01:45:42.366  4918  4973 I godot   : BOOTSTRAP_READY platform=Android engine=4.7.2-stable (official)",
+    "11-14 01:46:12.585  4918  4973 I godot   : BOOTSTRAP_INPUT count=1"
+  ],
+  "error_scope": "Godot ERROR:, SCRIPT ERROR and FATAL EXCEPTION; native Logcat E diagnostics are listed separately.",
+  "native_diagnostics": [
+    "11-14 01:45:39.887  4918  4918 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.",
+    "11-14 01:45:41.413  4918  4981 E SurfaceSyncGroup: Failed to receive transaction ready in 1000ms. Marking SurfaceSyncGroup(wmsSync-VRI[GodotAppLauncher]#1) as ready",
+    "11-14 01:45:41.414  4918  4981 E SurfaceSyncGroup: Failed to receive transaction ready in 1000ms. Marking SurfaceSyncGroup(VRI[GodotAppLauncher]#2) as ready",
+    "11-14 01:45:41.414  4918  4981 E SurfaceSyncGroup: Failed to receive transaction ready in 1000ms. Marking SurfaceSyncGroup(SurfaceView[org.studio100games.switchworks.verification/com.godot.game.GodotAppLauncher]#0) as ready",
+    "11-14 01:46:14.557  4918  4973 E BufferQueueProducer: [1761c21 SurfaceView[org.studio100games.switchworks.verification/com.godot.game.GodotAppLauncher]#1(BLAST Consumer)1](id:133600000001,api:0,p:-1,c:4918) requestBuffer: BufferQueue has no connected producer",
+    "11-14 01:46:14.557  4918  4973 E Surface : dequeueBuffer: IGraphicBufferProducer::requestBuffer failed: -19",
+    "11-14 01:46:14.557  4918  4973 E BufferQueueProducer: [1761c21 SurfaceView[org.studio100games.switchworks.verification/com.godot.game.GodotAppLauncher]#1(BLAST Consumer)1](id:133600000001,api:0,p:-1,c:4918) cancelBuffer: BufferQueue has no connected producer",
+    "11-14 01:46:14.557  4918  4973 E EGL_emulation: tid 4973: swapBuffers(781): error 0x300d (EGL_BAD_SURFACE)",
+    "11-14 01:46:14.568  4918  4973 E BufferQueueProducer: [1761c21 SurfaceView[org.studio100games.switchworks.verification/com.godot.game.GodotAppLauncher]#1(BLAST Consumer)1](id:133600000001,api:0,p:-1,c:4918) disconnect: not connected (req=1)"
+  ],
+  "native_diagnostics_observation": "Observed during startup and background transition. The recorded resume returned HOT with the same PID and counter; no crash was observed. Recheck on physical Android."
+}

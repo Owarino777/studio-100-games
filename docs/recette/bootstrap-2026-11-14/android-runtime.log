@@ -1,0 +1,84 @@
+--------- beginning of main
+11-14 01:45:39.419  4918  4918 I ks.verification: Late-enabling -Xcheck:jni
+11-14 01:45:39.527  4918  4918 I ks.verification: Using CollectorTypeCMC GC.
+11-14 01:45:39.528  4918  4918 W ks.verification: Unexpected CPU variant for x86: x86_64.
+11-14 01:45:39.528  4918  4918 W ks.verification: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, alderlake, default
+11-14 01:45:39.622  4918  4918 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+11-14 01:45:39.826  4918  4918 D nativeloader: Configuring clns-9 for other apk /data/app/~~VcLQSDiZlJgMT08vYSFtmA==/org.studio100games.switchworks.verification-thXxKfKXcWS01ntjnpOFxg==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~VcLQSDiZlJgMT08vYSFtmA==/org.studio100games.switchworks.verification-thXxKfKXcWS01ntjnpOFxg==/lib/x86_64:/data/app/~~VcLQSDiZlJgMT08vYSFtmA==/org.studio100games.switchworks.verification-thXxKfKXcWS01ntjnpOFxg==/base.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/org.studio100games.switchworks.verification
+11-14 01:45:39.833  4918  4918 I ks.verification: AssetManager2(0x714cd221d438) locale list changing from [] to [en-US]
+11-14 01:45:39.836  4918  4918 V GraphicsEnvironment: Currently set values for:
+11-14 01:45:39.836  4918  4918 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+11-14 01:45:39.836  4918  4918 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+11-14 01:45:39.836  4918  4918 V GraphicsEnvironment: org.studio100games.switchworks.verification is not listed in per-application setting
+11-14 01:45:39.837  4918  4918 V GraphicsEnvironment: ANGLE allowlist from config: com.dreamgames.royalmatch com.dts.freefiremax com.dxx.firenow com.gramgames.mergedragons com.ludo.king com.mojang.minecraftpe com.my.defense com.nintendo.zaka com.os.airforce com.playrix.fishdomdd.gplay io.teslatech.callbreak jp.konami.prospia net.peakgames.toonblast
+11-14 01:45:39.837  4918  4918 V GraphicsEnvironment: org.studio100games.switchworks.verification is not listed in ANGLE allowlist or settings, returning default
+11-14 01:45:39.837  4918  4918 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+--------- beginning of system
+11-14 01:45:39.866  4918  4968 I DisplayManager: Choreographer implicitly registered for the refresh rate.
+11-14 01:45:39.867  4918  4918 I ks.verification: AssetManager2(0x714cd221f9b8) locale list changing from [] to [en-US]
+11-14 01:45:39.887  4918  4918 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+11-14 01:45:39.907  4918  4918 D CompatChangeReporter: Compat change id reported: 377864165; UID 10217; state: ENABLED
+11-14 01:45:39.908  4918  4918 D DesktopModeFlags: Toggle override initialized to: OVERRIDE_UNSET
+11-14 01:45:39.920  4918  4918 D GodotActivity: Project command line parameters: [--xr_mode_regular, --xr-mode, off, --fullscreen, --background_color, #000000]
+11-14 01:45:39.921  4918  4918 D GodotActivity: Launch intent Intent { flg=0x10000000 xflg=0x5 cmp=org.studio100games.switchworks.verification/com.godot.game.GodotAppLauncher } with parameters []
+11-14 01:45:39.939  4918  4918 V GodotActivity: Creating new Godot fragment instance.
+11-14 01:45:39.966  4918  4918 V Godot   : Initializing Godot plugin registry
+11-14 01:45:39.977  4918  4968 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+11-14 01:45:39.978  4918  4968 I EGL_emulation: Opening libGLESv2_emulation.so
+11-14 01:45:39.997  4918  4918 I GodotPluginRegistry: Registering runtime plugin AndroidRuntime
+11-14 01:45:40.003  4918  4918 V Godot   : InitEngine with params: [--xr_mode_regular, --xr-mode, off, --fullscreen, --background_color, #000000]
+11-14 01:45:40.007  4918  4968 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+11-14 01:45:40.013  4918  4968 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-14 01:45:40.085  4918  4918 D nativeloader: Load /data/app/~~VcLQSDiZlJgMT08vYSFtmA==/org.studio100games.switchworks.verification-thXxKfKXcWS01ntjnpOFxg==/lib/x86_64/libgodot_android.so using class loader ns clns-9 (caller=/data/app/~~VcLQSDiZlJgMT08vYSFtmA==/org.studio100games.switchworks.verification-thXxKfKXcWS01ntjnpOFxg==/base.apk!classes7.dex): ok
+11-14 01:45:40.086  4918  4918 V Godot   : Godot native layer initialization completed: true
+11-14 01:45:40.086  4918  4918 V Godot   : Setting up native layer with params: [--xr-mode, off, --fullscreen]
+11-14 01:45:40.203  4918  4918 V Godot   : Godot native layer setup completed
+11-14 01:45:40.208  4918  4918 V Godot   : OnInitRenderView: GodotFragment{f40f075} (91352662-d048-4e7c-b7f6-052112994a8a id=0x7f07002c)
+11-14 01:45:40.212  4918  4918 W HWUI    : Image decoding logging dropped!
+11-14 01:45:40.213  4918  4918 W HWUI    : Image decoding logging dropped!
+11-14 01:45:40.214  4918  4918 W HWUI    : Image decoding logging dropped!
+11-14 01:45:40.233  4918  4918 D Godot   : Render view should be transparent: false
+11-14 01:45:40.233  4918  4918 D Godot   : renderingDevice: opengl3 (ProjectSettings)
+11-14 01:45:40.233  4918  4918 D Godot   : 			renderer: gl_compatibility (ProjectSettings)
+11-14 01:45:40.261  4918  4918 V Godot   : OnStart: GodotFragment{f40f075} (91352662-d048-4e7c-b7f6-052112994a8a id=0x7f07002c)
+11-14 01:45:40.264  4918  4918 V Godot   : OnResume: GodotFragment{f40f075} (91352662-d048-4e7c-b7f6-052112994a8a id=0x7f07002c)
+11-14 01:45:40.274  4918  4918 W HWUI    : Unknown dataspace 0
+11-14 01:45:40.283  4918  4918 D InsetsController: Setting requestedVisibleTypes to -16 (was -9)
+11-14 01:45:40.387  4918  4973 W RegularContextFactory: creating OpenGL ES 3.0 context :
+11-14 01:45:40.435  4918  4973 I godot   : Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+11-14 01:45:40.590  4918  4918 D InsetsController: hide(ime(), fromIme=false)
+11-14 01:45:40.590  4918  4918 I ImeTracker: org.studio100games.switchworks.verification:9916bf57: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+11-14 01:45:40.727  4918  4973 E godot   : WARNING: Failed to load cached shader, recompiling.
+11-14 01:45:40.727  4918  4973 E godot   :    at: _load_from_cache (drivers/gles3/shader_gles3.cpp:615)
+11-14 01:45:40.874  4918  4918 W InteractionJankMonitor: Initializing without READ_DEVICE_CONFIG permission. enabled=false, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=org.studio100games.switchworks.verification
+11-14 01:45:41.413  4918  4981 E SurfaceSyncGroup: Failed to receive transaction ready in 1000ms. Marking SurfaceSyncGroup(wmsSync-VRI[GodotAppLauncher]#1) as ready
+11-14 01:45:41.414  4918  4981 E SurfaceSyncGroup: Failed to receive transaction ready in 1000ms. Marking SurfaceSyncGroup(VRI[GodotAppLauncher]#2) as ready
+11-14 01:45:41.414  4918  4981 E SurfaceSyncGroup: Failed to receive transaction ready in 1000ms. Marking SurfaceSyncGroup(SurfaceView[org.studio100games.switchworks.verification/com.godot.game.GodotAppLauncher]#0) as ready
+11-14 01:45:41.614  4918  4956 I ks.verification: Compiler allocated 5042KB to compile void android.view.ViewRootImpl.performTraversals()
+11-14 01:45:41.861  4918  4973 I godot   : OpenGL API OpenGL ES 3.1 (4.5.0 NVIDIA 621.24) - Compatibility - Using Device: Google (NVIDIA Corporation) - Android Emulator OpenGL ES Translator (NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2)
+11-14 01:45:41.867  4918  4973 D AudioSystem: onNewServiceWithAdapter: media.audio_flinger service obtained 0x714c922a8410
+11-14 01:45:41.873  4918  4973 D AudioSystem: getService: checking for service media.audio_flinger: 0x714dd2330c60
+11-14 01:45:41.877  4918  4973 D ks.verification: PlayerBase::PlayerBase()
+11-14 01:45:41.877  4918  4973 D ks.verification: TrackPlayerBase::TrackPlayerBase()
+11-14 01:45:41.877  4918  4973 I libOpenSLES: Emulating old channel mask behavior (ignoring positional mask 0x3, using default mask 0x3 based on channel count of 2)
+11-14 01:45:41.901  4918  4973 I godot   : 
+11-14 01:45:42.354  4918  4973 V Godot   : OnGodotSetupCompleted
+11-14 01:45:42.366  4918  4973 I godot   : BOOTSTRAP_READY platform=Android engine=4.7.2-stable (official)
+11-14 01:45:42.366  4918  4973 V Godot   : OnGodotMainLoopStarted
+11-14 01:46:12.585  4918  4973 I godot   : BOOTSTRAP_INPUT count=1
+11-14 01:46:13.987  4918  4918 V Godot   : OnPause: GodotFragment{f40f075} (91352662-d048-4e7c-b7f6-052112994a8a id=0x7f07002c)
+11-14 01:46:14.003  4918  4973 D ks.verification: PlayerBase::pause() from IPlayer
+11-14 01:46:14.517  4918  4918 D VRI[GodotAppLauncher]: visibilityChanged oldVisibility=true newVisibility=false
+11-14 01:46:14.557  4918  4973 E BufferQueueProducer: [1761c21 SurfaceView[org.studio100games.switchworks.verification/com.godot.game.GodotAppLauncher]#1(BLAST Consumer)1](id:133600000001,api:0,p:-1,c:4918) requestBuffer: BufferQueue has no connected producer
+11-14 01:46:14.557  4918  4973 E Surface : dequeueBuffer: IGraphicBufferProducer::requestBuffer failed: -19
+11-14 01:46:14.557  4918  4973 E BufferQueueProducer: [1761c21 SurfaceView[org.studio100games.switchworks.verification/com.godot.game.GodotAppLauncher]#1(BLAST Consumer)1](id:133600000001,api:0,p:-1,c:4918) cancelBuffer: BufferQueue has no connected producer
+11-14 01:46:14.557  4918  4973 E EGL_emulation: tid 4973: swapBuffers(781): error 0x300d (EGL_BAD_SURFACE)
+11-14 01:46:14.557  4918  4973 W GLThread: eglSwapBuffers failed: EGL_BAD_SURFACE
+11-14 01:46:14.568  4918  4973 E BufferQueueProducer: [1761c21 SurfaceView[org.studio100games.switchworks.verification/com.godot.game.GodotAppLauncher]#1(BLAST Consumer)1](id:133600000001,api:0,p:-1,c:4918) disconnect: not connected (req=1)
+11-14 01:46:14.568  4918  4973 W libEGL  : EGLNativeWindowType 0x714ca223f6d0 disconnect failed
+11-14 01:46:14.578  4918  4918 V Godot   : OnStop: GodotFragment{f40f075} (91352662-d048-4e7c-b7f6-052112994a8a id=0x7f07002c)
+11-14 01:46:15.025  4918  4918 D ViewRootImpl: Skipping stats log for color mode
+11-14 01:46:15.025  4918  4918 V Godot   : OnStart: GodotFragment{f40f075} (91352662-d048-4e7c-b7f6-052112994a8a id=0x7f07002c)
+11-14 01:46:15.027  4918  4918 V Godot   : OnResume: GodotFragment{f40f075} (91352662-d048-4e7c-b7f6-052112994a8a id=0x7f07002c)
+11-14 01:46:15.245  4918  4918 D InsetsController: hide(ime(), fromIme=false)
+11-14 01:46:15.245  4918  4918 I ImeTracker: org.studio100games.switchworks.verification:9ebcfa34: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN

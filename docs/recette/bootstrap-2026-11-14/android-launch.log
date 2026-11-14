@@ -1,0 +1,7 @@
+Starting: Intent { cmp=org.studio100games.switchworks.verification/com.godot.game.GodotAppLauncher }
+Status: ok
+LaunchState: COLD
+Activity: org.studio100games.switchworks.verification/com.godot.game.GodotApp
+TotalTime: 1704
+WaitTime: 1723
+Complete

@@ -1,0 +1,17 @@
+[
+  {
+    "file": "games/001-switchworks/build/android/switchworks-verification-debug.aab",
+    "bytes": 56896710,
+    "sha256": "e0fc5eb78ebe7df48e0b9bc77c4b3d6e2ffaf4d50304c864d004d36a67dfa67b",
+    "jar_signature_entries": []
+  },
+  {
+    "file": "games/001-switchworks/build/android/switchworks-verification-debug.apk",
+    "bytes": 56984562,
+    "sha256": "de19cccacb618b4c55db76964c0da07e2269dd55d7121e4d8e66dccc8a29aea0",
+    "jar_signature_entries": [
+      "META-INF/ANDROIDD.SF",
+      "META-INF/ANDROIDD.RSA"
+    ]
+  }
+]

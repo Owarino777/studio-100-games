@@ -1,0 +1,7 @@
+# Keep studio-authored text consistent across Windows and macOS.
+* text=auto eol=lf
+
+# Preserve the bytes of copied skills and their upstream licence notices.
+.agents/skills/** -text
+docs/third-party/gamedev-skills/LICENSE -text
+docs/third-party/gamedev-skills/NOTICE -text

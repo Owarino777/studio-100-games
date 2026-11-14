@@ -1,0 +1,94 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/verification.gd" id="1_script"]
+
+[sub_resource type="Theme" id="Theme_verification"]
+default_font_size = 20
+Label/colors/font_color = Color(0.94, 0.96, 1, 1)
+Button/font_sizes/font_size = 22
+
+[node name="Verification" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = SubResource("Theme_verification")
+script = ExtResource("1_script")
+
+[node name="Background" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0.047, 0.063, 0.09, 1)
+
+[node name="SafeMargin" type="MarginContainer" parent="."]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 24
+theme_override_constants/margin_top = 24
+theme_override_constants/margin_right = 24
+theme_override_constants/margin_bottom = 24
+
+[node name="Content" type="VBoxContainer" parent="SafeMargin"]
+layout_mode = 2
+theme_override_constants/separation = 20
+alignment = 1
+
+[node name="Title" type="Label" parent="SafeMargin/Content"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 32
+text = "SWITCHWORKS"
+horizontal_alignment = 1
+
+[node name="Purpose" type="Label" parent="SafeMargin/Content"]
+layout_mode = 2
+text = "Vérification technique"
+horizontal_alignment = 1
+
+[node name="RuntimeInfo" type="Label" parent="SafeMargin/Content"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "Initialisation du moteur…"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="VerifyButton" type="Button" parent="SafeMargin/Content"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 64)
+layout_mode = 2
+text = "Tester l’interaction"
+
+[node name="Counter" type="Label" parent="SafeMargin/Content"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/font_size = 28
+text = "Interactions : 0"
+horizontal_alignment = 1
+
+[node name="Status" type="Label" parent="SafeMargin/Content"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 52)
+layout_mode = 2
+text = "Touchez le bouton ou utilisez Entrée."
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Scope" type="Label" parent="SafeMargin/Content"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 16
+text = "Mire technique · aucun gameplay"
+horizontal_alignment = 1
+autowrap_mode = 3

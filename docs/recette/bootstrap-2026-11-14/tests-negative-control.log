@@ -1,0 +1,15 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+BOOTSTRAP_READY platform=Windows engine=4.7.2-stable (official)
+BOOTSTRAP_INPUT count=1
+BOOTSTRAP_INPUT count=2
+BOOTSTRAP_READY platform=Windows engine=4.7.2-stable (official)
+BOOTSTRAP_INPUT count=1
+BOOTSTRAP_INPUT count=2
+BOOTSTRAP_TESTS passed=36 failed=1
+ERROR: BOOTSTRAP_FAIL deliberate failure proves non-zero exit
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _expect (res://tests/test_runner.gd:60)
+       [1] _run (res://tests/test_runner.gd:20)
+       [2] _test_screen (res://tests/test_runner.gd:52)

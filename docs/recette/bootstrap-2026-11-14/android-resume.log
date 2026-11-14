@@ -1,0 +1,8 @@
+Starting: Intent { cmp=org.studio100games.switchworks.verification/com.godot.game.GodotAppLauncher }
+Warning: Activity not started, its current task has been brought to the front
+Status: ok
+LaunchState: HOT
+Activity: org.studio100games.switchworks.verification/com.godot.game.GodotApp
+TotalTime: 131
+WaitTime: 143
+Complete

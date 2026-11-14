@@ -1,0 +1,42 @@
+﻿# Local imports
+/imports/
+
+# Godot
+.godot/
+**/android/.build_version
+*.tmp
+
+# Build outputs
+**/build/
+**/dist/
+**/artifacts/
+**/node_modules/
+/tools/.local/
+*.apk
+*.aab
+*.apks
+*.idsig
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.p12
+*.pfx
+*.keystore
+*.jks
+*.key
+*.p8
+*.mobileprovision
+*.provisionprofile
+export_credentials.cfg
+local.properties
+/credentials/
+
+# Archives
+*.zip
+
+# Editor and system files
+.vs/
+.DS_Store
+Thumbs.db
