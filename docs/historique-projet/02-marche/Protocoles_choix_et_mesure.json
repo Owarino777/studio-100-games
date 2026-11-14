@@ -1,0 +1,215 @@
+{
+  "version": "1.0.0",
+  "date": "2026-11-12",
+  "status": "TEST - no product market fit validated",
+  "reference_pdf": "Benchmark_Expert_5_Concepts_Jeux_Mobiles_2026.pdf",
+  "weights": {
+    "demand": 25,
+    "differentiation": 25,
+    "feasibility": 20,
+    "video_hook": 10,
+    "monetization": 10,
+    "retention_depth": 10
+  },
+  "hard_gates": {
+    "minimum_differentiation_rating": 3.0,
+    "solvable_without_payment": true,
+    "compliant_non_repetitive_stores": true,
+    "no_misleading_ads": true
+  },
+  "concepts": [
+    {
+      "id": "A",
+      "name": "SWITCHWORKS",
+      "score": 81.0,
+      "decision": "TEST"
+    },
+    {
+      "id": "B",
+      "name": "FOLDSPACE",
+      "score": 70.0,
+      "decision": "TEST"
+    },
+    {
+      "id": "C",
+      "name": "ARROW CASCADE",
+      "score": 78.5,
+      "decision": "KILL"
+    },
+    {
+      "id": "D",
+      "name": "BLOCK GARDEN",
+      "score": 77.5,
+      "decision": "KILL"
+    },
+    {
+      "id": "E",
+      "name": "WORD MOSAIC",
+      "score": 67.0,
+      "decision": "HOLD"
+    }
+  ],
+  "research": {
+    "stage": "secondary_market_research",
+    "player_interviews_completed": 0,
+    "concept_campaigns_completed": 0,
+    "retention_measured": false
+  },
+  "sources": [
+    {
+      "id": "S01",
+      "title": "AppMagic, Mobile Market Landscape 2026, données 2023-2025, enregistré 15/01/2026, pp. 10, 56",
+      "url": "https://appmagic.rocks/files/view/upload/Reports/EN_MobileMarkeLandscape2026.pdf"
+    },
+    {
+      "id": "S02",
+      "title": "AppsFlyer, Gaming App Market Benchmarks Q3 2026, 05/11/2026",
+      "url": "https://www.appsflyer.com/blog/measurement-analytics/gaming-app-market-benchmarks-q3/"
+    },
+    {
+      "id": "S03",
+      "title": "GameAnalytics, Benchmarks Hub, mobile mondial ≥10k MAU, octobre 2026",
+      "url": "https://www.gameanalytics.com/benchmarks-hub"
+    },
+    {
+      "id": "S04",
+      "title": "Voodoo, Publishing : Prototype, Iterate, Launch, Scale",
+      "url": "https://voodoo.io/publishing"
+    },
+    {
+      "id": "S05",
+      "title": "Homa, Data Analytics et N-Testing",
+      "url": "https://www.homagames.com/homa-lab/data-analytics"
+    },
+    {
+      "id": "S06",
+      "title": "AppMagic, Top Apps 2026, classements de téléchargements mondiaux",
+      "url": "https://appmagic.rocks/top-charts/apps?aggregation=year&tag=126"
+    },
+    {
+      "id": "S07",
+      "title": "Google Play, Arrows – Puzzle Escape (Lessmore GmbH)",
+      "url": "https://play.google.com/store/apps/details?id=com.ecffri.arrows"
+    },
+    {
+      "id": "S08",
+      "title": "Google Play, Arrow Puzzle: Tap Puzzle Games (Easybrain)",
+      "url": "https://play.google.com/store/apps/details?id=com.easybrain.arrow.puzzle.game"
+    },
+    {
+      "id": "S09",
+      "title": "Google Play, Block Blast! (HungryStudio)",
+      "url": "https://play.google.com/store/apps/details?id=com.block.juggle"
+    },
+    {
+      "id": "S10",
+      "title": "Google Play, Color Block Jam (Rollic Games)",
+      "url": "https://play.google.com/store/apps/details?id=com.GybeGames.ColorBlockJam"
+    },
+    {
+      "id": "S11",
+      "title": "Google Play, Magic Sort! (Grand Games A.S.)",
+      "url": "https://play.google.com/store/apps/details?id=com.grandgames.magicsort"
+    },
+    {
+      "id": "S12",
+      "title": "Google Play, Yarn Loop (Combo Game)",
+      "url": "https://play.google.com/store/apps/details?id=com.combo.yarnflow"
+    },
+    {
+      "id": "S13",
+      "title": "Google Play, Bus Traffic Fever! (GOODROID)",
+      "url": "https://play.google.com/store/apps/details?id=jp.co.goodroid.hyper.busflow"
+    },
+    {
+      "id": "S14",
+      "title": "Google Play, Parcel Flow: Route Puzzle (ByteEra Labs LLC)",
+      "url": "https://play.google.com/store/apps/details?id=com.byteeralabs.parcelflow"
+    },
+    {
+      "id": "S15",
+      "title": "Google Play, Unpacking (Balor Games / Good Games Group)",
+      "url": "https://play.google.com/store/apps/details?id=com.humblebundle.unpacking"
+    },
+    {
+      "id": "S16",
+      "title": "Google Play, Pack It Perfect: Block Puzzle",
+      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.packitperfect"
+    },
+    {
+      "id": "S17",
+      "title": "Google Play, Wordscapes (PeopleFun)",
+      "url": "https://play.google.com/store/apps/details?id=com.peoplefun.wordcross"
+    },
+    {
+      "id": "S18",
+      "title": "Google Play, Color Block: Combo Blast (Ivy)",
+      "url": "https://play.google.com/store/apps/details?id=com.puzzlegames.puzzlebrickslegend"
+    },
+    {
+      "id": "S19",
+      "title": "Google Play, Word Tiles - Relaxing Puzzle (Agave Games)",
+      "url": "https://play.google.com/store/apps/details?id=com.agavegames.wordtiles"
+    },
+    {
+      "id": "S20",
+      "title": "Apple Developer, App Review Guidelines, sections 2, 3 et 4.3",
+      "url": "https://developer.apple.com/app-store/review/guidelines/"
+    },
+    {
+      "id": "S21",
+      "title": "Google Play, Developer Program Policy, Spam et Repetitive Content",
+      "url": "https://support.google.com/googleplay/android-developer/answer/9899034"
+    },
+    {
+      "id": "S22",
+      "title": "Apple Developer, Product Page Optimization",
+      "url": "https://developer.apple.com/app-store/product-page-optimization/"
+    },
+    {
+      "id": "S23",
+      "title": "Google Play, Store Listing Experiments (A/B tests)",
+      "url": "https://support.google.com/googleplay/android-developer/answer/12053285"
+    },
+    {
+      "id": "S24",
+      "title": "CNIL, Applications mobiles : SDK et vie privée, janvier 2025",
+      "url": "https://www.cnil.fr/fr/applications-mobiles-comment-integrer-des-sdk-et-respecter-la-vie-privee-des-utilisateurs"
+    },
+    {
+      "id": "S25",
+      "title": "Homa, guide de test : CPI / CTR / CVR / IPM / rétention",
+      "url": "https://homagames.notion.site/Games-overview-fb20dbdbd5dc4786b597dad42b026334"
+    },
+    {
+      "id": "S26",
+      "title": "AppBrain, classement France des jeux Puzzle gratuits (snapshot 12/11/2026)",
+      "url": "https://www.appbrain.com/stats/google-play-rankings/top_free/puzzle/fr"
+    },
+    {
+      "id": "S27",
+      "title": "Google Play, Block Bloom - jeu à mécanique proche, illustration de concurrence",
+      "url": "https://play.google.com/store/apps/details?id=com.kobyzada.blockbloom"
+    },
+    {
+      "id": "S28",
+      "title": "Google Play, Arrows Cascade – Puzzle Escape (réactions en chaîne)",
+      "url": "https://play.google.com/store/apps/details?id=com.nplays.arrowscascade"
+    },
+    {
+      "id": "S29",
+      "title": "PlayPendium, Foldspace, autre jeu portant le même nom",
+      "url": "https://playpendium.com/foldspace/"
+    },
+    {
+      "id": "S30",
+      "title": "Reddit r/iosgaming, discussion sur la suppression des publicités, juillet 2026",
+      "url": "https://www.reddit.com/r/iosgaming/comments/1uvoeu9/what_are_your_favorite_free_games_that_are/"
+    },
+    {
+      "id": "S31",
+      "title": "Reddit r/MobileGaming, jeux de puzzle hors ligne et publicités, juin 2026",
+      "url": "https://www.reddit.com/r/MobileGaming/comments/1tz5lxx/offline_lowbattery_puzzle_games_for_cold_commutes/"
+    }
+  ]
+}
