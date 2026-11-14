@@ -4,9 +4,18 @@ Kit d'instructions complémentaires au catalogue `gamedev-skills/awesome-gamedev
 
 ## État et organisation du monorepo
 
-L'[audit initial du 14 novembre 2026](docs/AUDIT_ENVIRONNEMENT_2026-11-14.md) est conservé comme état historique. La mise en place opérationnelle est décrite dans la [recette du socle](docs/RECETTE_BOOTSTRAP_2026-11-14.md) et l'[ADR 0001](docs/decisions/0001-socle-godot-mobile.md). Git est initialisé localement sur `main`, sans remote ni premier commit. Godot 4.7.2 stable Standard et ses modèles sont installés localement ; `games/001-switchworks` contient une mire exécutable en GDScript typé. Les résultats exacts Android et les limites iOS figurent dans la recette.
+L'[audit initial du 14 novembre 2026](docs/AUDIT_ENVIRONNEMENT_2026-11-14.md) est conservé comme état historique. La mise en place opérationnelle est décrite dans la [recette du socle](docs/RECETTE_BOOTSTRAP_2026-11-14.md) et l'[ADR 0001](docs/decisions/0001-socle-godot-mobile.md). La fondation est versionnée sur `main` par le premier commit `9687b0e`. `origin` est configuré localement pour `Owarino777/studio-100-games` ; aucune publication n'a eu lieu et la confidentialité distante reste à vérifier. Godot 4.7.2 stable Standard et ses modèles sont installés localement ; `games/001-switchworks` contient une mire exécutable en GDScript typé. Les résultats exacts Android et les limites iOS figurent dans la recette.
 
 Pour préparer les outils, lancer les tests ou exporter le paquet de vérification, utiliser les [commandes du studio](tools/README.md). Aucun développement graphique complet de SWITCHWORKS n'a commencé.
+
+## Préproduction SWITCHWORKS
+
+- [Synthèse de référence et renvois aux 73 pages historiques](docs/SYNTHESE_REFERENCE_SWITCHWORKS_2026-11-14.md).
+- [Préqualification, sept concurrents et limites des preuves](docs/market-research/SWITCHWORKS_PREQUALIFICATION_2026-11-14.md) ; [hypothèses et protocoles](docs/market-research/SWITCHWORKS_HYPOTHESES_ET_TESTS_2026-11-14.md).
+- [Trois directions artistiques et écrans conceptuels](docs/art/switchworks/DIRECTIONS_ARTISTIQUES.md), [QA indépendante](docs/art/switchworks/QA_CONCEPTS_2026-11-14.md) et [brief de tranche native après sélection](docs/art/switchworks/BRIEF_TRANCHE_VERTICALE.md).
+- [Préparation de la publication privée, sans push](docs/publication/PREPARATION_GITHUB_PRIVEE.md).
+
+SWITCHWORKS reste une piste **TEST**, sans validation commerciale définitive. Les variantes A/B/C sont du concept art non implémenté ; aucun choix n'est encore accepté. Les archives et les itérations précédentes sont conservées, sans remplacement du code ou des tests.
 
 | Emplacement | Rôle |
 |---|---|
