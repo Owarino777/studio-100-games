@@ -11,6 +11,7 @@
 **/dist/
 **/artifacts/
 **/node_modules/
+__pycache__/
 /tools/.local/
 *.apk
 *.aab

@@ -5,3 +5,6 @@
 .agents/skills/** -text
 docs/third-party/gamedev-skills/LICENSE -text
 docs/third-party/gamedev-skills/NOTICE -text
+
+# Historical source documents must survive checkout with their exact original bytes.
+docs/historique-projet/** -text
