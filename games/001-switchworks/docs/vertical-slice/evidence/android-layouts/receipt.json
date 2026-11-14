@@ -1,0 +1,987 @@
+{
+  "package": "org.studio100games.switchworks.archipel.slice",
+  "serial": "emulator-5580",
+  "avd": "Studio_API_36",
+  "adb_server_port": 5041,
+  "checks": [
+    {
+      "name": "dedicated AVD identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "launcher belongs to slice",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one application PID",
+      "passed": true,
+      "detail": "6994"
+    },
+    {
+      "name": "720x1280 renderer uses display dimensions",
+      "passed": true,
+      "detail": {
+        "buttons": {
+          "dispatch": [
+            360,
+            1192
+          ],
+          "hint": [
+            613,
+            1192
+          ],
+          "pause": [
+            618,
+            174
+          ],
+          "reduce_motion": [
+            211,
+            373
+          ],
+          "restart": [
+            225,
+            373
+          ],
+          "resume": [
+            122,
+            373
+          ],
+          "sound": [
+            174,
+            373
+          ],
+          "undo": [
+            111,
+            1192
+          ],
+          "victory_replay": [
+            208,
+            1020
+          ]
+        },
+        "cells": {
+          "0": [
+            123,
+            489
+          ],
+          "1": [
+            218,
+            489
+          ],
+          "10": [
+            502,
+            578
+          ],
+          "11": [
+            597,
+            578
+          ],
+          "12": [
+            123,
+            666
+          ],
+          "13": [
+            218,
+            666
+          ],
+          "14": [
+            313,
+            666
+          ],
+          "15": [
+            407,
+            666
+          ],
+          "16": [
+            502,
+            666
+          ],
+          "17": [
+            597,
+            666
+          ],
+          "18": [
+            123,
+            754
+          ],
+          "19": [
+            218,
+            754
+          ],
+          "2": [
+            313,
+            489
+          ],
+          "20": [
+            313,
+            754
+          ],
+          "21": [
+            407,
+            754
+          ],
+          "22": [
+            502,
+            754
+          ],
+          "23": [
+            597,
+            754
+          ],
+          "24": [
+            123,
+            842
+          ],
+          "25": [
+            218,
+            842
+          ],
+          "26": [
+            313,
+            842
+          ],
+          "27": [
+            407,
+            842
+          ],
+          "28": [
+            502,
+            842
+          ],
+          "29": [
+            597,
+            842
+          ],
+          "3": [
+            407,
+            489
+          ],
+          "30": [
+            123,
+            930
+          ],
+          "31": [
+            218,
+            930
+          ],
+          "32": [
+            313,
+            930
+          ],
+          "33": [
+            407,
+            930
+          ],
+          "34": [
+            502,
+            930
+          ],
+          "35": [
+            597,
+            930
+          ],
+          "4": [
+            502,
+            489
+          ],
+          "5": [
+            597,
+            489
+          ],
+          "6": [
+            123,
+            578
+          ],
+          "7": [
+            218,
+            578
+          ],
+          "8": [
+            313,
+            578
+          ],
+          "9": [
+            407,
+            578
+          ]
+        },
+        "logical_viewport": [
+          360.0,
+          640.0
+        ],
+        "phase": "planning",
+        "window": [
+          720,
+          1280
+        ]
+      }
+    },
+    {
+      "name": "720x1280 all 36 projected centers inside",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target cells/8 inside device",
+      "passed": true,
+      "detail": [
+        313,
+        578
+      ]
+    },
+    {
+      "name": "target buttons/undo inside device",
+      "passed": true,
+      "detail": [
+        111,
+        1192
+      ]
+    },
+    {
+      "name": "720x1280 touch and undo preserve preparation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "capture 720x1280-planning is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/pause inside device",
+      "passed": true,
+      "detail": [
+        618,
+        174
+      ]
+    },
+    {
+      "name": "capture 720x1280-paused is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/resume inside device",
+      "passed": true,
+      "detail": [
+        360,
+        531
+      ]
+    },
+    {
+      "name": "720x1280 no Godot script or fatal errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "one application PID",
+      "passed": true,
+      "detail": "7184"
+    },
+    {
+      "name": "1200x1600 renderer uses display dimensions",
+      "passed": true,
+      "detail": {
+        "buttons": {
+          "dispatch": [
+            600,
+            1490
+          ],
+          "hint": [
+            1065,
+            1490
+          ],
+          "pause": [
+            1073,
+            218
+          ],
+          "reduce_motion": [
+            409,
+            467
+          ],
+          "restart": [
+            426,
+            467
+          ],
+          "resume": [
+            298,
+            467
+          ],
+          "sound": [
+            363,
+            467
+          ],
+          "undo": [
+            139,
+            1490
+          ],
+          "victory_replay": [
+            405,
+            1275
+          ]
+        },
+        "cells": {
+          "0": [
+            304,
+            612
+          ],
+          "1": [
+            422,
+            612
+          ],
+          "10": [
+            778,
+            722
+          ],
+          "11": [
+            896,
+            722
+          ],
+          "12": [
+            304,
+            832
+          ],
+          "13": [
+            422,
+            832
+          ],
+          "14": [
+            541,
+            832
+          ],
+          "15": [
+            659,
+            832
+          ],
+          "16": [
+            778,
+            832
+          ],
+          "17": [
+            896,
+            832
+          ],
+          "18": [
+            304,
+            942
+          ],
+          "19": [
+            422,
+            942
+          ],
+          "2": [
+            541,
+            612
+          ],
+          "20": [
+            541,
+            942
+          ],
+          "21": [
+            659,
+            942
+          ],
+          "22": [
+            778,
+            942
+          ],
+          "23": [
+            896,
+            942
+          ],
+          "24": [
+            304,
+            1053
+          ],
+          "25": [
+            422,
+            1053
+          ],
+          "26": [
+            541,
+            1053
+          ],
+          "27": [
+            659,
+            1053
+          ],
+          "28": [
+            778,
+            1053
+          ],
+          "29": [
+            896,
+            1053
+          ],
+          "3": [
+            659,
+            612
+          ],
+          "30": [
+            304,
+            1163
+          ],
+          "31": [
+            422,
+            1163
+          ],
+          "32": [
+            541,
+            1163
+          ],
+          "33": [
+            659,
+            1163
+          ],
+          "34": [
+            778,
+            1163
+          ],
+          "35": [
+            896,
+            1163
+          ],
+          "4": [
+            778,
+            612
+          ],
+          "5": [
+            896,
+            612
+          ],
+          "6": [
+            304,
+            722
+          ],
+          "7": [
+            422,
+            722
+          ],
+          "8": [
+            541,
+            722
+          ],
+          "9": [
+            659,
+            722
+          ]
+        },
+        "logical_viewport": [
+          480.0,
+          640.0
+        ],
+        "phase": "planning",
+        "window": [
+          1200,
+          1600
+        ]
+      }
+    },
+    {
+      "name": "1200x1600 all 36 projected centers inside",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target cells/8 inside device",
+      "passed": true,
+      "detail": [
+        541,
+        722
+      ]
+    },
+    {
+      "name": "target buttons/undo inside device",
+      "passed": true,
+      "detail": [
+        139,
+        1490
+      ]
+    },
+    {
+      "name": "1200x1600 touch and undo preserve preparation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "capture 1200x1600-planning is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/pause inside device",
+      "passed": true,
+      "detail": [
+        1073,
+        218
+      ]
+    },
+    {
+      "name": "capture 1200x1600-paused is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/resume inside device",
+      "passed": true,
+      "detail": [
+        600,
+        664
+      ]
+    },
+    {
+      "name": "1200x1600 no Godot script or fatal errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "one application PID",
+      "passed": true,
+      "detail": "7371"
+    },
+    {
+      "name": "original display override restored",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "saved preparation unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "capture restored-display is PNG",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "original_display": "Physical size: 1080x2400",
+  "original_density": "Physical density: 420",
+  "profiles": [
+    {
+      "pixels": [
+        720,
+        1280
+      ],
+      "layout": {
+        "buttons": {
+          "dispatch": [
+            360,
+            1192
+          ],
+          "hint": [
+            613,
+            1192
+          ],
+          "pause": [
+            618,
+            174
+          ],
+          "reduce_motion": [
+            211,
+            373
+          ],
+          "restart": [
+            225,
+            373
+          ],
+          "resume": [
+            122,
+            373
+          ],
+          "sound": [
+            174,
+            373
+          ],
+          "undo": [
+            111,
+            1192
+          ],
+          "victory_replay": [
+            208,
+            1020
+          ]
+        },
+        "cells": {
+          "0": [
+            123,
+            489
+          ],
+          "1": [
+            218,
+            489
+          ],
+          "10": [
+            502,
+            578
+          ],
+          "11": [
+            597,
+            578
+          ],
+          "12": [
+            123,
+            666
+          ],
+          "13": [
+            218,
+            666
+          ],
+          "14": [
+            313,
+            666
+          ],
+          "15": [
+            407,
+            666
+          ],
+          "16": [
+            502,
+            666
+          ],
+          "17": [
+            597,
+            666
+          ],
+          "18": [
+            123,
+            754
+          ],
+          "19": [
+            218,
+            754
+          ],
+          "2": [
+            313,
+            489
+          ],
+          "20": [
+            313,
+            754
+          ],
+          "21": [
+            407,
+            754
+          ],
+          "22": [
+            502,
+            754
+          ],
+          "23": [
+            597,
+            754
+          ],
+          "24": [
+            123,
+            842
+          ],
+          "25": [
+            218,
+            842
+          ],
+          "26": [
+            313,
+            842
+          ],
+          "27": [
+            407,
+            842
+          ],
+          "28": [
+            502,
+            842
+          ],
+          "29": [
+            597,
+            842
+          ],
+          "3": [
+            407,
+            489
+          ],
+          "30": [
+            123,
+            930
+          ],
+          "31": [
+            218,
+            930
+          ],
+          "32": [
+            313,
+            930
+          ],
+          "33": [
+            407,
+            930
+          ],
+          "34": [
+            502,
+            930
+          ],
+          "35": [
+            597,
+            930
+          ],
+          "4": [
+            502,
+            489
+          ],
+          "5": [
+            597,
+            489
+          ],
+          "6": [
+            123,
+            578
+          ],
+          "7": [
+            218,
+            578
+          ],
+          "8": [
+            313,
+            578
+          ],
+          "9": [
+            407,
+            578
+          ]
+        },
+        "logical_viewport": [
+          360.0,
+          640.0
+        ],
+        "phase": "planning",
+        "window": [
+          720,
+          1280
+        ]
+      },
+      "pid": "6994"
+    },
+    {
+      "pixels": [
+        1200,
+        1600
+      ],
+      "layout": {
+        "buttons": {
+          "dispatch": [
+            600,
+            1490
+          ],
+          "hint": [
+            1065,
+            1490
+          ],
+          "pause": [
+            1073,
+            218
+          ],
+          "reduce_motion": [
+            409,
+            467
+          ],
+          "restart": [
+            426,
+            467
+          ],
+          "resume": [
+            298,
+            467
+          ],
+          "sound": [
+            363,
+            467
+          ],
+          "undo": [
+            139,
+            1490
+          ],
+          "victory_replay": [
+            405,
+            1275
+          ]
+        },
+        "cells": {
+          "0": [
+            304,
+            612
+          ],
+          "1": [
+            422,
+            612
+          ],
+          "10": [
+            778,
+            722
+          ],
+          "11": [
+            896,
+            722
+          ],
+          "12": [
+            304,
+            832
+          ],
+          "13": [
+            422,
+            832
+          ],
+          "14": [
+            541,
+            832
+          ],
+          "15": [
+            659,
+            832
+          ],
+          "16": [
+            778,
+            832
+          ],
+          "17": [
+            896,
+            832
+          ],
+          "18": [
+            304,
+            942
+          ],
+          "19": [
+            422,
+            942
+          ],
+          "2": [
+            541,
+            612
+          ],
+          "20": [
+            541,
+            942
+          ],
+          "21": [
+            659,
+            942
+          ],
+          "22": [
+            778,
+            942
+          ],
+          "23": [
+            896,
+            942
+          ],
+          "24": [
+            304,
+            1053
+          ],
+          "25": [
+            422,
+            1053
+          ],
+          "26": [
+            541,
+            1053
+          ],
+          "27": [
+            659,
+            1053
+          ],
+          "28": [
+            778,
+            1053
+          ],
+          "29": [
+            896,
+            1053
+          ],
+          "3": [
+            659,
+            612
+          ],
+          "30": [
+            304,
+            1163
+          ],
+          "31": [
+            422,
+            1163
+          ],
+          "32": [
+            541,
+            1163
+          ],
+          "33": [
+            659,
+            1163
+          ],
+          "34": [
+            778,
+            1163
+          ],
+          "35": [
+            896,
+            1163
+          ],
+          "4": [
+            778,
+            612
+          ],
+          "5": [
+            896,
+            612
+          ],
+          "6": [
+            304,
+            722
+          ],
+          "7": [
+            422,
+            722
+          ],
+          "8": [
+            541,
+            722
+          ],
+          "9": [
+            659,
+            722
+          ]
+        },
+        "logical_viewport": [
+          480.0,
+          640.0
+        ],
+        "phase": "planning",
+        "window": [
+          1200,
+          1600
+        ]
+      },
+      "pid": "7184"
+    }
+  ],
+  "activity": "org.studio100games.switchworks.archipel.slice/com.godot.game.GodotAppLauncher",
+  "processes": [
+    {
+      "pid": "6994",
+      "launch": "Starting: Intent { cmp=org.studio100games.switchworks.archipel.slice/com.godot.game.GodotAppLauncher }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: org.studio100games.switchworks.archipel.slice/com.godot.game.GodotApp\r\nTotalTime: 666\r\nWaitTime: 667\r\nComplete",
+      "first_frame_since_ready_ms": 1475.47
+    },
+    {
+      "pid": "7184",
+      "launch": "Starting: Intent { cmp=org.studio100games.switchworks.archipel.slice/com.godot.game.GodotAppLauncher }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: org.studio100games.switchworks.archipel.slice/com.godot.game.GodotApp\r\nTotalTime: 780\r\nWaitTime: 793\r\nComplete",
+      "first_frame_since_ready_ms": 1484.16
+    },
+    {
+      "pid": "7371",
+      "launch": "Starting: Intent { cmp=org.studio100games.switchworks.archipel.slice/com.godot.game.GodotAppLauncher }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: org.studio100games.switchworks.archipel.slice/com.godot.game.GodotApp\r\nTotalTime: 1039\r\nWaitTime: 1043\r\nComplete",
+      "first_frame_since_ready_ms": 1517.37
+    }
+  ],
+  "status": "passed"
+}

@@ -1,0 +1,7 @@
+﻿Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 621.24 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 4060 Laptop GPU
+
+SLICE_READY engine=4.7.2-stable (official) platform=Windows level=archipel-double-flux-01
+SLICE_LAYOUT {"buttons":{"dispatch":[195,796],"hint":[332,796],"pause":[335,68],"reduce_motion":[114,258],"restart":[122,258],"resume":[66,258],"sound":[94,258],"undo":[60,796],"victory_replay":[113,703]},"cells":{"0":[53,306],"1":[110,306],"10":[280,359],"11":[337,359],"12":[53,412],"13":[110,412],"14":[167,412],"15":[223,412],"16":[280,412],"17":[337,412],"18":[53,465],"19":[110,465],"2":[167,306],"20":[167,465],"21":[223,465],"22":[280,465],"23":[337,465],"24":[53,518],"25":[110,518],"26":[167,518],"27":[223,518],"28":[280,518],"29":[337,518],"3":[223,306],"30":[53,571],"31":[110,571],"32":[167,571],"33":[223,571],"34":[280,571],"35":[337,571],"4":[280,306],"5":[337,306],"6":[53,359],"7":[110,359],"8":[167,359],"9":[223,359]},"logical_viewport":[360.0,779.0],"phase":"planning","window":[390,844]}
+SLICE_FIRST_FRAME since_ready_ms=82.45
+SLICE_CAPTURE result=0 path=C:\Users\malik\Developpement\studio-100-games\games\001-switchworks\artifacts\stabilization\current-native-390x844.png

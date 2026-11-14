@@ -14,6 +14,7 @@ config/name="SWITCHWORKS - Verification"
 config/description="Mire technique du studio. Aucun gameplay implemente."
 config/icon="res://icons/verification.svg"
 run/main_scene="res://scenes/verification.tscn"
+run/main_scene.archipel_slice="res://scenes/archipel_postal.tscn"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 
 [display]

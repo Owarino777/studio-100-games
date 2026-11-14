@@ -24,6 +24,7 @@ __pycache__/
 !.env.example
 *.p12
 *.pfx
+*.pem
 *.keystore
 *.jks
 *.key
@@ -33,6 +34,10 @@ __pycache__/
 export_credentials.cfg
 local.properties
 /credentials/
+.credentials/
+.aws/
+.ssh/
+.codex/
 
 # Archives
 *.zip

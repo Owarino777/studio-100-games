@@ -1,6 +1,39 @@
 # SWITCHWORKS — Jeu 001
 
-Ce dossier contient pour l'instant un **projet minimal de vérification technique**. La scène ne constitue ni le gameplay ni la direction artistique finale de SWITCHWORKS.
+Ce dossier conserve la **mire historique du bootstrap** et ajoute une **tranche verticale expérimentale native**, fondée sur la direction candidate **B — Archipel Postal**. SWITCHWORKS reste **TEST / HOLD**, sans validation artistique ou commerciale définitive.
+
+La [référence de stabilisation et les seconds regards indépendants](docs/stabilization/README.md) préparent une revue humaine et une éventuelle finition limitée. Le [kit externe autonome](docs/stabilization/review-kit/README.md) conserve les captures et la vidéo originales ; aucune extension du gameplay n'est ajoutée à ce jalon.
+
+## Jouer à la tranche Archipel Postal
+
+Depuis la racine du studio :
+
+```powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File games/001-switchworks/tools/Slice.ps1 -Action Run
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File games/001-switchworks/tools/Slice.ps1 -Action Test
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File games/001-switchworks/tools/Slice.ps1 -Action ExportAndroid
+```
+
+Dans Godot, ouvrir `scenes/archipel_postal.tscn` et utiliser **F6**. Le démarrage F5 par défaut conserve volontairement `scenes/verification.tscn`, pour retrouver la fondation sans ambiguïté. La tranche Android utilise le preset indépendant **Android Archipel Slice** et son feature tag ; elle ne remplace pas le package de vérification.
+
+Le niveau « Les deux tournées » est nouveau : grille 6×6, deux flux A/B, six voies à réorienter et solution témoin fournie. Il n'est pas présenté comme un niveau historique restauré ni comme un PAR optimal prouvé. Les autres districts, les 18 niveaux web, comptes, achats et publicité ne font pas partie de cette tranche.
+
+- Toucher une voie, ou la sélectionner avec les flèches puis Entrée : rotation de 90°.
+- **Expédier** lance les deux colis ; la simulation bloque l'édition. Une rupture est signalée et peut être corrigée.
+- **Annuler** restaure une action de préparation, ses rotations et indices ; les essais réellement lancés restent comptés.
+- **Indice** encadre une voie de la solution témoin, sans la tourner automatiquement.
+- **Pause** ouvre Reprendre, Recommencer, Mouvement réduit et Sons discrets. Les sons sont coupés initialement ; ils sont synthétisés localement, sans fichier tiers.
+- Une victoire propose **Rejouer**. Le plateau n'est pas éditable derrière le bilan de réussite.
+
+La préparation, les compteurs et les préférences sont sauvegardés localement avec un schéma versionné et remplacement atomique. Home/reprise garde la session en mémoire et demande Reprendre ; un redémarrage du processus retrouve la préparation en phase de planification, sans relancer un colis automatiquement. L'historique d'annulation et la phase de simulation ne sont pas restaurés après destruction du processus. Aucune migration des sauvegardes HTML G2/G3 n'est prétendue.
+
+L'APK debug est généré sous `build/android/switchworks-archipel-slice-debug.apk`, avec le package distinct `org.studio100games.switchworks.archipel.slice`. Les notices Godot et Nunito Sans sont incluses. Les captures, les mesures et les limites de la recette figurent dans [le rapport de tranche](docs/vertical-slice/REPORT.md).
+
+Le plateau, les rails, pavillons et colis sont de vraies géométries indépendantes ; seuls les albedos et le décor de ciel sont des textures. Aucun poster conceptuel ne remplace le jeu ou les contrôles. Les sources d'assets et leurs conditions sont dans [assets/archipel/README.md](assets/archipel/README.md), le manifeste et les licences embarquées.
+
+## Fondation conservée
+
+La mire technique d'origine ne constitue ni le gameplay ni une validation artistique de la tranche.
 
 Décisions : Godot **4.7.2 stable Standard**, GDScript typé, Android et iOS. Le poste Windows sert en priorité à Android ; les builds iOS seront vérifiés ultérieurement sur macOS.
 

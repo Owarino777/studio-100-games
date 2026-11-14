@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "status": "TEST / HOLD, no human acceptance yet",
+  "apk_sha256": "7112e363b030f75dc549a70f26d7d75ff88b7eccda4fa2aa660229abc4b394b1",
+  "engine": "Godot4.7.2 Standard ed1daf0bf",
+  "scene": "res://scenes/archipel_postal.tscn",
+  "capture_platform": "Studio_API_36 Android16 API36 x86_64; 1080x2400, video720x1600",
+  "entry_screen": "Direct preparation, no separate home menu",
+  "media_processing": "Original PNG/MP4 copies; no cropping, retouching, resizing or re-encoding",
+  "git_reference": "REFERENCE_GIT.txt is added to the ZIP after the local reference commit",
+  "files": [
+    {
+      "path": "annexe/reprise-preparation.png",
+      "bytes": 2115947,
+      "sha256": "f36908a3e50e26a73e92d520721b05b840496c3c7da9fc2b552bb7d1c086e431",
+      "original_source": "games/001-switchworks/docs/vertical-slice/evidence/android/restored-preparation.png",
+      "unchanged_copy": true
+    },
+    {
+      "path": "ANOMALIES.md",
+      "bytes": 5888,
+      "sha256": "3e47ef2f5d0c15eab98abce9196459ab93291664dd102383847d0401d57f6629",
+      "original_source": null,
+      "unchanged_copy": null
+    },
+    {
+      "path": "DECISIONS_HUMAINES.md",
+      "bytes": 3608,
+      "sha256": "303c6736d764542a3dedfd10e81902111f8a0a44aaf06d0e8ae60eb5a699869d",
+      "original_source": null,
+      "unchanged_copy": null
+    },
+    {
+      "path": "GRILLE_REVUE.csv",
+      "bytes": 3143,
+      "sha256": "bdbf250881d80c50be1be8a36ed2e486661b337d0d509a54624108650b9ecc40",
+      "original_source": "games/001-switchworks/docs/stabilization/EXTERNAL_REVIEW_GRID.csv",
+      "unchanged_copy": true
+    },
+    {
+      "path": "media/01-entree-preparation.png",
+      "bytes": 2121729,
+      "sha256": "f1614696d66ca46044e7361ba5a2926545ec2956f0f953e0ef4240e11b794c92",
+      "original_source": "games/001-switchworks/docs/vertical-slice/evidence/android/planning.png",
+      "unchanged_copy": true
+    },
+    {
+      "path": "media/02-gameplay.png",
+      "bytes": 2110630,
+      "sha256": "8259fe80ea2c053e4ea58ac5dfaf715b32ae50114c2a8bbd2821f21143bc7b4a",
+      "original_source": "games/001-switchworks/docs/vertical-slice/evidence/android/in-motion.png",
+      "unchanged_copy": true
+    },
+    {
+      "path": "media/03-reussite.png",
+      "bytes": 1762991,
+      "sha256": "fb3ca6e4006729746024ad62f2b43a4326b5d1f19ea048e82c2d0b069ca29d0b",
+      "original_source": "games/001-switchworks/docs/vertical-slice/evidence/android/won.png",
+      "unchanged_copy": true
+    },
+    {
+      "path": "media/04-gameplay-android.mp4",
+      "bytes": 3428103,
+      "sha256": "7508b11eb34239813d5134b1511f39b4704fd48e97b2766ca14ec7eeaab46454",
+      "original_source": "games/001-switchworks/docs/vertical-slice/evidence/android/android-gameplay.mp4",
+      "unchanged_copy": true
+    },
+    {
+      "path": "PERFORMANCES_ET_LIMITES.md",
+      "bytes": 3121,
+      "sha256": "c2f0f3380d8254a3ce600f21e88c9e5224d0417078f7f8e8047a443e32b54723",
+      "original_source": null,
+      "unchanged_copy": null
+    },
+    {
+      "path": "README.md",
+      "bytes": 3876,
+      "sha256": "f0536a10bbc2983fac949c205c2a4fd021557a11537d631c8a98fc5024da43ba",
+      "original_source": null,
+      "unchanged_copy": null
+    },
+    {
+      "path": "reference/B-concept.png",
+      "bytes": 1923109,
+      "sha256": "c855a0bce6699e8f0540570a6e530f2c74146bd0ed2682e7044570aacd341f55",
+      "original_source": "docs/art/switchworks/concepts/b-archipel-postal-v3.png",
+      "unchanged_copy": true
+    }
+  ]
+}

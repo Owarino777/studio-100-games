@@ -1,0 +1,19 @@
+{
+  "decoded_video_frames": 430,
+  "first_pts_seconds": 0.0,
+  "last_pts_seconds": 7.933233,
+  "container_duration_seconds": 7.95,
+  "resolution": [
+    720,
+    1600
+  ],
+  "audio_stream": false,
+  "capture_pts_p50_ms": 16.70000000000016,
+  "capture_pts_p95_ms": 33.26699999999994,
+  "capture_pts_max_ms": 67.02200000000013,
+  "capture_gaps_over_33_4ms": 21,
+  "warning": "Encoded capture cadence includes emulator, GPU workload and screenrecord; not a measurement of game latency, input lag, GPU frame time, or physical phone performance.",
+  "decode_exit_code": 0,
+  "decoder": "FFmpeg9.0.2 isolated imageio-ffmpeg0.8.1 wheel",
+  "decoder_wheel_sha256": "f27ca4cb85e2d4946deedbce1a81245dfd942a2bcf94b53676fb3956aa95bf1b"
+}

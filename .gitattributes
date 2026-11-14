@@ -8,3 +8,15 @@ docs/third-party/gamedev-skills/NOTICE -text
 
 # Historical source documents must survive checkout with their exact original bytes.
 docs/historique-projet/** -text
+
+# Recorded evidence and frozen slice inputs must match their raw-byte manifests.
+games/001-switchworks/docs/vertical-slice/evidence/** -text
+games/001-switchworks/docs/stabilization/review-kit/** -text
+games/001-switchworks/docs/stabilization/video-evidence/** -text
+games/001-switchworks/docs/stabilization/reference-evidence/** -text
+games/001-switchworks/docs/stabilization/EXTERNAL_REVIEW_GRID.csv -text
+games/001-switchworks/data/archipel_double_flux.json -text
+games/001-switchworks/assets/archipel/textures/paper_fibres.svg -text
+games/001-switchworks/assets/archipel/textures/porcelain_micro.svg -text
+games/001-switchworks/assets/fonts/SOURCE.json -text
+games/001-switchworks/export_presets.cfg -text

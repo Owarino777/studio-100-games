@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "grid_size": 6,
+  "id": "archipel-double-flux-01",
+  "title": "Les deux tournées",
+  "chapter": "District 02 - Double flux",
+  "initial_grid": [
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "EW",
+      "EW",
+      "ES",
+      "",
+      "SE",
+      "EW"
+    ],
+    [
+      "",
+      "",
+      "NE",
+      "EW",
+      "WS",
+      ""
+    ],
+    [
+      "",
+      "EN",
+      "EW",
+      "ES",
+      "",
+      ""
+    ],
+    [
+      "EW",
+      "WS",
+      "",
+      "WN",
+      "EW",
+      "EW"
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  ],
+  "solved_grid": [
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "EW",
+      "EW",
+      "SW",
+      "",
+      "SE",
+      "EW"
+    ],
+    [
+      "",
+      "",
+      "NE",
+      "EW",
+      "NW",
+      ""
+    ],
+    [
+      "",
+      "SE",
+      "EW",
+      "SW",
+      "",
+      ""
+    ],
+    [
+      "EW",
+      "NW",
+      "",
+      "NE",
+      "EW",
+      "EW"
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  ],
+  "sources": {
+    "A": [
+      1,
+      0
+    ],
+    "B": [
+      4,
+      0
+    ]
+  },
+  "destinations": {
+    "A": [
+      1,
+      5
+    ],
+    "B": [
+      4,
+      5
+    ]
+  },
+  "solution_commands": [
+    {
+      "index": 8,
+      "quarter_turns": 1
+    },
+    {
+      "index": 16,
+      "quarter_turns": 1
+    },
+    {
+      "index": 19,
+      "quarter_turns": 1
+    },
+    {
+      "index": 21,
+      "quarter_turns": 1
+    },
+    {
+      "index": 25,
+      "quarter_turns": 1
+    },
+    {
+      "index": 27,
+      "quarter_turns": 1
+    }
+  ],
+  "reference_rotations": 6,
+  "optimality_proven": false,
+  "provenance": "New experimental level based on NATIVE-EXEMPLE-01. It is not a restored historical G1/G2/G3 level.",
+  "scope": "Two independent simultaneous routes; no shared signal or departure-delay mechanic in this slice."
+}

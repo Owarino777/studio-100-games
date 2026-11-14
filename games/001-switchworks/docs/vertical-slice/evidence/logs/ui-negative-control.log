@@ -1,0 +1,109 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+SLICE_READY engine=4.7.2-stable (official) platform=Windows level=archipel-double-flux-01
+SLICE_LAYOUT {"buttons":{"dispatch":[32,59],"hint":[54,59],"pause":[55,6],"restart":[21,17],"resume":[12,17],"undo":[11,59],"victory_replay":[19,53]},"cells":{"0":[12,25],"1":[20,25],"10":[44,28],"11":[52,28],"12":[12,32],"13":[20,32],"14":[28,32],"15":[36,32],"16":[44,32],"17":[52,32],"18":[12,36],"19":[20,36],"2":[28,25],"20":[28,36],"21":[36,36],"22":[44,36],"23":[52,36],"24":[12,40],"25":[20,40],"26":[28,40],"27":[36,40],"28":[44,40],"29":[52,40],"3":[36,25],"30":[12,44],"31":[20,44],"32":[28,44],"33":[36,44],"34":[44,44],"35":[52,44],"4":[44,25],"5":[52,25],"6":[12,28],"7":[20,28],"8":[28,28],"9":[36,28]},"window":[64,64]}
+SLICE_DISPATCH attempt=1 expected=missing_connection
+SLICE_RESULT success=false reason=missing_connection deliveries=0
+SLICE_RESET
+SLICE_ROTATE index=8 rotations=1
+SLICE_RESET
+SLICE_ROTATE index=8 rotations=1
+SLICE_PAUSE phase=planning
+SLICE_RESUME phase=planning
+SLICE_PAUSE phase=planning
+SLICE_RESET
+SLICE_ROTATE index=8 rotations=1
+SLICE_ROTATE index=16 rotations=2
+SLICE_ROTATE index=19 rotations=3
+SLICE_ROTATE index=21 rotations=4
+SLICE_ROTATE index=25 rotations=5
+SLICE_ROTATE index=27 rotations=6
+SLICE_DISPATCH attempt=1 expected=delivered
+SLICE_RESULT success=true reason=delivered deliveries=2
+SLICE_READY engine=4.7.2-stable (official) platform=Windows level=archipel-double-flux-01
+SLICE_LAYOUT {"buttons":{"dispatch":[32,60],"hint":[55,60],"pause":[56,5],"restart":[21,21],"resume":[13,21],"undo":[10,60],"victory_replay":[20,56]},"cells":{"0":[10,24],"1":[19,24],"10":[45,27],"11":[54,27],"12":[10,31],"13":[19,31],"14":[28,31],"15":[36,31],"16":[45,31],"17":[54,31],"18":[10,34],"19":[19,34],"2":[28,24],"20":[28,34],"21":[36,34],"22":[45,34],"23":[54,34],"24":[10,38],"25":[19,38],"26":[28,38],"27":[36,38],"28":[45,38],"29":[54,38],"3":[36,24],"30":[10,41],"31":[19,41],"32":[28,41],"33":[36,41],"34":[45,41],"35":[54,41],"4":[45,24],"5":[54,24],"6":[10,27],"7":[19,27],"8":[28,27],"9":[36,27]},"window":[64,64]}
+SLICE_DISPATCH attempt=1 expected=missing_connection
+SLICE_RESULT success=false reason=missing_connection deliveries=0
+SLICE_RESET
+SLICE_ROTATE index=8 rotations=1
+SLICE_RESET
+SLICE_ROTATE index=8 rotations=1
+SLICE_PAUSE phase=planning
+SLICE_RESUME phase=planning
+SLICE_PAUSE phase=planning
+SLICE_RESET
+SLICE_ROTATE index=8 rotations=1
+SLICE_ROTATE index=16 rotations=2
+SLICE_ROTATE index=19 rotations=3
+SLICE_ROTATE index=21 rotations=4
+SLICE_ROTATE index=25 rotations=5
+SLICE_ROTATE index=27 rotations=6
+SLICE_DISPATCH attempt=1 expected=delivered
+SLICE_RESULT success=true reason=delivered deliveries=2
+SLICE_READY engine=4.7.2-stable (official) platform=Windows level=archipel-double-flux-01
+SLICE_LAYOUT {"buttons":{"dispatch":[32,61],"hint":[56,61],"pause":[56,4],"restart":[22,21],"resume":[14,21],"undo":[9,61],"victory_replay":[21,56]},"cells":{"0":[10,24],"1":[19,24],"10":[45,27],"11":[54,27],"12":[10,31],"13":[19,31],"14":[28,31],"15":[36,31],"16":[45,31],"17":[54,31],"18":[10,34],"19":[19,34],"2":[28,24],"20":[28,34],"21":[36,34],"22":[45,34],"23":[54,34],"24":[10,37],"25":[19,37],"26":[28,37],"27":[36,37],"28":[45,37],"29":[54,37],"3":[36,24],"30":[10,41],"31":[19,41],"32":[28,41],"33":[36,41],"34":[45,41],"35":[54,41],"4":[45,24],"5":[54,24],"6":[10,27],"7":[19,27],"8":[28,27],"9":[36,27]},"window":[64,64]}
+SLICE_DISPATCH attempt=1 expected=missing_connection
+SLICE_RESULT success=false reason=missing_connection deliveries=0
+SLICE_RESET
+SLICE_ROTATE index=8 rotations=1
+SLICE_RESET
+SLICE_ROTATE index=8 rotations=1
+SLICE_PAUSE phase=planning
+SLICE_RESUME phase=planning
+SLICE_PAUSE phase=planning
+SLICE_RESET
+SLICE_ROTATE index=8 rotations=1
+SLICE_ROTATE index=16 rotations=2
+SLICE_ROTATE index=19 rotations=3
+SLICE_ROTATE index=21 rotations=4
+SLICE_ROTATE index=25 rotations=5
+SLICE_ROTATE index=27 rotations=6
+SLICE_DISPATCH attempt=1 expected=delivered
+SLICE_RESULT success=true reason=delivered deliveries=2
+SLICE_READY engine=4.7.2-stable (official) platform=Windows level=archipel-double-flux-01
+SLICE_LAYOUT {"buttons":{"dispatch":[32,61],"hint":[60,61],"pause":[60,4],"restart":[27,23],"resume":[22,23],"undo":[5,61],"victory_replay":[26,57]},"cells":{"0":[11,20],"1":[20,20],"10":[44,25],"11":[53,25],"12":[11,31],"13":[20,31],"14":[28,31],"15":[36,31],"16":[44,31],"17":[53,31],"18":[11,36],"19":[20,36],"2":[28,20],"20":[28,36],"21":[36,36],"22":[44,36],"23":[53,36],"24":[11,41],"25":[20,41],"26":[28,41],"27":[36,41],"28":[44,41],"29":[53,41],"3":[36,20],"30":[11,46],"31":[20,46],"32":[28,46],"33":[36,46],"34":[44,46],"35":[53,46],"4":[44,20],"5":[53,20],"6":[11,25],"7":[20,25],"8":[28,25],"9":[36,25]},"window":[64,64]}
+SLICE_DISPATCH attempt=1 expected=missing_connection
+SLICE_RESULT success=false reason=missing_connection deliveries=0
+SLICE_RESET
+SLICE_ROTATE index=8 rotations=1
+SLICE_RESET
+SLICE_ROTATE index=8 rotations=1
+SLICE_PAUSE phase=planning
+SLICE_RESUME phase=planning
+SLICE_PAUSE phase=planning
+SLICE_RESET
+SLICE_ROTATE index=8 rotations=1
+SLICE_ROTATE index=16 rotations=2
+SLICE_ROTATE index=19 rotations=3
+SLICE_ROTATE index=21 rotations=4
+SLICE_ROTATE index=25 rotations=5
+SLICE_ROTATE index=27 rotations=6
+SLICE_DISPATCH attempt=1 expected=delivered
+SLICE_RESULT success=true reason=delivered deliveries=2
+SLICE_READY engine=4.7.2-stable (official) platform=Windows level=archipel-double-flux-01
+SLICE_LAYOUT {"buttons":{"dispatch":[47,55],"hint":[60,55],"pause":[60,10],"restart":[27,7],"resume":[23,7],"undo":[34,55],"victory_replay":[26,46]},"cells":{"0":[5,13],"1":[9,13],"10":[21,20],"11":[25,20],"12":[5,28],"13":[9,28],"14":[13,28],"15":[17,28],"16":[21,28],"17":[25,28],"18":[5,35],"19":[9,35],"2":[13,13],"20":[13,35],"21":[17,35],"22":[21,35],"23":[25,35],"24":[5,43],"25":[9,43],"26":[13,43],"27":[17,43],"28":[21,43],"29":[25,43],"3":[17,13],"30":[5,50],"31":[9,50],"32":[13,50],"33":[17,50],"34":[21,50],"35":[25,50],"4":[21,13],"5":[25,13],"6":[5,20],"7":[9,20],"8":[13,20],"9":[17,20]},"window":[64,64]}
+SLICE_DISPATCH attempt=1 expected=missing_connection
+SLICE_RESULT success=false reason=missing_connection deliveries=0
+SLICE_RESET
+SLICE_ROTATE index=8 rotations=1
+SLICE_RESET
+SLICE_ROTATE index=8 rotations=1
+SLICE_PAUSE phase=planning
+SLICE_RESUME phase=planning
+SLICE_PAUSE phase=planning
+SLICE_RESET
+SLICE_ROTATE index=8 rotations=1
+SLICE_ROTATE index=16 rotations=2
+SLICE_ROTATE index=19 rotations=3
+SLICE_ROTATE index=21 rotations=4
+SLICE_ROTATE index=25 rotations=5
+SLICE_ROTATE index=27 rotations=6
+SLICE_DISPATCH attempt=1 expected=delivered
+SLICE_RESULT success=true reason=delivered deliveries=2
+SLICE_UI_TESTS passed=476 failed=1 sizes=5
+ERROR: SLICE_UI_FAIL deliberate UI failure proves non-zero process exit
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] _expect (res://tests/slice_ui_runner.gd:216)
+       [1] _run (res://tests/slice_ui_runner.gd:28)
+       [2] _test_screen (res://tests/slice_ui_runner.gd:162)

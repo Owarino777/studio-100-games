@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "date": "2026-11-14",
+  "source_archive": "build/delivery/switchworks-archipel-sources-rc1.zip",
+  "archive_sha256": "4b6cd485b28f5401b58e65e5d1a29897983beee85767d45173a447e7264bc011",
+  "files_verified": 458,
+  "source_bytes": 75357124,
+  "extraction": "tools/.local/source-smoke-20261114-rc1",
+  "godot": "4.7.2.stable.official.ed1daf0bf Standard, explicitly reused local binary",
+  "fresh_import_exit_code": 0,
+  "test_exit_codes": {
+    "bootstrap": 0,
+    "gameplay": 0,
+    "ui": 0
+  },
+  "test_passes": {
+    "bootstrap": 36,
+    "gameplay": 137,
+    "ui": 476
+  },
+  "test_failures": 0,
+  "render_exit_code": 0,
+  "render_pixels": [
+    390,
+    844
+  ],
+  "render_visually_inspected": true,
+  "scope_limit": "Source runtime and assets smoke-tested; SDK/engine not redistributed, no clean-host installation or new Android rebuild claimed."
+}

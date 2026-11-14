@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-14",
+  "scope": "local stabilization evidence; original files retained",
+  "files": [
+    {
+      "path": "video-analysis.json",
+      "bytes": 745,
+      "sha256": "a964377cafedb6d521d29033fd3de97a403d997734952ecbf4bbdf7f8453dbb3",
+      "original_source": "games/001-switchworks/artifacts/stabilization/video-analysis.json",
+      "unchanged_copy": true
+    },
+    {
+      "path": "video-samples.log",
+      "bytes": 14254,
+      "sha256": "17b796536489695dc0d1e088960a94f808b666880bd178764e4ba2c6224aaf84",
+      "original_source": "games/001-switchworks/artifacts/stabilization/video-decode.log",
+      "unchanged_copy": true
+    },
+    {
+      "path": "video-all-frames.log",
+      "bytes": 178190,
+      "sha256": "2fa52f7d6c3790f14b0cb14f05adc4c5e05d43360ae189c32c56848d95b037b3",
+      "original_source": "games/001-switchworks/artifacts/stabilization/video-all-frames.log",
+      "unchanged_copy": true
+    }
+  ]
+}

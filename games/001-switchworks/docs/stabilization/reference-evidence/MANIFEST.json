@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-14",
+  "scope": "local stabilization evidence; original files retained",
+  "files": [
+    {
+      "path": "reference-tests.log",
+      "bytes": 18604,
+      "sha256": "277ea370553a539c2dc327b198bd5442192d151ad43d89e2ad37e8a1f50aca5a",
+      "original_source": "games/001-switchworks/artifacts/stabilization/reference-tests.log",
+      "unchanged_copy": true
+    },
+    {
+      "path": "current-run.log",
+      "bytes": 1277,
+      "sha256": "db1c1a7162ba09f16925b407cd63ef0eb01ab2b27f8af44cba6cd3043798c93e",
+      "original_source": "games/001-switchworks/artifacts/stabilization/current-run.log",
+      "unchanged_copy": true
+    },
+    {
+      "path": "current-native-390x844.png",
+      "bytes": 360050,
+      "sha256": "85f0b58d38e572b00bc73ca23eb905b3901aa35ad30978fd8dc6e4ed9e362891",
+      "original_source": "games/001-switchworks/artifacts/stabilization/current-native-390x844.png",
+      "unchanged_copy": true
+    }
+  ]
+}
