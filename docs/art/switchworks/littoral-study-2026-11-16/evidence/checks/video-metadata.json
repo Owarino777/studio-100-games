@@ -1,0 +1,10 @@
+{
+  "desktop-gameplay.mp4": [
+    "Duration: 00:00:09.23, start: 0.000000, bitrate: 206 kb/s",
+    "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuvj420p(pc, bt470bg/unknown/unknown, progressive), 450x800 [SAR 1:1 DAR 9:16], 202 kb/s, 30 fps, 30 tbr, 15360 tbn (default)"
+  ],
+  "android-gameplay.mp4": [
+    "Duration: 00:00:11.74, start: 0.000000, bitrate: 2238 kb/s",
+    "Stream #0:0[0x1](eng): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 720x1560, 2226 kb/s, 36.46 fps, 90k tbr, 90k tbn (default)"
+  ]
+}

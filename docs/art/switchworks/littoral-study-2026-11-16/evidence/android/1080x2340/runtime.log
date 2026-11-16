@@ -1,0 +1,72 @@
+--------- beginning of main
+11-16 22:03:27.671 13575 13575 I .littoral.study: Late-enabling -Xcheck:jni
+11-16 22:03:27.709 13575 13575 I .littoral.study: Using CollectorTypeCMC GC.
+11-16 22:03:27.709 13575 13575 W .littoral.study: Unexpected CPU variant for x86: x86_64.
+11-16 22:03:27.709 13575 13575 W .littoral.study: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, alderlake, default
+11-16 22:03:27.723 13575 13575 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+11-16 22:03:27.800 13575 13575 D nativeloader: Configuring clns-9 for other apk /data/app/~~g4KEnslBJfUzpKs9G5a0xA==/org.studio100games.switchworks.littoral.study-TWtuLc3tAS9Q1_md35IbDw==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~g4KEnslBJfUzpKs9G5a0xA==/org.studio100games.switchworks.littoral.study-TWtuLc3tAS9Q1_md35IbDw==/lib/x86_64:/data/app/~~g4KEnslBJfUzpKs9G5a0xA==/org.studio100games.switchworks.littoral.study-TWtuLc3tAS9Q1_md35IbDw==/base.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/org.studio100games.switchworks.littoral.study
+11-16 22:03:27.817 13575 13575 I .littoral.study: AssetManager2(0x7847623dbe18) locale list changing from [] to [en-US]
+11-16 22:03:27.828 13575 13575 V GraphicsEnvironment: Currently set values for:
+11-16 22:03:27.828 13575 13575 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+11-16 22:03:27.828 13575 13575 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+11-16 22:03:27.828 13575 13575 V GraphicsEnvironment: org.studio100games.switchworks.littoral.study is not listed in per-application setting
+11-16 22:03:27.828 13575 13575 V GraphicsEnvironment: ANGLE allowlist from config: com.dreamgames.royalmatch com.dts.freefiremax com.dxx.firenow com.gramgames.mergedragons com.ludo.king com.mojang.minecraftpe com.my.defense com.nintendo.zaka com.os.airforce com.playrix.fishdomdd.gplay io.teslatech.callbreak jp.konami.prospia net.peakgames.toonblast
+11-16 22:03:27.828 13575 13575 V GraphicsEnvironment: org.studio100games.switchworks.littoral.study is not listed in ANGLE allowlist or settings, returning default
+11-16 22:03:27.828 13575 13575 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+--------- beginning of system
+11-16 22:03:27.865 13575 13590 I DisplayManager: Choreographer implicitly registered for the refresh rate.
+11-16 22:03:27.874 13575 13575 I .littoral.study: AssetManager2(0x7847623cfc58) locale list changing from [] to [en-US]
+11-16 22:03:27.901 13575 13575 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+11-16 22:03:27.917 13575 13590 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+11-16 22:03:27.917 13575 13590 I EGL_emulation: Opening libGLESv2_emulation.so
+11-16 22:03:27.949 13575 13590 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+11-16 22:03:27.950 13575 13590 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-16 22:03:27.963 13575 13575 D CompatChangeReporter: Compat change id reported: 377864165; UID 10219; state: ENABLED
+11-16 22:03:27.992 13575 13575 D DesktopModeFlags: Toggle override initialized to: OVERRIDE_UNSET
+11-16 22:03:28.003 13575 13575 D GodotActivity: Project command line parameters: [--xr_mode_regular, --xr-mode, off, --fullscreen, --background_color, #000000]
+11-16 22:03:28.004 13575 13575 D GodotActivity: Launch intent Intent { flg=0x10000000 xflg=0x5 cmp=org.studio100games.switchworks.littoral.study/com.godot.game.GodotAppLauncher } with parameters []
+11-16 22:03:28.014 13575 13575 V GodotActivity: Creating new Godot fragment instance.
+11-16 22:03:28.029 13575 13575 V Godot   : Initializing Godot plugin registry
+11-16 22:03:28.034 13575 13575 I GodotPluginRegistry: Registering runtime plugin AndroidRuntime
+11-16 22:03:28.037 13575 13575 V Godot   : InitEngine with params: [--xr_mode_regular, --xr-mode, off, --fullscreen, --background_color, #000000]
+11-16 22:03:28.056 13575 13575 D nativeloader: Load /data/app/~~g4KEnslBJfUzpKs9G5a0xA==/org.studio100games.switchworks.littoral.study-TWtuLc3tAS9Q1_md35IbDw==/lib/x86_64/libgodot_android.so using class loader ns clns-9 (caller=/data/app/~~g4KEnslBJfUzpKs9G5a0xA==/org.studio100games.switchworks.littoral.study-TWtuLc3tAS9Q1_md35IbDw==/base.apk!classes7.dex): ok
+11-16 22:03:28.058 13575 13575 V Godot   : Godot native layer initialization completed: true
+11-16 22:03:28.058 13575 13575 V Godot   : Setting up native layer with params: [--xr-mode, off, --fullscreen]
+11-16 22:03:28.116 13575 13575 V Godot   : Godot native layer setup completed
+11-16 22:03:28.118 13575 13575 V Godot   : OnInitRenderView: GodotFragment{3c41bd5} (f251094e-664b-468e-9ed0-039b9ccb182b id=0x7f07002c)
+11-16 22:03:28.134 13575 13575 W HWUI    : Image decoding logging dropped!
+11-16 22:03:28.142 13575 13575 W HWUI    : Image decoding logging dropped!
+11-16 22:03:28.145 13575 13575 W HWUI    : Image decoding logging dropped!
+11-16 22:03:28.172 13575 13575 D Godot   : Render view should be transparent: false
+11-16 22:03:28.173 13575 13575 D Godot   : renderingDevice: opengl3 (ProjectSettings)
+11-16 22:03:28.173 13575 13575 D Godot   : 			renderer: gl_compatibility (ProjectSettings)
+11-16 22:03:28.193 13575 13575 V Godot   : OnStart: GodotFragment{3c41bd5} (f251094e-664b-468e-9ed0-039b9ccb182b id=0x7f07002c)
+11-16 22:03:28.196 13575 13575 V Godot   : OnResume: GodotFragment{3c41bd5} (f251094e-664b-468e-9ed0-039b9ccb182b id=0x7f07002c)
+11-16 22:03:28.210 13575 13575 W HWUI    : Unknown dataspace 0
+11-16 22:03:28.216 13575 13575 D InsetsController: Setting requestedVisibleTypes to -16 (was -9)
+11-16 22:03:28.298 13575 13595 W RegularContextFactory: creating OpenGL ES 3.0 context :
+11-16 22:03:28.346 13575 13595 I godot   : Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+11-16 22:03:28.447 13575 13575 D InsetsController: hide(ime(), fromIme=false)
+11-16 22:03:28.447 13575 13575 I ImeTracker: org.studio100games.switchworks.littoral.study:30a4bc7: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+11-16 22:03:28.518 13575 13595 E godot   : WARNING: Failed to load cached shader, recompiling.
+11-16 22:03:28.518 13575 13595 E godot   :    at: _load_from_cache (drivers/gles3/shader_gles3.cpp:615)
+11-16 22:03:28.712 13575 13575 W InteractionJankMonitor: Initializing without READ_DEVICE_CONFIG permission. enabled=false, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=org.studio100games.switchworks.littoral.study
+11-16 22:03:29.277 13575 13601 E SurfaceSyncGroup: Failed to receive transaction ready in 1000ms. Marking SurfaceSyncGroup(wmsSync-VRI[GodotAppLauncher]#1) as ready
+11-16 22:03:29.278 13575 13601 E SurfaceSyncGroup: Failed to receive transaction ready in 1000ms. Marking SurfaceSyncGroup(VRI[GodotAppLauncher]#2) as ready
+11-16 22:03:29.279 13575 13601 E SurfaceSyncGroup: Failed to receive transaction ready in 1000ms. Marking SurfaceSyncGroup(SurfaceView[org.studio100games.switchworks.littoral.study/com.godot.game.GodotAppLauncher]#0) as ready
+11-16 22:03:29.607 13575 13595 I godot   : OpenGL API OpenGL ES 3.1 (4.5.0 NVIDIA 621.24) - Compatibility - Using Device: Google (NVIDIA Corporation) - Android Emulator OpenGL ES Translator (NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2)
+11-16 22:03:29.608 13575 13595 D AudioSystem: onNewServiceWithAdapter: media.audio_flinger service obtained 0x78470245dfc0
+11-16 22:03:29.609 13575 13595 D AudioSystem: getService: checking for service media.audio_flinger: 0x7848024dd380
+11-16 22:03:29.609 13575 13595 D .littoral.study: PlayerBase::PlayerBase()
+11-16 22:03:29.609 13575 13595 D .littoral.study: TrackPlayerBase::TrackPlayerBase()
+11-16 22:03:29.609 13575 13595 I libOpenSLES: Emulating old channel mask behavior (ignoring positional mask 0x3, using default mask 0x3 based on channel count of 2)
+11-16 22:03:29.616 13575 13595 I godot   : 
+11-16 22:03:29.799 13575 13580 I .littoral.study: Compiler allocated 5042KB to compile void android.view.ViewRootImpl.performTraversals()
+11-16 22:03:30.590 13575 13595 V Godot   : OnGodotSetupCompleted
+11-16 22:03:30.798 13575 13595 I godot   : SLICE_GUIDANCE {"phase":"planning","state":"restored_editable","text":"Préparation retrouvée.\nVérifiez les voies avant d'expédier."}
+11-16 22:03:30.800 13575 13595 I godot   : SLICE_READY engine=4.7.2-stable (official) platform=Android level=archipel-double-flux-01
+11-16 22:03:30.844 13575 13595 I godot   : LITTORAL_RENDER_CONTRACT {"camera_position":"(0.0, 10.0, 6.5)","camera_width_units":6.71999979019165,"mesh_nodes_including_multimesh":120,"renderer":"Compatibility","source":"traversal of actual instantiated meshes; no GPU/thermal inference","submitted_triangles_all_instances":76863,"tile_instances":36}
+11-16 22:03:30.844 13575 13595 V Godot   : OnGodotMainLoopStarted
+11-16 22:03:30.879 13575 13595 I godot   : SLICE_LAYOUT {"buttons":{"dispatch":[540,2214],"hint":[919,2214],"pause":[960,294],"reduce_motion":[317,782],"restart":[338,782],"resume":[183,782],"sound":[261,782],"undo":[168,2214],"victory_replay":[312,1806]},"cells":{"0":[138,690],"1":[299,690],"10":[781,825],"11":[942,825],"12":[138,959],"13":[299,959],"14":[460,959],"15":[620,959],"16":[781,959],"17":[942,959],"18":[138,1094],"19":[299,1094],"2":[460,690],"20":[460,1094],"21":[620,1094],"22":[781,1094],"23":[942,1094],"24":[138,1228],"25":[299,1228],"26":[460,1228],"27":[620,1228],"28":[781,1228],"29":[942,1228],"3":[620,690],"30":[138,1363],"31":[299,1363],"32":[460,1363],"33":[620,1363],"34":[781,1363],"35":[942,1363],"4":[781,690],"5":[942,690],"6":[138,825],"7":[299,825],"8":[460,825],"9":[620,825]},"logical_viewport":[360.0,780.0],"phase":"planning","window":[1080,2340]}
+11-16 22:03:30.879 13575 13595 I godot   : SLICE_GUIDANCE_LAYOUT {"guidance":{"font_rids":["511101108232"],"font_size":14,"line_height":20,"lines":2,"minimum_size":[221.0,43.0],"rect":[16.0,596.059997558594,328.0,46.0],"state":"restored_editable","visible":true,"visible_lines":2},"logical_viewport":[360.0,780.0],"window":[1080,2340]}
+11-16 22:03:32.555 13575 13595 I godot   : SLICE_FIRST_FRAME since_ready_ms=1962.63

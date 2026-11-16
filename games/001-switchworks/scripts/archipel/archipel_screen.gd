@@ -145,7 +145,7 @@ func _build_ui() -> void:
 		value.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 		column.add_child(value)
 		_stats[key] = value
-	_view = PostalBoardView.new()
+	_view = _create_board_view()
 	add_child(_view)
 	_view.cell_pressed.connect(rotate_cell)
 	_status = _label("", 14, 650)
@@ -168,6 +168,10 @@ func _build_ui() -> void:
 	_footer.hide()
 	_build_pause()
 	_build_victory()
+
+
+func _create_board_view() -> PostalBoardView:
+	return PostalBoardView.new()
 
 
 func _build_pause() -> void:

@@ -1,5 +1,7 @@
 # SWITCHWORKS — Jeu 001
 
+L'[étude Céramique littorale du 16 novembre](../../docs/art/switchworks/littoral-study-2026-11-16/README.md) ajoute une composition isolée, neuf modèles éditables et leurs GLB. Lancer `./games/001-switchworks/tools/ArtStudy.ps1 -Action Run` depuis la racine du studio. Elle conserve le niveau existant et reste candidate à revue, sans refonte généralisée.
+
 Ce dossier conserve la **mire historique du bootstrap** et ajoute une **tranche verticale expérimentale native**, fondée sur la direction candidate **B — Archipel Postal**. SWITCHWORKS reste **TEST / HOLD**, sans validation artistique ou commerciale définitive.
 
 Sur la branche `test/archipel-postal-web-iphone`, une [version Web Godot de test](docs/web-test/REPORT.md) et son [accès HTTPS temporaire autorisé](docs/web-test/ACCESS.md) permettent de préparer les essais Safari. Le [protocole iPhone Safari](docs/user-tests/safari-web-5/README.md) ne remplace pas la campagne Android native ; les résultats sont séparés.

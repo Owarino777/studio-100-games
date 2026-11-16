@@ -1,0 +1,1003 @@
+{
+  "context": "ANDROID_EMULATOR_NOT_PHYSICAL",
+  "package": "org.studio100games.switchworks.littoral.study",
+  "serial": "emulator-5580",
+  "avd": "Studio_API_36",
+  "adb_server_port": 5041,
+  "checks": [
+    {
+      "name": "dedicated studio AVD",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "only isolated study package",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "install study, never replace polish APK",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "activity belongs to study",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one application PID",
+      "passed": true,
+      "detail": "12582"
+    },
+    {
+      "name": "target buttons/pause inside device",
+      "passed": true,
+      "detail": [
+        960,
+        294
+      ]
+    },
+    {
+      "name": "target buttons/restart inside device",
+      "passed": true,
+      "detail": [
+        540,
+        1187
+      ]
+    },
+    {
+      "name": "capture planning is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target cells/8 inside device",
+      "passed": true,
+      "detail": [
+        460,
+        825
+      ]
+    },
+    {
+      "name": "1080x2340 one tap, one rotation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/undo inside device",
+      "passed": true,
+      "detail": [
+        168,
+        2214
+      ]
+    },
+    {
+      "name": "1080x2340 undo restores ports",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target cells/6 inside device",
+      "passed": true,
+      "detail": [
+        138,
+        825
+      ]
+    },
+    {
+      "name": "1080x2340 source remains fixed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/dispatch inside device",
+      "passed": true,
+      "detail": [
+        540,
+        2214
+      ]
+    },
+    {
+      "name": "capture failed is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/pause inside device",
+      "passed": true,
+      "detail": [
+        960,
+        294
+      ]
+    },
+    {
+      "name": "target buttons/restart inside device",
+      "passed": true,
+      "detail": [
+        540,
+        1187
+      ]
+    },
+    {
+      "name": "target cells/8 inside device",
+      "passed": true,
+      "detail": [
+        460,
+        825
+      ]
+    },
+    {
+      "name": "target cells/16 inside device",
+      "passed": true,
+      "detail": [
+        781,
+        959
+      ]
+    },
+    {
+      "name": "target cells/19 inside device",
+      "passed": true,
+      "detail": [
+        299,
+        1094
+      ]
+    },
+    {
+      "name": "target cells/21 inside device",
+      "passed": true,
+      "detail": [
+        620,
+        1094
+      ]
+    },
+    {
+      "name": "target cells/25 inside device",
+      "passed": true,
+      "detail": [
+        299,
+        1228
+      ]
+    },
+    {
+      "name": "target cells/27 inside device",
+      "passed": true,
+      "detail": [
+        620,
+        1228
+      ]
+    },
+    {
+      "name": "capture prepared is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/dispatch inside device",
+      "passed": true,
+      "detail": [
+        540,
+        2214
+      ]
+    },
+    {
+      "name": "target buttons/pause inside device",
+      "passed": true,
+      "detail": [
+        960,
+        294
+      ]
+    },
+    {
+      "name": "capture paused is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/resume inside device",
+      "passed": true,
+      "detail": [
+        540,
+        1019
+      ]
+    },
+    {
+      "name": "capture won is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1080x2340 two real receptions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "screenrecord completed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/pause inside device",
+      "passed": true,
+      "detail": [
+        960,
+        294
+      ]
+    },
+    {
+      "name": "target buttons/restart inside device",
+      "passed": true,
+      "detail": [
+        540,
+        1187
+      ]
+    },
+    {
+      "name": "target cells/8 inside device",
+      "passed": true,
+      "detail": [
+        460,
+        825
+      ]
+    },
+    {
+      "name": "capture home-return is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/resume inside device",
+      "passed": true,
+      "detail": [
+        540,
+        1019
+      ]
+    },
+    {
+      "name": "1080x2340 Home preserves rotation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one application PID",
+      "passed": true,
+      "detail": "13575"
+    },
+    {
+      "name": "1080x2340 process restart restores preparation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1080x2340 runtime clean",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one application PID",
+      "passed": true,
+      "detail": "13731"
+    },
+    {
+      "name": "target buttons/pause inside device",
+      "passed": true,
+      "detail": [
+        640,
+        180
+      ]
+    },
+    {
+      "name": "target buttons/restart inside device",
+      "passed": true,
+      "detail": [
+        360,
+        643
+      ]
+    },
+    {
+      "name": "capture planning is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target cells/8 inside device",
+      "passed": true,
+      "detail": [
+        306,
+        454
+      ]
+    },
+    {
+      "name": "720x1280 one tap, one rotation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/undo inside device",
+      "passed": true,
+      "detail": [
+        112,
+        1196
+      ]
+    },
+    {
+      "name": "720x1280 undo restores ports",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target cells/6 inside device",
+      "passed": true,
+      "detail": [
+        92,
+        454
+      ]
+    },
+    {
+      "name": "720x1280 source remains fixed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/dispatch inside device",
+      "passed": true,
+      "detail": [
+        360,
+        1196
+      ]
+    },
+    {
+      "name": "capture failed is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/pause inside device",
+      "passed": true,
+      "detail": [
+        640,
+        180
+      ]
+    },
+    {
+      "name": "target buttons/restart inside device",
+      "passed": true,
+      "detail": [
+        360,
+        643
+      ]
+    },
+    {
+      "name": "target cells/8 inside device",
+      "passed": true,
+      "detail": [
+        306,
+        454
+      ]
+    },
+    {
+      "name": "target cells/16 inside device",
+      "passed": true,
+      "detail": [
+        521,
+        543
+      ]
+    },
+    {
+      "name": "target cells/19 inside device",
+      "passed": true,
+      "detail": [
+        199,
+        633
+      ]
+    },
+    {
+      "name": "target cells/21 inside device",
+      "passed": true,
+      "detail": [
+        414,
+        633
+      ]
+    },
+    {
+      "name": "target cells/25 inside device",
+      "passed": true,
+      "detail": [
+        199,
+        722
+      ]
+    },
+    {
+      "name": "target cells/27 inside device",
+      "passed": true,
+      "detail": [
+        414,
+        722
+      ]
+    },
+    {
+      "name": "capture prepared is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/dispatch inside device",
+      "passed": true,
+      "detail": [
+        360,
+        1196
+      ]
+    },
+    {
+      "name": "target buttons/pause inside device",
+      "passed": true,
+      "detail": [
+        640,
+        180
+      ]
+    },
+    {
+      "name": "capture paused is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/resume inside device",
+      "passed": true,
+      "detail": [
+        360,
+        531
+      ]
+    },
+    {
+      "name": "capture won is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "720x1280 two real receptions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/pause inside device",
+      "passed": true,
+      "detail": [
+        640,
+        180
+      ]
+    },
+    {
+      "name": "target buttons/restart inside device",
+      "passed": true,
+      "detail": [
+        360,
+        643
+      ]
+    },
+    {
+      "name": "target cells/8 inside device",
+      "passed": true,
+      "detail": [
+        306,
+        454
+      ]
+    },
+    {
+      "name": "capture home-return is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/resume inside device",
+      "passed": true,
+      "detail": [
+        360,
+        531
+      ]
+    },
+    {
+      "name": "720x1280 Home preserves rotation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one application PID",
+      "passed": true,
+      "detail": "14198"
+    },
+    {
+      "name": "720x1280 process restart restores preparation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "720x1280 runtime clean",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "profiles": [
+    {
+      "display": "1080x2340",
+      "layout": {
+        "buttons": {
+          "dispatch": [
+            540,
+            2214
+          ],
+          "hint": [
+            919,
+            2214
+          ],
+          "pause": [
+            960,
+            294
+          ],
+          "reduce_motion": [
+            317,
+            782
+          ],
+          "restart": [
+            338,
+            782
+          ],
+          "resume": [
+            183,
+            782
+          ],
+          "sound": [
+            261,
+            782
+          ],
+          "undo": [
+            168,
+            2214
+          ],
+          "victory_replay": [
+            312,
+            1806
+          ]
+        },
+        "cells": {
+          "0": [
+            138,
+            690
+          ],
+          "1": [
+            299,
+            690
+          ],
+          "10": [
+            781,
+            825
+          ],
+          "11": [
+            942,
+            825
+          ],
+          "12": [
+            138,
+            959
+          ],
+          "13": [
+            299,
+            959
+          ],
+          "14": [
+            460,
+            959
+          ],
+          "15": [
+            620,
+            959
+          ],
+          "16": [
+            781,
+            959
+          ],
+          "17": [
+            942,
+            959
+          ],
+          "18": [
+            138,
+            1094
+          ],
+          "19": [
+            299,
+            1094
+          ],
+          "2": [
+            460,
+            690
+          ],
+          "20": [
+            460,
+            1094
+          ],
+          "21": [
+            620,
+            1094
+          ],
+          "22": [
+            781,
+            1094
+          ],
+          "23": [
+            942,
+            1094
+          ],
+          "24": [
+            138,
+            1228
+          ],
+          "25": [
+            299,
+            1228
+          ],
+          "26": [
+            460,
+            1228
+          ],
+          "27": [
+            620,
+            1228
+          ],
+          "28": [
+            781,
+            1228
+          ],
+          "29": [
+            942,
+            1228
+          ],
+          "3": [
+            620,
+            690
+          ],
+          "30": [
+            138,
+            1363
+          ],
+          "31": [
+            299,
+            1363
+          ],
+          "32": [
+            460,
+            1363
+          ],
+          "33": [
+            620,
+            1363
+          ],
+          "34": [
+            781,
+            1363
+          ],
+          "35": [
+            942,
+            1363
+          ],
+          "4": [
+            781,
+            690
+          ],
+          "5": [
+            942,
+            690
+          ],
+          "6": [
+            138,
+            825
+          ],
+          "7": [
+            299,
+            825
+          ],
+          "8": [
+            460,
+            825
+          ],
+          "9": [
+            620,
+            825
+          ]
+        },
+        "logical_viewport": [
+          360.0,
+          780.0
+        ],
+        "phase": "planning",
+        "window": [
+          1080,
+          2340
+        ]
+      },
+      "recording_influences_first_profile": true,
+      "observed_metrics": [
+        {
+          "draw_calls_max": 250.0,
+          "draw_calls_p50": 250.0,
+          "limits": "process wall intervals, not GPU timing; cache, debugger, emulator, recording and synthetic tests affect values",
+          "platform": "Android",
+          "process_interval_p50_ms": 16.799,
+          "process_interval_p95_ms": 18.306,
+          "result_phase": "failed",
+          "samples": 39,
+          "static_memory_bytes": 53386894.0,
+          "video_fixed_fps": false
+        },
+        {
+          "draw_calls_max": 251.0,
+          "draw_calls_p50": 251.0,
+          "limits": "process wall intervals, not GPU timing; cache, debugger, emulator, recording and synthetic tests affect values",
+          "platform": "Android",
+          "process_interval_p50_ms": 16.969,
+          "process_interval_p95_ms": 21.382,
+          "result_phase": "won",
+          "samples": 134,
+          "static_memory_bytes": 53445222.0,
+          "video_fixed_fps": false
+        }
+      ]
+    },
+    {
+      "display": "720x1280",
+      "layout": {
+        "buttons": {
+          "dispatch": [
+            360,
+            1196
+          ],
+          "hint": [
+            613,
+            1196
+          ],
+          "pause": [
+            640,
+            180
+          ],
+          "reduce_motion": [
+            211,
+            373
+          ],
+          "restart": [
+            225,
+            373
+          ],
+          "resume": [
+            122,
+            373
+          ],
+          "sound": [
+            174,
+            373
+          ],
+          "undo": [
+            112,
+            1196
+          ],
+          "victory_replay": [
+            208,
+            924
+          ]
+        },
+        "cells": {
+          "0": [
+            92,
+            364
+          ],
+          "1": [
+            199,
+            364
+          ],
+          "10": [
+            521,
+            454
+          ],
+          "11": [
+            628,
+            454
+          ],
+          "12": [
+            92,
+            543
+          ],
+          "13": [
+            199,
+            543
+          ],
+          "14": [
+            306,
+            543
+          ],
+          "15": [
+            414,
+            543
+          ],
+          "16": [
+            521,
+            543
+          ],
+          "17": [
+            628,
+            543
+          ],
+          "18": [
+            92,
+            633
+          ],
+          "19": [
+            199,
+            633
+          ],
+          "2": [
+            306,
+            364
+          ],
+          "20": [
+            306,
+            633
+          ],
+          "21": [
+            414,
+            633
+          ],
+          "22": [
+            521,
+            633
+          ],
+          "23": [
+            628,
+            633
+          ],
+          "24": [
+            92,
+            722
+          ],
+          "25": [
+            199,
+            722
+          ],
+          "26": [
+            306,
+            722
+          ],
+          "27": [
+            414,
+            722
+          ],
+          "28": [
+            521,
+            722
+          ],
+          "29": [
+            628,
+            722
+          ],
+          "3": [
+            414,
+            364
+          ],
+          "30": [
+            92,
+            812
+          ],
+          "31": [
+            199,
+            812
+          ],
+          "32": [
+            306,
+            812
+          ],
+          "33": [
+            414,
+            812
+          ],
+          "34": [
+            521,
+            812
+          ],
+          "35": [
+            628,
+            812
+          ],
+          "4": [
+            521,
+            364
+          ],
+          "5": [
+            628,
+            364
+          ],
+          "6": [
+            92,
+            454
+          ],
+          "7": [
+            199,
+            454
+          ],
+          "8": [
+            306,
+            454
+          ],
+          "9": [
+            414,
+            454
+          ]
+        },
+        "logical_viewport": [
+          360.0,
+          640.0
+        ],
+        "phase": "planning",
+        "window": [
+          720,
+          1280
+        ]
+      },
+      "recording_influences_first_profile": false,
+      "observed_metrics": [
+        {
+          "draw_calls_max": 250.0,
+          "draw_calls_p50": 250.0,
+          "limits": "process wall intervals, not GPU timing; cache, debugger, emulator, recording and synthetic tests affect values",
+          "platform": "Android",
+          "process_interval_p50_ms": 16.437,
+          "process_interval_p95_ms": 19.431,
+          "result_phase": "failed",
+          "samples": 39,
+          "static_memory_bytes": 48275430.0,
+          "video_fixed_fps": false
+        },
+        {
+          "draw_calls_max": 251.0,
+          "draw_calls_p50": 251.0,
+          "limits": "process wall intervals, not GPU timing; cache, debugger, emulator, recording and synthetic tests affect values",
+          "platform": "Android",
+          "process_interval_p50_ms": 16.691,
+          "process_interval_p95_ms": 18.475,
+          "result_phase": "won",
+          "samples": 135,
+          "static_memory_bytes": 48332998.0,
+          "video_fixed_fps": false
+        }
+      ]
+    }
+  ],
+  "apk_sha256": "bec8bdae81580bac3567b276d412895abcd3ecea90a1b1ce53f990e67c18f722",
+  "apk_bytes": 62504886,
+  "original_display": "Physical size: 1080x2400",
+  "density": "Physical density: 420",
+  "android_api": "36",
+  "gpu_backend": "host",
+  "activity": "org.studio100games.switchworks.littoral.study/com.godot.game.GodotAppLauncher",
+  "processes": [
+    {
+      "pid": "12582",
+      "launch": "Starting: Intent { cmp=org.studio100games.switchworks.littoral.study/com.godot.game.GodotAppLauncher }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: org.studio100games.switchworks.littoral.study/com.godot.game.GodotApp\r\nTotalTime: 1317\r\nWaitTime: 1337\r\nComplete",
+      "first_frame_since_ready_ms": 1928.06
+    },
+    {
+      "pid": "13575",
+      "launch": "Starting: Intent { cmp=org.studio100games.switchworks.littoral.study/com.godot.game.GodotAppLauncher }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: org.studio100games.switchworks.littoral.study/com.godot.game.GodotApp\r\nTotalTime: 755\r\nWaitTime: 798\r\nComplete",
+      "first_frame_since_ready_ms": 1962.63
+    },
+    {
+      "pid": "13731",
+      "launch": "Starting: Intent { cmp=org.studio100games.switchworks.littoral.study/com.godot.game.GodotAppLauncher }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: org.studio100games.switchworks.littoral.study/com.godot.game.GodotApp\r\nTotalTime: 936\r\nWaitTime: 941\r\nComplete",
+      "first_frame_since_ready_ms": 1709.01
+    },
+    {
+      "pid": "14198",
+      "launch": "Starting: Intent { cmp=org.studio100games.switchworks.littoral.study/com.godot.game.GodotAppLauncher }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: org.studio100games.switchworks.littoral.study/com.godot.game.GodotApp\r\nTotalTime: 748\r\nWaitTime: 753\r\nComplete",
+      "first_frame_since_ready_ms": 1668.49
+    }
+  ],
+  "status": "passed",
+  "restored_display": "Physical size: 1080x2400"
+}

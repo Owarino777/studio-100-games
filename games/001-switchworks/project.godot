@@ -16,6 +16,8 @@ config/description="Mire technique du studio. Aucun gameplay implemente."
 config/icon="res://icons/verification.svg"
 run/main_scene="res://scenes/verification.tscn"
 run/main_scene.archipel_slice="res://scenes/archipel_postal.tscn"
+run/main_scene.littoral_study="res://experiments/littoral/composition.tscn"
+config/name.littoral_study="SWITCHWORKS - Etude Littorale"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 
 [display]

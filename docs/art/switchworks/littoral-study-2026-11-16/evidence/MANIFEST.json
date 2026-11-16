@@ -1,0 +1,757 @@
+{
+  "schema": 1,
+  "date": "2026-11-16",
+  "base": "af5cc28f37386df0024d3e20134c7d8a80886807",
+  "branch": "art/archipel-postal-littoral-study",
+  "engine": "Godot4.7.2.stable.official.ed1daf0bf Standard",
+  "android_apk_sha256": "bec8bdae81580bac3567b276d412895abcd3ecea90a1b1ce53f990e67c18f722",
+  "android_apk_bytes": 62504886,
+  "scene": "res://experiments/littoral/composition.tscn",
+  "scope": "Real Windows and Android emulator execution; no new physical iPhone/Android results",
+  "files": [
+    {
+      "path": "before/390x844/planning.png",
+      "source": "games/001-switchworks/artifacts/art-study-2026-11-16/before/390x844/planning.png",
+      "sha256": "a3e38c22a7a87bd7e62fb28bb564b0dde7e28fba37b9603e6334a839cc1dcdb5",
+      "bytes": 361959,
+      "context": "Windows Godot baseline af5cc28, original view",
+      "unaltered_copy": true,
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "before/390x844/capture.log",
+      "source": "games/001-switchworks/artifacts/art-study-2026-11-16/before/390x844/capture.log",
+      "sha256": "68d06a2163709900e32ea219baa4b6880852cae1b782a21a158451f4b260f474",
+      "bytes": 2881,
+      "context": "Windows Godot baseline af5cc28, original view",
+      "unaltered_copy": true
+    },
+    {
+      "path": "before/360x640/planning.png",
+      "source": "games/001-switchworks/artifacts/art-study-2026-11-16/before/360x640/planning.png",
+      "sha256": "26da7599c518894dbc676fdbd18161f7cc13da0173b2f7dfa0b89d49ebbce4aa",
+      "bytes": 243424,
+      "context": "Windows Godot baseline af5cc28, original view",
+      "unaltered_copy": true,
+      "pixels": [
+        360,
+        640
+      ]
+    },
+    {
+      "path": "before/360x640/capture.log",
+      "source": "games/001-switchworks/artifacts/art-study-2026-11-16/before/360x640/capture.log",
+      "sha256": "a368f8fca93635e4e9750974db2191ac65f28fe705bde117d9f1da0b97903730",
+      "bytes": 2880,
+      "context": "Windows Godot baseline af5cc28, original view",
+      "unaltered_copy": true
+    },
+    {
+      "path": "after/390x844/planning.png",
+      "source": "games/001-switchworks/artifacts/art-study-2026-11-16/runs/20261116T2202509468064Z-Capture/planning.png",
+      "sha256": "64408b627c088b12827be32a2f620bc1dd44017e5add43f76358a652998a940c",
+      "bytes": 335397,
+      "context": "Windows Godot study, actual viewport",
+      "unaltered_copy": true,
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "after/390x844/planning.log",
+      "source": "games/001-switchworks/artifacts/art-study-2026-11-16/runs/20261116T2202509468064Z-Capture/runtime.log",
+      "sha256": "383b03fcda7a64141a50fc82d94cfd964b9b488aee1c7c62663a141e6528e00c",
+      "bytes": 3209,
+      "context": "Windows runtime log",
+      "unaltered_copy": true
+    },
+    {
+      "path": "after/360x640/planning.png",
+      "source": "games/001-switchworks/artifacts/art-study-2026-11-16/runs/20261116T2202584667243Z-Capture/planning.png",
+      "sha256": "4aa9980a864223595ebdce0346f89abba962e377b6582853c21edc725a238944",
+      "bytes": 230325,
+      "context": "Windows Godot study, actual viewport",
+      "unaltered_copy": true,
+      "pixels": [
+        360,
+        640
+      ]
+    },
+    {
+      "path": "after/360x640/planning.log",
+      "source": "games/001-switchworks/artifacts/art-study-2026-11-16/runs/20261116T2202584667243Z-Capture/runtime.log",
+      "sha256": "5ff7f342d142180dfcf67ea144517e411fbe1271d18d191a5b82a97be0323fe2",
+      "bytes": 3187,
+      "context": "Windows runtime log",
+      "unaltered_copy": true
+    },
+    {
+      "path": "after/390x844/failed.png",
+      "source": "games/001-switchworks/artifacts/art-study-2026-11-16/runs/20261116T2203057924286Z-Capture/failed.png",
+      "sha256": "86de32fbd0e04c7792aa3202691725f61c7a8544174e92c65855f7a0b78ea1a7",
+      "bytes": 335291,
+      "context": "Windows Godot study, actual viewport",
+      "unaltered_copy": true,
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "after/390x844/failed.log",
+      "source": "games/001-switchworks/artifacts/art-study-2026-11-16/runs/20261116T2203057924286Z-Capture/runtime.log",
+      "sha256": "83a26e784edabdfb21335b83accd56b8faa94e55729f78d89bc894be0935ee1c",
+      "bytes": 5025,
+      "context": "Windows runtime log",
+      "unaltered_copy": true
+    },
+    {
+      "path": "after/390x844/paused.png",
+      "source": "games/001-switchworks/artifacts/art-study-2026-11-16/runs/20261116T2203128478984Z-Capture/paused.png",
+      "sha256": "715217a6c4f199455e1f7077c33952c3314063123ac0f86267c887bd06431c76",
+      "bytes": 227258,
+      "context": "Windows Godot study, actual viewport",
+      "unaltered_copy": true,
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "after/390x844/paused.log",
+      "source": "games/001-switchworks/artifacts/art-study-2026-11-16/runs/20261116T2203128478984Z-Capture/runtime.log",
+      "sha256": "79d1e629b9abf2446c3e9ff035848690e70809c5f20b31df02a05d4290983060",
+      "bytes": 3333,
+      "context": "Windows runtime log",
+      "unaltered_copy": true
+    },
+    {
+      "path": "desktop-gameplay.mp4",
+      "source": "games/001-switchworks/artifacts/art-study-2026-11-16/runs/20261116T2208465870611Z-Video/desktop-gameplay.mp4",
+      "sha256": "7c5585658d10ef5b5106649514932c4a195da927154ef2cbe151776541da3434",
+      "bytes": 238258,
+      "context": "Actual Godot Movie Maker configured450x800 full viewport,30fps recording; not a frame-rate benchmark",
+      "unaltered_copy": true
+    },
+    {
+      "path": "desktop-video.log",
+      "source": "games/001-switchworks/artifacts/art-study-2026-11-16/runs/20261116T2208465870611Z-Video/runtime.log",
+      "sha256": "4bc8e50f8f2e72cc537732ae56226ac319b580a3cf626345062a1274c70b981e",
+      "bytes": 17339,
+      "context": "Actual Godot Movie Maker configured450x800 full viewport,30fps recording; not a frame-rate benchmark",
+      "unaltered_copy": true
+    },
+    {
+      "path": "after/390x844/reception.png",
+      "source": "games/001-switchworks/artifacts/art-study-2026-11-16/runs/20261116T2203202200267Z-Video/frames/reception.png",
+      "sha256": "8ab30c4ca6790b1b5afe819b46e38fde0554388e138ef25ae037bddd1250d5ad",
+      "bytes": 332770,
+      "context": "Actual Godot video-sequence frame, unretouched",
+      "unaltered_copy": true,
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "after/390x844/won.png",
+      "source": "games/001-switchworks/artifacts/art-study-2026-11-16/runs/20261116T2203202200267Z-Video/frames/won.png",
+      "sha256": "7351e531b93d59ed25b681957b1e985cccb03756964fc3709fa585a8ebd13122",
+      "bytes": 300282,
+      "context": "Actual Godot video-sequence frame, unretouched",
+      "unaltered_copy": true,
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "modules.png",
+      "source": "games/001-switchworks/artifacts/art-study-2026-11-16/runs/20261116T2154177123151Z-Modules/modules.png",
+      "sha256": "22d84e135114534b80dbcd30c377d5e2fa0d549adc0ec08509a87e23424a5f02",
+      "bytes": 123432,
+      "context": "Godot module_sheet.tscn executed,960x720",
+      "unaltered_copy": true,
+      "pixels": [
+        960,
+        720
+      ]
+    },
+    {
+      "path": "modules.log",
+      "source": "games/001-switchworks/artifacts/art-study-2026-11-16/runs/20261116T2154177123151Z-Modules/runtime.log",
+      "sha256": "1c9765f186c63707693931862bde15fab3f0304cc948ea8d711d9fbdb38e191a",
+      "bytes": 208,
+      "context": "Module sheet runtime",
+      "unaltered_copy": true
+    },
+    {
+      "path": "android/receipt.json",
+      "source": "games/001-switchworks/artifacts/art-study-2026-11-16/android-20261116T220256223969Z/receipt.json",
+      "sha256": "fcede880faac253f0fdb628c9570c69de4a600adf7d76ae515a12a2692054391",
+      "bytes": 20945,
+      "context": "Studio_API_36 emulator,not physical Android",
+      "unaltered_copy": true
+    },
+    {
+      "path": "android/1080x2340/planning.png",
+      "source": "games/001-switchworks/artifacts/art-study-2026-11-16/android-20261116T220256223969Z/1080x2340/planning.png",
+      "sha256": "d578cfb7d4bd216cf213e26ed8d3c5277468d0801cfbf8b6856f2b1c2b74d3b6",
+      "bytes": 1685074,
+      "context": "Android emulator native study; raw screencap or log",
+      "unaltered_copy": true,
+      "pixels": [
+        1080,
+        2340
+      ]
+    },
+    {
+      "path": "android/1080x2340/failed.png",
+      "source": "games/001-switchworks/artifacts/art-study-2026-11-16/android-20261116T220256223969Z/1080x2340/failed.png",
+      "sha256": "a63ebb9babb9527f07386223a5f61e4b1ed65089d1a70fe513851797edcef4f6",
+      "bytes": 1682545,
+      "context": "Android emulator native study; raw screencap or log",
+      "unaltered_copy": true,
+      "pixels": [
+        1080,
+        2340
+      ]
+    },
+    {
+      "path": "android/1080x2340/prepared.png",
+      "source": "games/001-switchworks/artifacts/art-study-2026-11-16/android-20261116T220256223969Z/1080x2340/prepared.png",
+      "sha256": "99ce724fe6fde0aece40545c74931c9a92dba2326b301f50d134033b547bc8f9",
+      "bytes": 1685873,
+      "context": "Android emulator native study; raw screencap or log",
+      "unaltered_copy": true,
+      "pixels": [
+        1080,
+        2340
+      ]
+    },
+    {
+      "path": "android/1080x2340/paused.png",
+      "source": "games/001-switchworks/artifacts/art-study-2026-11-16/android-20261116T220256223969Z/1080x2340/paused.png",
+      "sha256": "e23885f85b94097c3c76fafea2afb43760ae406692d6ff2c33bad14457977704",
+      "bytes": 1098387,
+      "context": "Android emulator native study; raw screencap or log",
+      "unaltered_copy": true,
+      "pixels": [
+        1080,
+        2340
+      ]
+    },
+    {
+      "path": "android/1080x2340/won.png",
+      "source": "games/001-switchworks/artifacts/art-study-2026-11-16/android-20261116T220256223969Z/1080x2340/won.png",
+      "sha256": "f77ea54d1de55da360f79afb27d3d5413082c36194aae82a146aec13f0591d7c",
+      "bytes": 1500175,
+      "context": "Android emulator native study; raw screencap or log",
+      "unaltered_copy": true,
+      "pixels": [
+        1080,
+        2340
+      ]
+    },
+    {
+      "path": "android/1080x2340/home-return.png",
+      "source": "games/001-switchworks/artifacts/art-study-2026-11-16/android-20261116T220256223969Z/1080x2340/home-return.png",
+      "sha256": "4b5c644793a19fe8076abe2727e922ff68ecdde6eb317e5274554e83f6eca2c3",
+      "bytes": 1111400,
+      "context": "Android emulator native study; raw screencap or log",
+      "unaltered_copy": true,
+      "pixels": [
+        1080,
+        2340
+      ]
+    },
+    {
+      "path": "android/1080x2340/session.log",
+      "source": "games/001-switchworks/artifacts/art-study-2026-11-16/android-20261116T220256223969Z/1080x2340/session.log",
+      "sha256": "10aecef6615f44fc2f3198202ea5252347ea5ba37d71f826ab70f90c27918a1c",
+      "bytes": 48262,
+      "context": "Android emulator native study; raw screencap or log",
+      "unaltered_copy": true
+    },
+    {
+      "path": "android/1080x2340/runtime.log",
+      "source": "games/001-switchworks/artifacts/art-study-2026-11-16/android-20261116T220256223969Z/1080x2340/runtime.log",
+      "sha256": "99681fb44680b4ab6b58bfbc5c4ecc30b3ceadeff147e3abfe202eddcc6c1db2",
+      "bytes": 10481,
+      "context": "Android emulator native study; raw screencap or log",
+      "unaltered_copy": true
+    },
+    {
+      "path": "android/720x1280/planning.png",
+      "source": "games/001-switchworks/artifacts/art-study-2026-11-16/android-20261116T220256223969Z/720x1280/planning.png",
+      "sha256": "acdd8a316bc6de750597dfea13095811a6a706893379b6ddd08b92c7102774eb",
+      "bytes": 691029,
+      "context": "Android emulator native study; raw screencap or log",
+      "unaltered_copy": true,
+      "pixels": [
+        720,
+        1280
+      ]
+    },
+    {
+      "path": "android/720x1280/failed.png",
+      "source": "games/001-switchworks/artifacts/art-study-2026-11-16/android-20261116T220256223969Z/720x1280/failed.png",
+      "sha256": "89830462eb61b908d1f120247b788419a9296977d8de2aa9048f04cfbfa6b471",
+      "bytes": 690055,
+      "context": "Android emulator native study; raw screencap or log",
+      "unaltered_copy": true,
+      "pixels": [
+        720,
+        1280
+      ]
+    },
+    {
+      "path": "android/720x1280/prepared.png",
+      "source": "games/001-switchworks/artifacts/art-study-2026-11-16/android-20261116T220256223969Z/720x1280/prepared.png",
+      "sha256": "ac30d3397852bff160e49b7bdf931d3356b17c428d22273a15c8ee686cc6c63c",
+      "bytes": 691168,
+      "context": "Android emulator native study; raw screencap or log",
+      "unaltered_copy": true,
+      "pixels": [
+        720,
+        1280
+      ]
+    },
+    {
+      "path": "android/720x1280/paused.png",
+      "source": "games/001-switchworks/artifacts/art-study-2026-11-16/android-20261116T220256223969Z/720x1280/paused.png",
+      "sha256": "7c4f2dc979f5fd93c41b30c78e4d55078e0b012344c5c967b356d1a4e22ca04a",
+      "bytes": 437167,
+      "context": "Android emulator native study; raw screencap or log",
+      "unaltered_copy": true,
+      "pixels": [
+        720,
+        1280
+      ]
+    },
+    {
+      "path": "android/720x1280/won.png",
+      "source": "games/001-switchworks/artifacts/art-study-2026-11-16/android-20261116T220256223969Z/720x1280/won.png",
+      "sha256": "90be78f9953c87b0f35813d0cd9dcfd8c12e48ce02d1c1aa8cf6c2ca3622e0c2",
+      "bytes": 680113,
+      "context": "Android emulator native study; raw screencap or log",
+      "unaltered_copy": true,
+      "pixels": [
+        720,
+        1280
+      ]
+    },
+    {
+      "path": "android/720x1280/home-return.png",
+      "source": "games/001-switchworks/artifacts/art-study-2026-11-16/android-20261116T220256223969Z/720x1280/home-return.png",
+      "sha256": "e2c11418651f6780f879549fe23ecbd438a853b9adca10089029fadb1e6840b6",
+      "bytes": 458231,
+      "context": "Android emulator native study; raw screencap or log",
+      "unaltered_copy": true,
+      "pixels": [
+        720,
+        1280
+      ]
+    },
+    {
+      "path": "android/720x1280/session.log",
+      "source": "games/001-switchworks/artifacts/art-study-2026-11-16/android-20261116T220256223969Z/720x1280/session.log",
+      "sha256": "08582f2346d30776158a622a615871fc9905805cc500ed1ef7a3f205fff7611c",
+      "bytes": 46920,
+      "context": "Android emulator native study; raw screencap or log",
+      "unaltered_copy": true
+    },
+    {
+      "path": "android/720x1280/runtime.log",
+      "source": "games/001-switchworks/artifacts/art-study-2026-11-16/android-20261116T220256223969Z/720x1280/runtime.log",
+      "sha256": "3b0e72d0d9556da36751aa73582adc52319e5532420e84e4890c4c97a97a58fc",
+      "bytes": 10444,
+      "context": "Android emulator native study; raw screencap or log",
+      "unaltered_copy": true
+    },
+    {
+      "path": "android-gameplay.mp4",
+      "source": "games/001-switchworks/artifacts/art-study-2026-11-16/android-20261116T220256223969Z/1080x2340/android-gameplay.mp4",
+      "sha256": "77ccf7d701528d15687638dfa6f556d1e2abcaef96710c79ea4191c50d92ed82",
+      "bytes": 3284235,
+      "context": "Actual Android screenrecord,720x1560,unretouched; no audio track claimed",
+      "unaltered_copy": true
+    },
+    {
+      "path": "checks/model-validation.json",
+      "source": "games/001-switchworks/artifacts/art-study-2026-11-16/model-validation.json",
+      "sha256": "e99d79535848fca6d9da1538f5d9ceb23dc5e0b965f1fa3129d4fc009fa0f990",
+      "bytes": 8742,
+      "context": "Executed tooling",
+      "unaltered_copy": true
+    },
+    {
+      "path": "checks/compile-final.log",
+      "source": "games/001-switchworks/artifacts/art-study-2026-11-16/compile-final.log",
+      "sha256": "9fd48a0b85ae558750b1a34be5645ed6835cabf93c417da16041525b4b329627",
+      "bytes": 107,
+      "context": "Executed tooling",
+      "unaltered_copy": true
+    },
+    {
+      "path": "checks/positive.log",
+      "source": "games/001-switchworks/artifacts/art-study-2026-11-16/final-checks/positive.log",
+      "sha256": "df386eca396b78535c98657af81a8729641c4f5ae82cb5c88b514fe9e40faa01",
+      "bytes": 46666,
+      "context": "Final native checks; negative intentionally exits1",
+      "unaltered_copy": true
+    },
+    {
+      "path": "checks/negative.log",
+      "source": "games/001-switchworks/artifacts/art-study-2026-11-16/final-checks/negative.log",
+      "sha256": "9b66b0d617c0bdbec9474c2b6842859c2f3459285680c3b900df902959d34961",
+      "bytes": 46960,
+      "context": "Final native checks; negative intentionally exits1",
+      "unaltered_copy": true
+    },
+    {
+      "path": "checks/compile.log",
+      "source": "games/001-switchworks/artifacts/art-study-2026-11-16/final-checks/compile.log",
+      "sha256": "9fd48a0b85ae558750b1a34be5645ed6835cabf93c417da16041525b4b329627",
+      "bytes": 107,
+      "context": "Final native checks; negative intentionally exits1",
+      "unaltered_copy": true
+    },
+    {
+      "path": "checks/test_runner.gd.log",
+      "source": "games/001-switchworks/artifacts/art-study-2026-11-16/runs/20261116T2156185444595Z-Test/test_runner.gd.log",
+      "sha256": "2f973b8cbbfbdb40752d74c57c1bdece3268c0f86b71e5f23b13a30185e4131b",
+      "bytes": 341,
+      "context": "Existing native regression suite, unchanged",
+      "unaltered_copy": true
+    },
+    {
+      "path": "checks/slice_gameplay_runner.gd.log",
+      "source": "games/001-switchworks/artifacts/art-study-2026-11-16/runs/20261116T2156185444595Z-Test/slice_gameplay_runner.gd.log",
+      "sha256": "d68ec44e1f3d60891bf2153b211597e5a433eb7cc7887a3a58ecfcf550813ceb",
+      "bytes": 134,
+      "context": "Existing native regression suite, unchanged",
+      "unaltered_copy": true
+    },
+    {
+      "path": "checks/slice_ui_runner.gd.log",
+      "source": "games/001-switchworks/artifacts/art-study-2026-11-16/runs/20261116T2156185444595Z-Test/slice_ui_runner.gd.log",
+      "sha256": "e25873d9d02c7c1e1ff4b101226a6aeedd91f7f857e64af37a6d775bb50f166f",
+      "bytes": 126743,
+      "context": "Existing native regression suite, unchanged",
+      "unaltered_copy": true
+    },
+    {
+      "path": "checks/polish_state_runner.gd.log",
+      "source": "games/001-switchworks/artifacts/art-study-2026-11-16/runs/20261116T2156185444595Z-Test/polish_state_runner.gd.log",
+      "sha256": "114dabc9c391f2c3616c2535468479cc27432820c4837370edbcae62b9fb6dfc",
+      "bytes": 119466,
+      "context": "Existing native regression suite, unchanged",
+      "unaltered_copy": true
+    },
+    {
+      "path": "checks/metrics-summary.json",
+      "source": "games/001-switchworks/artifacts/art-study-2026-11-16/metrics-summary.json",
+      "sha256": "ffc14ee38b2bda66822cee329062f7ff3efb7c8c575485c5ec6dcc2f65cae0e7",
+      "bytes": 9762,
+      "context": "Measured contextual values",
+      "unaltered_copy": true
+    },
+    {
+      "path": "checks/raster-qa.json",
+      "source": "checks/raster-qa.json",
+      "sha256": "43f256b20969ad11d5847aeaffdb0c11ecb4b7aa73c2efe52383e470da0c3037",
+      "bytes": 12109,
+      "context": "Final inspection receipt",
+      "unaltered_copy": true
+    },
+    {
+      "path": "checks/video-metadata.json",
+      "source": "checks/video-metadata.json",
+      "sha256": "fc328aa57c488afc053d51ff20de672ce3b0ea2f72b9b5c97b882521288e7788",
+      "bytes": 582,
+      "context": "Final inspection receipt",
+      "unaltered_copy": true
+    },
+    {
+      "path": "checks/source-archive.json",
+      "source": "games/001-switchworks/artifacts/art-study-2026-11-16/source-archive.json",
+      "bytes": 512,
+      "sha256": "dccfc184435059af841c18c780f99204ed55f67f9bcce13ead58e90c3ea8b585",
+      "context": "Extracted source archive check,not a physical/GPU test",
+      "unaltered_copy": true
+    },
+    {
+      "path": "checks/source-smoke-import.log",
+      "source": "games/001-switchworks/artifacts/art-study-2026-11-16/source-smoke-import.log",
+      "bytes": 10037,
+      "sha256": "dee6f936c289ed93e5a96227ba5879e25b79856eba71380c9b2e5fc3fc9c296c",
+      "context": "Extracted source archive check,not a physical/GPU test",
+      "unaltered_copy": true
+    },
+    {
+      "path": "checks/source-smoke-run.log",
+      "source": "games/001-switchworks/artifacts/art-study-2026-11-16/source-smoke-run.log",
+      "bytes": 1574,
+      "sha256": "35a1151eb82f7656f3e132b12c691438d5ef6e740990d2b35c14fd0f5e599b4b",
+      "context": "Extracted source archive check,not a physical/GPU test",
+      "unaltered_copy": true
+    }
+  ],
+  "runtime_inputs": [
+    {
+      "path": "games/001-switchworks/assets/littoral-study/asset-manifest.json",
+      "bytes": 14445,
+      "sha256": "896fff667aa09ff7c49ff399b9b66a84558abfd1332c4bafb6f686bacd6dd453"
+    },
+    {
+      "path": "games/001-switchworks/assets/littoral-study/model-exports.json",
+      "bytes": 2281,
+      "sha256": "430a3f5e79b0a05393dfee3a9cad5edbd8094d9f7b6d4e1b9b28c0d68a1e2fc5"
+    },
+    {
+      "path": "games/001-switchworks/assets/littoral-study/models/boite_a.glb",
+      "bytes": 461544,
+      "sha256": "365cf9a20f9f68d70a63237ba7fb2bb71d6d9122f5f93a214ae0a04dd3e9fee0"
+    },
+    {
+      "path": "games/001-switchworks/assets/littoral-study/models/boite_a.glb.import",
+      "bytes": 1164,
+      "sha256": "89e5215b7a2a7fb325b53fea5be95b433ee7b2e9b59c38575f3ab14a01464b33"
+    },
+    {
+      "path": "games/001-switchworks/assets/littoral-study/models/boite_b.glb",
+      "bytes": 451056,
+      "sha256": "a87735d1396e65918ee6f1715caba5ec45bfdb3aa963121949950c42e9c0568e"
+    },
+    {
+      "path": "games/001-switchworks/assets/littoral-study/models/boite_b.glb.import",
+      "bytes": 1165,
+      "sha256": "efc02a0cad2d5dcf550686f48ba5b456fbfcb18a3002a39112d4009ab0e9457b"
+    },
+    {
+      "path": "games/001-switchworks/assets/littoral-study/models/colis_a.glb",
+      "bytes": 167696,
+      "sha256": "8524285a83ac0aaf3f6b9431100d343e8d22b22b135ce1f7652e67fe8d780160"
+    },
+    {
+      "path": "games/001-switchworks/assets/littoral-study/models/colis_a.glb.import",
+      "bytes": 1164,
+      "sha256": "96105c9bfab3ebd9c559f49def6501e0ec683ae1325ea33ff348eb6ca6488bee"
+    },
+    {
+      "path": "games/001-switchworks/assets/littoral-study/models/colis_b.glb",
+      "bytes": 156732,
+      "sha256": "c1a3ac73f6a56eca39724c5741515a2de7ed09a7312f2317872af35781333837"
+    },
+    {
+      "path": "games/001-switchworks/assets/littoral-study/models/colis_b.glb.import",
+      "bytes": 1164,
+      "sha256": "0c06f80d2741d0c57690949ed4affe81f971e86baa4410274c61110edd7d8bdd"
+    },
+    {
+      "path": "games/001-switchworks/assets/littoral-study/models/guichet_a.glb",
+      "bytes": 1074880,
+      "sha256": "581bd34cceb4bd4eeecfaf87c532a1470507df4e818f1cf2e99eedef0487267c"
+    },
+    {
+      "path": "games/001-switchworks/assets/littoral-study/models/guichet_a.glb.import",
+      "bytes": 1171,
+      "sha256": "c919ff7bcc440cc01b620a3334690b7b7bb1606449972c38ad8f8a49c25f03f5"
+    },
+    {
+      "path": "games/001-switchworks/assets/littoral-study/models/guichet_b.glb",
+      "bytes": 1064384,
+      "sha256": "ee9510805e5407f19f3b090c088518a7de4896a420db21b5cd539b26ba54ae16"
+    },
+    {
+      "path": "games/001-switchworks/assets/littoral-study/models/guichet_b.glb.import",
+      "bytes": 1171,
+      "sha256": "8fa5c8f2f8d608fcd943591585091e011853ca7c786ed97f3dcfea138fca6b4e"
+    },
+    {
+      "path": "games/001-switchworks/assets/littoral-study/models/tuile.glb",
+      "bytes": 46928,
+      "sha256": "6d07fc233cb912c2bf30c68625c7fc0b58fbe0f5e12c8d00e38e265686d9c9ed"
+    },
+    {
+      "path": "games/001-switchworks/assets/littoral-study/models/tuile.glb.import",
+      "bytes": 1158,
+      "sha256": "0019bebd543bf39cb98220ba268b857994779141ef2d20439e6c951682cac8bf"
+    },
+    {
+      "path": "games/001-switchworks/assets/littoral-study/models/voie_coude.glb",
+      "bytes": 286024,
+      "sha256": "91ddc25f4974edfa63a04e201f44e9c76106a22d6838ebb2256d3d51278d820e"
+    },
+    {
+      "path": "games/001-switchworks/assets/littoral-study/models/voie_coude.glb.import",
+      "bytes": 1174,
+      "sha256": "df12a9a75f9536cec85177d6aa01b95d4fef6d5112f423e451aa2f305c6c76a7"
+    },
+    {
+      "path": "games/001-switchworks/assets/littoral-study/models/voie_droite.glb",
+      "bytes": 131120,
+      "sha256": "8b47c776ba8a11b1dd7f07f1f42d7c75c7914aa079b2539beaffe64e6125c298"
+    },
+    {
+      "path": "games/001-switchworks/assets/littoral-study/models/voie_droite.glb.import",
+      "bytes": 1177,
+      "sha256": "95d75b3395379c785838bf634dd65f45b7e0126edc5cb4986ff721aab5c2302b"
+    },
+    {
+      "path": "games/001-switchworks/assets/littoral-study/PROVENANCE.md",
+      "bytes": 4297,
+      "sha256": "3c1f90eab0f01f345ec43d8811281ca1fccbaee36e22a80d9362eab277b04998"
+    },
+    {
+      "path": "games/001-switchworks/assets/littoral-study/sources/boite_a.tscn",
+      "bytes": 345558,
+      "sha256": "f8b90a0c6071bdeb05a7248482433903e1725d8c97239798f73831247613a9a6"
+    },
+    {
+      "path": "games/001-switchworks/assets/littoral-study/sources/boite_b.tscn",
+      "bytes": 337609,
+      "sha256": "8653206c0ffee385412fc1ec1f6641ec03cbb1a8efdf2570e1c7475b81dfcff2"
+    },
+    {
+      "path": "games/001-switchworks/assets/littoral-study/sources/colis_a.tscn",
+      "bytes": 124063,
+      "sha256": "3a1d8b4459772835b6b9becd65843fa93afa75f61b92976b213201f9ee583715"
+    },
+    {
+      "path": "games/001-switchworks/assets/littoral-study/sources/colis_b.tscn",
+      "bytes": 116107,
+      "sha256": "af052b3b8665ea473bb10d77832b82420fff9599ab23679afe06d6b08bcd5c6e"
+    },
+    {
+      "path": "games/001-switchworks/assets/littoral-study/sources/guichet_a.tscn",
+      "bytes": 831506,
+      "sha256": "d06d307e952cd213bbd59aaab1031f9b27eb258e73f423b2da99ea5f4c1cc63e"
+    },
+    {
+      "path": "games/001-switchworks/assets/littoral-study/sources/guichet_b.tscn",
+      "bytes": 823546,
+      "sha256": "76fe35b0fed464a5bd3f9dcfc1a7a93e2c70f5c61409204e94bac92ef3806f38"
+    },
+    {
+      "path": "games/001-switchworks/assets/littoral-study/sources/tuile.tscn",
+      "bytes": 55972,
+      "sha256": "2a9acc27bc63055e9ceb51f7ba846899c5ed80a48917b0ea1636355b25881e68"
+    },
+    {
+      "path": "games/001-switchworks/assets/littoral-study/sources/voie_coude.tscn",
+      "bytes": 267527,
+      "sha256": "24c00f1e18690fb936e81dd67d4c0d8f3896ed4fa784efecf895e25a4415db7c"
+    },
+    {
+      "path": "games/001-switchworks/assets/littoral-study/sources/voie_droite.tscn",
+      "bytes": 102315,
+      "sha256": "0dfda0bc7d23ed9b391e7ecedcc4b3d0a7db325a6b25f3c1a092c0afb6abd68f"
+    },
+    {
+      "path": "games/001-switchworks/data/archipel_double_flux.json",
+      "bytes": 2126,
+      "sha256": "1898b66cf31b4b7d10a2eea9a540162202fcc041869146c766565604d89676fa"
+    },
+    {
+      "path": "games/001-switchworks/experiments/littoral/author_models.gd",
+      "bytes": 4495,
+      "sha256": "c3f44d79c41680d6ceef1cdab6694030b2d4cf437a801bebc0e74a0b666c3534"
+    },
+    {
+      "path": "games/001-switchworks/experiments/littoral/composition.tscn",
+      "bytes": 312,
+      "sha256": "ae32d98ab203ddbe0bfc3ddb6d05eb94f5846b99de6226ec77d812bc8674ab23"
+    },
+    {
+      "path": "games/001-switchworks/experiments/littoral/littoral_board.gd",
+      "bytes": 5861,
+      "sha256": "4f8a14012a4928bc076b074d8f7744b21dbad3f0fbc496b0e6878a47a02e9d79"
+    },
+    {
+      "path": "games/001-switchworks/experiments/littoral/littoral_models.gd",
+      "bytes": 18558,
+      "sha256": "70a8767a5dba3f6cc9526b50fe655388b83acd838561d89cbf4694f35ca904ef"
+    },
+    {
+      "path": "games/001-switchworks/experiments/littoral/littoral_screen.gd",
+      "bytes": 9061,
+      "sha256": "ad2f293612f954e9720dcdd4d6faa43c6df958dec2c9142270ffac2c837e0b6a"
+    },
+    {
+      "path": "games/001-switchworks/experiments/littoral/module_sheet.gd",
+      "bytes": 4820,
+      "sha256": "43c88b2a87341f08ba869f80fc4244882732b7849c80720523098d0cda5b4980"
+    },
+    {
+      "path": "games/001-switchworks/experiments/littoral/module_sheet.tscn",
+      "bytes": 303,
+      "sha256": "dc527164d52c340b2822a730caa70deaac4f059f6e6f8e3da2340c4f0d87c3b7"
+    },
+    {
+      "path": "games/001-switchworks/export_presets.cfg",
+      "bytes": 29254,
+      "sha256": "1fc79f7fb770caa209c96521944a707fc2c5f07ce3916eb557a7c8ef34ef5035"
+    },
+    {
+      "path": "games/001-switchworks/project.godot",
+      "bytes": 1277,
+      "sha256": "8b2a0969a61bc77f6ac4acaac5746a4c1ff244a97ea8349e43d6f55f0b976141"
+    },
+    {
+      "path": "games/001-switchworks/scripts/archipel/archipel_screen.gd",
+      "bytes": 38631,
+      "sha256": "0f2e77cd49051c68bb1592d5b20e24bbd656e9b8998657aa3e353c898f439828"
+    },
+    {
+      "path": "games/001-switchworks/scripts/archipel/board_view.gd",
+      "bytes": 19172,
+      "sha256": "6da786aab97f02a5aa25e419a74ad414218ea49365d08538d44be805ef4eaa99"
+    },
+    {
+      "path": "games/001-switchworks/scripts/archipel/postal_theme.gd",
+      "bytes": 2008,
+      "sha256": "1da9b9cd1a37219124bcb20bedd5592acd68eb7339175f1444db6c20be1a8841"
+    },
+    {
+      "path": "games/001-switchworks/scripts/domain/postal_board.gd",
+      "bytes": 8116,
+      "sha256": "80694da5cb63dffa6baa82ab7048049953e1700f9aeb12a6abceb8b5a3886168"
+    },
+    {
+      "path": "games/001-switchworks/scripts/domain/postal_level.gd",
+      "bytes": 8143,
+      "sha256": "8a1ba3795bbf24d7e13d8c92a87b6619cd7cb4ded407155b80a01a1817b2251f"
+    },
+    {
+      "path": "games/001-switchworks/scripts/visuals/postal_art_factory.gd",
+      "bytes": 26711,
+      "sha256": "ddf9ee273857acae01ba2cacf2b01024fc2c00e1e217a814e1e71b848bc10d42"
+    },
+    {
+      "path": "games/001-switchworks/tests/littoral_composition_runner.gd",
+      "bytes": 5310,
+      "sha256": "f453df28ac7891a0c2968c1e64f0d4442d07e87034f048e46dcd24702c3b24a6"
+    },
+    {
+      "path": "games/001-switchworks/tools/ArtStudy.ps1",
+      "bytes": 4851,
+      "sha256": "cfee6b5d09a2b298646912ab9ce18f7ba779f97e8ef72dcfed65a15d3e6f96a6"
+    },
+    {
+      "path": "games/001-switchworks/tools/validate_littoral_models.py",
+      "bytes": 6012,
+      "sha256": "ba4c82c23b8cceddd643535509f0fbbeb791a2e50b39374b1b56bb1e28fade62"
+    },
+    {
+      "path": "games/001-switchworks/tools/verify_littoral_android.py",
+      "bytes": 7424,
+      "sha256": "b4220539b720e39793ae5a84bb67257fab0d21bd92ff379e09dd36872890610c"
+    }
+  ]
+}

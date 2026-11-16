@@ -1,0 +1,483 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+SLICE_GUIDANCE {"phase":"planning","state":"fresh","text":"Touchez une voie pour la tourner,\npuis expédiez."}
+SLICE_READY engine=4.7.2-stable (official) platform=Windows level=archipel-double-flux-01
+LITTORAL_RENDER_CONTRACT {"camera_position":"(0.0, 10.0, 6.5)","camera_width_units":6.71999979019165,"mesh_nodes_including_multimesh":120,"renderer":"Compatibility","source":"traversal of actual instantiated meshes; no GPU/thermal inference","submitted_triangles_all_instances":76863,"tile_instances":36}
+SLICE_LAYOUT {"buttons":{"dispatch":[32,61],"hint":[55,61],"pause":[57,4],"reduce_motion":[19,21],"restart":[21,21],"resume":[12,21],"sound":[16,21],"undo":[9,61],"victory_replay":[19,51]},"cells":{"0":[8,17],"1":[18,17],"10":[46,20],"11":[56,20],"12":[8,24],"13":[18,24],"14":[27,24],"15":[37,24],"16":[46,24],"17":[56,24],"18":[8,27],"19":[18,27],"2":[27,17],"20":[27,27],"21":[37,27],"22":[46,27],"23":[56,27],"24":[8,31],"25":[18,31],"26":[27,31],"27":[37,31],"28":[46,31],"29":[56,31],"3":[37,17],"30":[8,35],"31":[18,35],"32":[27,35],"33":[37,35],"34":[46,35],"35":[56,35],"4":[46,17],"5":[56,17],"6":[8,20],"7":[18,20],"8":[27,20],"9":[37,20]},"logical_viewport":[390.0,844.0],"phase":"planning","window":[64,64]}
+SLICE_GUIDANCE_LAYOUT {"guidance":{"font_rids":["257698037768"],"font_size":14,"line_height":20,"lines":2,"minimum_size":[214.0,43.0],"rect":[16.0,605.739990234375,358.0,46.0],"state":"fresh","visible":true,"visible_lines":2},"logical_viewport":[390.0,844.0],"window":[64,64]}
+SLICE_GUIDANCE {"phase":"planning","state":"fresh","text":"Ce quai est fixe.\nChoisissez une voie à tourner."}
+SLICE_GUIDANCE {"phase":"planning","state":"fresh","text":"Ce quai est fixe.\nChoisissez une voie à tourner."}
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=7 rotations=1
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=7 rotations=2
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=7 rotations=3
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=7 rotations=4
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=8 rotations=5
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=8 rotations=6
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=8 rotations=7
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=8 rotations=8
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=10 rotations=9
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=10 rotations=10
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=10 rotations=11
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=10 rotations=12
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=14 rotations=13
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=14 rotations=14
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=14 rotations=15
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=14 rotations=16
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=15 rotations=17
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=15 rotations=18
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=15 rotations=19
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=15 rotations=20
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=16 rotations=21
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=16 rotations=22
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=16 rotations=23
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=16 rotations=24
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=19 rotations=25
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=19 rotations=26
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=19 rotations=27
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=19 rotations=28
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=20 rotations=29
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=20 rotations=30
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=20 rotations=31
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=20 rotations=32
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=21 rotations=33
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=21 rotations=34
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=21 rotations=35
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=21 rotations=36
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=25 rotations=37
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=25 rotations=38
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=25 rotations=39
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=25 rotations=40
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=27 rotations=41
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=27 rotations=42
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=27 rotations=43
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=27 rotations=44
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=28 rotations=45
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=28 rotations=46
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=28 rotations=47
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=28 rotations=48
+SLICE_GUIDANCE {"phase":"planning","state":"fresh","text":"Touchez une voie pour la tourner,\npuis expédiez."}
+SLICE_RESET
+SLICE_GUIDANCE {"phase":"running","state":"running","text":"Livraison en cours.\nLes colis rejoignent leurs boîtes."}
+SLICE_DISPATCH attempt=1 expected=missing_connection
+SLICE_GUIDANCE {"phase":"failed","state":"failed","text":"Une voie n'est pas raccordée.\nTournez le rail encadré."}
+SLICE_RESULT success=false reason=missing_connection deliveries=0
+LITTORAL_PERF {"draw_calls_max":0.0,"draw_calls_p50":0.0,"limits":"process wall intervals, not GPU timing; cache, debugger, emulator, recording and synthetic tests affect values","platform":"Windows","process_interval_p50_ms":359.992,"process_interval_p95_ms":359.992,"result_phase":"failed","samples":1,"static_memory_bytes":76284565.0,"video_fixed_fps":false}
+SLICE_GUIDANCE {"phase":"planning","state":"fresh","text":"Touchez une voie pour la tourner,\npuis expédiez."}
+SLICE_RESET
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=8 rotations=1
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=16 rotations=2
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=19 rotations=3
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=21 rotations=4
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=25 rotations=5
+SLICE_GUIDANCE {"phase":"planning","state":"planning_ready","text":"Les deux voies sont prêtes.\nVous pouvez expédier."}
+SLICE_ROTATE index=27 rotations=6
+SLICE_GUIDANCE {"phase":"running","state":"running","text":"Livraison en cours.\nLes colis rejoignent leurs boîtes."}
+SLICE_DISPATCH attempt=1 expected=delivered
+SLICE_PAUSE phase=running
+SLICE_GUIDANCE {"phase":"paused","state":"paused","text":"Livraison en pause."}
+SLICE_RESUME phase=running
+SLICE_GUIDANCE {"phase":"running","state":"running","text":"Livraison en cours.\nLes colis rejoignent leurs boîtes."}
+SLICE_RECEPTION_OPEN address=A
+SLICE_RECEPTION_OPEN address=B
+SLICE_GUIDANCE {"phase":"won","state":"won","text":"Deux colis livrés !\n6 rotations · 1 essai"}
+SLICE_RESULT success=true reason=delivered deliveries=2
+LITTORAL_PERF {"draw_calls_max":0.0,"draw_calls_p50":0.0,"limits":"process wall intervals, not GPU timing; cache, debugger, emulator, recording and synthetic tests affect values","platform":"Windows","process_interval_p50_ms":47.536,"process_interval_p95_ms":47.536,"result_phase":"won","samples":2,"static_memory_bytes":77733061.0,"video_fixed_fps":false}
+SLICE_LAYOUT {"buttons":{"dispatch":[32,61],"hint":[55,61],"pause":[57,4],"reduce_motion":[19,21],"restart":[21,21],"resume":[12,21],"sound":[16,21],"undo":[9,61],"victory_replay":[19,51]},"cells":{"0":[8,17],"1":[18,17],"10":[46,20],"11":[56,20],"12":[8,24],"13":[18,24],"14":[27,24],"15":[37,24],"16":[46,24],"17":[56,24],"18":[8,27],"19":[18,27],"2":[27,17],"20":[27,27],"21":[37,27],"22":[46,27],"23":[56,27],"24":[8,31],"25":[18,31],"26":[27,31],"27":[37,31],"28":[46,31],"29":[56,31],"3":[37,17],"30":[8,35],"31":[18,35],"32":[27,35],"33":[37,35],"34":[46,35],"35":[56,35],"4":[46,17],"5":[56,17],"6":[8,20],"7":[18,20],"8":[27,20],"9":[37,20]},"logical_viewport":[390.0,844.0],"phase":"won","window":[64,64]}
+SLICE_GUIDANCE_LAYOUT {"guidance":{"font_rids":["257698037768"],"font_size":14,"line_height":20,"lines":2,"minimum_size":[160.0,43.0],"rect":[16.0,605.739990234375,358.0,46.0],"state":"won","visible":false,"visible_lines":2},"logical_viewport":[390.0,844.0],"window":[64,64]}
+SLICE_RECEIVED address=A
+SLICE_RECEIVED address=B
+SLICE_GUIDANCE {"phase":"planning","state":"fresh","text":"Touchez une voie pour la tourner,\npuis expédiez."}
+SLICE_RESET
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=8 rotations=1
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=16 rotations=2
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=19 rotations=3
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=21 rotations=4
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=25 rotations=5
+SLICE_GUIDANCE {"phase":"planning","state":"planning_ready","text":"Les deux voies sont prêtes.\nVous pouvez expédier."}
+SLICE_ROTATE index=27 rotations=6
+SLICE_GUIDANCE {"phase":"running","state":"running","text":"Livraison en cours.\nLes colis rejoignent leurs boîtes."}
+SLICE_DISPATCH attempt=1 expected=delivered
+SLICE_RECEIVED address=A
+SLICE_RECEIVED address=B
+SLICE_GUIDANCE {"phase":"won","state":"won","text":"Deux colis livrés !\n6 rotations · 1 essai"}
+SLICE_RESULT success=true reason=delivered deliveries=2
+LITTORAL_PERF {"draw_calls_max":0.0,"draw_calls_p50":0.0,"limits":"process wall intervals, not GPU timing; cache, debugger, emulator, recording and synthetic tests affect values","platform":"Windows","process_interval_p50_ms":53.27,"process_interval_p95_ms":53.27,"result_phase":"won","samples":1,"static_memory_bytes":70396693.0,"video_fixed_fps":false}
+SLICE_GUIDANCE {"phase":"planning","state":"fresh","text":"Touchez une voie pour la tourner,\npuis expédiez."}
+SLICE_READY engine=4.7.2-stable (official) platform=Windows level=archipel-double-flux-01
+LITTORAL_RENDER_CONTRACT {"camera_position":"(0.0, 10.0, 6.5)","camera_width_units":6.71999979019165,"mesh_nodes_including_multimesh":120,"renderer":"Compatibility","source":"traversal of actual instantiated meshes; no GPU/thermal inference","submitted_triangles_all_instances":76863,"tile_instances":36}
+SLICE_LAYOUT {"buttons":{"dispatch":[32,60],"hint":[54,60],"pause":[57,6],"reduce_motion":[19,17],"restart":[20,17],"resume":[11,17],"sound":[15,17],"undo":[10,60],"victory_replay":[18,46]},"cells":{"0":[8,17],"1":[18,17],"10":[46,21],"11":[56,21],"12":[8,26],"13":[18,26],"14":[27,26],"15":[37,26],"16":[46,26],"17":[56,26],"18":[8,30],"19":[18,30],"2":[27,17],"20":[27,30],"21":[37,30],"22":[46,30],"23":[56,30],"24":[8,34],"25":[18,34],"26":[27,34],"27":[37,34],"28":[46,34],"29":[56,34],"3":[37,17],"30":[8,38],"31":[18,38],"32":[27,38],"33":[37,38],"34":[46,38],"35":[56,38],"4":[46,17],"5":[56,17],"6":[8,21],"7":[18,21],"8":[27,21],"9":[37,21]},"logical_viewport":[360.0,640.0],"phase":"planning","window":[64,64]}
+SLICE_GUIDANCE_LAYOUT {"guidance":{"font_rids":["257698037768"],"font_size":14,"line_height":20,"lines":2,"minimum_size":[214.0,43.0],"rect":[16.0,524.0,328.0,46.0],"state":"fresh","visible":true,"visible_lines":2},"logical_viewport":[360.0,640.0],"window":[64,64]}
+SLICE_GUIDANCE {"phase":"planning","state":"fresh","text":"Ce quai est fixe.\nChoisissez une voie à tourner."}
+SLICE_GUIDANCE {"phase":"planning","state":"fresh","text":"Ce quai est fixe.\nChoisissez une voie à tourner."}
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=7 rotations=1
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=7 rotations=2
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=7 rotations=3
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=7 rotations=4
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=8 rotations=5
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=8 rotations=6
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=8 rotations=7
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=8 rotations=8
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=10 rotations=9
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=10 rotations=10
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=10 rotations=11
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=10 rotations=12
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=14 rotations=13
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=14 rotations=14
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=14 rotations=15
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=14 rotations=16
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=15 rotations=17
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=15 rotations=18
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=15 rotations=19
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=15 rotations=20
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=16 rotations=21
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=16 rotations=22
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=16 rotations=23
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=16 rotations=24
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=19 rotations=25
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=19 rotations=26
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=19 rotations=27
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=19 rotations=28
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=20 rotations=29
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=20 rotations=30
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=20 rotations=31
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=20 rotations=32
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=21 rotations=33
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=21 rotations=34
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=21 rotations=35
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=21 rotations=36
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=25 rotations=37
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=25 rotations=38
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=25 rotations=39
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=25 rotations=40
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=27 rotations=41
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=27 rotations=42
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=27 rotations=43
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=27 rotations=44
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=28 rotations=45
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=28 rotations=46
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=28 rotations=47
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=28 rotations=48
+SLICE_GUIDANCE {"phase":"planning","state":"fresh","text":"Touchez une voie pour la tourner,\npuis expédiez."}
+SLICE_RESET
+SLICE_GUIDANCE {"phase":"running","state":"running","text":"Livraison en cours.\nLes colis rejoignent leurs boîtes."}
+SLICE_DISPATCH attempt=1 expected=missing_connection
+SLICE_GUIDANCE {"phase":"failed","state":"failed","text":"Une voie n'est pas raccordée.\nTournez le rail encadré."}
+SLICE_RESULT success=false reason=missing_connection deliveries=0
+LITTORAL_PERF {"draw_calls_max":0.0,"draw_calls_p50":0.0,"limits":"process wall intervals, not GPU timing; cache, debugger, emulator, recording and synthetic tests affect values","platform":"Windows","process_interval_p50_ms":342.324,"process_interval_p95_ms":342.324,"result_phase":"failed","samples":1,"static_memory_bytes":76753837.0,"video_fixed_fps":false}
+SLICE_GUIDANCE {"phase":"planning","state":"fresh","text":"Touchez une voie pour la tourner,\npuis expédiez."}
+SLICE_RESET
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=8 rotations=1
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=16 rotations=2
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=19 rotations=3
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=21 rotations=4
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=25 rotations=5
+SLICE_GUIDANCE {"phase":"planning","state":"planning_ready","text":"Les deux voies sont prêtes.\nVous pouvez expédier."}
+SLICE_ROTATE index=27 rotations=6
+SLICE_GUIDANCE {"phase":"running","state":"running","text":"Livraison en cours.\nLes colis rejoignent leurs boîtes."}
+SLICE_DISPATCH attempt=1 expected=delivered
+SLICE_PAUSE phase=running
+SLICE_GUIDANCE {"phase":"paused","state":"paused","text":"Livraison en pause."}
+SLICE_RESUME phase=running
+SLICE_GUIDANCE {"phase":"running","state":"running","text":"Livraison en cours.\nLes colis rejoignent leurs boîtes."}
+SLICE_RECEPTION_OPEN address=A
+SLICE_RECEPTION_OPEN address=B
+SLICE_GUIDANCE {"phase":"won","state":"won","text":"Deux colis livrés !\n6 rotations · 1 essai"}
+SLICE_RESULT success=true reason=delivered deliveries=2
+LITTORAL_PERF {"draw_calls_max":0.0,"draw_calls_p50":0.0,"limits":"process wall intervals, not GPU timing; cache, debugger, emulator, recording and synthetic tests affect values","platform":"Windows","process_interval_p50_ms":47.801,"process_interval_p95_ms":47.801,"result_phase":"won","samples":2,"static_memory_bytes":77871933.0,"video_fixed_fps":false}
+SLICE_LAYOUT {"buttons":{"dispatch":[32,60],"hint":[54,60],"pause":[57,6],"reduce_motion":[19,17],"restart":[20,17],"resume":[11,17],"sound":[15,17],"undo":[10,60],"victory_replay":[18,46]},"cells":{"0":[8,17],"1":[18,17],"10":[46,21],"11":[56,21],"12":[8,26],"13":[18,26],"14":[27,26],"15":[37,26],"16":[46,26],"17":[56,26],"18":[8,30],"19":[18,30],"2":[27,17],"20":[27,30],"21":[37,30],"22":[46,30],"23":[56,30],"24":[8,34],"25":[18,34],"26":[27,34],"27":[37,34],"28":[46,34],"29":[56,34],"3":[37,17],"30":[8,38],"31":[18,38],"32":[27,38],"33":[37,38],"34":[46,38],"35":[56,38],"4":[46,17],"5":[56,17],"6":[8,21],"7":[18,21],"8":[27,21],"9":[37,21]},"logical_viewport":[360.0,640.0],"phase":"won","window":[64,64]}
+SLICE_GUIDANCE_LAYOUT {"guidance":{"font_rids":["257698037768"],"font_size":14,"line_height":20,"lines":2,"minimum_size":[160.0,43.0],"rect":[16.0,524.0,328.0,46.0],"state":"won","visible":false,"visible_lines":2},"logical_viewport":[360.0,640.0],"window":[64,64]}
+SLICE_RECEIVED address=A
+SLICE_RECEIVED address=B
+SLICE_GUIDANCE {"phase":"planning","state":"fresh","text":"Touchez une voie pour la tourner,\npuis expédiez."}
+SLICE_RESET
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=8 rotations=1
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=16 rotations=2
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=19 rotations=3
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=21 rotations=4
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=25 rotations=5
+SLICE_GUIDANCE {"phase":"planning","state":"planning_ready","text":"Les deux voies sont prêtes.\nVous pouvez expédier."}
+SLICE_ROTATE index=27 rotations=6
+SLICE_GUIDANCE {"phase":"running","state":"running","text":"Livraison en cours.\nLes colis rejoignent leurs boîtes."}
+SLICE_DISPATCH attempt=1 expected=delivered
+SLICE_RECEIVED address=A
+SLICE_RECEIVED address=B
+SLICE_GUIDANCE {"phase":"won","state":"won","text":"Deux colis livrés !\n6 rotations · 1 essai"}
+SLICE_RESULT success=true reason=delivered deliveries=2
+LITTORAL_PERF {"draw_calls_max":0.0,"draw_calls_p50":0.0,"limits":"process wall intervals, not GPU timing; cache, debugger, emulator, recording and synthetic tests affect values","platform":"Windows","process_interval_p50_ms":55.076,"process_interval_p95_ms":55.076,"result_phase":"won","samples":1,"static_memory_bytes":70399613.0,"video_fixed_fps":false}
+SLICE_GUIDANCE {"phase":"planning","state":"fresh","text":"Touchez une voie pour la tourner,\npuis expédiez."}
+SLICE_READY engine=4.7.2-stable (official) platform=Windows level=archipel-double-flux-01
+LITTORAL_RENDER_CONTRACT {"camera_position":"(0.0, 10.0, 6.5)","camera_width_units":6.71999979019165,"mesh_nodes_including_multimesh":120,"renderer":"Compatibility","source":"traversal of actual instantiated meshes; no GPU/thermal inference","submitted_triangles_all_instances":76863,"tile_instances":36}
+SLICE_LAYOUT {"buttons":{"dispatch":[32,61],"hint":[60,61],"pause":[61,3],"reduce_motion":[26,23],"restart":[26,23],"resume":[22,23],"sound":[24,23],"undo":[4,61],"victory_replay":[26,53]},"cells":{"0":[8,15],"1":[18,15],"10":[46,21],"11":[56,21],"12":[8,26],"13":[18,26],"14":[27,26],"15":[37,26],"16":[46,26],"17":[56,26],"18":[8,32],"19":[18,32],"2":[27,15],"20":[27,32],"21":[37,32],"22":[46,32],"23":[56,32],"24":[8,38],"25":[18,38],"26":[27,38],"27":[37,38],"28":[46,38],"29":[56,38],"3":[37,15],"30":[8,44],"31":[18,44],"32":[27,44],"33":[37,44],"34":[46,44],"35":[56,44],"4":[46,15],"5":[56,15],"6":[8,21],"7":[18,21],"8":[27,21],"9":[37,21]},"logical_viewport":[800.0,1067.0],"phase":"planning","window":[64,64]}
+SLICE_GUIDANCE_LAYOUT {"guidance":{"font_rids":["257698037768"],"font_size":14,"line_height":20,"lines":2,"minimum_size":[214.0,43.0],"rect":[16.0,951.0,768.0,46.0],"state":"fresh","visible":true,"visible_lines":2},"logical_viewport":[800.0,1067.0],"window":[64,64]}
+SLICE_GUIDANCE {"phase":"planning","state":"fresh","text":"Ce quai est fixe.\nChoisissez une voie à tourner."}
+SLICE_GUIDANCE {"phase":"planning","state":"fresh","text":"Ce quai est fixe.\nChoisissez une voie à tourner."}
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=7 rotations=1
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=7 rotations=2
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=7 rotations=3
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=7 rotations=4
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=8 rotations=5
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=8 rotations=6
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=8 rotations=7
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=8 rotations=8
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=10 rotations=9
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=10 rotations=10
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=10 rotations=11
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=10 rotations=12
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=14 rotations=13
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=14 rotations=14
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=14 rotations=15
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=14 rotations=16
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=15 rotations=17
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=15 rotations=18
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=15 rotations=19
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=15 rotations=20
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=16 rotations=21
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=16 rotations=22
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=16 rotations=23
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=16 rotations=24
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=19 rotations=25
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=19 rotations=26
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=19 rotations=27
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=19 rotations=28
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=20 rotations=29
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=20 rotations=30
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=20 rotations=31
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=20 rotations=32
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=21 rotations=33
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=21 rotations=34
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=21 rotations=35
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=21 rotations=36
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=25 rotations=37
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=25 rotations=38
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=25 rotations=39
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=25 rotations=40
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=27 rotations=41
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=27 rotations=42
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=27 rotations=43
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=27 rotations=44
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=28 rotations=45
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=28 rotations=46
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=28 rotations=47
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=28 rotations=48
+SLICE_GUIDANCE {"phase":"planning","state":"fresh","text":"Touchez une voie pour la tourner,\npuis expédiez."}
+SLICE_RESET
+SLICE_GUIDANCE {"phase":"running","state":"running","text":"Livraison en cours.\nLes colis rejoignent leurs boîtes."}
+SLICE_DISPATCH attempt=1 expected=missing_connection
+SLICE_GUIDANCE {"phase":"failed","state":"failed","text":"Une voie n'est pas raccordée.\nTournez le rail encadré."}
+SLICE_RESULT success=false reason=missing_connection deliveries=0
+LITTORAL_PERF {"draw_calls_max":0.0,"draw_calls_p50":0.0,"limits":"process wall intervals, not GPU timing; cache, debugger, emulator, recording and synthetic tests affect values","platform":"Windows","process_interval_p50_ms":347.521,"process_interval_p95_ms":347.521,"result_phase":"failed","samples":1,"static_memory_bytes":76754513.0,"video_fixed_fps":false}
+SLICE_GUIDANCE {"phase":"planning","state":"fresh","text":"Touchez une voie pour la tourner,\npuis expédiez."}
+SLICE_RESET
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=8 rotations=1
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=16 rotations=2
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=19 rotations=3
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=21 rotations=4
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=25 rotations=5
+SLICE_GUIDANCE {"phase":"planning","state":"planning_ready","text":"Les deux voies sont prêtes.\nVous pouvez expédier."}
+SLICE_ROTATE index=27 rotations=6
+SLICE_GUIDANCE {"phase":"running","state":"running","text":"Livraison en cours.\nLes colis rejoignent leurs boîtes."}
+SLICE_DISPATCH attempt=1 expected=delivered
+SLICE_PAUSE phase=running
+SLICE_GUIDANCE {"phase":"paused","state":"paused","text":"Livraison en pause."}
+SLICE_RESUME phase=running
+SLICE_GUIDANCE {"phase":"running","state":"running","text":"Livraison en cours.\nLes colis rejoignent leurs boîtes."}
+SLICE_RECEPTION_OPEN address=A
+SLICE_RECEPTION_OPEN address=B
+SLICE_GUIDANCE {"phase":"won","state":"won","text":"Deux colis livrés !\n6 rotations · 1 essai"}
+SLICE_RESULT success=true reason=delivered deliveries=2
+LITTORAL_PERF {"draw_calls_max":0.0,"draw_calls_p50":0.0,"limits":"process wall intervals, not GPU timing; cache, debugger, emulator, recording and synthetic tests affect values","platform":"Windows","process_interval_p50_ms":49.307,"process_interval_p95_ms":49.307,"result_phase":"won","samples":2,"static_memory_bytes":77872609.0,"video_fixed_fps":false}
+SLICE_LAYOUT {"buttons":{"dispatch":[32,61],"hint":[60,61],"pause":[61,3],"reduce_motion":[26,23],"restart":[26,23],"resume":[22,23],"sound":[24,23],"undo":[4,61],"victory_replay":[26,53]},"cells":{"0":[8,15],"1":[18,15],"10":[46,21],"11":[56,21],"12":[8,26],"13":[18,26],"14":[27,26],"15":[37,26],"16":[46,26],"17":[56,26],"18":[8,32],"19":[18,32],"2":[27,15],"20":[27,32],"21":[37,32],"22":[46,32],"23":[56,32],"24":[8,38],"25":[18,38],"26":[27,38],"27":[37,38],"28":[46,38],"29":[56,38],"3":[37,15],"30":[8,44],"31":[18,44],"32":[27,44],"33":[37,44],"34":[46,44],"35":[56,44],"4":[46,15],"5":[56,15],"6":[8,21],"7":[18,21],"8":[27,21],"9":[37,21]},"logical_viewport":[800.0,1067.0],"phase":"won","window":[64,64]}
+SLICE_GUIDANCE_LAYOUT {"guidance":{"font_rids":["257698037768"],"font_size":14,"line_height":20,"lines":2,"minimum_size":[160.0,43.0],"rect":[16.0,951.0,768.0,46.0],"state":"won","visible":false,"visible_lines":2},"logical_viewport":[800.0,1067.0],"window":[64,64]}
+SLICE_RECEIVED address=A
+SLICE_RECEIVED address=B
+SLICE_GUIDANCE {"phase":"planning","state":"fresh","text":"Touchez une voie pour la tourner,\npuis expédiez."}
+SLICE_RESET
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=8 rotations=1
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=16 rotations=2
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=19 rotations=3
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=21 rotations=4
+SLICE_GUIDANCE {"phase":"planning","state":"planning_editable","text":"Vérifiez les raccords,\npuis expédiez les deux colis."}
+SLICE_ROTATE index=25 rotations=5
+SLICE_GUIDANCE {"phase":"planning","state":"planning_ready","text":"Les deux voies sont prêtes.\nVous pouvez expédier."}
+SLICE_ROTATE index=27 rotations=6
+SLICE_GUIDANCE {"phase":"running","state":"running","text":"Livraison en cours.\nLes colis rejoignent leurs boîtes."}
+SLICE_DISPATCH attempt=1 expected=delivered
+SLICE_RECEIVED address=A
+SLICE_RECEIVED address=B
+SLICE_GUIDANCE {"phase":"won","state":"won","text":"Deux colis livrés !\n6 rotations · 1 essai"}
+SLICE_RESULT success=true reason=delivered deliveries=2
+LITTORAL_PERF {"draw_calls_max":0.0,"draw_calls_p50":0.0,"limits":"process wall intervals, not GPU timing; cache, debugger, emulator, recording and synthetic tests affect values","platform":"Windows","process_interval_p50_ms":74.32,"process_interval_p95_ms":74.32,"result_phase":"won","samples":1,"static_memory_bytes":70399753.0,"video_fixed_fps":false}
+LITTORAL_TESTS passed=1107 failed=0

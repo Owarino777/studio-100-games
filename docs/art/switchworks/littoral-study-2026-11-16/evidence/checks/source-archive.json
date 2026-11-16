@@ -1,0 +1,8 @@
+{
+  "archive": "games/001-switchworks/build/delivery/switchworks-littoral-study-source.zip",
+  "sha256": "7960db3da7be58819b5735d3bf0fe3bfb20a33e7c14c9e9c6876819ced2a3495",
+  "bytes": 28670414,
+  "files": 180,
+  "extracted_project": "C:\\Users\\malik\\Developpement\\studio-100-games\\games\\001-switchworks\\build\\source-smoke-littoral-20261116T221152Z\\studio-100-games\\games\\001-switchworks",
+  "scope": "Runnable Godot source and study docs; dependencies explicitly required; not full monorepo"
+}

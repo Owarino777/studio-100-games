@@ -1,5 +1,14 @@
 # SWITCHWORKS — Journal du jeu
 
+## 2026-11-16 — Étude de composition Céramique littorale
+
+- Lecture des deux planches et contrat de transposition : ports et niveau 6×6 prioritaires, jonctions/échelles incohérentes écartées.
+- Scène isolée et neuf modèles originaux modifiables en TSCN, exports GLB relus ; toitures courbes, guichet, boîte articulée, rails et colis cohérents. Pas de découpe des références, nouveau niveau ou refonte généralisée.
+- Seul point d'extension du contrôleur existant : fabrique de vue ; mêmes règles, données et suites. APK et sauvegarde d'étude séparés des références.
+- Corrections vérifiées : marge des matières claires, sens des faces/normales, triangles dégénérés, enseignes non masquées, ombres sans stries et légendes du HUD agrandies.
+- Dalles instanciées et décor statique regroupé après mesure : appels de dessin actifs ramenés de 520–521 à 250–251 dans les contextes testés, sans inférer un gain de FPS physique.
+- Captures brutes avant/après, planche de modules, vidéos exécutées PC/Android émulateur ; recette et limites documentées. Évaluation artistique finale, Safari de cette étude et commercialisation toujours en HOLD.
+
 ## 2026-11-14 — Branche de test Web iPhone, sans extension du jeu
 
 - Export Web Godot Compatibility sans threads/extensions/PWA depuis `108e2b04` ; modèles 4.7.2 déjà présents, presets natifs conservés.

@@ -1,0 +1,465 @@
+{
+  "ok": true,
+  "assets": [
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/littoral-study-2026-11-16/evidence/after/360x640/planning.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 360,
+      "height": 640,
+      "bytes": 230325,
+      "color_count": 17556,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/littoral-study-2026-11-16/evidence/after/390x844/failed.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 390,
+      "height": 844,
+      "bytes": 335291,
+      "color_count": 24896,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        390,
+        844
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/littoral-study-2026-11-16/evidence/after/390x844/paused.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 390,
+      "height": 844,
+      "bytes": 227258,
+      "color_count": 5864,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        390,
+        844
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/littoral-study-2026-11-16/evidence/after/390x844/planning.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 390,
+      "height": 844,
+      "bytes": 335397,
+      "color_count": 24980,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        390,
+        844
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/littoral-study-2026-11-16/evidence/after/390x844/reception.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 390,
+      "height": 844,
+      "bytes": 332770,
+      "color_count": 24305,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        390,
+        844
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/littoral-study-2026-11-16/evidence/after/390x844/won.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 390,
+      "height": 844,
+      "bytes": 300282,
+      "color_count": 24097,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        390,
+        844
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/littoral-study-2026-11-16/evidence/android/1080x2340/failed.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1080,
+      "height": 2340,
+      "bytes": 1682545,
+      "color_count": 46545,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        1080,
+        2340
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/littoral-study-2026-11-16/evidence/android/1080x2340/home-return.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1080,
+      "height": 2340,
+      "bytes": 1111400,
+      "color_count": 11436,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        1080,
+        2340
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/littoral-study-2026-11-16/evidence/android/1080x2340/paused.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1080,
+      "height": 2340,
+      "bytes": 1098387,
+      "color_count": 7842,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        1080,
+        2340
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/littoral-study-2026-11-16/evidence/android/1080x2340/planning.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1080,
+      "height": 2340,
+      "bytes": 1685074,
+      "color_count": 47037,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        1080,
+        2340
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/littoral-study-2026-11-16/evidence/android/1080x2340/prepared.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1080,
+      "height": 2340,
+      "bytes": 1685873,
+      "color_count": 46399,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        1080,
+        2340
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/littoral-study-2026-11-16/evidence/android/1080x2340/won.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1080,
+      "height": 2340,
+      "bytes": 1500175,
+      "color_count": 45935,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        1080,
+        2340
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/littoral-study-2026-11-16/evidence/android/720x1280/failed.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 720,
+      "height": 1280,
+      "bytes": 690055,
+      "color_count": 28395,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        720,
+        1280
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/littoral-study-2026-11-16/evidence/android/720x1280/home-return.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 720,
+      "height": 1280,
+      "bytes": 458231,
+      "color_count": 7772,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        720,
+        1280
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/littoral-study-2026-11-16/evidence/android/720x1280/paused.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 720,
+      "height": 1280,
+      "bytes": 437167,
+      "color_count": 5612,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        720,
+        1280
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/littoral-study-2026-11-16/evidence/android/720x1280/planning.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 720,
+      "height": 1280,
+      "bytes": 691029,
+      "color_count": 28598,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        720,
+        1280
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/littoral-study-2026-11-16/evidence/android/720x1280/prepared.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 720,
+      "height": 1280,
+      "bytes": 691168,
+      "color_count": 28127,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        720,
+        1280
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/littoral-study-2026-11-16/evidence/android/720x1280/won.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 720,
+      "height": 1280,
+      "bytes": 680113,
+      "color_count": 26450,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        720,
+        1280
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/littoral-study-2026-11-16/evidence/before/360x640/planning.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 360,
+      "height": 640,
+      "bytes": 243424,
+      "color_count": 13080,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/littoral-study-2026-11-16/evidence/before/390x844/planning.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 390,
+      "height": 844,
+      "bytes": 361959,
+      "color_count": 16908,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        390,
+        844
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/littoral-study-2026-11-16/evidence/modules.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 960,
+      "height": 720,
+      "bytes": 123432,
+      "color_count": 9067,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        960,
+        720
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/references-2026-11-16/01-univers-et-intention.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2270228,
+      "color_count": ">65535",
+      "has_alpha": false,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/references-2026-11-16/02-assets-etats-interface.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2383013,
+      "color_count": ">65535",
+      "has_alpha": false,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "problems": []
+    }
+  ]
+}

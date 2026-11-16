@@ -1,0 +1,7 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+SLICE_GUIDANCE {"phase":"planning","state":"fresh","text":"Touchez une voie pour la tourner,\npuis expédiez."}
+SLICE_READY engine=4.7.2-stable (official) platform=Windows level=archipel-double-flux-01
+LITTORAL_RENDER_CONTRACT {"camera_position":"(0.0, 10.0, 6.5)","camera_width_units":6.71999979019165,"mesh_nodes_including_multimesh":120,"renderer":"Compatibility","source":"traversal of actual instantiated meshes; no GPU/thermal inference","submitted_triangles_all_instances":76863,"tile_instances":36}
+SLICE_LAYOUT {"buttons":{"dispatch":[32,60],"hint":[59,60],"pause":[60,6],"reduce_motion":[24,17],"restart":[25,17],"resume":[20,17],"sound":[23,17],"undo":[6,60],"victory_replay":[24,46]},"cells":{"0":[8,17],"1":[18,17],"10":[46,21],"11":[56,21],"12":[8,26],"13":[18,26],"14":[27,26],"15":[37,26],"16":[46,26],"17":[56,26],"18":[8,30],"19":[18,30],"2":[27,17],"20":[27,30],"21":[37,30],"22":[46,30],"23":[56,30],"24":[8,34],"25":[18,34],"26":[27,34],"27":[37,34],"28":[46,34],"29":[56,34],"3":[37,17],"30":[8,38],"31":[18,38],"32":[27,38],"33":[37,38],"34":[46,38],"35":[56,38],"4":[46,17],"5":[56,17],"6":[8,21],"7":[18,21],"8":[27,21],"9":[37,21]},"logical_viewport":[640.0,640.0],"phase":"planning","window":[64,64]}
+SLICE_GUIDANCE_LAYOUT {"guidance":{"font_rids":["240518168584"],"font_size":14,"line_height":20,"lines":2,"minimum_size":[214.0,43.0],"rect":[16.0,524.0,608.0,46.0],"state":"fresh","visible":true,"visible_lines":2},"logical_viewport":[640.0,640.0],"window":[64,64]}

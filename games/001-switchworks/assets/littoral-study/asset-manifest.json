@@ -1,0 +1,315 @@
+{
+  "schema_version": 1,
+  "version": "0.1-study",
+  "source_generator": "experiments/littoral/littoral_models.gd",
+  "exporter": "experiments/littoral/author_models.gd",
+  "blender_used": false,
+  "paid_generation_used": false,
+  "reference_pixels_in_models": false,
+  "runtime_textures_in_new_models": 0,
+  "models": [
+    {
+      "id": "boite_a",
+      "source": "assets/littoral-study/sources/boite_a.tscn",
+      "source_sha256": "f8b90a0c6071bdeb05a7248482433903e1725d8c97239798f73831247613a9a6",
+      "outil": "Godot4.7.2.stable.official.ed1daf0bf Standard; authored GDScript and native TSCN; GLTFDocument export",
+      "licence_conditions": "Original studio geometry with Codex assistance; internal proprietary project; no third-party asset pack or new image API; commercial acceptance pending owner review",
+      "date": "2026-11-16",
+      "version": "0.1-study",
+      "modifications": [
+        "parametric original geometry",
+        "clockwise winding and degenerate-face normalization before source save",
+        "static material batching preserving articulated groups and exact ports"
+      ],
+      "export": "assets/littoral-study/models/boite_a.glb",
+      "export_sha256": "365cf9a20f9f68d70a63237ba7fb2bb71d6d9122f5f93a214ae0a04dd3e9fee0",
+      "mesh_triangles": 2956,
+      "port_nodes": [
+        {
+          "name": "Port8",
+          "translation": [
+            -0.5,
+            0.17499999701976776,
+            0.0
+          ]
+        }
+      ],
+      "visible_rail_borders": [
+        8
+      ],
+      "pivot": "one-unit grid; +X east, -Z north, +Y up; doors/confirmation retained as named nodes",
+      "technical_checks_passed": true,
+      "approval_status": "CANDIDATE_HUMAN_REVIEW_REQUIRED"
+    },
+    {
+      "id": "boite_b",
+      "source": "assets/littoral-study/sources/boite_b.tscn",
+      "source_sha256": "8653206c0ffee385412fc1ec1f6641ec03cbb1a8efdf2570e1c7475b81dfcff2",
+      "outil": "Godot4.7.2.stable.official.ed1daf0bf Standard; authored GDScript and native TSCN; GLTFDocument export",
+      "licence_conditions": "Original studio geometry with Codex assistance; internal proprietary project; no third-party asset pack or new image API; commercial acceptance pending owner review",
+      "date": "2026-11-16",
+      "version": "0.1-study",
+      "modifications": [
+        "parametric original geometry",
+        "clockwise winding and degenerate-face normalization before source save",
+        "static material batching preserving articulated groups and exact ports"
+      ],
+      "export": "assets/littoral-study/models/boite_b.glb",
+      "export_sha256": "a87735d1396e65918ee6f1715caba5ec45bfdb3aa963121949950c42e9c0568e",
+      "mesh_triangles": 2885,
+      "port_nodes": [
+        {
+          "name": "Port8",
+          "translation": [
+            -0.5,
+            0.17499999701976776,
+            0.0
+          ]
+        }
+      ],
+      "visible_rail_borders": [
+        8
+      ],
+      "pivot": "one-unit grid; +X east, -Z north, +Y up; doors/confirmation retained as named nodes",
+      "technical_checks_passed": true,
+      "approval_status": "CANDIDATE_HUMAN_REVIEW_REQUIRED"
+    },
+    {
+      "id": "colis_a",
+      "source": "assets/littoral-study/sources/colis_a.tscn",
+      "source_sha256": "3a1d8b4459772835b6b9becd65843fa93afa75f61b92976b213201f9ee583715",
+      "outil": "Godot4.7.2.stable.official.ed1daf0bf Standard; authored GDScript and native TSCN; GLTFDocument export",
+      "licence_conditions": "Original studio geometry with Codex assistance; internal proprietary project; no third-party asset pack or new image API; commercial acceptance pending owner review",
+      "date": "2026-11-16",
+      "version": "0.1-study",
+      "modifications": [
+        "parametric original geometry",
+        "clockwise winding and degenerate-face normalization before source save",
+        "static material batching preserving articulated groups and exact ports"
+      ],
+      "export": "assets/littoral-study/models/colis_a.glb",
+      "export_sha256": "8524285a83ac0aaf3f6b9431100d343e8d22b22b135ce1f7652e67fe8d780160",
+      "mesh_triangles": 1061,
+      "port_nodes": [],
+      "visible_rail_borders": [],
+      "pivot": "one-unit grid; +X east, -Z north, +Y up; doors/confirmation retained as named nodes",
+      "technical_checks_passed": true,
+      "approval_status": "CANDIDATE_HUMAN_REVIEW_REQUIRED"
+    },
+    {
+      "id": "colis_b",
+      "source": "assets/littoral-study/sources/colis_b.tscn",
+      "source_sha256": "af052b3b8665ea473bb10d77832b82420fff9599ab23679afe06d6b08bcd5c6e",
+      "outil": "Godot4.7.2.stable.official.ed1daf0bf Standard; authored GDScript and native TSCN; GLTFDocument export",
+      "licence_conditions": "Original studio geometry with Codex assistance; internal proprietary project; no third-party asset pack or new image API; commercial acceptance pending owner review",
+      "date": "2026-11-16",
+      "version": "0.1-study",
+      "modifications": [
+        "parametric original geometry",
+        "clockwise winding and degenerate-face normalization before source save",
+        "static material batching preserving articulated groups and exact ports"
+      ],
+      "export": "assets/littoral-study/models/colis_b.glb",
+      "export_sha256": "c1a3ac73f6a56eca39724c5741515a2de7ed09a7312f2317872af35781333837",
+      "mesh_triangles": 990,
+      "port_nodes": [],
+      "visible_rail_borders": [],
+      "pivot": "one-unit grid; +X east, -Z north, +Y up; doors/confirmation retained as named nodes",
+      "technical_checks_passed": true,
+      "approval_status": "CANDIDATE_HUMAN_REVIEW_REQUIRED"
+    },
+    {
+      "id": "guichet_a",
+      "source": "assets/littoral-study/sources/guichet_a.tscn",
+      "source_sha256": "d06d307e952cd213bbd59aaab1031f9b27eb258e73f423b2da99ea5f4c1cc63e",
+      "outil": "Godot4.7.2.stable.official.ed1daf0bf Standard; authored GDScript and native TSCN; GLTFDocument export",
+      "licence_conditions": "Original studio geometry with Codex assistance; internal proprietary project; no third-party asset pack or new image API; commercial acceptance pending owner review",
+      "date": "2026-11-16",
+      "version": "0.1-study",
+      "modifications": [
+        "parametric original geometry",
+        "clockwise winding and degenerate-face normalization before source save",
+        "static material batching preserving articulated groups and exact ports"
+      ],
+      "export": "assets/littoral-study/models/guichet_a.glb",
+      "export_sha256": "581bd34cceb4bd4eeecfaf87c532a1470507df4e818f1cf2e99eedef0487267c",
+      "mesh_triangles": 7081,
+      "port_nodes": [
+        {
+          "name": "Port2",
+          "translation": [
+            0.5,
+            0.17499999701976776,
+            0.0
+          ]
+        }
+      ],
+      "visible_rail_borders": [
+        2
+      ],
+      "pivot": "one-unit grid; +X east, -Z north, +Y up; doors/confirmation retained as named nodes",
+      "technical_checks_passed": true,
+      "approval_status": "CANDIDATE_HUMAN_REVIEW_REQUIRED"
+    },
+    {
+      "id": "guichet_b",
+      "source": "assets/littoral-study/sources/guichet_b.tscn",
+      "source_sha256": "76fe35b0fed464a5bd3f9dcfc1a7a93e2c70f5c61409204e94bac92ef3806f38",
+      "outil": "Godot4.7.2.stable.official.ed1daf0bf Standard; authored GDScript and native TSCN; GLTFDocument export",
+      "licence_conditions": "Original studio geometry with Codex assistance; internal proprietary project; no third-party asset pack or new image API; commercial acceptance pending owner review",
+      "date": "2026-11-16",
+      "version": "0.1-study",
+      "modifications": [
+        "parametric original geometry",
+        "clockwise winding and degenerate-face normalization before source save",
+        "static material batching preserving articulated groups and exact ports"
+      ],
+      "export": "assets/littoral-study/models/guichet_b.glb",
+      "export_sha256": "ee9510805e5407f19f3b090c088518a7de4896a420db21b5cd539b26ba54ae16",
+      "mesh_triangles": 7010,
+      "port_nodes": [
+        {
+          "name": "Port2",
+          "translation": [
+            0.5,
+            0.17499999701976776,
+            0.0
+          ]
+        }
+      ],
+      "visible_rail_borders": [
+        2
+      ],
+      "pivot": "one-unit grid; +X east, -Z north, +Y up; doors/confirmation retained as named nodes",
+      "technical_checks_passed": true,
+      "approval_status": "CANDIDATE_HUMAN_REVIEW_REQUIRED"
+    },
+    {
+      "id": "tuile",
+      "source": "assets/littoral-study/sources/tuile.tscn",
+      "source_sha256": "2a9acc27bc63055e9ceb51f7ba846899c5ed80a48917b0ea1636355b25881e68",
+      "outil": "Godot4.7.2.stable.official.ed1daf0bf Standard; authored GDScript and native TSCN; GLTFDocument export",
+      "licence_conditions": "Original studio geometry with Codex assistance; internal proprietary project; no third-party asset pack or new image API; commercial acceptance pending owner review",
+      "date": "2026-11-16",
+      "version": "0.1-study",
+      "modifications": [
+        "parametric original geometry",
+        "clockwise winding and degenerate-face normalization before source save",
+        "static material batching preserving articulated groups and exact ports"
+      ],
+      "export": "assets/littoral-study/models/tuile.glb",
+      "export_sha256": "6d07fc233cb912c2bf30c68625c7fc0b58fbe0f5e12c8d00e38e265686d9c9ed",
+      "mesh_triangles": 480,
+      "port_nodes": [],
+      "visible_rail_borders": [],
+      "pivot": "one-unit grid; +X east, -Z north, +Y up; doors/confirmation retained as named nodes",
+      "technical_checks_passed": true,
+      "approval_status": "CANDIDATE_HUMAN_REVIEW_REQUIRED"
+    },
+    {
+      "id": "voie_coude",
+      "source": "assets/littoral-study/sources/voie_coude.tscn",
+      "source_sha256": "24c00f1e18690fb936e81dd67d4c0d8f3896ed4fa784efecf895e25a4415db7c",
+      "outil": "Godot4.7.2.stable.official.ed1daf0bf Standard; authored GDScript and native TSCN; GLTFDocument export",
+      "licence_conditions": "Original studio geometry with Codex assistance; internal proprietary project; no third-party asset pack or new image API; commercial acceptance pending owner review",
+      "date": "2026-11-16",
+      "version": "0.1-study",
+      "modifications": [
+        "parametric original geometry",
+        "clockwise winding and degenerate-face normalization before source save",
+        "static material batching preserving articulated groups and exact ports"
+      ],
+      "export": "assets/littoral-study/models/voie_coude.glb",
+      "export_sha256": "91ddc25f4974edfa63a04e201f44e9c76106a22d6838ebb2256d3d51278d820e",
+      "mesh_triangles": 2336,
+      "port_nodes": [
+        {
+          "name": "Port1",
+          "translation": [
+            0.0,
+            0.17499999701976776,
+            -0.5
+          ]
+        },
+        {
+          "name": "Port2",
+          "translation": [
+            0.5,
+            0.17499999701976776,
+            0.0
+          ]
+        }
+      ],
+      "visible_rail_borders": [
+        1,
+        2
+      ],
+      "pivot": "one-unit grid; +X east, -Z north, +Y up; doors/confirmation retained as named nodes",
+      "technical_checks_passed": true,
+      "approval_status": "CANDIDATE_HUMAN_REVIEW_REQUIRED"
+    },
+    {
+      "id": "voie_droite",
+      "source": "assets/littoral-study/sources/voie_droite.tscn",
+      "source_sha256": "0dfda0bc7d23ed9b391e7ecedcc4b3d0a7db325a6b25f3c1a092c0afb6abd68f",
+      "outil": "Godot4.7.2.stable.official.ed1daf0bf Standard; authored GDScript and native TSCN; GLTFDocument export",
+      "licence_conditions": "Original studio geometry with Codex assistance; internal proprietary project; no third-party asset pack or new image API; commercial acceptance pending owner review",
+      "date": "2026-11-16",
+      "version": "0.1-study",
+      "modifications": [
+        "parametric original geometry",
+        "clockwise winding and degenerate-face normalization before source save",
+        "static material batching preserving articulated groups and exact ports"
+      ],
+      "export": "assets/littoral-study/models/voie_droite.glb",
+      "export_sha256": "8b47c776ba8a11b1dd7f07f1f42d7c75c7914aa079b2539beaffe64e6125c298",
+      "mesh_triangles": 864,
+      "port_nodes": [
+        {
+          "name": "Port1",
+          "translation": [
+            0.0,
+            0.17499999701976776,
+            -0.5
+          ]
+        },
+        {
+          "name": "Port4",
+          "translation": [
+            0.0,
+            0.17499999701976776,
+            0.5
+          ]
+        }
+      ],
+      "visible_rail_borders": [
+        1,
+        4
+      ],
+      "pivot": "one-unit grid; +X east, -Z north, +Y up; doors/confirmation retained as named nodes",
+      "technical_checks_passed": true,
+      "approval_status": "CANDIDATE_HUMAN_REVIEW_REQUIRED"
+    }
+  ],
+  "existing_reused_assets": {
+    "font": "assets/fonts/NunitoSans-Variable.ttf",
+    "font_conditions": "SIL OFL1.1; assets/fonts/OFL-NunitoSans.txt",
+    "sky": "assets/archipel/textures/sky-paper-v1.png",
+    "sky_conditions": "Existing generated resource, provider terms and commercial review pending; unchanged",
+    "geometry_helpers": "scripts/visuals/postal_art_factory.gd; original studio source"
+  },
+  "concept_references": [
+    {
+      "path": "docs/art/switchworks/references-2026-11-16/01-univers-et-intention.png",
+      "sha256": "a1133fd8e5c2931d3df4f1f880a1a91480686e2f00fa947075dbb44086bd336e",
+      "role": "supplied conceptual reference only, no pixels copied or exported",
+      "conditions": "owner supplied original generated image; generator terms unspecified; not treated as production asset licence"
+    },
+    {
+      "path": "docs/art/switchworks/references-2026-11-16/02-assets-etats-interface.png",
+      "sha256": "301bfe30adecf3edf539961fc0788f7671948057f53863f3db3cde210e57d609",
+      "role": "supplied conceptual reference only, no pixels copied or exported",
+      "conditions": "owner supplied original generated image; generator terms unspecified; not treated as production asset licence"
+    }
+  ]
+}
