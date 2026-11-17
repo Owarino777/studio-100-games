@@ -1,0 +1,73 @@
+--------- beginning of main
+11-16 23:55:19.261 13299 13299 I works.postal.ui: Late-enabling -Xcheck:jni
+11-16 23:55:19.287 13299 13299 I works.postal.ui: Using CollectorTypeCMC GC.
+11-16 23:55:19.306 13299 13299 W works.postal.ui: Unexpected CPU variant for x86: x86_64.
+11-16 23:55:19.306 13299 13299 W works.postal.ui: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, alderlake, default
+11-16 23:55:19.449 13299 13299 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+11-16 23:55:19.552 13299 13299 D nativeloader: Configuring clns-9 for other apk /data/app/~~sHgLbu2zIHNhGPKgwxSWhg==/org.studio100games.switchworks.postal.ui-JTjzZrcTHO3wmmUrJzJyog==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~sHgLbu2zIHNhGPKgwxSWhg==/org.studio100games.switchworks.postal.ui-JTjzZrcTHO3wmmUrJzJyog==/lib/x86_64:/data/app/~~sHgLbu2zIHNhGPKgwxSWhg==/org.studio100games.switchworks.postal.ui-JTjzZrcTHO3wmmUrJzJyog==/base.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/org.studio100games.switchworks.postal.ui
+11-16 23:55:19.559 13299 13299 I works.postal.ui: AssetManager2(0x7854349a8178) locale list changing from [] to [en-US]
+11-16 23:55:19.561 13299 13299 V GraphicsEnvironment: Currently set values for:
+11-16 23:55:19.561 13299 13299 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+11-16 23:55:19.561 13299 13299 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+11-16 23:55:19.561 13299 13299 V GraphicsEnvironment: org.studio100games.switchworks.postal.ui is not listed in per-application setting
+11-16 23:55:19.561 13299 13299 V GraphicsEnvironment: ANGLE allowlist from config: com.dreamgames.royalmatch com.dts.freefiremax com.dxx.firenow com.gramgames.mergedragons com.ludo.king com.mojang.minecraftpe com.my.defense com.nintendo.zaka com.os.airforce com.playrix.fishdomdd.gplay io.teslatech.callbreak jp.konami.prospia net.peakgames.toonblast
+11-16 23:55:19.561 13299 13299 V GraphicsEnvironment: org.studio100games.switchworks.postal.ui is not listed in ANGLE allowlist or settings, returning default
+11-16 23:55:19.561 13299 13299 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+--------- beginning of system
+11-16 23:55:19.578 13299 13315 I DisplayManager: Choreographer implicitly registered for the refresh rate.
+11-16 23:55:19.627 13299 13315 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+11-16 23:55:19.627 13299 13315 I EGL_emulation: Opening libGLESv2_emulation.so
+11-16 23:55:19.689 13299 13299 I works.postal.ui: AssetManager2(0x7854349b2718) locale list changing from [] to [en-US]
+11-16 23:55:19.698 13299 13315 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+11-16 23:55:19.698 13299 13315 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-16 23:55:19.735 13299 13299 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+11-16 23:55:19.743 13299 13299 D CompatChangeReporter: Compat change id reported: 377864165; UID 10220; state: ENABLED
+11-16 23:55:19.744 13299 13299 D DesktopModeFlags: Toggle override initialized to: OVERRIDE_UNSET
+11-16 23:55:19.751 13299 13299 D GodotActivity: Project command line parameters: [--xr_mode_regular, --xr-mode, off, --fullscreen, --background_color, #000000]
+11-16 23:55:19.752 13299 13299 D GodotActivity: Launch intent Intent { flg=0x10000000 xflg=0x5 cmp=org.studio100games.switchworks.postal.ui/com.godot.game.GodotAppLauncher } with parameters []
+11-16 23:55:19.898 13299 13299 V GodotActivity: Creating new Godot fragment instance.
+11-16 23:55:20.001 13299 13299 V Godot   : Initializing Godot plugin registry
+11-16 23:55:20.113 13299 13299 I GodotPluginRegistry: Registering runtime plugin AndroidRuntime
+11-16 23:55:20.114 13299 13299 V Godot   : InitEngine with params: [--xr_mode_regular, --xr-mode, off, --fullscreen, --background_color, #000000]
+11-16 23:55:20.133 13299 13299 D nativeloader: Load /data/app/~~sHgLbu2zIHNhGPKgwxSWhg==/org.studio100games.switchworks.postal.ui-JTjzZrcTHO3wmmUrJzJyog==/lib/x86_64/libgodot_android.so using class loader ns clns-9 (caller=/data/app/~~sHgLbu2zIHNhGPKgwxSWhg==/org.studio100games.switchworks.postal.ui-JTjzZrcTHO3wmmUrJzJyog==/base.apk!classes7.dex): ok
+11-16 23:55:20.133 13299 13299 V Godot   : Godot native layer initialization completed: true
+11-16 23:55:20.133 13299 13299 V Godot   : Setting up native layer with params: [--xr-mode, off, --fullscreen]
+11-16 23:55:20.156 13299 13299 V Godot   : Godot native layer setup completed
+11-16 23:55:20.157 13299 13299 V Godot   : OnInitRenderView: GodotFragment{1e3eb2f} (539bf621-16f6-4719-8639-ea2577513579 id=0x7f07002c)
+11-16 23:55:20.164 13299 13299 W HWUI    : Image decoding logging dropped!
+11-16 23:55:20.164 13299 13299 W HWUI    : Image decoding logging dropped!
+11-16 23:55:20.164 13299 13299 W HWUI    : Image decoding logging dropped!
+11-16 23:55:20.181 13299 13299 D Godot   : Render view should be transparent: false
+11-16 23:55:20.182 13299 13299 D Godot   : renderingDevice: opengl3 (ProjectSettings)
+11-16 23:55:20.182 13299 13299 D Godot   : 			renderer: gl_compatibility (ProjectSettings)
+11-16 23:55:20.222 13299 13299 V Godot   : OnStart: GodotFragment{1e3eb2f} (539bf621-16f6-4719-8639-ea2577513579 id=0x7f07002c)
+11-16 23:55:20.226 13299 13299 V Godot   : OnResume: GodotFragment{1e3eb2f} (539bf621-16f6-4719-8639-ea2577513579 id=0x7f07002c)
+11-16 23:55:20.240 13299 13299 W HWUI    : Unknown dataspace 0
+11-16 23:55:20.247 13299 13299 D InsetsController: Setting requestedVisibleTypes to -16 (was -9)
+11-16 23:55:20.296 13299 13320 W RegularContextFactory: creating OpenGL ES 3.0 context :
+11-16 23:55:20.538 13299 13320 I godot   : Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+11-16 23:55:20.810 13299 13299 D InsetsController: hide(ime(), fromIme=false)
+11-16 23:55:20.810 13299 13299 I ImeTracker: org.studio100games.switchworks.postal.ui:cc1821f0: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+11-16 23:55:20.880 13299 13320 E godot   : WARNING: Failed to load cached shader, recompiling.
+11-16 23:55:20.880 13299 13320 E godot   :    at: _load_from_cache (drivers/gles3/shader_gles3.cpp:615)
+11-16 23:55:21.045 13299 13299 W InteractionJankMonitor: Initializing without READ_DEVICE_CONFIG permission. enabled=false, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=org.studio100games.switchworks.postal.ui
+11-16 23:55:21.328 13299 13326 E SurfaceSyncGroup: Failed to receive transaction ready in 1000ms. Marking SurfaceSyncGroup(wmsSync-VRI[GodotAppLauncher]#1) as ready
+11-16 23:55:21.328 13299 13326 E SurfaceSyncGroup: Failed to receive transaction ready in 1000ms. Marking SurfaceSyncGroup(VRI[GodotAppLauncher]#2) as ready
+11-16 23:55:21.328 13299 13326 E SurfaceSyncGroup: Failed to receive transaction ready in 1000ms. Marking SurfaceSyncGroup(SurfaceView[org.studio100games.switchworks.postal.ui/com.godot.game.GodotAppLauncher]#0) as ready
+11-16 23:55:21.648 13299 13304 I works.postal.ui: Compiler allocated 5042KB to compile void android.view.ViewRootImpl.performTraversals()
+11-16 23:55:21.837 13299 13320 I godot   : OpenGL API OpenGL ES 3.1 (4.5.0 NVIDIA 621.24) - Compatibility - Using Device: Google (NVIDIA Corporation) - Android Emulator OpenGL ES Translator (NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2)
+11-16 23:55:21.838 13299 13320 D AudioSystem: onNewServiceWithAdapter: media.audio_flinger service obtained 0x7854b4a33710
+11-16 23:55:21.839 13299 13320 D AudioSystem: getService: checking for service media.audio_flinger: 0x785414ac8040
+11-16 23:55:21.839 13299 13320 D works.postal.ui: PlayerBase::PlayerBase()
+11-16 23:55:21.839 13299 13320 D works.postal.ui: TrackPlayerBase::TrackPlayerBase()
+11-16 23:55:21.839 13299 13320 I libOpenSLES: Emulating old channel mask behavior (ignoring positional mask 0x3, using default mask 0x3 based on channel count of 2)
+11-16 23:55:21.845 13299 13320 I godot   : 
+11-16 23:55:22.552 13299 13320 V Godot   : OnGodotSetupCompleted
+11-16 23:55:22.648 13299 13320 I godot   : SLICE_GUIDANCE {"phase":"planning","state":"restored_editable","text":"Préparation retrouvée.\nVérifiez les raccords."}
+11-16 23:55:22.651 13299 13320 I godot   : SLICE_READY engine=4.7.2-stable (official) platform=Android level=archipel-double-flux-01
+11-16 23:55:22.675 13299 13320 I godot   : LITTORAL_RENDER_CONTRACT {"camera_position":"(0.0, 10.0, 5.0)","camera_width_units":6.34999990463257,"mesh_nodes_including_multimesh":108,"renderer":"Compatibility","source":"traversal of actual instantiated meshes; no GPU/thermal inference","submitted_triangles_all_instances":50141,"tile_instances":36}
+11-16 23:55:22.675 13299 13320 V Godot   : OnGodotMainLoopStarted
+11-16 23:55:22.699 13299 13320 I godot   : SLICE_LAYOUT {"buttons":{"dispatch":[1662,818],"hint":[2171,818],"pause":[2199,154],"reduce_motion":[263,131],"restart":[177,131],"resume":[158,131],"sound":[210,131],"undo":[1130,818],"victory_replay":[1662,818]},"cells":{"0":[91,359],"1":[231,359],"10":[651,484],"11":[791,484],"12":[91,609],"13":[231,609],"14":[371,609],"15":[511,609],"16":[651,609],"17":[791,609],"18":[91,734],"19":[231,734],"2":[371,359],"20":[371,734],"21":[511,734],"22":[651,734],"23":[791,734],"24":[91,859],"25":[231,859],"26":[371,859],"27":[511,859],"28":[651,859],"29":[791,859],"3":[511,359],"30":[91,984],"31":[231,984],"32":[371,984],"33":[511,984],"34":[651,984],"35":[791,984],"4":[651,359],"5":[791,359],"6":[91,484],"7":[231,484],"8":[371,484],"9":[511,484]},"logical_viewport":[780.0,360.0],"phase":"planning","window":[2340,1080]}
+11-16 23:55:22.699 13299 13320 I godot   : SLICE_GUIDANCE_LAYOUT {"guidance":{"font_rids":["717259538434"],"font_size":15,"line_height":22,"lines":2,"minimum_size":[1.0,47.0],"rect":[328.0,156.66667175293,436.0,47.0],"state":"restored_editable","visible":true,"visible_lines":2},"logical_viewport":[780.0,360.0],"window":[2340,1080]}
+11-16 23:55:22.699 13299 13320 I godot   : POSTAL_UI_LAYOUT {"dpi_reported":480,"logical":[780.0,360.0],"notes":"Godot logical sizes are not automatically physical pt/dp; Android numbers use reported DPI; physical comfort untested","phase":"planning","targets":{"dispatch":{"dp_if_android":[242.0,48.0],"pixels":[726.0,144.0],"visible":true},"hint":{"dp_if_android":[81.0,48.0],"pixels":[243.0,144.0],"visible":true},"pause":{"dp_if_android":[62.0,63.0],"pixels":[186.0,189.0],"visible":true},"restart":{"dp_if_android":[118.0,48.0],"pixels":[354.0,144.0],"visible":false},"resume":{"dp_if_android":[105.0,48.0],"pixels":[315.0,144.0],"visible":false},"undo":{"dp_if_android":[97.0,48.0],"pixels":[291.0,144.0],"visible":true}},"text_scale":1.0}
+11-16 23:55:23.940 13299 13320 I godot   : SLICE_FIRST_FRAME since_ready_ms=1386.05

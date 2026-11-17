@@ -1,0 +1,338 @@
+{
+  "schema_version": 1,
+  "version": "0.0.1-postal-ui",
+  "models": [
+    {
+      "id": "boite_a",
+      "source": "assets/postal-workshop/sources/boite_a.tscn",
+      "source_sha256": "336c67c99ae291c976926a82fd45e0f0552f586394985c9493d2aaa6921a2dbe",
+      "outil": "Godot4.7.2.stable.official.ed1daf0bf Standard; native authored GDScript/TSCN",
+      "licence_conditions": "Original internal studio geometry with Codex assistance; no third-party pack; commercial rights/acceptance remain owner review",
+      "date": "2026-11-17",
+      "version": "0.0.1-postal-ui",
+      "modifications": [
+        "original workshop construction",
+        "normalization before source save",
+        "static material batching preserving ports and articulated groups"
+      ],
+      "export": "assets/postal-workshop/models/boite_a.glb",
+      "sha256": "daa709f2d20361cddf0fa87f318291cb2efcdeedb64c64462c42e3a57a822813",
+      "triangles": 2132,
+      "ports": [
+        {
+          "name": "Port8",
+          "translation": [
+            -0.5,
+            0.17499999701976776,
+            0.0
+          ]
+        }
+      ],
+      "rail_border_intersections": [
+        8
+      ],
+      "pivot": "one-unit cell; +X east,-Z north,+Y up; lid pivot separate",
+      "states": "rest,selection/rotation via view; reception on validated events; no guessed success",
+      "technical_checks_passed": true,
+      "approval": "CANDIDATE_NOT_HUMAN_APPROVED"
+    },
+    {
+      "id": "boite_b",
+      "source": "assets/postal-workshop/sources/boite_b.tscn",
+      "source_sha256": "ebaa24a32e14fb27fed3f7b730361d082bc4a5bc0b9244c434dbbdeb658c302b",
+      "outil": "Godot4.7.2.stable.official.ed1daf0bf Standard; native authored GDScript/TSCN",
+      "licence_conditions": "Original internal studio geometry with Codex assistance; no third-party pack; commercial rights/acceptance remain owner review",
+      "date": "2026-11-17",
+      "version": "0.0.1-postal-ui",
+      "modifications": [
+        "original workshop construction",
+        "normalization before source save",
+        "static material batching preserving ports and articulated groups"
+      ],
+      "export": "assets/postal-workshop/models/boite_b.glb",
+      "sha256": "ece0a61ec9287e29f1086b7c3dd201bf7a044f5b823a4779a967bedccd3f1c2a",
+      "triangles": 2157,
+      "ports": [
+        {
+          "name": "Port8",
+          "translation": [
+            -0.5,
+            0.17499999701976776,
+            0.0
+          ]
+        }
+      ],
+      "rail_border_intersections": [
+        8
+      ],
+      "pivot": "one-unit cell; +X east,-Z north,+Y up; lid pivot separate",
+      "states": "rest,selection/rotation via view; reception on validated events; no guessed success",
+      "technical_checks_passed": true,
+      "approval": "CANDIDATE_NOT_HUMAN_APPROVED"
+    },
+    {
+      "id": "colis_a",
+      "source": "assets/postal-workshop/sources/colis_a.tscn",
+      "source_sha256": "38ff97a1efc3d7341d7c6e02749aeaa4ff0e4b7b137b0d1147312e4e51c60bee",
+      "outil": "Godot4.7.2.stable.official.ed1daf0bf Standard; native authored GDScript/TSCN",
+      "licence_conditions": "Original internal studio geometry with Codex assistance; no third-party pack; commercial rights/acceptance remain owner review",
+      "date": "2026-11-17",
+      "version": "0.0.1-postal-ui",
+      "modifications": [
+        "original workshop construction",
+        "normalization before source save",
+        "static material batching preserving ports and articulated groups"
+      ],
+      "export": "assets/postal-workshop/models/colis_a.glb",
+      "sha256": "66afe2fbb54afef62fc7df7e9cb9c6e196f77ac2daa4d573a23bb45eb766dea5",
+      "triangles": 964,
+      "ports": [],
+      "rail_border_intersections": [],
+      "pivot": "one-unit cell; +X east,-Z north,+Y up; lid pivot separate",
+      "states": "rest,selection/rotation via view; reception on validated events; no guessed success",
+      "technical_checks_passed": true,
+      "approval": "CANDIDATE_NOT_HUMAN_APPROVED"
+    },
+    {
+      "id": "colis_b",
+      "source": "assets/postal-workshop/sources/colis_b.tscn",
+      "source_sha256": "b35763bbbb82b3c82ea28c60c3b520b99486c6d36d8fb7677ca9e3f17dfa9d53",
+      "outil": "Godot4.7.2.stable.official.ed1daf0bf Standard; native authored GDScript/TSCN",
+      "licence_conditions": "Original internal studio geometry with Codex assistance; no third-party pack; commercial rights/acceptance remain owner review",
+      "date": "2026-11-17",
+      "version": "0.0.1-postal-ui",
+      "modifications": [
+        "original workshop construction",
+        "normalization before source save",
+        "static material batching preserving ports and articulated groups"
+      ],
+      "export": "assets/postal-workshop/models/colis_b.glb",
+      "sha256": "890dd0d738601f0a05f9583dac871a1bc20aceda2bf4ed3a4f616001e1287ed9",
+      "triangles": 989,
+      "ports": [],
+      "rail_border_intersections": [],
+      "pivot": "one-unit cell; +X east,-Z north,+Y up; lid pivot separate",
+      "states": "rest,selection/rotation via view; reception on validated events; no guessed success",
+      "technical_checks_passed": true,
+      "approval": "CANDIDATE_NOT_HUMAN_APPROVED"
+    },
+    {
+      "id": "guichet_a",
+      "source": "assets/postal-workshop/sources/guichet_a.tscn",
+      "source_sha256": "b70f5d3ea4cb6adc55d5b08d99ad5c43312e65119bbb82eae6e8268e49de72a6",
+      "outil": "Godot4.7.2.stable.official.ed1daf0bf Standard; native authored GDScript/TSCN",
+      "licence_conditions": "Original internal studio geometry with Codex assistance; no third-party pack; commercial rights/acceptance remain owner review",
+      "date": "2026-11-17",
+      "version": "0.0.1-postal-ui",
+      "modifications": [
+        "original workshop construction",
+        "normalization before source save",
+        "static material batching preserving ports and articulated groups"
+      ],
+      "export": "assets/postal-workshop/models/guichet_a.glb",
+      "sha256": "ff9fe7eaa6aedc8aa5638b3b6f7444d4eb750f7c4b55c51b775deb3dfbc59f24",
+      "triangles": 1809,
+      "ports": [
+        {
+          "name": "Port2",
+          "translation": [
+            0.5,
+            0.17499999701976776,
+            0.0
+          ]
+        }
+      ],
+      "rail_border_intersections": [
+        2
+      ],
+      "pivot": "one-unit cell; +X east,-Z north,+Y up; lid pivot separate",
+      "states": "rest,selection/rotation via view; reception on validated events; no guessed success",
+      "technical_checks_passed": true,
+      "approval": "CANDIDATE_NOT_HUMAN_APPROVED"
+    },
+    {
+      "id": "guichet_b",
+      "source": "assets/postal-workshop/sources/guichet_b.tscn",
+      "source_sha256": "63a1bc1ca8201fa98e000a1eb18e2136dd4eb9491a1ac56ac90774c237250fd7",
+      "outil": "Godot4.7.2.stable.official.ed1daf0bf Standard; native authored GDScript/TSCN",
+      "licence_conditions": "Original internal studio geometry with Codex assistance; no third-party pack; commercial rights/acceptance remain owner review",
+      "date": "2026-11-17",
+      "version": "0.0.1-postal-ui",
+      "modifications": [
+        "original workshop construction",
+        "normalization before source save",
+        "static material batching preserving ports and articulated groups"
+      ],
+      "export": "assets/postal-workshop/models/guichet_b.glb",
+      "sha256": "a976f95d7e8529f2a27ab7e86814dcf29df4dbafca2f740620b1155c7c604b95",
+      "triangles": 1834,
+      "ports": [
+        {
+          "name": "Port2",
+          "translation": [
+            0.5,
+            0.17499999701976776,
+            0.0
+          ]
+        }
+      ],
+      "rail_border_intersections": [
+        2
+      ],
+      "pivot": "one-unit cell; +X east,-Z north,+Y up; lid pivot separate",
+      "states": "rest,selection/rotation via view; reception on validated events; no guessed success",
+      "technical_checks_passed": true,
+      "approval": "CANDIDATE_NOT_HUMAN_APPROVED"
+    },
+    {
+      "id": "socle",
+      "source": "assets/postal-workshop/sources/socle.tscn",
+      "source_sha256": "fd37c2e2f6c5673d21f1f2570a278748c3ee9a17aa33c8a117e378e43d6cd431",
+      "outil": "Godot4.7.2.stable.official.ed1daf0bf Standard; native authored GDScript/TSCN",
+      "licence_conditions": "Original internal studio geometry with Codex assistance; no third-party pack; commercial rights/acceptance remain owner review",
+      "date": "2026-11-17",
+      "version": "0.0.1-postal-ui",
+      "modifications": [
+        "original workshop construction",
+        "normalization before source save",
+        "static material batching preserving ports and articulated groups"
+      ],
+      "export": "assets/postal-workshop/models/socle.glb",
+      "sha256": "01a8f34627f2b49b0c13a844357c8ddbff30b589760613ba81d8739ed6fa3ada",
+      "triangles": 320,
+      "ports": [],
+      "rail_border_intersections": [],
+      "pivot": "one-unit cell; +X east,-Z north,+Y up; lid pivot separate",
+      "states": "rest,selection/rotation via view; reception on validated events; no guessed success",
+      "technical_checks_passed": true,
+      "approval": "CANDIDATE_NOT_HUMAN_APPROVED"
+    },
+    {
+      "id": "tuile",
+      "source": "assets/postal-workshop/sources/tuile.tscn",
+      "source_sha256": "8bc612a63f06f500ed46e778c9b0d0fc4b25887ebb2c71cac30455473de9e93c",
+      "outil": "Godot4.7.2.stable.official.ed1daf0bf Standard; native authored GDScript/TSCN",
+      "licence_conditions": "Original internal studio geometry with Codex assistance; no third-party pack; commercial rights/acceptance remain owner review",
+      "date": "2026-11-17",
+      "version": "0.0.1-postal-ui",
+      "modifications": [
+        "original workshop construction",
+        "normalization before source save",
+        "static material batching preserving ports and articulated groups"
+      ],
+      "export": "assets/postal-workshop/models/tuile.glb",
+      "sha256": "62b4071bca87f1495ce7b68a33a1484a9ddf41fa2496d82a1b0624d6c6af418a",
+      "triangles": 320,
+      "ports": [],
+      "rail_border_intersections": [],
+      "pivot": "one-unit cell; +X east,-Z north,+Y up; lid pivot separate",
+      "states": "rest,selection/rotation via view; reception on validated events; no guessed success",
+      "technical_checks_passed": true,
+      "approval": "CANDIDATE_NOT_HUMAN_APPROVED"
+    },
+    {
+      "id": "voie_coude",
+      "source": "assets/postal-workshop/sources/voie_coude.tscn",
+      "source_sha256": "3375c502e94a8bb9c890e501f68bf292a99ea6db3b4a7c114b9c50f9cb039315",
+      "outil": "Godot4.7.2.stable.official.ed1daf0bf Standard; native authored GDScript/TSCN",
+      "licence_conditions": "Original internal studio geometry with Codex assistance; no third-party pack; commercial rights/acceptance remain owner review",
+      "date": "2026-11-17",
+      "version": "0.0.1-postal-ui",
+      "modifications": [
+        "original workshop construction",
+        "normalization before source save",
+        "static material batching preserving ports and articulated groups"
+      ],
+      "export": "assets/postal-workshop/models/voie_coude.glb",
+      "sha256": "45b20ba67322edea5685c9762836a68189eee351d0bf73ec7a600920e241cfe0",
+      "triangles": 2736,
+      "ports": [
+        {
+          "name": "Port1",
+          "translation": [
+            0.0,
+            0.17499999701976776,
+            -0.5
+          ]
+        },
+        {
+          "name": "Port2",
+          "translation": [
+            0.5,
+            0.17499999701976776,
+            0.0
+          ]
+        }
+      ],
+      "rail_border_intersections": [
+        1,
+        2
+      ],
+      "pivot": "one-unit cell; +X east,-Z north,+Y up; lid pivot separate",
+      "states": "rest,selection/rotation via view; reception on validated events; no guessed success",
+      "technical_checks_passed": true,
+      "approval": "CANDIDATE_NOT_HUMAN_APPROVED"
+    },
+    {
+      "id": "voie_droite",
+      "source": "assets/postal-workshop/sources/voie_droite.tscn",
+      "source_sha256": "4b05a5964cd3c7012c6f27f4c5dacca9173f5711759d662bacaebbd5a99b4a17",
+      "outil": "Godot4.7.2.stable.official.ed1daf0bf Standard; native authored GDScript/TSCN",
+      "licence_conditions": "Original internal studio geometry with Codex assistance; no third-party pack; commercial rights/acceptance remain owner review",
+      "date": "2026-11-17",
+      "version": "0.0.1-postal-ui",
+      "modifications": [
+        "original workshop construction",
+        "normalization before source save",
+        "static material batching preserving ports and articulated groups"
+      ],
+      "export": "assets/postal-workshop/models/voie_droite.glb",
+      "sha256": "68e0c2b1ee8ad0db1b09fb280e5fbb08dd63ede90885c4924977b222c08653d4",
+      "triangles": 1264,
+      "ports": [
+        {
+          "name": "Port1",
+          "translation": [
+            0.0,
+            0.17499999701976776,
+            -0.5
+          ]
+        },
+        {
+          "name": "Port4",
+          "translation": [
+            0.0,
+            0.17499999701976776,
+            0.5
+          ]
+        }
+      ],
+      "rail_border_intersections": [
+        1,
+        4
+      ],
+      "pivot": "one-unit cell; +X east,-Z north,+Y up; lid pivot separate",
+      "states": "rest,selection/rotation via view; reception on validated events; no guessed success",
+      "technical_checks_passed": true,
+      "approval": "CANDIDATE_NOT_HUMAN_APPROVED"
+    }
+  ],
+  "generator": "experiments/postal_workshop/workshop_models.gd",
+  "source_pixels_copied": false,
+  "blender_used": false,
+  "paid_generation_used": false,
+  "ceramic_grain": {
+    "source": "grain() in generator,seed16112026",
+    "export": "assets/postal-workshop/materials/ceramic-grain.png",
+    "licence_conditions": "original deterministic internal resource",
+    "sha256": "40c0373ad00c7b84e7c7ae33ca2f5b8a23f029feddbc7b5cdcc95c823acfdf1b"
+  },
+  "interface": {
+    "scene": "ui/workshop/postal_hud.tscn",
+    "theme": "ui/workshop/workshop_theme.tres",
+    "tokens": "ui/workshop/tokens.tres",
+    "icons": "ui/workshop/icons/*.svg,original vector family",
+    "font": "NunitoSans existing,SIL OFL1.1,assets/fonts/OFL-NunitoSans.txt"
+  },
+  "limits": "Geometry inspection is not full Khronos certification; game sources and provider notices retained; no commercial readiness claim"
+}

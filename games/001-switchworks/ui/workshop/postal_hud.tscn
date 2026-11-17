@@ -1,0 +1,265 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource type="Theme" path="res://ui/workshop/workshop_theme.tres" id="1"]
+
+[node name="PostalHud" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1")
+mouse_filter = 2
+
+[node name="Background" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0.909804, 0.921569, 0.901961, 1)
+
+[node name="SafeCenter" type="CenterContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Stack" type="VBoxContainer" parent="SafeCenter"]
+layout_mode = 2
+theme_override_constants/separation = 8
+mouse_filter = 2
+
+[node name="HeaderMargin" type="MarginContainer" parent="SafeCenter/Stack"]
+layout_mode = 2
+theme_override_constants/margin_left = 16
+theme_override_constants/margin_right = 16
+
+[node name="Header" type="PanelContainer" parent="SafeCenter/Stack/HeaderMargin"]
+layout_mode = 2
+
+[node name="HeaderStack" type="VBoxContainer" parent="SafeCenter/Stack/HeaderMargin/Header"]
+layout_mode = 2
+theme_override_constants/separation = 4
+
+[node name="Row" type="HBoxContainer" parent="SafeCenter/Stack/HeaderMargin/Header/HeaderStack"]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="Brand" type="Label" parent="SafeCenter/Stack/HeaderMargin/Header/HeaderStack/Row"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"Brand"
+text = "SWITCHWORKS"
+
+[node name="Progress" type="PanelContainer" parent="SafeCenter/Stack/HeaderMargin/Header/HeaderStack/Row"]
+layout_mode = 2
+theme_type_variation = &"ProgressChip"
+
+[node name="Column" type="VBoxContainer" parent="SafeCenter/Stack/HeaderMargin/Header/HeaderStack/Row/Progress"]
+layout_mode = 2
+theme_override_constants/separation = 0
+
+[node name="Value" type="Label" parent="SafeCenter/Stack/HeaderMargin/Header/HeaderStack/Row/Progress/Column"]
+layout_mode = 2
+theme_type_variation = &"Counter"
+text = "0 / 2"
+horizontal_alignment = 1
+accessibility_name = "Livraisons reçues sur deux"
+
+[node name="Caption" type="Label" parent="SafeCenter/Stack/HeaderMargin/Header/HeaderStack/Row/Progress/Column"]
+layout_mode = 2
+theme_type_variation = &"Caption"
+text = "livraisons"
+horizontal_alignment = 1
+
+[node name="Pause" type="Button" parent="SafeCenter/Stack/HeaderMargin/Header/HeaderStack/Row"]
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
+theme_type_variation = &"Quiet"
+text = "Pause"
+accessibility_name = "Mettre en pause"
+
+[node name="Objective" type="Label" parent="SafeCenter/Stack/HeaderMargin/Header/HeaderStack"]
+layout_mode = 2
+theme_type_variation = &"Objective"
+text = "Reliez A à A et B à B"
+autowrap_mode = 3
+
+[node name="PlayGrid" type="GridContainer" parent="SafeCenter/Stack"]
+layout_mode = 2
+columns = 1
+theme_override_constants/h_separation = 16
+theme_override_constants/v_separation = 8
+mouse_filter = 2
+
+[node name="BoardAspect" type="AspectRatioContainer" parent="SafeCenter/Stack/PlayGrid"]
+layout_mode = 2
+size_flags_horizontal = 4
+ratio = 1.1
+stretch_mode = 2
+mouse_filter = 2
+
+[node name="InfoMargin" type="MarginContainer" parent="SafeCenter/Stack/PlayGrid"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/margin_left = 16
+theme_override_constants/margin_right = 16
+
+[node name="Info" type="VBoxContainer" parent="SafeCenter/Stack/PlayGrid/InfoMargin"]
+layout_mode = 2
+alignment = 1
+theme_override_constants/separation = 8
+
+[node name="Context" type="PanelContainer" parent="SafeCenter/Stack/PlayGrid/InfoMargin/Info"]
+custom_minimum_size = Vector2(0, 56)
+layout_mode = 2
+
+[node name="Guidance" type="Label" parent="SafeCenter/Stack/PlayGrid/InfoMargin/Info/Context"]
+layout_mode = 2
+theme_type_variation = &"Status"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Result" type="PanelContainer" parent="SafeCenter/Stack/PlayGrid/InfoMargin/Info/Context"]
+visible = false
+layout_mode = 2
+
+[node name="Text" type="Label" parent="SafeCenter/Stack/PlayGrid/InfoMargin/Info/Context/Result"]
+layout_mode = 2
+theme_type_variation = &"Result"
+text = "Deux colis livrés !"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="StatsHolder" type="Control" parent="SafeCenter/Stack/PlayGrid/InfoMargin/Info"]
+custom_minimum_size = Vector2(0, 24)
+layout_mode = 2
+mouse_filter = 2
+
+[node name="Stats" type="PanelContainer" parent="SafeCenter/Stack/PlayGrid/InfoMargin/Info/StatsHolder"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Row" type="HBoxContainer" parent="SafeCenter/Stack/PlayGrid/InfoMargin/Info/StatsHolder/Stats"]
+layout_mode = 2
+theme_override_constants/separation = 6
+
+[node name="Rotations" type="Label" parent="SafeCenter/Stack/PlayGrid/InfoMargin/Info/StatsHolder/Stats/Row"]
+layout_mode = 2
+theme_type_variation = &"Caption"
+text = "0"
+
+[node name="RotationCaption" type="Label" parent="SafeCenter/Stack/PlayGrid/InfoMargin/Info/StatsHolder/Stats/Row"]
+layout_mode = 2
+theme_type_variation = &"Caption"
+text = "rotations"
+size_flags_horizontal = 3
+
+[node name="Attempts" type="Label" parent="SafeCenter/Stack/PlayGrid/InfoMargin/Info/StatsHolder/Stats/Row"]
+layout_mode = 2
+theme_type_variation = &"Caption"
+text = "0"
+
+[node name="AttemptCaption" type="Label" parent="SafeCenter/Stack/PlayGrid/InfoMargin/Info/StatsHolder/Stats/Row"]
+layout_mode = 2
+theme_type_variation = &"Caption"
+text = "essais"
+
+[node name="Actions" type="HBoxContainer" parent="SafeCenter/Stack/PlayGrid/InfoMargin/Info"]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="Undo" type="Button" parent="SafeCenter/Stack/PlayGrid/InfoMargin/Info/Actions"]
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
+theme_type_variation = &"Quiet"
+text = "Annuler"
+
+[node name="Primary" type="Button" parent="SafeCenter/Stack/PlayGrid/InfoMargin/Info/Actions"]
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"Primary"
+text = "Expédier"
+
+[node name="Hint" type="Button" parent="SafeCenter/Stack/PlayGrid/InfoMargin/Info/Actions"]
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
+theme_type_variation = &"Quiet"
+text = "Indice"
+
+[node name="PauseCover" type="ColorRect" parent="."]
+visible = false
+z_index = 10
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 0
+color = Color(0.08, 0.15, 0.17, 0.40)
+
+[node name="PauseCenter" type="CenterContainer" parent="."]
+z_index = 11
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="PausePanel" type="PanelContainer" parent="PauseCenter"]
+visible = false
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+theme_type_variation = &"Modal"
+
+[node name="Column" type="VBoxContainer" parent="PauseCenter/PausePanel"]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="Heading" type="Label" parent="PauseCenter/PausePanel/Column"]
+layout_mode = 2
+theme_type_variation = &"Objective"
+text = "Pause"
+
+[node name="Note" type="Label" parent="PauseCenter/PausePanel/Column"]
+layout_mode = 2
+theme_type_variation = &"Status"
+autowrap_mode = 3
+
+[node name="Resume" type="Button" parent="PauseCenter/PausePanel/Column"]
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
+theme_type_variation = &"Primary"
+text = "Reprendre"
+
+[node name="Restart" type="Button" parent="PauseCenter/PausePanel/Column"]
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
+theme_type_variation = &"Quiet"
+text = "Recommencer"
+
+[node name="ReduceMotion" type="CheckButton" parent="PauseCenter/PausePanel/Column"]
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
+text = "Mouvement réduit"
+
+[node name="Sound" type="CheckButton" parent="PauseCenter/PausePanel/Column"]
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
+text = "Sons discrets"

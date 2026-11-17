@@ -17,6 +17,8 @@ config/icon="res://icons/verification.svg"
 run/main_scene="res://scenes/verification.tscn"
 run/main_scene.archipel_slice="res://scenes/archipel_postal.tscn"
 run/main_scene.littoral_study="res://experiments/littoral/composition.tscn"
+run/main_scene.postal_ui="res://experiments/postal_workshop/game.tscn"
+config/name.postal_ui="SWITCHWORKS - Comptoir Maritime"
 config/name.littoral_study="SWITCHWORKS - Etude Littorale"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 
@@ -29,6 +31,7 @@ window/size/window_height_override=800
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
 window/handheld/orientation=1
+window/handheld/orientation.postal_ui=6
 
 [rendering]
 

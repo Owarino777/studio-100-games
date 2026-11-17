@@ -35,7 +35,10 @@ func _ready() -> void:
 	stretch_mode = TextureRect.STRETCH_SCALE
 	mouse_filter = Control.MOUSE_FILTER_STOP
 	focus_mode = Control.FOCUS_ALL
-	tooltip_text = "Touchez une voie pour la tourner. Clavier : flèches puis Entrée."
+	# A native tooltip here becomes a clipped dark strip over the rails on hover.
+	# Instructions belong in the dedicated HUD region, never above the playfield.
+	tooltip_text = ""
+	accessibility_description = "Touchez une voie pour la tourner. Clavier : flèches puis Entrée."
 	_viewport = SubViewport.new()
 	_viewport.name = "NativeBoardViewport"
 	_viewport.size = Vector2i(640, 640)

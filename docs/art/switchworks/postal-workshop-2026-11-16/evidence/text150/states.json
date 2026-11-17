@@ -1,0 +1,124 @@
+{
+	"scene": "res://experiments/postal_workshop/game.tscn",
+	"states": [
+		{
+			"attempts": 0,
+			"id": "01-preparation",
+			"pause_min": "(328.0, 416.0)",
+			"pause_note_min": "(1.0, 69.0)",
+			"pause_parent_rect": "[P: (0.0, 0.0), S: (360.0, 780.0)]",
+			"pause_rect": "[P: (0.0, 0.0), S: (300.0, 341.0)]",
+			"phase": "planning",
+			"ready": false,
+			"rotations": 0,
+			"tooltip_nodes": [],
+			"tooltip_text": "",
+			"window": [
+				430,
+				932
+			]
+		},
+		{
+			"attempts": 0,
+			"id": "02-rotation-hover",
+			"pause_min": "(328.0, 416.0)",
+			"pause_note_min": "(1.0, 69.0)",
+			"pause_parent_rect": "[P: (0.0, 0.0), S: (360.0, 780.0)]",
+			"pause_rect": "[P: (0.0, 0.0), S: (300.0, 341.0)]",
+			"phase": "planning",
+			"ready": false,
+			"rotations": 1,
+			"tooltip_nodes": [],
+			"tooltip_text": "",
+			"window": [
+				430,
+				932
+			]
+		},
+		{
+			"attempts": 0,
+			"id": "03-rotation-two",
+			"pause_min": "(328.0, 416.0)",
+			"pause_note_min": "(1.0, 69.0)",
+			"pause_parent_rect": "[P: (0.0, 0.0), S: (360.0, 780.0)]",
+			"pause_rect": "[P: (0.0, 0.0), S: (300.0, 341.0)]",
+			"phase": "planning",
+			"ready": false,
+			"rotations": 2,
+			"tooltip_nodes": [],
+			"tooltip_text": "",
+			"window": [
+				430,
+				932
+			]
+		},
+		{
+			"attempts": 0,
+			"id": "04-ready",
+			"pause_min": "(328.0, 416.0)",
+			"pause_note_min": "(1.0, 69.0)",
+			"pause_parent_rect": "[P: (0.0, 0.0), S: (360.0, 780.0)]",
+			"pause_rect": "[P: (0.0, 0.0), S: (300.0, 341.0)]",
+			"phase": "planning",
+			"ready": true,
+			"rotations": 6,
+			"tooltip_nodes": [],
+			"tooltip_text": "",
+			"window": [
+				430,
+				932
+			]
+		},
+		{
+			"attempts": 1,
+			"id": "05-transport",
+			"pause_min": "(328.0, 380.0)",
+			"pause_note_min": "(1.0, 33.0)",
+			"pause_parent_rect": "[P: (0.0, 0.0), S: (360.0, 780.0)]",
+			"pause_rect": "[P: (0.0, 0.0), S: (300.0, 341.0)]",
+			"phase": "running",
+			"ready": true,
+			"rotations": 6,
+			"tooltip_nodes": [],
+			"tooltip_text": "",
+			"window": [
+				430,
+				932
+			]
+		},
+		{
+			"attempts": 1,
+			"id": "06-won",
+			"pause_min": "(328.0, 452.0)",
+			"pause_note_min": "(1.0, 105.0)",
+			"pause_parent_rect": "[P: (0.0, 0.0), S: (360.0, 780.0)]",
+			"pause_rect": "[P: (0.0, 0.0), S: (300.0, 341.0)]",
+			"phase": "won",
+			"ready": true,
+			"rotations": 6,
+			"tooltip_nodes": [],
+			"tooltip_text": "",
+			"window": [
+				430,
+				932
+			]
+		},
+		{
+			"attempts": 1,
+			"id": "07-paused-won",
+			"pause_min": "(328.0, 452.0)",
+			"pause_note_min": "(1.0, 105.0)",
+			"pause_parent_rect": "[P: (0.0, 0.0), S: (360.0, 780.0)]",
+			"pause_rect": "[P: (16.0, 164.0), S: (328.0, 452.0)]",
+			"phase": "paused",
+			"ready": true,
+			"rotations": 6,
+			"tooltip_nodes": [],
+			"tooltip_text": "",
+			"window": [
+				430,
+				932
+			]
+		}
+	]
+}

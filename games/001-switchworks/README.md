@@ -1,5 +1,7 @@
 # SWITCHWORKS — Jeu 001
 
+La [refonte UI/UX Comptoir maritime](../../docs/art/switchworks/postal-workshop-2026-11-16/README.md), issue du brief du 16 novembre, possède sa scène jouable et son banc isolé. Depuis la racine : `./games/001-switchworks/tools/PostalUi.ps1 -Action Run`. Même niveau, modèle, undo et schéma de sauvegarde ; preuves, limites et acceptation artistique finale séparées.
+
 L'[étude Céramique littorale du 16 novembre](../../docs/art/switchworks/littoral-study-2026-11-16/README.md) ajoute une composition isolée, neuf modèles éditables et leurs GLB. Lancer `./games/001-switchworks/tools/ArtStudy.ps1 -Action Run` depuis la racine du studio. Elle conserve le niveau existant et reste candidate à revue, sans refonte généralisée.
 
 Ce dossier conserve la **mire historique du bootstrap** et ajoute une **tranche verticale expérimentale native**, fondée sur la direction candidate **B — Archipel Postal**. SWITCHWORKS reste **TEST / HOLD**, sans validation artistique ou commerciale définitive.

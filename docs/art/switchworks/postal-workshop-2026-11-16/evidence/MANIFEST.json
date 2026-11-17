@@ -1,0 +1,2564 @@
+{
+  "schema": 1,
+  "date": "2026-11-17",
+  "brief_date": "2026-11-16",
+  "branch": "feat/switchworks-postal-ui-ux",
+  "base": "2b53f3a9b6df2b420e1b247163dfe3d4ccd74184",
+  "engine": "Godot4.7.2.stable.official.ed1daf0bf Standard,Compatibility",
+  "scene": "res://experiments/postal_workshop/game.tscn",
+  "context": "Real Windows,Android emulator and Chrome WASM execution; no new physical/Safari/human sessions claimed",
+  "files": [
+    {
+      "path": "before/390x844/01-preparation.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/before/390x844/01-preparation.png",
+      "bytes": 335397,
+      "sha256": "64408b627c088b12827be32a2f620bc1dd44017e5add43f76358a652998a940c",
+      "context": "Actual Windows Godot baseline2b53f3a,prior to tooltip fix; requested viewport",
+      "unaltered_copy": true,
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "before/390x844/02-rotation-hover.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/before/390x844/02-rotation-hover.png",
+      "bytes": 337693,
+      "sha256": "6fae22288a7beba7994a8f99aec3d14d1dffcfe010d81aed8e2917bbdaf7790f",
+      "context": "Actual Windows Godot baseline2b53f3a,prior to tooltip fix; requested viewport",
+      "unaltered_copy": true,
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "before/390x844/03-rotation-two.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/before/390x844/03-rotation-two.png",
+      "bytes": 338529,
+      "sha256": "fc867ff8e14f69c52e55261cddffddc122adc8d7133999c76cbf307b4d6b5895",
+      "context": "Actual Windows Godot baseline2b53f3a,prior to tooltip fix; requested viewport",
+      "unaltered_copy": true,
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "before/390x844/04-ready.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/before/390x844/04-ready.png",
+      "bytes": 334851,
+      "sha256": "5f97f7c01766acab84f0e90e47f41acd2919cc9b64274db177ac06db9785a123",
+      "context": "Actual Windows Godot baseline2b53f3a,prior to tooltip fix; requested viewport",
+      "unaltered_copy": true,
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "before/390x844/05-transport.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/before/390x844/05-transport.png",
+      "bytes": 332692,
+      "sha256": "0c3a4142201dafedc12b3195fccfc22aa55e86e3ef71aeb10039506104066ef3",
+      "context": "Actual Windows Godot baseline2b53f3a,prior to tooltip fix; requested viewport",
+      "unaltered_copy": true,
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "before/390x844/06-won.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/before/390x844/06-won.png",
+      "bytes": 300282,
+      "sha256": "7351e531b93d59ed25b681957b1e985cccb03756964fc3709fa585a8ebd13122",
+      "context": "Actual Windows Godot baseline2b53f3a,prior to tooltip fix; requested viewport",
+      "unaltered_copy": true,
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "before/390x844/07-paused-won.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/before/390x844/07-paused-won.png",
+      "bytes": 204459,
+      "sha256": "bb6f4de078e062a49e0448382f3beddab13e2e68e761ab06d4939a0c43bed07c",
+      "context": "Actual Windows Godot baseline2b53f3a,prior to tooltip fix; requested viewport",
+      "unaltered_copy": true,
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "before/390x844/states.json",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/before/390x844/states.json",
+      "bytes": 1913,
+      "sha256": "71c6ef47eca1afd420fa510af44aa9834b0f76708730b896e76f7586cebc74db",
+      "context": "Actual Windows Godot baseline2b53f3a,prior to tooltip fix; requested viewport",
+      "unaltered_copy": true
+    },
+    {
+      "path": "before/360x640/01-preparation.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/before/compact/01-preparation.png",
+      "bytes": 230325,
+      "sha256": "4aa9980a864223595ebdce0346f89abba962e377b6582853c21edc725a238944",
+      "context": "Actual Windows Godot baseline2b53f3a,prior to tooltip fix; requested viewport",
+      "unaltered_copy": true,
+      "pixels": [
+        360,
+        640
+      ]
+    },
+    {
+      "path": "before/360x640/02-rotation-hover.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/before/compact/02-rotation-hover.png",
+      "bytes": 231239,
+      "sha256": "96803f4483a670c03dc48cd5790e8a9850129503914d4e515babb4b106a20381",
+      "context": "Actual Windows Godot baseline2b53f3a,prior to tooltip fix; requested viewport",
+      "unaltered_copy": true,
+      "pixels": [
+        360,
+        640
+      ]
+    },
+    {
+      "path": "before/360x640/03-rotation-two.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/before/compact/03-rotation-two.png",
+      "bytes": 231599,
+      "sha256": "81df775524d7bce84e16005679557d6c2df0980b17dbe1dc8b86f0168084b4a4",
+      "context": "Actual Windows Godot baseline2b53f3a,prior to tooltip fix; requested viewport",
+      "unaltered_copy": true,
+      "pixels": [
+        360,
+        640
+      ]
+    },
+    {
+      "path": "before/360x640/04-ready.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/before/compact/04-ready.png",
+      "bytes": 230137,
+      "sha256": "5f2d4d6154a025a02cca2fcf85695e629aaf112fd41148b0a19078b21bca5ac5",
+      "context": "Actual Windows Godot baseline2b53f3a,prior to tooltip fix; requested viewport",
+      "unaltered_copy": true,
+      "pixels": [
+        360,
+        640
+      ]
+    },
+    {
+      "path": "before/360x640/05-transport.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/before/compact/05-transport.png",
+      "bytes": 228783,
+      "sha256": "83e8a2aadfe33b1ae66e4e1454ef893cfba2814206ae8f36b2b30e19fee85d27",
+      "context": "Actual Windows Godot baseline2b53f3a,prior to tooltip fix; requested viewport",
+      "unaltered_copy": true,
+      "pixels": [
+        360,
+        640
+      ]
+    },
+    {
+      "path": "before/360x640/06-won.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/before/compact/06-won.png",
+      "bytes": 227540,
+      "sha256": "9c89ee3f6521b1e8b28fa82c2063a3cc4e5ec1dd41eb9b9af68fac7b1133bb49",
+      "context": "Actual Windows Godot baseline2b53f3a,prior to tooltip fix; requested viewport",
+      "unaltered_copy": true,
+      "pixels": [
+        360,
+        640
+      ]
+    },
+    {
+      "path": "before/360x640/07-paused-won.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/before/compact/07-paused-won.png",
+      "bytes": 131703,
+      "sha256": "ae1cd254dc541b46a8dc2384eb4a35f5a5f6800b4ec4f36320325a38bae0ce69",
+      "context": "Actual Windows Godot baseline2b53f3a,prior to tooltip fix; requested viewport",
+      "unaltered_copy": true,
+      "pixels": [
+        360,
+        640
+      ]
+    },
+    {
+      "path": "before/360x640/states.json",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/before/compact/states.json",
+      "bytes": 1913,
+      "sha256": "9320f933b5b4b79eb7e1da72610f2c0b9aebe1e5e856ca2faadfe88a82d2231d",
+      "context": "Actual Windows Godot baseline2b53f3a,prior to tooltip fix; requested viewport",
+      "unaltered_copy": true
+    },
+    {
+      "path": "tooltip-control.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/before/tooltip-control/02-rotation-hover.png",
+      "bytes": 334893,
+      "sha256": "f58680a81aa6b2df5abd7aaea8f8c64079c2f643cfc9f2cb6e9497fba53e7870",
+      "context": "A/B baseline: only tooltip property disabled in test,original renderer unchanged",
+      "unaltered_copy": true,
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "after/390x844/01-preparation.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2349209557417Z-Capture/01-preparation.png",
+      "bytes": 151715,
+      "sha256": "67ef0a8868cfc402d76a18b429ae76548a3aa6fd25dacbb324b3fb96299bf00f",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true,
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "after/390x844/02-rotation-hover.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2349209557417Z-Capture/02-rotation-hover.png",
+      "bytes": 155090,
+      "sha256": "e3104ec0ca7a64a15944b8099ff179e39879a4e4eec72b8a6408bd5369832463",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true,
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "after/390x844/03-rotation-two.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2349209557417Z-Capture/03-rotation-two.png",
+      "bytes": 155147,
+      "sha256": "3fccad48f7b4425596981407bb16ea8169e785188c629c6bd04ff21e789d40d3",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true,
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "after/390x844/04-ready.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2349209557417Z-Capture/04-ready.png",
+      "bytes": 152448,
+      "sha256": "f51bf91e0326f06e70432e1c05fb1a939b99ca4cc75457f4b6b8e5ec7a002938",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true,
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "after/390x844/05-transport.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2349209557417Z-Capture/05-transport.png",
+      "bytes": 151712,
+      "sha256": "4d8dd6a62a9d4b70217f3d2ec2a3d053be9546e1a74c4c871b5cac69125dee4c",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true,
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "after/390x844/06-won.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2349209557417Z-Capture/06-won.png",
+      "bytes": 146372,
+      "sha256": "5ace031ec638153c3ca4128847079af2c83c371bcc2450c7ce1d92b9fc39a41c",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true,
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "after/390x844/07-paused-won.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2349209557417Z-Capture/07-paused-won.png",
+      "bytes": 63105,
+      "sha256": "2832843d6044e84c25dfb6cea93f2d46fc81652cf5ef30280bde9d609f6476cc",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true,
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "after/390x844/import.log",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2349209557417Z-Capture/import.log",
+      "bytes": 1562,
+      "sha256": "71c4ed434f6f8f8a7209d327bcf5b2396200ed532ca3145372c5ccae1b491e99",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true
+    },
+    {
+      "path": "after/390x844/runtime.log",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2349209557417Z-Capture/runtime.log",
+      "bytes": 42717,
+      "sha256": "11a215383df3f3a76b431e622ecf3d501e5e7e5938d39ce7f5b1fea08e9ed170",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true
+    },
+    {
+      "path": "after/390x844/states.json",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2349209557417Z-Capture/states.json",
+      "bytes": 2763,
+      "sha256": "67861800af238df18f9478b1f924ebd139d81cd004dd0f7dd1a66f37d0dcab46",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true
+    },
+    {
+      "path": "after/360x640/01-preparation.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2349374484066Z-Capture/01-preparation.png",
+      "bytes": 140745,
+      "sha256": "d9c1a1ca0539bf7364f5bb784631d299d1445fd0770a39bb03279ddedd707f2a",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true,
+      "pixels": [
+        360,
+        640
+      ]
+    },
+    {
+      "path": "after/360x640/02-rotation-hover.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2349374484066Z-Capture/02-rotation-hover.png",
+      "bytes": 141976,
+      "sha256": "707481830c2431cb35f3ad66bba9dd0a4ce21ad8e77bcbd85111cfa4d0a1df50",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true,
+      "pixels": [
+        360,
+        640
+      ]
+    },
+    {
+      "path": "after/360x640/03-rotation-two.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2349374484066Z-Capture/03-rotation-two.png",
+      "bytes": 141756,
+      "sha256": "1496f9adf85787a6af3b14d7cfdeccb182d27584e929800da4960d23fac8d3aa",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true,
+      "pixels": [
+        360,
+        640
+      ]
+    },
+    {
+      "path": "after/360x640/04-ready.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2349374484066Z-Capture/04-ready.png",
+      "bytes": 140574,
+      "sha256": "af1b07ed81e26daeda63e9b30397d4ff8ca86300bd7d4908ec47929742d433b1",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true,
+      "pixels": [
+        360,
+        640
+      ]
+    },
+    {
+      "path": "after/360x640/05-transport.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2349374484066Z-Capture/05-transport.png",
+      "bytes": 139168,
+      "sha256": "7290deef374252877ffaa1b0ea44e6e25ce9659cfc5e5cb0e770e06ea725a6f3",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true,
+      "pixels": [
+        360,
+        640
+      ]
+    },
+    {
+      "path": "after/360x640/06-won.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2349374484066Z-Capture/06-won.png",
+      "bytes": 135382,
+      "sha256": "8e6d5392b57ee51351f3e94d16c4a82e85e4379816b8a9ccdc9f82d8a263112a",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true,
+      "pixels": [
+        360,
+        640
+      ]
+    },
+    {
+      "path": "after/360x640/07-paused-won.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2349374484066Z-Capture/07-paused-won.png",
+      "bytes": 43283,
+      "sha256": "52c8ebc30303334ce368e996a0c798657a5659ef101b692c77219a608109d83c",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true,
+      "pixels": [
+        360,
+        640
+      ]
+    },
+    {
+      "path": "after/360x640/import.log",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2349374484066Z-Capture/import.log",
+      "bytes": 1562,
+      "sha256": "71c4ed434f6f8f8a7209d327bcf5b2396200ed532ca3145372c5ccae1b491e99",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true
+    },
+    {
+      "path": "after/360x640/runtime.log",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2349374484066Z-Capture/runtime.log",
+      "bytes": 40044,
+      "sha256": "03366560e4d093faad15cdfb949e0a44d248bb6cdcf1a96047acb734492dd305",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true
+    },
+    {
+      "path": "after/360x640/states.json",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2349374484066Z-Capture/states.json",
+      "bytes": 2763,
+      "sha256": "a45412bb744e7502696261c2ffae34f2f5d6e0b48df61293fb1f1d2e9c2556db",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true
+    },
+    {
+      "path": "landscape/01-preparation.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2357445950369Z-Capture/01-preparation.png",
+      "bytes": 139460,
+      "sha256": "06234746b8994a3144fb98b73503b467ef15edb9ff1bcbdfd9a24ffeb41684a1",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true,
+      "pixels": [
+        844,
+        390
+      ]
+    },
+    {
+      "path": "landscape/02-rotation-hover.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2357445950369Z-Capture/02-rotation-hover.png",
+      "bytes": 140789,
+      "sha256": "81d55c4df6836f51e8b8a0f42367ba4012e5d413b101b6cc6feb8b1ffef06309",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true,
+      "pixels": [
+        844,
+        390
+      ]
+    },
+    {
+      "path": "landscape/03-rotation-two.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2357445950369Z-Capture/03-rotation-two.png",
+      "bytes": 140631,
+      "sha256": "086e20563bd0045f6cec0bddfc15b4ec5b73b2afaaf6bcceabe4a43b92d492c1",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true,
+      "pixels": [
+        844,
+        390
+      ]
+    },
+    {
+      "path": "landscape/04-ready.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2357445950369Z-Capture/04-ready.png",
+      "bytes": 139013,
+      "sha256": "0e26158d6e845a025046f0df4033a10109b80ed1ebf4da1dde5c42e726ec2acb",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true,
+      "pixels": [
+        844,
+        390
+      ]
+    },
+    {
+      "path": "landscape/05-transport.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2357445950369Z-Capture/05-transport.png",
+      "bytes": 138395,
+      "sha256": "389427c342f5e557a77a252c2639e79b75a82537f627f23d369f75d0480ac50e",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true,
+      "pixels": [
+        844,
+        390
+      ]
+    },
+    {
+      "path": "landscape/06-won.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2357445950369Z-Capture/06-won.png",
+      "bytes": 133901,
+      "sha256": "f8d2b62c80a961a0681e0bc3a10615bf4c76a108213bb2c66520b051a9a166ca",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true,
+      "pixels": [
+        844,
+        390
+      ]
+    },
+    {
+      "path": "landscape/07-paused-won.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2357445950369Z-Capture/07-paused-won.png",
+      "bytes": 108049,
+      "sha256": "b28f5e7c9d15707226ca93f314ed95b6925336bfa64fb779cdb2b5c3beb568d7",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true,
+      "pixels": [
+        844,
+        390
+      ]
+    },
+    {
+      "path": "landscape/import.log",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2357445950369Z-Capture/import.log",
+      "bytes": 1562,
+      "sha256": "71c4ed434f6f8f8a7209d327bcf5b2396200ed532ca3145372c5ccae1b491e99",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true
+    },
+    {
+      "path": "landscape/runtime.log",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2357445950369Z-Capture/runtime.log",
+      "bytes": 38362,
+      "sha256": "aa96f117fc51fc95b41328d2ab611eeeb4aac3ddd1c3fc95d89f22ec8edc702c",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true
+    },
+    {
+      "path": "landscape/states.json",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2357445950369Z-Capture/states.json",
+      "bytes": 2763,
+      "sha256": "c3bdb28a9e71f72e2d0929acab20f7000b262c89f7e7ae4752ebff4aa2ec22b8",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true
+    },
+    {
+      "path": "grayscale/01-preparation.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2358018975541Z-Capture/01-preparation.png",
+      "bytes": 107730,
+      "sha256": "1c8dd3d53647210662d8da84d78fa3747dd9e7629ae561a887a08bc7c0ba17cc",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true,
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "grayscale/02-rotation-hover.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2358018975541Z-Capture/02-rotation-hover.png",
+      "bytes": 111327,
+      "sha256": "49d95c36e5ff9447996a3ee963ba115efabd56dbacea4e15f8a3a75affe1ba1e",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true,
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "grayscale/03-rotation-two.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2358018975541Z-Capture/03-rotation-two.png",
+      "bytes": 111335,
+      "sha256": "1465494c845bfbc69817eeae635bd02bc07eedd6df7c4c9db38548c3674b2bb8",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true,
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "grayscale/04-ready.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2358018975541Z-Capture/04-ready.png",
+      "bytes": 108565,
+      "sha256": "37abe30b92caeb4f3163b8a6f7194f438fd237c3612af5142ac26baa58932016",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true,
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "grayscale/05-transport.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2358018975541Z-Capture/05-transport.png",
+      "bytes": 107563,
+      "sha256": "2456fbb6e3b319a065ba453f9d6ff0404678fd14eb9f6229c0548cd27534e7a1",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true,
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "grayscale/06-won.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2358018975541Z-Capture/06-won.png",
+      "bytes": 103166,
+      "sha256": "6f4f7973cc62e8ec850588488ffb60d5240b9c9cbddadde9f6a4b303ee238212",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true,
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "grayscale/07-paused-won.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2358018975541Z-Capture/07-paused-won.png",
+      "bytes": 54661,
+      "sha256": "d8cc84a01727cbff1afd8f944e0a658878e6ea5f7c644c8f76f297b40cd71e04",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true,
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "grayscale/import.log",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2358018975541Z-Capture/import.log",
+      "bytes": 1562,
+      "sha256": "71c4ed434f6f8f8a7209d327bcf5b2396200ed532ca3145372c5ccae1b491e99",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true
+    },
+    {
+      "path": "grayscale/runtime.log",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2358018975541Z-Capture/runtime.log",
+      "bytes": 42718,
+      "sha256": "987e96346891bfd90766f1c8c5de01716b0fac013bb762383486b729fb3f37a3",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true
+    },
+    {
+      "path": "grayscale/states.json",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2358018975541Z-Capture/states.json",
+      "bytes": 2763,
+      "sha256": "67861800af238df18f9478b1f924ebd139d81cd004dd0f7dd1a66f37d0dcab46",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true
+    },
+    {
+      "path": "text125/01-preparation.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2358185321543Z-Capture/01-preparation.png",
+      "bytes": 141944,
+      "sha256": "d0c3c9329b2a8d6bc66e818824d79f05a6d22ae4b8244bfa1dce8184b28fd363",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true,
+      "pixels": [
+        360,
+        640
+      ]
+    },
+    {
+      "path": "text125/02-rotation-hover.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2358185321543Z-Capture/02-rotation-hover.png",
+      "bytes": 143308,
+      "sha256": "058ba41444f3543f9797068671067fcb115ddf0edb884014ba7a4ed4607918f2",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true,
+      "pixels": [
+        360,
+        640
+      ]
+    },
+    {
+      "path": "text125/03-rotation-two.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2358185321543Z-Capture/03-rotation-two.png",
+      "bytes": 143096,
+      "sha256": "219ad924a902661dba884a1757b68349b64686d4f9f776f9e52850fa2a06b103",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true,
+      "pixels": [
+        360,
+        640
+      ]
+    },
+    {
+      "path": "text125/04-ready.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2358185321543Z-Capture/04-ready.png",
+      "bytes": 142134,
+      "sha256": "37ec852e632226cfa80506b35a7e4832700adbf1a82bccc9e0272f66eb026029",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true,
+      "pixels": [
+        360,
+        640
+      ]
+    },
+    {
+      "path": "text125/05-transport.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2358185321543Z-Capture/05-transport.png",
+      "bytes": 140539,
+      "sha256": "97ecdec2bab90b16dae8937b3567c494bc975b32eb4a68bcfcb926158297ed06",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true,
+      "pixels": [
+        360,
+        640
+      ]
+    },
+    {
+      "path": "text125/06-won.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2358185321543Z-Capture/06-won.png",
+      "bytes": 136504,
+      "sha256": "d730c6f19ee2859b1f5a59f57f77479c516e4858f5f743876cc3e72f2ee0a6d8",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true,
+      "pixels": [
+        360,
+        640
+      ]
+    },
+    {
+      "path": "text125/07-paused-won.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2358185321543Z-Capture/07-paused-won.png",
+      "bytes": 46950,
+      "sha256": "ff9b5f288df787611e58fb9c68a76cb60f84c08d6af67e157f7c762fe1440032",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true,
+      "pixels": [
+        360,
+        640
+      ]
+    },
+    {
+      "path": "text125/import.log",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2358185321543Z-Capture/import.log",
+      "bytes": 1562,
+      "sha256": "71c4ed434f6f8f8a7209d327bcf5b2396200ed532ca3145372c5ccae1b491e99",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true
+    },
+    {
+      "path": "text125/runtime.log",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2358185321543Z-Capture/runtime.log",
+      "bytes": 40065,
+      "sha256": "780d5a18559da7ff30208ffd7935b168861b805010dc1a1cc468299274596eb3",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true
+    },
+    {
+      "path": "text125/states.json",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2358185321543Z-Capture/states.json",
+      "bytes": 2763,
+      "sha256": "7d55236449302d86c3aa176dd9513ea35475351d9fd07368570249eceaff9a0a",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true
+    },
+    {
+      "path": "text150/01-preparation.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2358351593574Z-Capture/01-preparation.png",
+      "bytes": 213754,
+      "sha256": "7703e9083fac8a249b558d486b6024cb8205f0bd2eaa75d814a2df741a9b08e5",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true,
+      "pixels": [
+        430,
+        932
+      ]
+    },
+    {
+      "path": "text150/02-rotation-hover.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2358351593574Z-Capture/02-rotation-hover.png",
+      "bytes": 221532,
+      "sha256": "9384e50d4652a18fc1ed039c286bd606f07603a7bc1ae49c16cc7f651d4c4564",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true,
+      "pixels": [
+        430,
+        932
+      ]
+    },
+    {
+      "path": "text150/03-rotation-two.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2358351593574Z-Capture/03-rotation-two.png",
+      "bytes": 221548,
+      "sha256": "00285256db6fba2a2da68f4f92dded39df64b43dbe984f731f76fc78d13cd817",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true,
+      "pixels": [
+        430,
+        932
+      ]
+    },
+    {
+      "path": "text150/04-ready.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2358351593574Z-Capture/04-ready.png",
+      "bytes": 216166,
+      "sha256": "8867a30f39f915d8ffe067df64484368c03e02a22d9b625cb94cb664b99161cb",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true,
+      "pixels": [
+        430,
+        932
+      ]
+    },
+    {
+      "path": "text150/05-transport.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2358351593574Z-Capture/05-transport.png",
+      "bytes": 217440,
+      "sha256": "f09d26fc2a6d4cd4987e9feefe68b0ac078592b4c5356c51e52570b7be084c24",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true,
+      "pixels": [
+        430,
+        932
+      ]
+    },
+    {
+      "path": "text150/06-won.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2358351593574Z-Capture/06-won.png",
+      "bytes": 204327,
+      "sha256": "eb6a9cb97a2510595a0c3cfd227df4d55d934b9c08c1a6f565352291439a3629",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true,
+      "pixels": [
+        430,
+        932
+      ]
+    },
+    {
+      "path": "text150/07-paused-won.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2358351593574Z-Capture/07-paused-won.png",
+      "bytes": 100200,
+      "sha256": "81b66280385d7f7fa87c96ab1aaca8ad3b0580bb871f1783fabdf57947dfedce",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true,
+      "pixels": [
+        430,
+        932
+      ]
+    },
+    {
+      "path": "text150/import.log",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2358351593574Z-Capture/import.log",
+      "bytes": 1562,
+      "sha256": "71c4ed434f6f8f8a7209d327bcf5b2396200ed532ca3145372c5ccae1b491e99",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true
+    },
+    {
+      "path": "text150/runtime.log",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2358351593574Z-Capture/runtime.log",
+      "bytes": 42989,
+      "sha256": "660f50cbb663c23cee65d581e7dd4fdd2a3a7e81fe2ee96cf3e8ead8ac3ce7c9",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true
+    },
+    {
+      "path": "text150/states.json",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2358351593574Z-Capture/states.json",
+      "bytes": 2765,
+      "sha256": "81ffe1ee1ef9c25bd3f2a281cc5f272dcbe8ad69649acdd6b14a1f83f8d6cc54",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true
+    },
+    {
+      "path": "tablet/01-preparation.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2358515845096Z-Capture/01-preparation.png",
+      "bytes": 459423,
+      "sha256": "f23e8101b13ed120c0f347d2dc720082a2d4600a220b323f55e12dbfda6e2ea3",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true,
+      "pixels": [
+        800,
+        1067
+      ]
+    },
+    {
+      "path": "tablet/02-rotation-hover.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2358515845096Z-Capture/02-rotation-hover.png",
+      "bytes": 466389,
+      "sha256": "4289cc1dad20081a324879dab8987ddf302b917e96c87e106366a94ebffe1061",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true,
+      "pixels": [
+        800,
+        1067
+      ]
+    },
+    {
+      "path": "tablet/03-rotation-two.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2358515845096Z-Capture/03-rotation-two.png",
+      "bytes": 465810,
+      "sha256": "7e095866f7a2ec8eee444c00038b0f8a2783c55649654680662ebbed90afa4f7",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true,
+      "pixels": [
+        800,
+        1067
+      ]
+    },
+    {
+      "path": "tablet/04-ready.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2358515845096Z-Capture/04-ready.png",
+      "bytes": 460283,
+      "sha256": "6c9a35ac8bbf11b5609e7368fd95c46713fa54b20b3b01c30579b234951654c7",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true,
+      "pixels": [
+        800,
+        1067
+      ]
+    },
+    {
+      "path": "tablet/05-transport.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2358515845096Z-Capture/05-transport.png",
+      "bytes": 457373,
+      "sha256": "22812d5ebb626cba100ee5c7de9f7aa3a4ccdb79ff0e9eea0ea848ddd634cc06",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true,
+      "pixels": [
+        800,
+        1067
+      ]
+    },
+    {
+      "path": "tablet/06-won.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2358515845096Z-Capture/06-won.png",
+      "bytes": 447057,
+      "sha256": "b8600cffe14257e434b69cdab4e16f2005cec0629c39f5d3fd72ae7a70f70844",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true,
+      "pixels": [
+        800,
+        1067
+      ]
+    },
+    {
+      "path": "tablet/07-paused-won.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2358515845096Z-Capture/07-paused-won.png",
+      "bytes": 178581,
+      "sha256": "bf6b60f43e8da9b59ede6f504348966f71f2f5926afa07ca2aaa3aabc82ae01d",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true,
+      "pixels": [
+        800,
+        1067
+      ]
+    },
+    {
+      "path": "tablet/import.log",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2358515845096Z-Capture/import.log",
+      "bytes": 1562,
+      "sha256": "71c4ed434f6f8f8a7209d327bcf5b2396200ed532ca3145372c5ccae1b491e99",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true
+    },
+    {
+      "path": "tablet/runtime.log",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2358515845096Z-Capture/runtime.log",
+      "bytes": 43286,
+      "sha256": "f0290afae0dda7129192549d47c8325d527cd638e264e57cf8fb796d40fb197d",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true
+    },
+    {
+      "path": "tablet/states.json",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2358515845096Z-Capture/states.json",
+      "bytes": 2770,
+      "sha256": "f96b97e81661096eb2e15f6a63f12d58673c0abec5e63bda18837b76b7d5f8b7",
+      "context": "Actual Windows Godot final UI; grayscale is a native QA shader,not retouching",
+      "unaltered_copy": true
+    },
+    {
+      "path": "bench/import.log",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2326490725711Z-Bench/import.log",
+      "bytes": 1562,
+      "sha256": "71c4ed434f6f8f8a7209d327bcf5b2396200ed532ca3145372c5ccae1b491e99",
+      "context": "Four-family bench executed in Godot,not a level or concept image",
+      "unaltered_copy": true
+    },
+    {
+      "path": "bench/received.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2326490725711Z-Bench/received.png",
+      "bytes": 109626,
+      "sha256": "3facfa124ee098cc4310470489b208ac97eea96df6b450c095c3f34ab919d661",
+      "context": "Four-family bench executed in Godot,not a level or concept image",
+      "unaltered_copy": true,
+      "pixels": [
+        960,
+        800
+      ]
+    },
+    {
+      "path": "bench/rest.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2326490725711Z-Bench/rest.png",
+      "bytes": 111996,
+      "sha256": "c4dd532c673f12f966aae3e4eeaf9a893db5aebc6da6c1c336c8d0c55e84c4bc",
+      "context": "Four-family bench executed in Godot,not a level or concept image",
+      "unaltered_copy": true,
+      "pixels": [
+        960,
+        800
+      ]
+    },
+    {
+      "path": "bench/rotated.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2326490725711Z-Bench/rotated.png",
+      "bytes": 106061,
+      "sha256": "e98d685be95d97a87750b94fcb32a4b877e09ac02f17d1c9badee323902ebe2e",
+      "context": "Four-family bench executed in Godot,not a level or concept image",
+      "unaltered_copy": true,
+      "pixels": [
+        960,
+        800
+      ]
+    },
+    {
+      "path": "bench/runtime.log",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2326490725711Z-Bench/runtime.log",
+      "bytes": 238,
+      "sha256": "c84f9059d9f2739f56ce74234d690495f0c2086280d8987ad5442bea829b1aa3",
+      "context": "Four-family bench executed in Godot,not a level or concept image",
+      "unaltered_copy": true
+    },
+    {
+      "path": "desktop-gameplay.mp4",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2349537981278Z-Video/gameplay.mp4",
+      "bytes": 424598,
+      "sha256": "19d11ae970396556ea83e65afe3e26a6a7c0434463ed6aa71c975e8f32c74dfe",
+      "context": "Actual Movie Maker full viewport450x800,30fps simulation; AVI encoded H264,not a FPS benchmark",
+      "unaltered_copy": true
+    },
+    {
+      "path": "desktop-video.log",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2349537981278Z-Video/runtime.log",
+      "bytes": 64494,
+      "sha256": "51a9bf5491edb3f5b7afcebc68b3735062d13f794384e83a2423fc826d27a93c",
+      "context": "Actual full-path input/event log",
+      "unaltered_copy": true
+    },
+    {
+      "path": "desktop-video-states.json",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2349537981278Z-Video/states.json",
+      "bytes": 3938,
+      "sha256": "5ad5fd6b110c1e48ba5c779f5e2c12d177d57bc9d55218b62fc7327a975b441d",
+      "context": "Seven states plus replay,hint,error,pause preparation",
+      "unaltered_copy": true
+    },
+    {
+      "path": "android/receipt.json",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-20261116T235337954752Z/receipt.json",
+      "bytes": 32960,
+      "sha256": "a2ca59bd4ef7f75a5698b51a4fdda662f05c2e0902bc36e1a68b5280be976ec9",
+      "context": "Android emulator,actual app-window dimensions and DPI verified,not physical",
+      "unaltered_copy": true
+    },
+    {
+      "path": "android/1080x2340/failed.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-20261116T235337954752Z/1080x2340/failed.png",
+      "bytes": 983645,
+      "sha256": "5232b2785d56a5a5f37901f9fd545d30d87a2e40aa3f424240ab0763157ffe2e",
+      "context": "Native AVD,screencap unretouched; not physical Android",
+      "unaltered_copy": true,
+      "pixels": [
+        1080,
+        2340
+      ]
+    },
+    {
+      "path": "android/1080x2340/home-return.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-20261116T235337954752Z/1080x2340/home-return.png",
+      "bytes": 358608,
+      "sha256": "64bb9e45428bbcd1dfa72fda189b36cebc7d02760e4c60b74c49390652414864",
+      "context": "Native AVD,screencap unretouched; not physical Android",
+      "unaltered_copy": true,
+      "pixels": [
+        1080,
+        2340
+      ]
+    },
+    {
+      "path": "android/1080x2340/launch-11010.log",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-20261116T235337954752Z/1080x2340/launch-11010.log",
+      "bytes": 253,
+      "sha256": "6cf78f69c60b0c63c638783644bf272076d5cf1aad65284b5df72359126727da",
+      "context": "Native AVD,screencap unretouched; not physical Android",
+      "unaltered_copy": true
+    },
+    {
+      "path": "android/1080x2340/launch-11861.log",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-20261116T235337954752Z/1080x2340/launch-11861.log",
+      "bytes": 253,
+      "sha256": "6c33409eb2713f0fb6f61295beaf7e0be78a3324334706a79f962a23adb00a27",
+      "context": "Native AVD,screencap unretouched; not physical Android",
+      "unaltered_copy": true
+    },
+    {
+      "path": "android/1080x2340/paused-won.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-20261116T235337954752Z/1080x2340/paused-won.png",
+      "bytes": 200041,
+      "sha256": "fe0209b28b6146c741ac8fe7a2794879ac5ed759779262d8b13281cedccacac1",
+      "context": "Native AVD,screencap unretouched; not physical Android",
+      "unaltered_copy": true,
+      "pixels": [
+        1080,
+        2340
+      ]
+    },
+    {
+      "path": "android/1080x2340/paused.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-20261116T235337954752Z/1080x2340/paused.png",
+      "bytes": 203608,
+      "sha256": "4ac416a0a0d340eef582c9c2002293e633936ada53920c156a7e8f619ebb8137",
+      "context": "Native AVD,screencap unretouched; not physical Android",
+      "unaltered_copy": true,
+      "pixels": [
+        1080,
+        2340
+      ]
+    },
+    {
+      "path": "android/1080x2340/planning.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-20261116T235337954752Z/1080x2340/planning.png",
+      "bytes": 979092,
+      "sha256": "ed9b05a992997047fe4538571478307256f9954b3778ad0c78c333091652ce5f",
+      "context": "Native AVD,screencap unretouched; not physical Android",
+      "unaltered_copy": true,
+      "pixels": [
+        1080,
+        2340
+      ]
+    },
+    {
+      "path": "android/1080x2340/prepared.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-20261116T235337954752Z/1080x2340/prepared.png",
+      "bytes": 979849,
+      "sha256": "3b616eb92d1c793f8e8e3a98eb8f2a9b866969cc0b298f5eaa3e8ea5f5382213",
+      "context": "Native AVD,screencap unretouched; not physical Android",
+      "unaltered_copy": true,
+      "pixels": [
+        1080,
+        2340
+      ]
+    },
+    {
+      "path": "android/1080x2340/rotation-1.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-20261116T235337954752Z/1080x2340/rotation-1.png",
+      "bytes": 989259,
+      "sha256": "b34085c9a8abdd0ee591ef305f361c909a3a3fcc40c42bf03275f95fef79af85",
+      "context": "Native AVD,screencap unretouched; not physical Android",
+      "unaltered_copy": true,
+      "pixels": [
+        1080,
+        2340
+      ]
+    },
+    {
+      "path": "android/1080x2340/rotation-2.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-20261116T235337954752Z/1080x2340/rotation-2.png",
+      "bytes": 987891,
+      "sha256": "70b0599959e9d81cc0c0fc4cfb0ecbe8a41e38b74e5a0d771452eb256d3ad841",
+      "context": "Native AVD,screencap unretouched; not physical Android",
+      "unaltered_copy": true,
+      "pixels": [
+        1080,
+        2340
+      ]
+    },
+    {
+      "path": "android/1080x2340/runtime.log",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-20261116T235337954752Z/1080x2340/runtime.log",
+      "bytes": 12346,
+      "sha256": "eb0649242b90c1021d10bfc54b1cade3e6ed71e769e7d63c7a9fb229fb7d951d",
+      "context": "Native AVD,screencap unretouched; not physical Android",
+      "unaltered_copy": true
+    },
+    {
+      "path": "android/1080x2340/screenrecord.log",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-20261116T235337954752Z/1080x2340/screenrecord.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "context": "Native AVD,screencap unretouched; not physical Android",
+      "unaltered_copy": true
+    },
+    {
+      "path": "android/1080x2340/session.log",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-20261116T235337954752Z/1080x2340/session.log",
+      "bytes": 76603,
+      "sha256": "d09fe8455b7a37d83226aefa28a14dc96b26c24a42545a1607b61d9deac600e2",
+      "context": "Native AVD,screencap unretouched; not physical Android",
+      "unaltered_copy": true
+    },
+    {
+      "path": "android/1080x2340/state-initial.json",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-20261116T235337954752Z/1080x2340/state-initial.json",
+      "bytes": 515,
+      "sha256": "6d699ec3791d64254429f42af1a264ce9107df8d356e8a4fac3b79da016dd4c8",
+      "context": "Native AVD,screencap unretouched; not physical Android",
+      "unaltered_copy": true
+    },
+    {
+      "path": "android/1080x2340/state-prepared.json",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-20261116T235337954752Z/1080x2340/state-prepared.json",
+      "bytes": 515,
+      "sha256": "b1c847694b0e83939aee6ea9393fab95ddce173baec737ce333c6e7152cc4342",
+      "context": "Native AVD,screencap unretouched; not physical Android",
+      "unaltered_copy": true
+    },
+    {
+      "path": "android/1080x2340/won.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-20261116T235337954752Z/1080x2340/won.png",
+      "bytes": 958866,
+      "sha256": "b4acf2591e64f68fe6e106cc50e72a8e31860cc657c72ee1409f5e33157812f2",
+      "context": "Native AVD,screencap unretouched; not physical Android",
+      "unaltered_copy": true,
+      "pixels": [
+        1080,
+        2340
+      ]
+    },
+    {
+      "path": "android/720x1280/failed.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-20261116T235337954752Z/720x1280/failed.png",
+      "bytes": 474640,
+      "sha256": "678fc039292b7740814bdeb4751cc635edcb15a5baf4c2a48c928956698a1c3e",
+      "context": "Native AVD,screencap unretouched; not physical Android",
+      "unaltered_copy": true,
+      "pixels": [
+        720,
+        1280
+      ]
+    },
+    {
+      "path": "android/720x1280/home-return.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-20261116T235337954752Z/720x1280/home-return.png",
+      "bytes": 219338,
+      "sha256": "ff1b277e033bcc02622f8429aca343411481f68c899d26765578a5acc1be59f9",
+      "context": "Native AVD,screencap unretouched; not physical Android",
+      "unaltered_copy": true,
+      "pixels": [
+        720,
+        1280
+      ]
+    },
+    {
+      "path": "android/720x1280/launch-11985.log",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-20261116T235337954752Z/720x1280/launch-11985.log",
+      "bytes": 253,
+      "sha256": "f45a1155f933fef170f87806f0c41bba97ee4be4c428573ef33b2d394468d9cb",
+      "context": "Native AVD,screencap unretouched; not physical Android",
+      "unaltered_copy": true
+    },
+    {
+      "path": "android/720x1280/launch-12567.log",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-20261116T235337954752Z/720x1280/launch-12567.log",
+      "bytes": 253,
+      "sha256": "9d7f300708af8bd7d76d2cea6667484a412d5e500deaf98043cf602b55a8350e",
+      "context": "Native AVD,screencap unretouched; not physical Android",
+      "unaltered_copy": true
+    },
+    {
+      "path": "android/720x1280/paused-won.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-20261116T235337954752Z/720x1280/paused-won.png",
+      "bytes": 117192,
+      "sha256": "fb9767df09b73604e281aaf8d6d637be61c99abbb23abd2ca5b3080329c9982e",
+      "context": "Native AVD,screencap unretouched; not physical Android",
+      "unaltered_copy": true,
+      "pixels": [
+        720,
+        1280
+      ]
+    },
+    {
+      "path": "android/720x1280/paused.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-20261116T235337954752Z/720x1280/paused.png",
+      "bytes": 117306,
+      "sha256": "1c8b4a35bf5c5694c162f0ac11f10ce6c06e1b5fee9a46c4dec0ab8eb5cebdb9",
+      "context": "Native AVD,screencap unretouched; not physical Android",
+      "unaltered_copy": true,
+      "pixels": [
+        720,
+        1280
+      ]
+    },
+    {
+      "path": "android/720x1280/planning.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-20261116T235337954752Z/720x1280/planning.png",
+      "bytes": 470601,
+      "sha256": "e96b7e0df359df2e89d66c8257d10efeef7f21fa435fcc8ce8e2f5465228649f",
+      "context": "Native AVD,screencap unretouched; not physical Android",
+      "unaltered_copy": true,
+      "pixels": [
+        720,
+        1280
+      ]
+    },
+    {
+      "path": "android/720x1280/prepared.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-20261116T235337954752Z/720x1280/prepared.png",
+      "bytes": 471586,
+      "sha256": "f3b67858e574a627c0d5f39d3ea6ab8629cbaad27f4dd10725878ffe0573a1e2",
+      "context": "Native AVD,screencap unretouched; not physical Android",
+      "unaltered_copy": true,
+      "pixels": [
+        720,
+        1280
+      ]
+    },
+    {
+      "path": "android/720x1280/rotation-1.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-20261116T235337954752Z/720x1280/rotation-1.png",
+      "bytes": 476720,
+      "sha256": "cdfd48ee1170d15224eb6c199eba8fd2e640a9c53f1baf9e96c9f79a3a4e839d",
+      "context": "Native AVD,screencap unretouched; not physical Android",
+      "unaltered_copy": true,
+      "pixels": [
+        720,
+        1280
+      ]
+    },
+    {
+      "path": "android/720x1280/rotation-2.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-20261116T235337954752Z/720x1280/rotation-2.png",
+      "bytes": 476357,
+      "sha256": "357726aa815a14a52d68ea46294c3b422082da1cf38ae33c152fd9d04e108188",
+      "context": "Native AVD,screencap unretouched; not physical Android",
+      "unaltered_copy": true,
+      "pixels": [
+        720,
+        1280
+      ]
+    },
+    {
+      "path": "android/720x1280/runtime.log",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-20261116T235337954752Z/720x1280/runtime.log",
+      "bytes": 13085,
+      "sha256": "7aa9f4e1405bfb35032f39b8161d6559da831a1aaade66731d4fdcad7e816d9e",
+      "context": "Native AVD,screencap unretouched; not physical Android",
+      "unaltered_copy": true
+    },
+    {
+      "path": "android/720x1280/session.log",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-20261116T235337954752Z/720x1280/session.log",
+      "bytes": 75463,
+      "sha256": "ab35ef63b6b097e377e33ec1f7549b6ecbf73a38e88400eb5b411faa33d1a522",
+      "context": "Native AVD,screencap unretouched; not physical Android",
+      "unaltered_copy": true
+    },
+    {
+      "path": "android/720x1280/state-initial.json",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-20261116T235337954752Z/720x1280/state-initial.json",
+      "bytes": 515,
+      "sha256": "6d699ec3791d64254429f42af1a264ce9107df8d356e8a4fac3b79da016dd4c8",
+      "context": "Native AVD,screencap unretouched; not physical Android",
+      "unaltered_copy": true
+    },
+    {
+      "path": "android/720x1280/state-prepared.json",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-20261116T235337954752Z/720x1280/state-prepared.json",
+      "bytes": 515,
+      "sha256": "b1c847694b0e83939aee6ea9393fab95ddce173baec737ce333c6e7152cc4342",
+      "context": "Native AVD,screencap unretouched; not physical Android",
+      "unaltered_copy": true
+    },
+    {
+      "path": "android/720x1280/won.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-20261116T235337954752Z/720x1280/won.png",
+      "bytes": 457847,
+      "sha256": "3b8f55e781d9dc1cec8a2ca2ee81785e71c23acfc57e48bd30903f04ff5acbb5",
+      "context": "Native AVD,screencap unretouched; not physical Android",
+      "unaltered_copy": true,
+      "pixels": [
+        720,
+        1280
+      ]
+    },
+    {
+      "path": "android/2340x1080/all-available-runtime.log",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-20261116T235337954752Z/2340x1080/all-available-runtime.log",
+      "bytes": 11130,
+      "sha256": "0c27d79c6629d8ed412348db9835c662f42289e2f274cc1914970339dc68c2b3",
+      "context": "Native AVD,screencap unretouched; not physical Android",
+      "unaltered_copy": true
+    },
+    {
+      "path": "android/2340x1080/failed.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-20261116T235337954752Z/2340x1080/failed.png",
+      "bytes": 719929,
+      "sha256": "25b439a3c7e5a6c9959af51ffacc4f45cd8d4a813a2a3d56ba0e3c20fc7a359b",
+      "context": "Native AVD,screencap unretouched; not physical Android",
+      "unaltered_copy": true,
+      "pixels": [
+        2340,
+        1080
+      ]
+    },
+    {
+      "path": "android/2340x1080/home-return.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-20261116T235337954752Z/2340x1080/home-return.png",
+      "bytes": 598736,
+      "sha256": "8ae0ed19ad225b9a4b4ec549baf1aa6ce1d74abbd6f16d9442487a10902da4f5",
+      "context": "Native AVD,screencap unretouched; not physical Android",
+      "unaltered_copy": true,
+      "pixels": [
+        2340,
+        1080
+      ]
+    },
+    {
+      "path": "android/2340x1080/launch-12728.log",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-20261116T235337954752Z/2340x1080/launch-12728.log",
+      "bytes": 253,
+      "sha256": "b20fda3a79f3b043c2f451e51872031ac9d3bbb7fb883b28eb66dad51a31a33e",
+      "context": "Native AVD,screencap unretouched; not physical Android",
+      "unaltered_copy": true
+    },
+    {
+      "path": "android/2340x1080/launch-13299.log",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-20261116T235337954752Z/2340x1080/launch-13299.log",
+      "bytes": 253,
+      "sha256": "0dc723c75b17ea84bbdd1641290b6db68c00f2895f5c6c4f2279984a5c0e2301",
+      "context": "Native AVD,screencap unretouched; not physical Android",
+      "unaltered_copy": true
+    },
+    {
+      "path": "android/2340x1080/paused-won.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-20261116T235337954752Z/2340x1080/paused-won.png",
+      "bytes": 528123,
+      "sha256": "fd814c6c86d4bdb4a1c3f67cd5a11ec1364a07dbd1606c8c92292e18d30744e4",
+      "context": "Native AVD,screencap unretouched; not physical Android",
+      "unaltered_copy": true,
+      "pixels": [
+        2340,
+        1080
+      ]
+    },
+    {
+      "path": "android/2340x1080/paused.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-20261116T235337954752Z/2340x1080/paused.png",
+      "bytes": 509987,
+      "sha256": "da330f1c44f6d4bec04d80490f914644d5c653026aa8500048061e4b53355ee4",
+      "context": "Native AVD,screencap unretouched; not physical Android",
+      "unaltered_copy": true,
+      "pixels": [
+        2340,
+        1080
+      ]
+    },
+    {
+      "path": "android/2340x1080/planning.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-20261116T235337954752Z/2340x1080/planning.png",
+      "bytes": 713220,
+      "sha256": "4450a160a590a02369075aab86f1e513951ebe88fda294e0f92be42943420e3c",
+      "context": "Native AVD,screencap unretouched; not physical Android",
+      "unaltered_copy": true,
+      "pixels": [
+        2340,
+        1080
+      ]
+    },
+    {
+      "path": "android/2340x1080/prepared.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-20261116T235337954752Z/2340x1080/prepared.png",
+      "bytes": 715498,
+      "sha256": "dc796bcda33d2745fcff2de7b585045e174f24f2ef346afa2fe736ee7a941241",
+      "context": "Native AVD,screencap unretouched; not physical Android",
+      "unaltered_copy": true,
+      "pixels": [
+        2340,
+        1080
+      ]
+    },
+    {
+      "path": "android/2340x1080/rotation-1.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-20261116T235337954752Z/2340x1080/rotation-1.png",
+      "bytes": 722759,
+      "sha256": "ffc1352671e33e30a6bde4fe370d6af30c6f3979a3c752cedf9634d5f266722a",
+      "context": "Native AVD,screencap unretouched; not physical Android",
+      "unaltered_copy": true,
+      "pixels": [
+        2340,
+        1080
+      ]
+    },
+    {
+      "path": "android/2340x1080/rotation-2.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-20261116T235337954752Z/2340x1080/rotation-2.png",
+      "bytes": 722052,
+      "sha256": "0d7b5a365fd72d74160e8884efbdcf44a39fa6c7bb0cd77ea820ab9c930307f6",
+      "context": "Native AVD,screencap unretouched; not physical Android",
+      "unaltered_copy": true,
+      "pixels": [
+        2340,
+        1080
+      ]
+    },
+    {
+      "path": "android/2340x1080/runtime.log",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-20261116T235337954752Z/2340x1080/runtime.log",
+      "bytes": 11130,
+      "sha256": "0c27d79c6629d8ed412348db9835c662f42289e2f274cc1914970339dc68c2b3",
+      "context": "Native AVD,screencap unretouched; not physical Android",
+      "unaltered_copy": true
+    },
+    {
+      "path": "android/2340x1080/session.log",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-20261116T235337954752Z/2340x1080/session.log",
+      "bytes": 73600,
+      "sha256": "eb3f86c91c8b9cfc95a7cff4bcc96c969b8f3e90a4f234b7cb339f777d5bc14a",
+      "context": "Native AVD,screencap unretouched; not physical Android",
+      "unaltered_copy": true
+    },
+    {
+      "path": "android/2340x1080/state-initial.json",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-20261116T235337954752Z/2340x1080/state-initial.json",
+      "bytes": 515,
+      "sha256": "6d699ec3791d64254429f42af1a264ce9107df8d356e8a4fac3b79da016dd4c8",
+      "context": "Native AVD,screencap unretouched; not physical Android",
+      "unaltered_copy": true
+    },
+    {
+      "path": "android/2340x1080/state-prepared.json",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-20261116T235337954752Z/2340x1080/state-prepared.json",
+      "bytes": 515,
+      "sha256": "b1c847694b0e83939aee6ea9393fab95ddce173baec737ce333c6e7152cc4342",
+      "context": "Native AVD,screencap unretouched; not physical Android",
+      "unaltered_copy": true
+    },
+    {
+      "path": "android/2340x1080/won.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-20261116T235337954752Z/2340x1080/won.png",
+      "bytes": 694651,
+      "sha256": "a1872f75ffbc2f9ae0caad462ee2a9a31e3fd247e0a4bb6f9416ffb044226a46",
+      "context": "Native AVD,screencap unretouched; not physical Android",
+      "unaltered_copy": true,
+      "pixels": [
+        2340,
+        1080
+      ]
+    },
+    {
+      "path": "android-gameplay.mp4",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-20261116T235337954752Z/1080x2340/android-gameplay.mp4",
+      "bytes": 1428309,
+      "sha256": "4b4f3c45f6a9fd2e4bbc63ab0f660f021c9b3173c1f2290b90a71c338634ef2f",
+      "context": "Native Android screenrecord,no retouching; cadence is encoder rate",
+      "unaltered_copy": true
+    },
+    {
+      "path": "web/01-preparation.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/web-pro-1794873452323/01-preparation.png",
+      "bytes": 1156475,
+      "sha256": "d91a9fb3680dbff14c4b174a8bbe92f79cc12af2cc5fed0412b2d41934042a35",
+      "context": "Actual Chrome Windows,WASM and touch emulation; not Safari/physical iPhone",
+      "unaltered_copy": true,
+      "pixels": [
+        1179,
+        2556
+      ]
+    },
+    {
+      "path": "web/02-rotation.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/web-pro-1794873452323/02-rotation.png",
+      "bytes": 1170505,
+      "sha256": "63f4b27f303e4e3d5d84f17cdf07c14b461725f29087d1c55267d45b01834b10",
+      "context": "Actual Chrome Windows,WASM and touch emulation; not Safari/physical iPhone",
+      "unaltered_copy": true,
+      "pixels": [
+        1179,
+        2556
+      ]
+    },
+    {
+      "path": "web/04-ready.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/web-pro-1794873452323/04-ready.png",
+      "bytes": 1158591,
+      "sha256": "f07fc67755aa766be384f4e765cd81378a3e1e1f28165bdf505e55970db9aac7",
+      "context": "Actual Chrome Windows,WASM and touch emulation; not Safari/physical iPhone",
+      "unaltered_copy": true,
+      "pixels": [
+        1179,
+        2556
+      ]
+    },
+    {
+      "path": "web/05-transport.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/web-pro-1794873452323/05-transport.png",
+      "bytes": 1155203,
+      "sha256": "fdaf544e91d0ec8529e5b7f45a6f0f0143b947a976ae3108e7f4f42e96dd96a1",
+      "context": "Actual Chrome Windows,WASM and touch emulation; not Safari/physical iPhone",
+      "unaltered_copy": true,
+      "pixels": [
+        1179,
+        2556
+      ]
+    },
+    {
+      "path": "web/06-won.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/web-pro-1794873452323/06-won.png",
+      "bytes": 1133658,
+      "sha256": "2ea6ecb1e85edac4985ecea89fae133cf57bdd3bffbb30d01ca37c361b20d3cd",
+      "context": "Actual Chrome Windows,WASM and touch emulation; not Safari/physical iPhone",
+      "unaltered_copy": true,
+      "pixels": [
+        1179,
+        2556
+      ]
+    },
+    {
+      "path": "web/07-paused-won.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/web-pro-1794873452323/07-paused-won.png",
+      "bytes": 239227,
+      "sha256": "88ae58598aa821984176875a959c8fb1ba9f7fd9f58893f1467654724432d621",
+      "context": "Actual Chrome Windows,WASM and touch emulation; not Safari/physical iPhone",
+      "unaltered_copy": true,
+      "pixels": [
+        1179,
+        2556
+      ]
+    },
+    {
+      "path": "web/browser-restarted.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/web-pro-1794873452323/browser-restarted.png",
+      "bytes": 1165667,
+      "sha256": "b89c303fee1e427261e8919b3ce993aaa7d5963e048c33788f775b5711a186c9",
+      "context": "Actual Chrome Windows,WASM and touch emulation; not Safari/physical iPhone",
+      "unaltered_copy": true,
+      "pixels": [
+        1179,
+        2556
+      ]
+    },
+    {
+      "path": "web/console.log",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/web-pro-1794873452323/console.log",
+      "bytes": 77615,
+      "sha256": "a70ea4810da0aa7201f14475f5757aae0b450de8ec24f471a1b2b099bd790603",
+      "context": "Actual Chrome Windows,WASM and touch emulation; not Safari/physical iPhone",
+      "unaltered_copy": true
+    },
+    {
+      "path": "web/error.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/web-pro-1794873452323/error.png",
+      "bytes": 1163843,
+      "sha256": "4957b702918460e5d0086ddecba7bb8c43aecf154f593e6b8cc15ca882135309",
+      "context": "Actual Chrome Windows,WASM and touch emulation; not Safari/physical iPhone",
+      "unaltered_copy": true,
+      "pixels": [
+        1179,
+        2556
+      ]
+    },
+    {
+      "path": "web/receipt.json",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/web-pro-1794873452323/receipt.json",
+      "bytes": 5156,
+      "sha256": "02fe4e5e412f4424981d5f4a4480b30fc1557740e58a3272ff32bca31be945fe",
+      "context": "Actual Chrome Windows,WASM and touch emulation; not Safari/physical iPhone",
+      "unaltered_copy": true
+    },
+    {
+      "path": "web/restored.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/web-pro-1794873452323/restored.png",
+      "bytes": 1165667,
+      "sha256": "b89c303fee1e427261e8919b3ce993aaa7d5963e048c33788f775b5711a186c9",
+      "context": "Actual Chrome Windows,WASM and touch emulation; not Safari/physical iPhone",
+      "unaltered_copy": true,
+      "pixels": [
+        1179,
+        2556
+      ]
+    },
+    {
+      "path": "web/synthetic-return-paused.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/web-pro-1794873452323/synthetic-return-paused.png",
+      "bytes": 254233,
+      "sha256": "24c1ae920627012d87fbdbcb9551526497cbed2364f24f0f92e5ca32908c220c",
+      "context": "Actual Chrome Windows,WASM and touch emulation; not Safari/physical iPhone",
+      "unaltered_copy": true,
+      "pixels": [
+        1179,
+        2556
+      ]
+    },
+    {
+      "path": "web-compact/01-preparation.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/web-compact-1794873483494/01-preparation.png",
+      "bytes": 937276,
+      "sha256": "582a21a1a060717e0e3ad634d5026c13d56a70f7fea1122d45a0c27bc165665b",
+      "context": "Actual Chrome Windows,WASM and touch emulation; not Safari/physical iPhone",
+      "unaltered_copy": true,
+      "pixels": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "path": "web-compact/02-rotation.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/web-compact-1794873483494/02-rotation.png",
+      "bytes": 945450,
+      "sha256": "3df563c8c011bf2f94f52e0e1c02db9485b143f9424d16844200691bf2f1dbab",
+      "context": "Actual Chrome Windows,WASM and touch emulation; not Safari/physical iPhone",
+      "unaltered_copy": true,
+      "pixels": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "path": "web-compact/04-ready.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/web-compact-1794873483494/04-ready.png",
+      "bytes": 937994,
+      "sha256": "5a8694b66077b7bcbe839a2a1c8297b0cf2b2128a23fe202c48116cdb2dc832f",
+      "context": "Actual Chrome Windows,WASM and touch emulation; not Safari/physical iPhone",
+      "unaltered_copy": true,
+      "pixels": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "path": "web-compact/05-transport.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/web-compact-1794873483494/05-transport.png",
+      "bytes": 935784,
+      "sha256": "fbe62cc60226e130f00d6acb5161626116b25c57f095c6d0c5546c56f6652bdd",
+      "context": "Actual Chrome Windows,WASM and touch emulation; not Safari/physical iPhone",
+      "unaltered_copy": true,
+      "pixels": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "path": "web-compact/06-won.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/web-compact-1794873483494/06-won.png",
+      "bytes": 919644,
+      "sha256": "22d393ff25fe4ee66df646d8668d893c26f322f96a9cd5feda54a7b8b0d095f9",
+      "context": "Actual Chrome Windows,WASM and touch emulation; not Safari/physical iPhone",
+      "unaltered_copy": true,
+      "pixels": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "path": "web-compact/07-paused-won.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/web-compact-1794873483494/07-paused-won.png",
+      "bytes": 189011,
+      "sha256": "9642a0486346635d184d4d2933df328c62fa36e24ee31458f26b92911b81e9b9",
+      "context": "Actual Chrome Windows,WASM and touch emulation; not Safari/physical iPhone",
+      "unaltered_copy": true,
+      "pixels": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "path": "web-compact/browser-restarted.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/web-compact-1794873483494/browser-restarted.png",
+      "bytes": 943429,
+      "sha256": "309ab5f7d0af525969b16a7b37e87d5944fe00179410a19b5cc453858d0b7b12",
+      "context": "Actual Chrome Windows,WASM and touch emulation; not Safari/physical iPhone",
+      "unaltered_copy": true,
+      "pixels": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "path": "web-compact/console.log",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/web-compact-1794873483494/console.log",
+      "bytes": 72457,
+      "sha256": "87d695182804bb6778af8abdc3833f9e7d9b0eae69a433ebe1b42fcc796da60c",
+      "context": "Actual Chrome Windows,WASM and touch emulation; not Safari/physical iPhone",
+      "unaltered_copy": true
+    },
+    {
+      "path": "web-compact/error.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/web-compact-1794873483494/error.png",
+      "bytes": 940993,
+      "sha256": "4b2483f7cc94702c86d0fe441d1f93735679da2d646da027e793ea2f82adb450",
+      "context": "Actual Chrome Windows,WASM and touch emulation; not Safari/physical iPhone",
+      "unaltered_copy": true,
+      "pixels": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "path": "web-compact/receipt.json",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/web-compact-1794873483494/receipt.json",
+      "bytes": 5146,
+      "sha256": "b05239b10c05e18803e77dd22de456a0c7970f1cc902bc37a6ec2f06c213ee83",
+      "context": "Actual Chrome Windows,WASM and touch emulation; not Safari/physical iPhone",
+      "unaltered_copy": true
+    },
+    {
+      "path": "web-compact/restored.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/web-compact-1794873483494/restored.png",
+      "bytes": 943429,
+      "sha256": "309ab5f7d0af525969b16a7b37e87d5944fe00179410a19b5cc453858d0b7b12",
+      "context": "Actual Chrome Windows,WASM and touch emulation; not Safari/physical iPhone",
+      "unaltered_copy": true,
+      "pixels": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "path": "web-compact/synthetic-return-paused.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/web-compact-1794873483494/synthetic-return-paused.png",
+      "bytes": 199316,
+      "sha256": "a238f9a62343fbd67c00f72332adee00549fd9f6b371b8ccb9865f2942f7bdf1",
+      "context": "Actual Chrome Windows,WASM and touch emulation; not Safari/physical iPhone",
+      "unaltered_copy": true,
+      "pixels": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "path": "web-landscape/01-preparation.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/web-landscape-1794873512892/01-preparation.png",
+      "bytes": 965893,
+      "sha256": "8205ef45130d05ce87fcadaabb8dfd7c21e8b90174060fd4c25879b232b11836",
+      "context": "Actual Chrome Windows,WASM and touch emulation; not Safari/physical iPhone",
+      "unaltered_copy": true,
+      "pixels": [
+        2532,
+        1170
+      ]
+    },
+    {
+      "path": "web-landscape/02-rotation.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/web-landscape-1794873512892/02-rotation.png",
+      "bytes": 974915,
+      "sha256": "1cbfc7720a0e1c385d8143ed978c9ab36e99aa80f4fba321149a3ab761e52cad",
+      "context": "Actual Chrome Windows,WASM and touch emulation; not Safari/physical iPhone",
+      "unaltered_copy": true,
+      "pixels": [
+        2532,
+        1170
+      ]
+    },
+    {
+      "path": "web-landscape/04-ready.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/web-landscape-1794873512892/04-ready.png",
+      "bytes": 966328,
+      "sha256": "6caaba2c56bbbb197cf37e0f4363d2c6c1760889fa5d6023c687856df9ba7e7c",
+      "context": "Actual Chrome Windows,WASM and touch emulation; not Safari/physical iPhone",
+      "unaltered_copy": true,
+      "pixels": [
+        2532,
+        1170
+      ]
+    },
+    {
+      "path": "web-landscape/05-transport.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/web-landscape-1794873512892/05-transport.png",
+      "bytes": 964677,
+      "sha256": "775699d9c4d74d97a5d3110e59cdad6afde411c0daaad4c901456a5a9a57b339",
+      "context": "Actual Chrome Windows,WASM and touch emulation; not Safari/physical iPhone",
+      "unaltered_copy": true,
+      "pixels": [
+        2532,
+        1170
+      ]
+    },
+    {
+      "path": "web-landscape/06-won.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/web-landscape-1794873512892/06-won.png",
+      "bytes": 948022,
+      "sha256": "a531ec7a105363680c64efbdbb9a6f064586897c03d048e5d31989dd6b1bfd9a",
+      "context": "Actual Chrome Windows,WASM and touch emulation; not Safari/physical iPhone",
+      "unaltered_copy": true,
+      "pixels": [
+        2532,
+        1170
+      ]
+    },
+    {
+      "path": "web-landscape/07-paused-won.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/web-landscape-1794873512892/07-paused-won.png",
+      "bytes": 662694,
+      "sha256": "4cc3110c021773d528b408e8b3376d6e91b810865403024941e8cb5b7d11aed5",
+      "context": "Actual Chrome Windows,WASM and touch emulation; not Safari/physical iPhone",
+      "unaltered_copy": true,
+      "pixels": [
+        2532,
+        1170
+      ]
+    },
+    {
+      "path": "web-landscape/browser-restarted.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/web-landscape-1794873512892/browser-restarted.png",
+      "bytes": 972762,
+      "sha256": "db6e3fe29db73e7f30eb7a0b7741db502334e4fb11da360ef927ccca0658860d",
+      "context": "Actual Chrome Windows,WASM and touch emulation; not Safari/physical iPhone",
+      "unaltered_copy": true,
+      "pixels": [
+        2532,
+        1170
+      ]
+    },
+    {
+      "path": "web-landscape/console.log",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/web-landscape-1794873512892/console.log",
+      "bytes": 65256,
+      "sha256": "e9e57347e53bd41372eeef344bd397d81c1fdbca2400c8703d2fbecbc890d8d5",
+      "context": "Actual Chrome Windows,WASM and touch emulation; not Safari/physical iPhone",
+      "unaltered_copy": true
+    },
+    {
+      "path": "web-landscape/error.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/web-landscape-1794873512892/error.png",
+      "bytes": 970885,
+      "sha256": "27ed541ead07955095384622ecb5fd8c495d40c6dd92a3a593e115a1f9d35be0",
+      "context": "Actual Chrome Windows,WASM and touch emulation; not Safari/physical iPhone",
+      "unaltered_copy": true,
+      "pixels": [
+        2532,
+        1170
+      ]
+    },
+    {
+      "path": "web-landscape/receipt.json",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/web-landscape-1794873512892/receipt.json",
+      "bytes": 5148,
+      "sha256": "e9b0215d24a55f81881c4b91fcee94d6f525a72e52ca01ba9ac0fadd084f4c63",
+      "context": "Actual Chrome Windows,WASM and touch emulation; not Safari/physical iPhone",
+      "unaltered_copy": true
+    },
+    {
+      "path": "web-landscape/restored.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/web-landscape-1794873512892/restored.png",
+      "bytes": 972762,
+      "sha256": "db6e3fe29db73e7f30eb7a0b7741db502334e4fb11da360ef927ccca0658860d",
+      "context": "Actual Chrome Windows,WASM and touch emulation; not Safari/physical iPhone",
+      "unaltered_copy": true,
+      "pixels": [
+        2532,
+        1170
+      ]
+    },
+    {
+      "path": "web-landscape/synthetic-return-paused.png",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/web-landscape-1794873512892/synthetic-return-paused.png",
+      "bytes": 661834,
+      "sha256": "85dbe4c7a19c7f33fb1c0993900bb733de1df41e11a5fb8b17e222dcd26a3959",
+      "context": "Actual Chrome Windows,WASM and touch emulation; not Safari/physical iPhone",
+      "unaltered_copy": true,
+      "pixels": [
+        2532,
+        1170
+      ]
+    },
+    {
+      "path": "checks/asset-validation.json",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/asset-validation.json",
+      "bytes": 11000,
+      "sha256": "3595bf7ccb99b2fbf02e463a7ab53b366b809a5e3dad6b7cac6e2a573a718902",
+      "context": "Executed GLB,SVG and token-contrast inspection",
+      "unaltered_copy": true
+    },
+    {
+      "path": "checks/compile.log",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/final-checks/compile.log",
+      "bytes": 107,
+      "sha256": "f9c1dca8d98ddc62c8211dfd03142ed4aa325028f524c2f1527ae45b74f9e8d6",
+      "context": "Executed final source compile checks",
+      "unaltered_copy": true
+    },
+    {
+      "path": "checks/import.log",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2343471275256Z-Test/import.log",
+      "bytes": 1873,
+      "sha256": "2ddd65c26e92399160e02e9e831ff4aaaf1d61eaca20833a14bcdf5f8f6f5318",
+      "context": "Native regression suites; negative control intentionally exits1",
+      "unaltered_copy": true
+    },
+    {
+      "path": "checks/littoral_composition_runner.gd.log",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2343471275256Z-Test/littoral_composition_runner.gd.log",
+      "bytes": 46670,
+      "sha256": "6815e3c095e9d163036991a3a476ec5e85575cb45522692443694ccee7ff3d11",
+      "context": "Native regression suites; negative control intentionally exits1",
+      "unaltered_copy": true
+    },
+    {
+      "path": "checks/negative-control.log",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2343471275256Z-Test/negative-control.log",
+      "bytes": 212650,
+      "sha256": "224bdd7b443cd30e26ec317e5cada18d5bfb72c7c05066ac6e21a79067dff8b8",
+      "context": "Native regression suites; negative control intentionally exits1",
+      "unaltered_copy": true
+    },
+    {
+      "path": "checks/polish_state_runner.gd.log",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2343471275256Z-Test/polish_state_runner.gd.log",
+      "bytes": 119464,
+      "sha256": "c59606e476c9dcbdf991e5adb92d63b7ea927889e282a331ca2e925de08e2390",
+      "context": "Native regression suites; negative control intentionally exits1",
+      "unaltered_copy": true
+    },
+    {
+      "path": "checks/postal_ui_runner.gd.log",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2343471275256Z-Test/postal_ui_runner.gd.log",
+      "bytes": 212331,
+      "sha256": "b99d610a9a661da004b9d8d63f9ec612f1d46d945e0767214b35c9653c93b80b",
+      "context": "Native regression suites; negative control intentionally exits1",
+      "unaltered_copy": true
+    },
+    {
+      "path": "checks/slice_gameplay_runner.gd.log",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2343471275256Z-Test/slice_gameplay_runner.gd.log",
+      "bytes": 134,
+      "sha256": "d68ec44e1f3d60891bf2153b211597e5a433eb7cc7887a3a58ecfcf550813ceb",
+      "context": "Native regression suites; negative control intentionally exits1",
+      "unaltered_copy": true
+    },
+    {
+      "path": "checks/slice_ui_runner.gd.log",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2343471275256Z-Test/slice_ui_runner.gd.log",
+      "bytes": 126743,
+      "sha256": "e25873d9d02c7c1e1ff4b101226a6aeedd91f7f857e64af37a6d775bb50f166f",
+      "context": "Native regression suites; negative control intentionally exits1",
+      "unaltered_copy": true
+    },
+    {
+      "path": "checks/test_runner.gd.log",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/runs/20261116T2343471275256Z-Test/test_runner.gd.log",
+      "bytes": 341,
+      "sha256": "2f973b8cbbfbdb40752d74c57c1bdece3268c0f86b71e5f23b13a30185e4131b",
+      "context": "Native regression suites; negative control intentionally exits1",
+      "unaltered_copy": true
+    },
+    {
+      "path": "checks/storage-comparison.json",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/storage-compare-1794873048478/receipt.json",
+      "bytes": 1369,
+      "sha256": "123fdf7e06ca94240264fe6e4d2ea04de2d76185b7e78c588cff8599d3882cfd",
+      "context": "Exploratory timing comparison with original Web,no forced FS sync",
+      "unaltered_copy": true
+    },
+    {
+      "path": "checks/fast-close-failed.json",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/web-pro-1794872506632/receipt.json",
+      "bytes": 4704,
+      "sha256": "1a88f61aa45f81aa7692588132cae0bbedc51872e493d0047e2661d8b85bab5b",
+      "context": "Failed rapid-close experiment retained; not counted as success",
+      "unaltered_copy": true
+    },
+    {
+      "path": "checks/build-files.json",
+      "source": "build files inspected in local workspace",
+      "bytes": 1654,
+      "sha256": "227bc0a570530b50c585974b929304ad765c782637a2704f3e86f34ec31b4382",
+      "context": "Actual current build inventory"
+    },
+    {
+      "path": "checks/raster-qa.json",
+      "source": "Final inspection receipt",
+      "bytes": 65325,
+      "sha256": "2d402f482abd4d4c8f395d5352bef25d5fe59661be70ce97f60ebc0fe5ec1892",
+      "context": "Raster decode or actual media dimensions/cadence,not a gameplay guarantee"
+    },
+    {
+      "path": "checks/video-metadata.json",
+      "source": "Final inspection receipt",
+      "bytes": 580,
+      "sha256": "d18ae8aea019af58028d609b42fac7f8cb0e87aee53b73bb7f021c159d78e745",
+      "context": "Raster decode or actual media dimensions/cadence,not a gameplay guarantee"
+    },
+    {
+      "path": "checks/quiet-1/receipt.json",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-quiet-20261116T235948431650Z/receipt.json",
+      "bytes": 1568,
+      "sha256": "21373fe0bb0fe438e7ddd2842f078e58227c0b87fb3327fa8087b36562a86817",
+      "context": "Unrecorded AVD diagnostic,not physical; both favourable/unfavourable samples retained",
+      "unaltered_copy": true
+    },
+    {
+      "path": "checks/quiet-1/runtime.log",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-quiet-20261116T235948431650Z/runtime.log",
+      "bytes": 92106,
+      "sha256": "778c82da3dd467cfd474915814a74bf9730125184b996c23dde77918141685af",
+      "context": "Unrecorded AVD diagnostic,not physical; both favourable/unfavourable samples retained",
+      "unaltered_copy": true
+    },
+    {
+      "path": "checks/quiet-1/memory.log",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-quiet-20261116T235948431650Z/memory.log",
+      "bytes": 3310,
+      "sha256": "a5aa26b5f6547c1532072b36cce20f8bd392ab19beb665b80f787881f0bb4b79",
+      "context": "Unrecorded AVD diagnostic,not physical; both favourable/unfavourable samples retained",
+      "unaltered_copy": true
+    },
+    {
+      "path": "checks/quiet-2/receipt.json",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-quiet-20261117T000341422972Z/receipt.json",
+      "bytes": 1570,
+      "sha256": "5b7cd03cd65a75c06667e8073aff65754e5c31e572c29f02d69f9eb058eaf278",
+      "context": "Unrecorded AVD diagnostic,not physical; both favourable/unfavourable samples retained",
+      "unaltered_copy": true
+    },
+    {
+      "path": "checks/quiet-2/runtime.log",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-quiet-20261117T000341422972Z/runtime.log",
+      "bytes": 92808,
+      "sha256": "1de34ab7163d0e60ccb18612cb098ddf32a70e10c8a399db1aaf12eb5d9c98a1",
+      "context": "Unrecorded AVD diagnostic,not physical; both favourable/unfavourable samples retained",
+      "unaltered_copy": true
+    },
+    {
+      "path": "checks/quiet-2/memory.log",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/android-quiet-20261117T000341422972Z/memory.log",
+      "bytes": 3305,
+      "sha256": "3339c8792fe3890d57ad5a20c20cf5e5cf55c0f1bbc4df51e891e0737f1eea32",
+      "context": "Unrecorded AVD diagnostic,not physical; both favourable/unfavourable samples retained",
+      "unaltered_copy": true
+    },
+    {
+      "path": "checks/source-archive.json",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/source-archive.json",
+      "bytes": 484,
+      "sha256": "5e46d648f54d9d3ba74c58a90952c382e844690b06d33f22767bff389785b794",
+      "context": "Extracted archive import/startup check,not a GPU/physical test",
+      "unaltered_copy": true
+    },
+    {
+      "path": "checks/source-import.log",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/source-import.log",
+      "bytes": 17848,
+      "sha256": "fc0a123f5150cf5f67ecbf2117b448ab5fd7f1028c9ff8c820e42768cde2cefe",
+      "context": "Extracted archive import/startup check,not a GPU/physical test",
+      "unaltered_copy": true
+    },
+    {
+      "path": "checks/source-run.log",
+      "source": "games/001-switchworks/artifacts/ui-ux-refonte-2026-11-16/source-run.log",
+      "bytes": 4071,
+      "sha256": "395683bb3ff41a259d5fefc376d5cb3908dabc3531819d5634bfe8c377c227ed",
+      "context": "Extracted archive import/startup check,not a GPU/physical test",
+      "unaltered_copy": true
+    }
+  ],
+  "runtime_inputs": [
+    {
+      "path": "games/001-switchworks/assets/postal-workshop/asset-manifest.json",
+      "bytes": 14680,
+      "sha256": "bd708ba33cfa9be98bada4510115bb6148f038935e17ae03b36ac06cac8b7e87"
+    },
+    {
+      "path": "games/001-switchworks/assets/postal-workshop/materials/ceramic-grain.png",
+      "bytes": 50047,
+      "sha256": "40c0373ad00c7b84e7c7ae33ca2f5b8a23f029feddbc7b5cdcc95c823acfdf1b"
+    },
+    {
+      "path": "games/001-switchworks/assets/postal-workshop/materials/ceramic-grain.png.import",
+      "bytes": 976,
+      "sha256": "df14f2be97b3374b94faa9d97f835b5ad52666313fbb14b0dcf415cae842496d"
+    },
+    {
+      "path": "games/001-switchworks/assets/postal-workshop/model-exports.json",
+      "bytes": 2354,
+      "sha256": "24fec6f776d9051b10ae1b5b6cba9cfc1ae32d6f558b1340759520a2bc999fb9"
+    },
+    {
+      "path": "games/001-switchworks/assets/postal-workshop/models/boite_a.glb",
+      "bytes": 318988,
+      "sha256": "daa709f2d20361cddf0fa87f318291cb2efcdeedb64c64462c42e3a57a822813"
+    },
+    {
+      "path": "games/001-switchworks/assets/postal-workshop/models/boite_a.glb.import",
+      "bytes": 1166,
+      "sha256": "9a7c6f8990a3aef02b2d9572d7a8cbdcec523d39d3730ec167cd0d8e698c3365"
+    },
+    {
+      "path": "games/001-switchworks/assets/postal-workshop/models/boite_b.glb",
+      "bytes": 322796,
+      "sha256": "ece0a61ec9287e29f1086b7c3dd201bf7a044f5b823a4779a967bedccd3f1c2a"
+    },
+    {
+      "path": "games/001-switchworks/assets/postal-workshop/models/boite_b.glb.import",
+      "bytes": 1166,
+      "sha256": "75b7af44eb6d70856812ded0df1940fb9c617fc520c110a1a462c20c272a2ad5"
+    },
+    {
+      "path": "games/001-switchworks/assets/postal-workshop/models/colis_a.glb",
+      "bytes": 151616,
+      "sha256": "66afe2fbb54afef62fc7df7e9cb9c6e196f77ac2daa4d573a23bb45eb766dea5"
+    },
+    {
+      "path": "games/001-switchworks/assets/postal-workshop/models/colis_a.glb.import",
+      "bytes": 1166,
+      "sha256": "9bfc288ea8360eadb3b236845e26f9bc2394e2f28e61c84df880df1a3935ce1b"
+    },
+    {
+      "path": "games/001-switchworks/assets/postal-workshop/models/colis_b.glb",
+      "bytes": 155524,
+      "sha256": "890dd0d738601f0a05f9583dac871a1bc20aceda2bf4ed3a4f616001e1287ed9"
+    },
+    {
+      "path": "games/001-switchworks/assets/postal-workshop/models/colis_b.glb.import",
+      "bytes": 1166,
+      "sha256": "a2178285fe6d1c9e9fd6c7bf2dbd2058e4d327ee6c76c111a8c1aaa7ea93464a"
+    },
+    {
+      "path": "games/001-switchworks/assets/postal-workshop/models/guichet_a.glb",
+      "bytes": 281548,
+      "sha256": "ff9fe7eaa6aedc8aa5638b3b6f7444d4eb750f7c4b55c51b775deb3dfbc59f24"
+    },
+    {
+      "path": "games/001-switchworks/assets/postal-workshop/models/guichet_a.glb.import",
+      "bytes": 1172,
+      "sha256": "85c58c290f8527810401411d8cd205d28716f5e27f66eafe03adafa52afdbe1f"
+    },
+    {
+      "path": "games/001-switchworks/assets/postal-workshop/models/guichet_b.glb",
+      "bytes": 285504,
+      "sha256": "a976f95d7e8529f2a27ab7e86814dcf29df4dbafca2f740620b1155c7c604b95"
+    },
+    {
+      "path": "games/001-switchworks/assets/postal-workshop/models/guichet_b.glb.import",
+      "bytes": 1172,
+      "sha256": "3fab19606c79d8ab6c1f07b66be0d884a84fa7d3c9947170ef30270436160397"
+    },
+    {
+      "path": "games/001-switchworks/assets/postal-workshop/models/socle.glb",
+      "bytes": 36400,
+      "sha256": "01a8f34627f2b49b0c13a844357c8ddbff30b589760613ba81d8739ed6fa3ada"
+    },
+    {
+      "path": "games/001-switchworks/assets/postal-workshop/models/socle.glb.import",
+      "bytes": 1160,
+      "sha256": "dbc55c73e9edf46110d982d06b1f3eaf83812f90f9de8e3380a363b99649a8fe"
+    },
+    {
+      "path": "games/001-switchworks/assets/postal-workshop/models/tuile.glb",
+      "bytes": 86728,
+      "sha256": "62b4071bca87f1495ce7b68a33a1484a9ddf41fa2496d82a1b0624d6c6af418a"
+    },
+    {
+      "path": "games/001-switchworks/assets/postal-workshop/models/tuile.glb.import",
+      "bytes": 1160,
+      "sha256": "ba03361b96cf595dadb1ce6aa9876c2e0032b7bbd5cdfceabbee756a17119dac"
+    },
+    {
+      "path": "games/001-switchworks/assets/postal-workshop/models/tuile_CeramicSatin_albedo.png",
+      "bytes": 50047,
+      "sha256": "40c0373ad00c7b84e7c7ae33ca2f5b8a23f029feddbc7b5cdcc95c823acfdf1b"
+    },
+    {
+      "path": "games/001-switchworks/assets/postal-workshop/models/tuile_CeramicSatin_albedo.png.import",
+      "bytes": 1074,
+      "sha256": "a77030af6081caeefe3148919a71db59547dcb698345922dae96252738c832db"
+    },
+    {
+      "path": "games/001-switchworks/assets/postal-workshop/models/tuile_tuile.png",
+      "bytes": 50047,
+      "sha256": "40c0373ad00c7b84e7c7ae33ca2f5b8a23f029feddbc7b5cdcc95c823acfdf1b"
+    },
+    {
+      "path": "games/001-switchworks/assets/postal-workshop/models/tuile_tuile.png.import",
+      "bytes": 1033,
+      "sha256": "8cfd7c3639f139e09e0caed44f179356fba39b9aad1df79d3b5292e5d8ae85cf"
+    },
+    {
+      "path": "games/001-switchworks/assets/postal-workshop/models/voie_coude.glb",
+      "bytes": 417480,
+      "sha256": "45b20ba67322edea5685c9762836a68189eee351d0bf73ec7a600920e241cfe0"
+    },
+    {
+      "path": "games/001-switchworks/assets/postal-workshop/models/voie_coude.glb.import",
+      "bytes": 1174,
+      "sha256": "ae8bb2a9838ad13a5429a6525cf6542875d1a3909755470a87ca30e3509867df"
+    },
+    {
+      "path": "games/001-switchworks/assets/postal-workshop/models/voie_droite.glb",
+      "bytes": 196280,
+      "sha256": "68e0c2b1ee8ad0db1b09fb280e5fbb08dd63ede90885c4924977b222c08653d4"
+    },
+    {
+      "path": "games/001-switchworks/assets/postal-workshop/models/voie_droite.glb.import",
+      "bytes": 1177,
+      "sha256": "da22250df7ae9e805dd8273d805a829b9e00dcf05bbcfcf62c12f52d61deccc6"
+    },
+    {
+      "path": "games/001-switchworks/assets/postal-workshop/PROVENANCE.md",
+      "bytes": 3893,
+      "sha256": "6f8a72844161b18c77617a92f2d8f405065e4d780d31197e3f31a297634441bb"
+    },
+    {
+      "path": "games/001-switchworks/assets/postal-workshop/sources/boite_a.tscn",
+      "bytes": 249823,
+      "sha256": "336c67c99ae291c976926a82fd45e0f0552f586394985c9493d2aaa6921a2dbe"
+    },
+    {
+      "path": "games/001-switchworks/assets/postal-workshop/sources/boite_b.tscn",
+      "bytes": 252613,
+      "sha256": "ebaa24a32e14fb27fed3f7b730361d082bc4a5bc0b9244c434dbbdeb658c302b"
+    },
+    {
+      "path": "games/001-switchworks/assets/postal-workshop/sources/colis_a.tscn",
+      "bytes": 112435,
+      "sha256": "38ff97a1efc3d7341d7c6e02749aeaa4ff0e4b7b137b0d1147312e4e51c60bee"
+    },
+    {
+      "path": "games/001-switchworks/assets/postal-workshop/sources/colis_b.tscn",
+      "bytes": 115226,
+      "sha256": "b35763bbbb82b3c82ea28c60c3b520b99486c6d36d8fb7677ca9e3f17dfa9d53"
+    },
+    {
+      "path": "games/001-switchworks/assets/postal-workshop/sources/guichet_a.tscn",
+      "bytes": 211919,
+      "sha256": "b70f5d3ea4cb6adc55d5b08d99ad5c43312e65119bbb82eae6e8268e49de72a6"
+    },
+    {
+      "path": "games/001-switchworks/assets/postal-workshop/sources/guichet_b.tscn",
+      "bytes": 214705,
+      "sha256": "63a1bc1ca8201fa98e000a1eb18e2136dd4eb9491a1ac56ac90774c237250fd7"
+    },
+    {
+      "path": "games/001-switchworks/assets/postal-workshop/sources/socle.tscn",
+      "bytes": 37368,
+      "sha256": "fd37c2e2f6c5673d21f1f2570a278748c3ee9a17aa33c8a117e378e43d6cd431"
+    },
+    {
+      "path": "games/001-switchworks/assets/postal-workshop/sources/tuile.tscn",
+      "bytes": 503676,
+      "sha256": "8bc612a63f06f500ed46e778c9b0d0fc4b25887ebb2c71cac30455473de9e93c"
+    },
+    {
+      "path": "games/001-switchworks/assets/postal-workshop/sources/voie_coude.tscn",
+      "bytes": 313618,
+      "sha256": "3375c502e94a8bb9c890e501f68bf292a99ea6db3b4a7c114b9c50f9cb039315"
+    },
+    {
+      "path": "games/001-switchworks/assets/postal-workshop/sources/voie_droite.tscn",
+      "bytes": 148473,
+      "sha256": "4b05a5964cd3c7012c6f27f4c5dacca9173f5711759d662bacaebbd5a99b4a17"
+    },
+    {
+      "path": "games/001-switchworks/data/archipel_double_flux.json",
+      "bytes": 2126,
+      "sha256": "1898b66cf31b4b7d10a2eea9a540162202fcc041869146c766565604d89676fa"
+    },
+    {
+      "path": "games/001-switchworks/experiments/postal_workshop/author_models.gd",
+      "bytes": 2524,
+      "sha256": "3f61c3192b5c574d72247c1109be3bb517cd703cd768168d375d036531979de8"
+    },
+    {
+      "path": "games/001-switchworks/experiments/postal_workshop/author_models.gd.uid",
+      "bytes": 20,
+      "sha256": "84930a8d61d13bd0fc99e99ecb3f56f2b5ef15727a991bd3045b6cc309ba986d"
+    },
+    {
+      "path": "games/001-switchworks/experiments/postal_workshop/game.tscn",
+      "bytes": 312,
+      "sha256": "964609f7fff1b82ea0941b0e6a4b99703b687f6b23d0a60fd263681657672c10"
+    },
+    {
+      "path": "games/001-switchworks/experiments/postal_workshop/workbench.gd",
+      "bytes": 6779,
+      "sha256": "05645d67ac8cc0fda4d484371dc4720413966e3aac4faeffef91954c7fdd0e29"
+    },
+    {
+      "path": "games/001-switchworks/experiments/postal_workshop/workbench.gd.uid",
+      "bytes": 20,
+      "sha256": "9681506d765bc4946e3504a1a29b901e3e5a2ef4a5e91cbbe15324416769e1a6"
+    },
+    {
+      "path": "games/001-switchworks/experiments/postal_workshop/workbench.tscn",
+      "bytes": 311,
+      "sha256": "8e39d30de8ebf910bbdaf2f250f7dfc92ee6f718fb78e7b1a5c5ae263afb9144"
+    },
+    {
+      "path": "games/001-switchworks/experiments/postal_workshop/workshop_board.gd",
+      "bytes": 4921,
+      "sha256": "3239cd07226c643364d14711c3bd4c150c7ce7cccc070eb2948a7dd46390a93f"
+    },
+    {
+      "path": "games/001-switchworks/experiments/postal_workshop/workshop_board.gd.uid",
+      "bytes": 20,
+      "sha256": "1285c378c1c9499560a9747dad5ea087f33fedad4a29c4cb379e0b738c231c87"
+    },
+    {
+      "path": "games/001-switchworks/experiments/postal_workshop/workshop_models.gd",
+      "bytes": 10346,
+      "sha256": "c74f2bbc71b93518e4751fb64eec6e679e305ce1313f86fbfa886517e729cee8"
+    },
+    {
+      "path": "games/001-switchworks/experiments/postal_workshop/workshop_models.gd.uid",
+      "bytes": 20,
+      "sha256": "102d201b62444e9d2407a62eef85652279a0749ea3879d86aa2e00a868acda20"
+    },
+    {
+      "path": "games/001-switchworks/experiments/postal_workshop/workshop_screen.gd",
+      "bytes": 11265,
+      "sha256": "d4f502b4c6d9c716635429285440d10b48e1cac93d36e3060a339f2b7e578e5c"
+    },
+    {
+      "path": "games/001-switchworks/experiments/postal_workshop/workshop_screen.gd.uid",
+      "bytes": 20,
+      "sha256": "27a5c9b521f083515004af8b90c5ceccfa7fdb181ffcd8793da95f8368d224d6"
+    },
+    {
+      "path": "games/001-switchworks/export_presets.cfg",
+      "bytes": 37926,
+      "sha256": "490e00a6b92576887d3187f74b8258571e42541816ec0024103c13efca28d3dd"
+    },
+    {
+      "path": "games/001-switchworks/project.godot",
+      "bytes": 1444,
+      "sha256": "f27d5f927aad021e3f69e3701389e3b3c74ee02fe791152e0ed1b1c18e7be886"
+    },
+    {
+      "path": "games/001-switchworks/scripts/archipel/archipel_screen.gd",
+      "bytes": 38631,
+      "sha256": "0f2e77cd49051c68bb1592d5b20e24bbd656e9b8998657aa3e353c898f439828"
+    },
+    {
+      "path": "games/001-switchworks/scripts/archipel/board_view.gd",
+      "bytes": 19362,
+      "sha256": "b2bc8728a51fd8530d567e1d2a680ccabc25da010fba2a2a228bb719afc354c1"
+    },
+    {
+      "path": "games/001-switchworks/scripts/domain/postal_board.gd",
+      "bytes": 8116,
+      "sha256": "80694da5cb63dffa6baa82ab7048049953e1700f9aeb12a6abceb8b5a3886168"
+    },
+    {
+      "path": "games/001-switchworks/scripts/domain/postal_level.gd",
+      "bytes": 8143,
+      "sha256": "8a1ba3795bbf24d7e13d8c92a87b6619cd7cb4ded407155b80a01a1817b2251f"
+    },
+    {
+      "path": "games/001-switchworks/tools/compare_web_persistence.cjs",
+      "bytes": 2521,
+      "sha256": "92fed810a4c54ee8f2d1dfa8a80a7fcb660d16df843caea4521631c3d53ed9f3"
+    },
+    {
+      "path": "games/001-switchworks/tools/PostalUi.ps1",
+      "bytes": 4413,
+      "sha256": "28052ef8f8df50d1ca0d686e2ebd4b3868568b8816681994c23dd2350c27a87b"
+    },
+    {
+      "path": "games/001-switchworks/tools/profile_postal_android.py",
+      "bytes": 2231,
+      "sha256": "33332f80dfa559f54ee2674949da93b088396cbcb13f75a67a512bc00721b169"
+    },
+    {
+      "path": "games/001-switchworks/tools/qa_grayscale.gdshader",
+      "bytes": 309,
+      "sha256": "2d8c4a02bcbaf8768c360ea45779cf092b499569b2ead13215a3c29026326b4b"
+    },
+    {
+      "path": "games/001-switchworks/tools/qa_uiux_capture.gd",
+      "bytes": 5978,
+      "sha256": "6c6895acc4b29215d7d2ae43387f7c31de36bfa320c60903228218e9089ac21a"
+    },
+    {
+      "path": "games/001-switchworks/tools/serve_web_test.py",
+      "bytes": 7888,
+      "sha256": "dea6d422bb56f7f2ac33d333b770d2f7ff8b6d5c69d05a175c01137c0bddf19d"
+    },
+    {
+      "path": "games/001-switchworks/tools/test_postal_ui_web.cjs",
+      "bytes": 9333,
+      "sha256": "bf96eaaaaa717e1129e5898e5682a5434f0d16b18b723013edd69549fbb2191c"
+    },
+    {
+      "path": "games/001-switchworks/tools/validate_postal_ui_assets.py",
+      "bytes": 2074,
+      "sha256": "1644fea2a437b52d5669b7668be41157fb00606bc82d1fff3f1081b81c3e7acb"
+    },
+    {
+      "path": "games/001-switchworks/tools/verify_littoral_android.py",
+      "bytes": 8793,
+      "sha256": "deb43d083c2135bd17df35f83b5b5116c014357d9493e6ae88071e7afe68dbe9"
+    },
+    {
+      "path": "games/001-switchworks/tools/verify_postal_ui_android.py",
+      "bytes": 473,
+      "sha256": "e37c50aea1fe99096520e8c779790f761682b9fa093786f0ed5d4762d158f0b3"
+    },
+    {
+      "path": "games/001-switchworks/ui/workshop/design_tokens.gd",
+      "bytes": 935,
+      "sha256": "6ee796136963852cb79e4fe7712c0b4466d6097ced3099951fc97ed731d791c0"
+    },
+    {
+      "path": "games/001-switchworks/ui/workshop/design_tokens.gd.uid",
+      "bytes": 20,
+      "sha256": "64e59e533e1bb6ce95b331d1550a30f3bfdde0faad8c9401031f25bf728d25de"
+    },
+    {
+      "path": "games/001-switchworks/ui/workshop/icons/hint.svg",
+      "bytes": 255,
+      "sha256": "6847928ae06483f39015feb8b6c42150911b4227d41474af1bf17603e206e9ed"
+    },
+    {
+      "path": "games/001-switchworks/ui/workshop/icons/hint.svg.import",
+      "bytes": 1031,
+      "sha256": "af1425eeac77602c1c3e70bd051c3f0fc579866901f5e82123f0954de8679dc2"
+    },
+    {
+      "path": "games/001-switchworks/ui/workshop/icons/replay.svg",
+      "bytes": 222,
+      "sha256": "9047c22cfdc0bc661c2e3d0a95a1525ae8ff40ee490eb69347052f5812b013b8"
+    },
+    {
+      "path": "games/001-switchworks/ui/workshop/icons/replay.svg.import",
+      "bytes": 1036,
+      "sha256": "5b5983060ae943fdf6ea52ee79f6a0fc0dec34a944a0e4ff90457be7ae28ad1c"
+    },
+    {
+      "path": "games/001-switchworks/ui/workshop/icons/send.svg",
+      "bytes": 220,
+      "sha256": "a4b6532c7fd8b6a17b146e04e7fd31e0958da7e87704b1288178210431217fad"
+    },
+    {
+      "path": "games/001-switchworks/ui/workshop/icons/send.svg.import",
+      "bytes": 1029,
+      "sha256": "6e5b5b16e85027eef52b6db4b5869bd1ad9ee78c20b4a54a3edd0970e4e86489"
+    },
+    {
+      "path": "games/001-switchworks/ui/workshop/icons/undo.svg",
+      "bytes": 231,
+      "sha256": "fe2e833ebc0c6ac10e8813cdb7656385727cf05a2dbcd26815f6f1c2ac4a1365"
+    },
+    {
+      "path": "games/001-switchworks/ui/workshop/icons/undo.svg.import",
+      "bytes": 1031,
+      "sha256": "96063c293f08ad57c2e9eb26ad6d98d17c868cd7af63fd6af387f2e2185b3cc1"
+    },
+    {
+      "path": "games/001-switchworks/ui/workshop/postal_hud.tscn",
+      "bytes": 8135,
+      "sha256": "5aab31bb6f227492ebbf7dbd7db73204d09f89d5c3688688ede8fa64164cc80c"
+    },
+    {
+      "path": "games/001-switchworks/ui/workshop/presentation_state.gd",
+      "bytes": 2134,
+      "sha256": "dc98677721957f1d7c49b3e7fb761cd7c58ef71b4f868e4e4a8fd993eb3b6a4a"
+    },
+    {
+      "path": "games/001-switchworks/ui/workshop/presentation_state.gd.uid",
+      "bytes": 19,
+      "sha256": "a6104024001f2f8b29192846cb6188e8427e71d49f09d5f585ce9684c54219bd"
+    },
+    {
+      "path": "games/001-switchworks/ui/workshop/theme_factory.gd",
+      "bytes": 3038,
+      "sha256": "e0a93254aeff26fe655b8e8b34d3f6964907d28fe8597c48a521b8cf7113e8c0"
+    },
+    {
+      "path": "games/001-switchworks/ui/workshop/theme_factory.gd.uid",
+      "bytes": 19,
+      "sha256": "5e635312133ad1be5d74c319d6d6ff734233f38113ddfccd7d667e07eca595ef"
+    },
+    {
+      "path": "games/001-switchworks/ui/workshop/tokens.tres",
+      "bytes": 636,
+      "sha256": "504b45da443a5661b0a42b0f6fbc83d7277aa06f5e8d851a6b435f2664e5455d"
+    },
+    {
+      "path": "games/001-switchworks/ui/workshop/workshop_theme.tres",
+      "bytes": 9928,
+      "sha256": "d2f3ecff4479a0c9a5d5074e32102895480e05679128746cc289e5b43befb0ce"
+    }
+  ]
+}

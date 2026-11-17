@@ -1,0 +1,34 @@
+[
+  {
+    "label": "reference-af5",
+    "delay_after_tap_ms": 280,
+    "rotation_observed_before_close": true,
+    "restored_rotations": 1,
+    "restored_ports_hash": "d576f73bc43027c2972832997f6dd59841b961052b8f0c8d7436ddc5b8f746dd",
+    "context": "Windows Chrome isolated profile; no FS sync forced; timing-dependent exploratory sample"
+  },
+  {
+    "label": "reference-af5",
+    "delay_after_tap_ms": 2000,
+    "rotation_observed_before_close": true,
+    "restored_rotations": 1,
+    "restored_ports_hash": "d576f73bc43027c2972832997f6dd59841b961052b8f0c8d7436ddc5b8f746dd",
+    "context": "Windows Chrome isolated profile; no FS sync forced; timing-dependent exploratory sample"
+  },
+  {
+    "label": "postal-ui",
+    "delay_after_tap_ms": 280,
+    "rotation_observed_before_close": true,
+    "restored_rotations": 1,
+    "restored_ports_hash": "d576f73bc43027c2972832997f6dd59841b961052b8f0c8d7436ddc5b8f746dd",
+    "context": "Windows Chrome isolated profile; no FS sync forced; timing-dependent exploratory sample"
+  },
+  {
+    "label": "postal-ui",
+    "delay_after_tap_ms": 2000,
+    "rotation_observed_before_close": true,
+    "restored_rotations": 1,
+    "restored_ports_hash": "d576f73bc43027c2972832997f6dd59841b961052b8f0c8d7436ddc5b8f746dd",
+    "context": "Windows Chrome isolated profile; no FS sync forced; timing-dependent exploratory sample"
+  }
+]

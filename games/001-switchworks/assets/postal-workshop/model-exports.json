@@ -1,0 +1,62 @@
+[
+	{
+		"export": "res://assets/postal-workshop/models/guichet_a.glb",
+		"id": "guichet_a",
+		"sha256": "ff9fe7eaa6aedc8aa5638b3b6f7444d4eb750f7c4b55c51b775deb3dfbc59f24",
+		"source": "res://assets/postal-workshop/sources/guichet_a.tscn"
+	},
+	{
+		"export": "res://assets/postal-workshop/models/guichet_b.glb",
+		"id": "guichet_b",
+		"sha256": "a976f95d7e8529f2a27ab7e86814dcf29df4dbafca2f740620b1155c7c604b95",
+		"source": "res://assets/postal-workshop/sources/guichet_b.tscn"
+	},
+	{
+		"export": "res://assets/postal-workshop/models/boite_a.glb",
+		"id": "boite_a",
+		"sha256": "daa709f2d20361cddf0fa87f318291cb2efcdeedb64c64462c42e3a57a822813",
+		"source": "res://assets/postal-workshop/sources/boite_a.tscn"
+	},
+	{
+		"export": "res://assets/postal-workshop/models/boite_b.glb",
+		"id": "boite_b",
+		"sha256": "ece0a61ec9287e29f1086b7c3dd201bf7a044f5b823a4779a967bedccd3f1c2a",
+		"source": "res://assets/postal-workshop/sources/boite_b.tscn"
+	},
+	{
+		"export": "res://assets/postal-workshop/models/voie_droite.glb",
+		"id": "voie_droite",
+		"sha256": "68e0c2b1ee8ad0db1b09fb280e5fbb08dd63ede90885c4924977b222c08653d4",
+		"source": "res://assets/postal-workshop/sources/voie_droite.tscn"
+	},
+	{
+		"export": "res://assets/postal-workshop/models/voie_coude.glb",
+		"id": "voie_coude",
+		"sha256": "45b20ba67322edea5685c9762836a68189eee351d0bf73ec7a600920e241cfe0",
+		"source": "res://assets/postal-workshop/sources/voie_coude.tscn"
+	},
+	{
+		"export": "res://assets/postal-workshop/models/tuile.glb",
+		"id": "tuile",
+		"sha256": "62b4071bca87f1495ce7b68a33a1484a9ddf41fa2496d82a1b0624d6c6af418a",
+		"source": "res://assets/postal-workshop/sources/tuile.tscn"
+	},
+	{
+		"export": "res://assets/postal-workshop/models/colis_a.glb",
+		"id": "colis_a",
+		"sha256": "66afe2fbb54afef62fc7df7e9cb9c6e196f77ac2daa4d573a23bb45eb766dea5",
+		"source": "res://assets/postal-workshop/sources/colis_a.tscn"
+	},
+	{
+		"export": "res://assets/postal-workshop/models/colis_b.glb",
+		"id": "colis_b",
+		"sha256": "890dd0d738601f0a05f9583dac871a1bc20aceda2bf4ed3a4f616001e1287ed9",
+		"source": "res://assets/postal-workshop/sources/colis_b.tscn"
+	},
+	{
+		"export": "res://assets/postal-workshop/models/socle.glb",
+		"id": "socle",
+		"sha256": "01a8f34627f2b49b0c13a844357c8ddbff30b589760613ba81d8739ed6fa3ada",
+		"source": "res://assets/postal-workshop/sources/socle.tscn"
+	}
+]

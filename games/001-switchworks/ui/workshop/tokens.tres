@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="WorkshopTokens" load_steps=2 format=3]
+[ext_resource type="Script" path="res://ui/workshop/design_tokens.gd" id="1"]
+[resource]
+script = ExtResource("1")
+background = Color(0.909804, 0.921569, 0.901961, 1)
+surface = Color(0.960784, 0.952941, 0.917647, 1)
+ink = Color(0.094118, 0.231373, 0.278431, 1)
+muted = Color(0.321569, 0.388235, 0.415686, 1)
+primary = Color(0.137255, 0.309804, 0.364706, 1)
+address_a = Color(0.188235, 0.423529, 0.529412, 1)
+address_b = Color(0.662745, 0.337255, 0.247059, 1)
+success = Color(0.231373, 0.443137, 0.345098, 1)
+error = Color(0.65098, 0.243137, 0.196078, 1)

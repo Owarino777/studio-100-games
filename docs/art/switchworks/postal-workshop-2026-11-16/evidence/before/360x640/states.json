@@ -1,0 +1,96 @@
+{
+	"scene": "res://experiments/littoral/composition.tscn",
+	"states": [
+		{
+			"attempts": 0,
+			"id": "01-preparation",
+			"phase": "planning",
+			"ready": false,
+			"rotations": 0,
+			"tooltip_nodes": [],
+			"tooltip_text": "Touchez une voie pour la tourner. Clavier : flèches puis Entrée.",
+			"window": [
+				360,
+				640
+			]
+		},
+		{
+			"attempts": 0,
+			"id": "02-rotation-hover",
+			"phase": "planning",
+			"ready": false,
+			"rotations": 1,
+			"tooltip_nodes": [],
+			"tooltip_text": "Touchez une voie pour la tourner. Clavier : flèches puis Entrée.",
+			"window": [
+				360,
+				640
+			]
+		},
+		{
+			"attempts": 0,
+			"id": "03-rotation-two",
+			"phase": "planning",
+			"ready": false,
+			"rotations": 2,
+			"tooltip_nodes": [],
+			"tooltip_text": "Touchez une voie pour la tourner. Clavier : flèches puis Entrée.",
+			"window": [
+				360,
+				640
+			]
+		},
+		{
+			"attempts": 0,
+			"id": "04-ready",
+			"phase": "planning",
+			"ready": true,
+			"rotations": 6,
+			"tooltip_nodes": [],
+			"tooltip_text": "Touchez une voie pour la tourner. Clavier : flèches puis Entrée.",
+			"window": [
+				360,
+				640
+			]
+		},
+		{
+			"attempts": 1,
+			"id": "05-transport",
+			"phase": "running",
+			"ready": true,
+			"rotations": 6,
+			"tooltip_nodes": [],
+			"tooltip_text": "Touchez une voie pour la tourner. Clavier : flèches puis Entrée.",
+			"window": [
+				360,
+				640
+			]
+		},
+		{
+			"attempts": 1,
+			"id": "06-won",
+			"phase": "won",
+			"ready": true,
+			"rotations": 6,
+			"tooltip_nodes": [],
+			"tooltip_text": "Touchez une voie pour la tourner. Clavier : flèches puis Entrée.",
+			"window": [
+				360,
+				640
+			]
+		},
+		{
+			"attempts": 1,
+			"id": "07-paused-won",
+			"phase": "paused",
+			"ready": true,
+			"rotations": 6,
+			"tooltip_nodes": [],
+			"tooltip_text": "Touchez une voie pour la tourner. Clavier : flèches puis Entrée.",
+			"window": [
+				360,
+				640
+			]
+		}
+	]
+}

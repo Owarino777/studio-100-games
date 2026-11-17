@@ -1,0 +1,189 @@
+{
+  "context": "Windows Chrome actual WASM, mobile/touch emulation; not Safari or physical iPhone",
+  "url": "http://127.0.0.1:8779/",
+  "profile": "pro",
+  "checks": [
+    {
+      "name": "exact current pack served",
+      "passed": true
+    },
+    {
+      "name": "real engine canvas",
+      "passed": true
+    },
+    {
+      "name": "no WASM threads",
+      "passed": true
+    },
+    {
+      "name": "reload preserves exact rotation",
+      "passed": true,
+      "detail": {
+        "before": {
+          "attempts": 0,
+          "css_height": 852,
+          "css_width": 393,
+          "device_pixel_ratio": 3,
+          "hints": 0,
+          "phase": "paused",
+          "ports_hash": "d576f73bc43027c2972832997f6dd59841b961052b8f0c8d7436ddc5b8f746dd",
+          "reason": "pagehide_or_blur",
+          "rotations": 1,
+          "secure_context": true,
+          "storage_reported_persistent": true
+        },
+        "restored": {
+          "attempts": 0,
+          "css_height": 852,
+          "css_width": 393,
+          "device_pixel_ratio": 3,
+          "hints": 0,
+          "phase": "planning",
+          "ports_hash": "d576f73bc43027c2972832997f6dd59841b961052b8f0c8d7436ddc5b8f746dd",
+          "reason": "ready",
+          "rotations": 1,
+          "secure_context": true,
+          "storage_reported_persistent": true
+        }
+      }
+    },
+    {
+      "name": "restart initial preparation",
+      "passed": true
+    },
+    {
+      "name": "ready derives from real model",
+      "passed": true
+    },
+    {
+      "name": "two local receptions",
+      "passed": true
+    },
+    {
+      "name": "pause state observed",
+      "passed": true
+    },
+    {
+      "name": "same primary control replays",
+      "passed": true
+    },
+    {
+      "name": "browser callback remains paused",
+      "passed": true,
+      "detail": {
+        "limitation": "synthetic blur/focus, not physical iOS Home"
+      }
+    },
+    {
+      "name": "browser process restart restores exact preparation",
+      "passed": false,
+      "detail": {
+        "persisted": {
+          "attempts": 0,
+          "css_height": 852,
+          "css_width": 393,
+          "device_pixel_ratio": 3,
+          "hints": 0,
+          "phase": "planning",
+          "ports_hash": "0063702ec25c15968f7a4e1e2d76c16963f61cce57a0aa76f53310e5c1fcba9c",
+          "reason": "ready",
+          "rotations": 0,
+          "secure_context": true,
+          "storage_reported_persistent": true
+        },
+        "closed": {
+          "attempts": 0,
+          "css_height": 852,
+          "css_width": 393,
+          "device_pixel_ratio": 3,
+          "hints": 0,
+          "phase": "paused",
+          "ports_hash": "d576f73bc43027c2972832997f6dd59841b961052b8f0c8d7436ddc5b8f746dd",
+          "reason": "pagehide_or_blur",
+          "rotations": 1,
+          "secure_context": true,
+          "storage_reported_persistent": true
+        }
+      }
+    }
+  ],
+  "loads": [
+    {
+      "kind": "cold fresh isolated browser profile",
+      "elapsed_until_first_frame_ms": 8948,
+      "resources": [
+        {
+          "name": "/index.js",
+          "transferSize": 69762,
+          "encodedBodySize": 69462,
+          "duration": 9.800000011920929
+        },
+        {
+          "name": "/index.wasm",
+          "transferSize": 10241981,
+          "encodedBodySize": 10241681,
+          "duration": 531.3000000119209
+        },
+        {
+          "name": "/index.pck",
+          "transferSize": 5169398,
+          "encodedBodySize": 5169098,
+          "duration": 161
+        }
+      ]
+    },
+    {
+      "kind": "warm same-origin reload",
+      "elapsed_until_first_frame_ms": 1321,
+      "resources": [
+        {
+          "name": "/index.js",
+          "transferSize": 300,
+          "encodedBodySize": 0,
+          "duration": 1.899999976158142
+        },
+        {
+          "name": "/index.wasm",
+          "transferSize": 10241981,
+          "encodedBodySize": 10241681,
+          "duration": 130.39999997615814
+        },
+        {
+          "name": "/index.pck",
+          "transferSize": 5169398,
+          "encodedBodySize": 5169098,
+          "duration": 45.69999998807907
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "http_responses": [
+    {
+      "file": "/index.js",
+      "status": 200
+    },
+    {
+      "file": "/index.pck",
+      "status": 200
+    },
+    {
+      "file": "/index.wasm",
+      "status": 200
+    },
+    {
+      "file": "/index.js",
+      "status": 304
+    },
+    {
+      "file": "/index.wasm",
+      "status": 200
+    },
+    {
+      "file": "/index.pck",
+      "status": 200
+    }
+  ],
+  "status": "failed",
+  "error": "AssertionError [ERR_ASSERTION]: browser process restart restores exact preparation"
+}

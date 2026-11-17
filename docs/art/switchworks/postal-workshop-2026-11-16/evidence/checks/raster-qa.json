@@ -1,0 +1,2485 @@
+{
+  "ok": true,
+  "assets": [
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/after/360x640/01-preparation.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 360,
+      "height": 640,
+      "bytes": 140745,
+      "color_count": 9051,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/after/360x640/02-rotation-hover.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 360,
+      "height": 640,
+      "bytes": 141976,
+      "color_count": 8942,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/after/360x640/03-rotation-two.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 360,
+      "height": 640,
+      "bytes": 141756,
+      "color_count": 8935,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/after/360x640/04-ready.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 360,
+      "height": 640,
+      "bytes": 140574,
+      "color_count": 9016,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/after/360x640/05-transport.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 360,
+      "height": 640,
+      "bytes": 139168,
+      "color_count": 8687,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/after/360x640/06-won.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 360,
+      "height": 640,
+      "bytes": 135382,
+      "color_count": 8582,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/after/360x640/07-paused-won.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 360,
+      "height": 640,
+      "bytes": 43283,
+      "color_count": 1793,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/after/390x844/01-preparation.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 390,
+      "height": 844,
+      "bytes": 151715,
+      "color_count": 10214,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        390,
+        844
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/after/390x844/02-rotation-hover.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 390,
+      "height": 844,
+      "bytes": 155090,
+      "color_count": 9995,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        390,
+        844
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/after/390x844/03-rotation-two.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 390,
+      "height": 844,
+      "bytes": 155147,
+      "color_count": 9991,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        390,
+        844
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/after/390x844/04-ready.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 390,
+      "height": 844,
+      "bytes": 152448,
+      "color_count": 10088,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        390,
+        844
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/after/390x844/05-transport.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 390,
+      "height": 844,
+      "bytes": 151712,
+      "color_count": 9610,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        390,
+        844
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/after/390x844/06-won.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 390,
+      "height": 844,
+      "bytes": 146372,
+      "color_count": 9572,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        390,
+        844
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/after/390x844/07-paused-won.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 390,
+      "height": 844,
+      "bytes": 63105,
+      "color_count": 2727,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        390,
+        844
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/android/1080x2340/failed.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1080,
+      "height": 2340,
+      "bytes": 983645,
+      "color_count": 19505,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        1080,
+        2340
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/android/1080x2340/home-return.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1080,
+      "height": 2340,
+      "bytes": 358608,
+      "color_count": 10436,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        1080,
+        2340
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/android/1080x2340/paused-won.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1080,
+      "height": 2340,
+      "bytes": 200041,
+      "color_count": 3337,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        1080,
+        2340
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/android/1080x2340/paused.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1080,
+      "height": 2340,
+      "bytes": 203608,
+      "color_count": 3490,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        1080,
+        2340
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/android/1080x2340/planning.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1080,
+      "height": 2340,
+      "bytes": 979092,
+      "color_count": 19730,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        1080,
+        2340
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/android/1080x2340/prepared.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1080,
+      "height": 2340,
+      "bytes": 979849,
+      "color_count": 19604,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        1080,
+        2340
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/android/1080x2340/rotation-1.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1080,
+      "height": 2340,
+      "bytes": 989259,
+      "color_count": 19469,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        1080,
+        2340
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/android/1080x2340/rotation-2.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1080,
+      "height": 2340,
+      "bytes": 987891,
+      "color_count": 19480,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        1080,
+        2340
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/android/1080x2340/won.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 1080,
+      "height": 2340,
+      "bytes": 958866,
+      "color_count": 18636,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        1080,
+        2340
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/android/2340x1080/failed.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 2340,
+      "height": 1080,
+      "bytes": 719929,
+      "color_count": 17219,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        2340,
+        1080
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/android/2340x1080/home-return.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 2340,
+      "height": 1080,
+      "bytes": 598736,
+      "color_count": 17332,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        2340,
+        1080
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/android/2340x1080/paused-won.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 2340,
+      "height": 1080,
+      "bytes": 528123,
+      "color_count": 9234,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        2340,
+        1080
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/android/2340x1080/paused.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 2340,
+      "height": 1080,
+      "bytes": 509987,
+      "color_count": 9735,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        2340,
+        1080
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/android/2340x1080/planning.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 2340,
+      "height": 1080,
+      "bytes": 713220,
+      "color_count": 17391,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        2340,
+        1080
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/android/2340x1080/prepared.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 2340,
+      "height": 1080,
+      "bytes": 715498,
+      "color_count": 17044,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        2340,
+        1080
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/android/2340x1080/rotation-1.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 2340,
+      "height": 1080,
+      "bytes": 722759,
+      "color_count": 17065,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        2340,
+        1080
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/android/2340x1080/rotation-2.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 2340,
+      "height": 1080,
+      "bytes": 722052,
+      "color_count": 16971,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        2340,
+        1080
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/android/2340x1080/won.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 2340,
+      "height": 1080,
+      "bytes": 694651,
+      "color_count": 16251,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        2340,
+        1080
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/android/720x1280/failed.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 720,
+      "height": 1280,
+      "bytes": 474640,
+      "color_count": 16574,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        720,
+        1280
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/android/720x1280/home-return.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 720,
+      "height": 1280,
+      "bytes": 219338,
+      "color_count": 7991,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        720,
+        1280
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/android/720x1280/paused-won.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 720,
+      "height": 1280,
+      "bytes": 117192,
+      "color_count": 2878,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        720,
+        1280
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/android/720x1280/paused.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 720,
+      "height": 1280,
+      "bytes": 117306,
+      "color_count": 3034,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        720,
+        1280
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/android/720x1280/planning.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 720,
+      "height": 1280,
+      "bytes": 470601,
+      "color_count": 16689,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        720,
+        1280
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/android/720x1280/prepared.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 720,
+      "height": 1280,
+      "bytes": 471586,
+      "color_count": 16684,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        720,
+        1280
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/android/720x1280/rotation-1.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 720,
+      "height": 1280,
+      "bytes": 476720,
+      "color_count": 16509,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        720,
+        1280
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/android/720x1280/rotation-2.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 720,
+      "height": 1280,
+      "bytes": 476357,
+      "color_count": 16495,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        720,
+        1280
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/android/720x1280/won.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 720,
+      "height": 1280,
+      "bytes": 457847,
+      "color_count": 15940,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        720,
+        1280
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/before/360x640/01-preparation.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 360,
+      "height": 640,
+      "bytes": 230325,
+      "color_count": 17556,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/before/360x640/02-rotation-hover.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 360,
+      "height": 640,
+      "bytes": 231239,
+      "color_count": 18461,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/before/360x640/03-rotation-two.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 360,
+      "height": 640,
+      "bytes": 231599,
+      "color_count": 18401,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/before/360x640/04-ready.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 360,
+      "height": 640,
+      "bytes": 230137,
+      "color_count": 17387,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/before/360x640/05-transport.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 360,
+      "height": 640,
+      "bytes": 228783,
+      "color_count": 17231,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/before/360x640/06-won.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 360,
+      "height": 640,
+      "bytes": 227540,
+      "color_count": 16639,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/before/360x640/07-paused-won.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 360,
+      "height": 640,
+      "bytes": 131703,
+      "color_count": 3746,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/before/390x844/01-preparation.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 390,
+      "height": 844,
+      "bytes": 335397,
+      "color_count": 24980,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        390,
+        844
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/before/390x844/02-rotation-hover.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 390,
+      "height": 844,
+      "bytes": 337693,
+      "color_count": 26315,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        390,
+        844
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/before/390x844/03-rotation-two.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 390,
+      "height": 844,
+      "bytes": 338529,
+      "color_count": 26066,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        390,
+        844
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/before/390x844/04-ready.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 390,
+      "height": 844,
+      "bytes": 334851,
+      "color_count": 24664,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        390,
+        844
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/before/390x844/05-transport.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 390,
+      "height": 844,
+      "bytes": 332692,
+      "color_count": 24287,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        390,
+        844
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/before/390x844/06-won.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 390,
+      "height": 844,
+      "bytes": 300282,
+      "color_count": 24097,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        390,
+        844
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/before/390x844/07-paused-won.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 390,
+      "height": 844,
+      "bytes": 204459,
+      "color_count": 6120,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        390,
+        844
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/bench/received.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 960,
+      "height": 800,
+      "bytes": 109626,
+      "color_count": 7598,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        960,
+        800
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/bench/rest.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 960,
+      "height": 800,
+      "bytes": 111996,
+      "color_count": 7569,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        960,
+        800
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/bench/rotated.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 960,
+      "height": 800,
+      "bytes": 106061,
+      "color_count": 7397,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        960,
+        800
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/grayscale/01-preparation.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 390,
+      "height": 844,
+      "bytes": 107730,
+      "color_count": 192,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        390,
+        844
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/grayscale/02-rotation-hover.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 390,
+      "height": 844,
+      "bytes": 111327,
+      "color_count": 192,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        390,
+        844
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/grayscale/03-rotation-two.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 390,
+      "height": 844,
+      "bytes": 111335,
+      "color_count": 192,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        390,
+        844
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/grayscale/04-ready.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 390,
+      "height": 844,
+      "bytes": 108565,
+      "color_count": 192,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        390,
+        844
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/grayscale/05-transport.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 390,
+      "height": 844,
+      "bytes": 107563,
+      "color_count": 192,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        390,
+        844
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/grayscale/06-won.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 390,
+      "height": 844,
+      "bytes": 103166,
+      "color_count": 192,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        390,
+        844
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/grayscale/07-paused-won.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 390,
+      "height": 844,
+      "bytes": 54661,
+      "color_count": 199,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        390,
+        844
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/landscape/01-preparation.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 844,
+      "height": 390,
+      "bytes": 139460,
+      "color_count": 7852,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        844,
+        390
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/landscape/02-rotation-hover.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 844,
+      "height": 390,
+      "bytes": 140789,
+      "color_count": 7729,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        844,
+        390
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/landscape/03-rotation-two.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 844,
+      "height": 390,
+      "bytes": 140631,
+      "color_count": 7706,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        844,
+        390
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/landscape/04-ready.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 844,
+      "height": 390,
+      "bytes": 139013,
+      "color_count": 7733,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        844,
+        390
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/landscape/05-transport.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 844,
+      "height": 390,
+      "bytes": 138395,
+      "color_count": 7556,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        844,
+        390
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/landscape/06-won.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 844,
+      "height": 390,
+      "bytes": 133901,
+      "color_count": 7401,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        844,
+        390
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/landscape/07-paused-won.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 844,
+      "height": 390,
+      "bytes": 108049,
+      "color_count": 4511,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        844,
+        390
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/tablet/01-preparation.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 800,
+      "height": 1067,
+      "bytes": 459423,
+      "color_count": 18420,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        800,
+        1067
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/tablet/02-rotation-hover.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 800,
+      "height": 1067,
+      "bytes": 466389,
+      "color_count": 18237,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        800,
+        1067
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/tablet/03-rotation-two.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 800,
+      "height": 1067,
+      "bytes": 465810,
+      "color_count": 18230,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        800,
+        1067
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/tablet/04-ready.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 800,
+      "height": 1067,
+      "bytes": 460283,
+      "color_count": 18479,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        800,
+        1067
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/tablet/05-transport.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 800,
+      "height": 1067,
+      "bytes": 457373,
+      "color_count": 17468,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        800,
+        1067
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/tablet/06-won.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 800,
+      "height": 1067,
+      "bytes": 447057,
+      "color_count": 17518,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        800,
+        1067
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/tablet/07-paused-won.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 800,
+      "height": 1067,
+      "bytes": 178581,
+      "color_count": 5662,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        800,
+        1067
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/text125/01-preparation.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 360,
+      "height": 640,
+      "bytes": 141944,
+      "color_count": 8995,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/text125/02-rotation-hover.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 360,
+      "height": 640,
+      "bytes": 143308,
+      "color_count": 8881,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/text125/03-rotation-two.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 360,
+      "height": 640,
+      "bytes": 143096,
+      "color_count": 8873,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/text125/04-ready.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 360,
+      "height": 640,
+      "bytes": 142134,
+      "color_count": 8951,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/text125/05-transport.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 360,
+      "height": 640,
+      "bytes": 140539,
+      "color_count": 8620,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/text125/06-won.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 360,
+      "height": 640,
+      "bytes": 136504,
+      "color_count": 8579,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/text125/07-paused-won.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 360,
+      "height": 640,
+      "bytes": 46950,
+      "color_count": 1766,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/text150/01-preparation.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 430,
+      "height": 932,
+      "bytes": 213754,
+      "color_count": 10695,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        430,
+        932
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/text150/02-rotation-hover.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 430,
+      "height": 932,
+      "bytes": 221532,
+      "color_count": 10300,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        430,
+        932
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/text150/03-rotation-two.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 430,
+      "height": 932,
+      "bytes": 221548,
+      "color_count": 10314,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        430,
+        932
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/text150/04-ready.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 430,
+      "height": 932,
+      "bytes": 216166,
+      "color_count": 10560,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        430,
+        932
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/text150/05-transport.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 430,
+      "height": 932,
+      "bytes": 217440,
+      "color_count": 9792,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        430,
+        932
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/text150/06-won.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 430,
+      "height": 932,
+      "bytes": 204327,
+      "color_count": 10046,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        430,
+        932
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/text150/07-paused-won.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 430,
+      "height": 932,
+      "bytes": 100200,
+      "color_count": 2921,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        430,
+        932
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/tooltip-control.png",
+      "format": "PNG",
+      "mode": "RGBA",
+      "width": 390,
+      "height": 844,
+      "bytes": 334893,
+      "color_count": 24780,
+      "has_alpha": true,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        390,
+        844
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/web/01-preparation.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 1179,
+      "height": 2556,
+      "bytes": 1156475,
+      "color_count": 21342,
+      "has_alpha": false,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        1179,
+        2556
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/web/02-rotation.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 1179,
+      "height": 2556,
+      "bytes": 1170505,
+      "color_count": 21086,
+      "has_alpha": false,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        1179,
+        2556
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/web/04-ready.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 1179,
+      "height": 2556,
+      "bytes": 1158591,
+      "color_count": 21290,
+      "has_alpha": false,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        1179,
+        2556
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/web/05-transport.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 1179,
+      "height": 2556,
+      "bytes": 1155203,
+      "color_count": 20316,
+      "has_alpha": false,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        1179,
+        2556
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/web/06-won.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 1179,
+      "height": 2556,
+      "bytes": 1133658,
+      "color_count": 20179,
+      "has_alpha": false,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        1179,
+        2556
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/web/07-paused-won.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 1179,
+      "height": 2556,
+      "bytes": 239227,
+      "color_count": 4000,
+      "has_alpha": false,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        1179,
+        2556
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/web/browser-restarted.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 1179,
+      "height": 2556,
+      "bytes": 1165667,
+      "color_count": 21399,
+      "has_alpha": false,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        1179,
+        2556
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/web/error.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 1179,
+      "height": 2556,
+      "bytes": 1163843,
+      "color_count": 20839,
+      "has_alpha": false,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        1179,
+        2556
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/web/restored.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 1179,
+      "height": 2556,
+      "bytes": 1165667,
+      "color_count": 21399,
+      "has_alpha": false,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        1179,
+        2556
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/web/synthetic-return-paused.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 1179,
+      "height": 2556,
+      "bytes": 254233,
+      "color_count": 4206,
+      "has_alpha": false,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        1179,
+        2556
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/web-compact/01-preparation.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 937276,
+      "color_count": 19727,
+      "has_alpha": false,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/web-compact/02-rotation.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 945450,
+      "color_count": 19470,
+      "has_alpha": false,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/web-compact/04-ready.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 937994,
+      "color_count": 19653,
+      "has_alpha": false,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/web-compact/05-transport.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 935784,
+      "color_count": 18868,
+      "has_alpha": false,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/web-compact/06-won.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 919644,
+      "color_count": 18741,
+      "has_alpha": false,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/web-compact/07-paused-won.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 189011,
+      "color_count": 3329,
+      "has_alpha": false,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/web-compact/browser-restarted.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 943429,
+      "color_count": 19703,
+      "has_alpha": false,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/web-compact/error.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 940993,
+      "color_count": 19303,
+      "has_alpha": false,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/web-compact/restored.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 943429,
+      "color_count": 19703,
+      "has_alpha": false,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/web-compact/synthetic-return-paused.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 199316,
+      "color_count": 3499,
+      "has_alpha": false,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/web-landscape/01-preparation.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 2532,
+      "height": 1170,
+      "bytes": 965893,
+      "color_count": 20065,
+      "has_alpha": false,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        2532,
+        1170
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/web-landscape/02-rotation.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 2532,
+      "height": 1170,
+      "bytes": 974915,
+      "color_count": 19717,
+      "has_alpha": false,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        2532,
+        1170
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/web-landscape/04-ready.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 2532,
+      "height": 1170,
+      "bytes": 966328,
+      "color_count": 19620,
+      "has_alpha": false,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        2532,
+        1170
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/web-landscape/05-transport.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 2532,
+      "height": 1170,
+      "bytes": 964677,
+      "color_count": 18889,
+      "has_alpha": false,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        2532,
+        1170
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/web-landscape/06-won.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 2532,
+      "height": 1170,
+      "bytes": 948022,
+      "color_count": 18771,
+      "has_alpha": false,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        2532,
+        1170
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/web-landscape/07-paused-won.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 2532,
+      "height": 1170,
+      "bytes": 662694,
+      "color_count": 10122,
+      "has_alpha": false,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        2532,
+        1170
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/web-landscape/browser-restarted.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 2532,
+      "height": 1170,
+      "bytes": 972762,
+      "color_count": 19938,
+      "has_alpha": false,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        2532,
+        1170
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/web-landscape/error.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 2532,
+      "height": 1170,
+      "bytes": 970885,
+      "color_count": 19705,
+      "has_alpha": false,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        2532,
+        1170
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/web-landscape/restored.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 2532,
+      "height": 1170,
+      "bytes": 972762,
+      "color_count": 19938,
+      "has_alpha": false,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        2532,
+        1170
+      ],
+      "problems": []
+    },
+    {
+      "path": "C:/Users/malik/Developpement/studio-100-games/docs/art/switchworks/postal-workshop-2026-11-16/evidence/web-landscape/synthetic-return-paused.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "width": 2532,
+      "height": 1170,
+      "bytes": 661834,
+      "color_count": 10898,
+      "has_alpha": false,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "content_bounds": [
+        0,
+        0,
+        2532,
+        1170
+      ],
+      "problems": []
+    }
+  ]
+}

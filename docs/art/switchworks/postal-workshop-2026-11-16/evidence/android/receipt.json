@@ -1,0 +1,1590 @@
+{
+  "context": "ANDROID_EMULATOR_NOT_PHYSICAL",
+  "package": "org.studio100games.switchworks.postal.ui",
+  "serial": "emulator-5580",
+  "avd": "Studio_API_36",
+  "adb_server_port": 5041,
+  "checks": [
+    {
+      "name": "dedicated studio AVD",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "only isolated study package",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "install study, never replace polish APK",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "activity belongs to study",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one application PID",
+      "passed": true,
+      "detail": "11010"
+    },
+    {
+      "name": "1080x2340 actual app window matches profile",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/pause inside device",
+      "passed": true,
+      "detail": [
+        939,
+        458
+      ]
+    },
+    {
+      "name": "target buttons/restart inside device",
+      "passed": true,
+      "detail": [
+        540,
+        1254
+      ]
+    },
+    {
+      "name": "capture planning is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target cells/8 inside device",
+      "passed": true,
+      "detail": [
+        455,
+        927
+      ]
+    },
+    {
+      "name": "1080x2340 one tap, one rotation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "capture rotation-1 is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target cells/16 inside device",
+      "passed": true,
+      "detail": [
+        795,
+        1079
+      ]
+    },
+    {
+      "name": "capture rotation-2 is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/undo inside device",
+      "passed": true,
+      "detail": [
+        194,
+        2034
+      ]
+    },
+    {
+      "name": "target buttons/undo inside device",
+      "passed": true,
+      "detail": [
+        194,
+        2034
+      ]
+    },
+    {
+      "name": "1080x2340 undo restores ports",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target cells/6 inside device",
+      "passed": true,
+      "detail": [
+        115,
+        927
+      ]
+    },
+    {
+      "name": "1080x2340 source remains fixed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/dispatch inside device",
+      "passed": true,
+      "detail": [
+        564,
+        2034
+      ]
+    },
+    {
+      "name": "capture failed is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/pause inside device",
+      "passed": true,
+      "detail": [
+        939,
+        458
+      ]
+    },
+    {
+      "name": "target buttons/restart inside device",
+      "passed": true,
+      "detail": [
+        540,
+        1254
+      ]
+    },
+    {
+      "name": "target cells/8 inside device",
+      "passed": true,
+      "detail": [
+        455,
+        927
+      ]
+    },
+    {
+      "name": "target cells/16 inside device",
+      "passed": true,
+      "detail": [
+        795,
+        1079
+      ]
+    },
+    {
+      "name": "target cells/19 inside device",
+      "passed": true,
+      "detail": [
+        285,
+        1231
+      ]
+    },
+    {
+      "name": "target cells/21 inside device",
+      "passed": true,
+      "detail": [
+        625,
+        1231
+      ]
+    },
+    {
+      "name": "target cells/25 inside device",
+      "passed": true,
+      "detail": [
+        285,
+        1382
+      ]
+    },
+    {
+      "name": "target cells/27 inside device",
+      "passed": true,
+      "detail": [
+        625,
+        1382
+      ]
+    },
+    {
+      "name": "capture prepared is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/dispatch inside device",
+      "passed": true,
+      "detail": [
+        564,
+        2034
+      ]
+    },
+    {
+      "name": "target buttons/pause inside device",
+      "passed": true,
+      "detail": [
+        939,
+        458
+      ]
+    },
+    {
+      "name": "capture paused is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/resume inside device",
+      "passed": true,
+      "detail": [
+        540,
+        1074
+      ]
+    },
+    {
+      "name": "capture won is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1080x2340 two real receptions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "screenrecord completed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/pause inside device",
+      "passed": true,
+      "detail": [
+        939,
+        458
+      ]
+    },
+    {
+      "name": "capture paused-won is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/restart inside device",
+      "passed": true,
+      "detail": [
+        540,
+        1290
+      ]
+    },
+    {
+      "name": "target cells/8 inside device",
+      "passed": true,
+      "detail": [
+        455,
+        927
+      ]
+    },
+    {
+      "name": "capture home-return is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/resume inside device",
+      "passed": true,
+      "detail": [
+        540,
+        1074
+      ]
+    },
+    {
+      "name": "1080x2340 Home preserves rotation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one application PID",
+      "passed": true,
+      "detail": "11861"
+    },
+    {
+      "name": "1080x2340 process restart restores preparation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1080x2340 runtime clean",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one application PID",
+      "passed": true,
+      "detail": "11985"
+    },
+    {
+      "name": "720x1280 actual app window matches profile",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/pause inside device",
+      "passed": true,
+      "detail": [
+        626,
+        157
+      ]
+    },
+    {
+      "name": "target buttons/restart inside device",
+      "passed": true,
+      "detail": [
+        360,
+        688
+      ]
+    },
+    {
+      "name": "capture planning is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target cells/8 inside device",
+      "passed": true,
+      "detail": [
+        303,
+        470
+      ]
+    },
+    {
+      "name": "720x1280 one tap, one rotation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "capture rotation-1 is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target cells/16 inside device",
+      "passed": true,
+      "detail": [
+        530,
+        571
+      ]
+    },
+    {
+      "name": "capture rotation-2 is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/undo inside device",
+      "passed": true,
+      "detail": [
+        129,
+        1208
+      ]
+    },
+    {
+      "name": "target buttons/undo inside device",
+      "passed": true,
+      "detail": [
+        129,
+        1208
+      ]
+    },
+    {
+      "name": "720x1280 undo restores ports",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target cells/6 inside device",
+      "passed": true,
+      "detail": [
+        77,
+        470
+      ]
+    },
+    {
+      "name": "720x1280 source remains fixed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/dispatch inside device",
+      "passed": true,
+      "detail": [
+        376,
+        1208
+      ]
+    },
+    {
+      "name": "capture failed is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/pause inside device",
+      "passed": true,
+      "detail": [
+        626,
+        157
+      ]
+    },
+    {
+      "name": "target buttons/restart inside device",
+      "passed": true,
+      "detail": [
+        360,
+        688
+      ]
+    },
+    {
+      "name": "target cells/8 inside device",
+      "passed": true,
+      "detail": [
+        303,
+        470
+      ]
+    },
+    {
+      "name": "target cells/16 inside device",
+      "passed": true,
+      "detail": [
+        530,
+        571
+      ]
+    },
+    {
+      "name": "target cells/19 inside device",
+      "passed": true,
+      "detail": [
+        190,
+        672
+      ]
+    },
+    {
+      "name": "target cells/21 inside device",
+      "passed": true,
+      "detail": [
+        417,
+        672
+      ]
+    },
+    {
+      "name": "target cells/25 inside device",
+      "passed": true,
+      "detail": [
+        190,
+        774
+      ]
+    },
+    {
+      "name": "target cells/27 inside device",
+      "passed": true,
+      "detail": [
+        417,
+        774
+      ]
+    },
+    {
+      "name": "capture prepared is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/dispatch inside device",
+      "passed": true,
+      "detail": [
+        376,
+        1208
+      ]
+    },
+    {
+      "name": "target buttons/pause inside device",
+      "passed": true,
+      "detail": [
+        626,
+        157
+      ]
+    },
+    {
+      "name": "capture paused is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/resume inside device",
+      "passed": true,
+      "detail": [
+        360,
+        568
+      ]
+    },
+    {
+      "name": "capture won is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "720x1280 two real receptions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/pause inside device",
+      "passed": true,
+      "detail": [
+        626,
+        157
+      ]
+    },
+    {
+      "name": "capture paused-won is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/restart inside device",
+      "passed": true,
+      "detail": [
+        360,
+        712
+      ]
+    },
+    {
+      "name": "target cells/8 inside device",
+      "passed": true,
+      "detail": [
+        303,
+        470
+      ]
+    },
+    {
+      "name": "capture home-return is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/resume inside device",
+      "passed": true,
+      "detail": [
+        360,
+        568
+      ]
+    },
+    {
+      "name": "720x1280 Home preserves rotation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one application PID",
+      "passed": true,
+      "detail": "12567"
+    },
+    {
+      "name": "720x1280 process restart restores preparation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "720x1280 runtime clean",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one application PID",
+      "passed": true,
+      "detail": "12728"
+    },
+    {
+      "name": "2340x1080 actual app window matches profile",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/pause inside device",
+      "passed": true,
+      "detail": [
+        2199,
+        154
+      ]
+    },
+    {
+      "name": "target buttons/restart inside device",
+      "passed": true,
+      "detail": [
+        1170,
+        589
+      ]
+    },
+    {
+      "name": "capture planning is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target cells/8 inside device",
+      "passed": true,
+      "detail": [
+        371,
+        484
+      ]
+    },
+    {
+      "name": "2340x1080 one tap, one rotation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "capture rotation-1 is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target cells/16 inside device",
+      "passed": true,
+      "detail": [
+        651,
+        609
+      ]
+    },
+    {
+      "name": "capture rotation-2 is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/undo inside device",
+      "passed": true,
+      "detail": [
+        1130,
+        818
+      ]
+    },
+    {
+      "name": "target buttons/undo inside device",
+      "passed": true,
+      "detail": [
+        1130,
+        818
+      ]
+    },
+    {
+      "name": "2340x1080 undo restores ports",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target cells/6 inside device",
+      "passed": true,
+      "detail": [
+        91,
+        484
+      ]
+    },
+    {
+      "name": "2340x1080 source remains fixed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/dispatch inside device",
+      "passed": true,
+      "detail": [
+        1662,
+        818
+      ]
+    },
+    {
+      "name": "capture failed is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/pause inside device",
+      "passed": true,
+      "detail": [
+        2199,
+        154
+      ]
+    },
+    {
+      "name": "target buttons/restart inside device",
+      "passed": true,
+      "detail": [
+        1170,
+        589
+      ]
+    },
+    {
+      "name": "target cells/8 inside device",
+      "passed": true,
+      "detail": [
+        371,
+        484
+      ]
+    },
+    {
+      "name": "target cells/16 inside device",
+      "passed": true,
+      "detail": [
+        651,
+        609
+      ]
+    },
+    {
+      "name": "target cells/19 inside device",
+      "passed": true,
+      "detail": [
+        231,
+        734
+      ]
+    },
+    {
+      "name": "target cells/21 inside device",
+      "passed": true,
+      "detail": [
+        511,
+        734
+      ]
+    },
+    {
+      "name": "target cells/25 inside device",
+      "passed": true,
+      "detail": [
+        231,
+        859
+      ]
+    },
+    {
+      "name": "target cells/27 inside device",
+      "passed": true,
+      "detail": [
+        511,
+        859
+      ]
+    },
+    {
+      "name": "capture prepared is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/dispatch inside device",
+      "passed": true,
+      "detail": [
+        1662,
+        818
+      ]
+    },
+    {
+      "name": "target buttons/pause inside device",
+      "passed": true,
+      "detail": [
+        2199,
+        154
+      ]
+    },
+    {
+      "name": "capture paused is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/resume inside device",
+      "passed": true,
+      "detail": [
+        1170,
+        409
+      ]
+    },
+    {
+      "name": "capture won is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2340x1080 two real receptions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/pause inside device",
+      "passed": true,
+      "detail": [
+        2199,
+        154
+      ]
+    },
+    {
+      "name": "capture paused-won is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/restart inside device",
+      "passed": true,
+      "detail": [
+        1170,
+        627
+      ]
+    },
+    {
+      "name": "target cells/8 inside device",
+      "passed": true,
+      "detail": [
+        371,
+        484
+      ]
+    },
+    {
+      "name": "capture home-return is PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "target buttons/resume inside device",
+      "passed": true,
+      "detail": [
+        1170,
+        409
+      ]
+    },
+    {
+      "name": "2340x1080 Home preserves rotation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one application PID",
+      "passed": true,
+      "detail": "13299"
+    },
+    {
+      "name": "2340x1080 process restart restores preparation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2340x1080 runtime clean",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "profiles": [
+    {
+      "display": "1080x2340",
+      "layout": {
+        "buttons": {
+          "dispatch": [
+            564,
+            2034
+          ],
+          "hint": [
+            911,
+            2034
+          ],
+          "pause": [
+            939,
+            458
+          ],
+          "reduce_motion": [
+            263,
+            201
+          ],
+          "restart": [
+            177,
+            201
+          ],
+          "resume": [
+            158,
+            201
+          ],
+          "sound": [
+            210,
+            201
+          ],
+          "undo": [
+            194,
+            2034
+          ],
+          "victory_replay": [
+            564,
+            2034
+          ]
+        },
+        "cells": {
+          "0": [
+            115,
+            775
+          ],
+          "1": [
+            285,
+            775
+          ],
+          "10": [
+            795,
+            927
+          ],
+          "11": [
+            965,
+            927
+          ],
+          "12": [
+            115,
+            1079
+          ],
+          "13": [
+            285,
+            1079
+          ],
+          "14": [
+            455,
+            1079
+          ],
+          "15": [
+            625,
+            1079
+          ],
+          "16": [
+            795,
+            1079
+          ],
+          "17": [
+            965,
+            1079
+          ],
+          "18": [
+            115,
+            1231
+          ],
+          "19": [
+            285,
+            1231
+          ],
+          "2": [
+            455,
+            775
+          ],
+          "20": [
+            455,
+            1231
+          ],
+          "21": [
+            625,
+            1231
+          ],
+          "22": [
+            795,
+            1231
+          ],
+          "23": [
+            965,
+            1231
+          ],
+          "24": [
+            115,
+            1382
+          ],
+          "25": [
+            285,
+            1382
+          ],
+          "26": [
+            455,
+            1382
+          ],
+          "27": [
+            625,
+            1382
+          ],
+          "28": [
+            795,
+            1382
+          ],
+          "29": [
+            965,
+            1382
+          ],
+          "3": [
+            625,
+            775
+          ],
+          "30": [
+            115,
+            1534
+          ],
+          "31": [
+            285,
+            1534
+          ],
+          "32": [
+            455,
+            1534
+          ],
+          "33": [
+            625,
+            1534
+          ],
+          "34": [
+            795,
+            1534
+          ],
+          "35": [
+            965,
+            1534
+          ],
+          "4": [
+            795,
+            775
+          ],
+          "5": [
+            965,
+            775
+          ],
+          "6": [
+            115,
+            927
+          ],
+          "7": [
+            285,
+            927
+          ],
+          "8": [
+            455,
+            927
+          ],
+          "9": [
+            625,
+            927
+          ]
+        },
+        "logical_viewport": [
+          360.0,
+          780.0
+        ],
+        "phase": "planning",
+        "window": [
+          1080,
+          2340
+        ]
+      },
+      "recording_influences_first_profile": true,
+      "observed_metrics": [
+        {
+          "draw_calls_max": 206.0,
+          "draw_calls_p50": 206.0,
+          "limits": "process wall intervals, not GPU timing; cache, debugger, emulator, recording and synthetic tests affect values",
+          "platform": "Android",
+          "process_interval_p50_ms": 33.421,
+          "process_interval_p95_ms": 38.968,
+          "result_phase": "failed",
+          "samples": 20,
+          "static_memory_bytes": 43271823.0,
+          "video_fixed_fps": false
+        },
+        {
+          "draw_calls_max": 207.0,
+          "draw_calls_p50": 207.0,
+          "limits": "process wall intervals, not GPU timing; cache, debugger, emulator, recording and synthetic tests affect values",
+          "platform": "Android",
+          "process_interval_p50_ms": 45.221,
+          "process_interval_p95_ms": 84.111,
+          "result_phase": "won",
+          "samples": 52,
+          "static_memory_bytes": 43304105.0,
+          "video_fixed_fps": false
+        }
+      ]
+    },
+    {
+      "display": "720x1280",
+      "layout": {
+        "buttons": {
+          "dispatch": [
+            376,
+            1208
+          ],
+          "hint": [
+            607,
+            1208
+          ],
+          "pause": [
+            626,
+            157
+          ],
+          "reduce_motion": [
+            175,
+            118
+          ],
+          "restart": [
+            118,
+            118
+          ],
+          "resume": [
+            105,
+            118
+          ],
+          "sound": [
+            140,
+            118
+          ],
+          "undo": [
+            129,
+            1208
+          ],
+          "victory_replay": [
+            376,
+            1208
+          ]
+        },
+        "cells": {
+          "0": [
+            77,
+            369
+          ],
+          "1": [
+            190,
+            369
+          ],
+          "10": [
+            530,
+            470
+          ],
+          "11": [
+            643,
+            470
+          ],
+          "12": [
+            77,
+            571
+          ],
+          "13": [
+            190,
+            571
+          ],
+          "14": [
+            303,
+            571
+          ],
+          "15": [
+            417,
+            571
+          ],
+          "16": [
+            530,
+            571
+          ],
+          "17": [
+            643,
+            571
+          ],
+          "18": [
+            77,
+            672
+          ],
+          "19": [
+            190,
+            672
+          ],
+          "2": [
+            303,
+            369
+          ],
+          "20": [
+            303,
+            672
+          ],
+          "21": [
+            417,
+            672
+          ],
+          "22": [
+            530,
+            672
+          ],
+          "23": [
+            643,
+            672
+          ],
+          "24": [
+            77,
+            774
+          ],
+          "25": [
+            190,
+            774
+          ],
+          "26": [
+            303,
+            774
+          ],
+          "27": [
+            417,
+            774
+          ],
+          "28": [
+            530,
+            774
+          ],
+          "29": [
+            643,
+            774
+          ],
+          "3": [
+            417,
+            369
+          ],
+          "30": [
+            77,
+            875
+          ],
+          "31": [
+            190,
+            875
+          ],
+          "32": [
+            303,
+            875
+          ],
+          "33": [
+            417,
+            875
+          ],
+          "34": [
+            530,
+            875
+          ],
+          "35": [
+            643,
+            875
+          ],
+          "4": [
+            530,
+            369
+          ],
+          "5": [
+            643,
+            369
+          ],
+          "6": [
+            77,
+            470
+          ],
+          "7": [
+            190,
+            470
+          ],
+          "8": [
+            303,
+            470
+          ],
+          "9": [
+            417,
+            470
+          ]
+        },
+        "logical_viewport": [
+          360.0,
+          640.0
+        ],
+        "phase": "planning",
+        "window": [
+          720,
+          1280
+        ]
+      },
+      "recording_influences_first_profile": false,
+      "observed_metrics": [
+        {
+          "draw_calls_max": 206.0,
+          "draw_calls_p50": 206.0,
+          "limits": "process wall intervals, not GPU timing; cache, debugger, emulator, recording and synthetic tests affect values",
+          "platform": "Android",
+          "process_interval_p50_ms": 33.392,
+          "process_interval_p95_ms": 38.66,
+          "result_phase": "failed",
+          "samples": 20,
+          "static_memory_bytes": 42090951.0,
+          "video_fixed_fps": false
+        },
+        {
+          "draw_calls_max": 207.0,
+          "draw_calls_p50": 207.0,
+          "limits": "process wall intervals, not GPU timing; cache, debugger, emulator, recording and synthetic tests affect values",
+          "platform": "Android",
+          "process_interval_p50_ms": 33.351,
+          "process_interval_p95_ms": 35.87,
+          "result_phase": "won",
+          "samples": 70,
+          "static_memory_bytes": 42127969.0,
+          "video_fixed_fps": false
+        }
+      ]
+    },
+    {
+      "display": "2340x1080",
+      "layout": {
+        "buttons": {
+          "dispatch": [
+            1662,
+            818
+          ],
+          "hint": [
+            2171,
+            818
+          ],
+          "pause": [
+            2199,
+            154
+          ],
+          "reduce_motion": [
+            263,
+            131
+          ],
+          "restart": [
+            177,
+            131
+          ],
+          "resume": [
+            158,
+            131
+          ],
+          "sound": [
+            210,
+            131
+          ],
+          "undo": [
+            1130,
+            818
+          ],
+          "victory_replay": [
+            1662,
+            818
+          ]
+        },
+        "cells": {
+          "0": [
+            91,
+            359
+          ],
+          "1": [
+            231,
+            359
+          ],
+          "10": [
+            651,
+            484
+          ],
+          "11": [
+            791,
+            484
+          ],
+          "12": [
+            91,
+            609
+          ],
+          "13": [
+            231,
+            609
+          ],
+          "14": [
+            371,
+            609
+          ],
+          "15": [
+            511,
+            609
+          ],
+          "16": [
+            651,
+            609
+          ],
+          "17": [
+            791,
+            609
+          ],
+          "18": [
+            91,
+            734
+          ],
+          "19": [
+            231,
+            734
+          ],
+          "2": [
+            371,
+            359
+          ],
+          "20": [
+            371,
+            734
+          ],
+          "21": [
+            511,
+            734
+          ],
+          "22": [
+            651,
+            734
+          ],
+          "23": [
+            791,
+            734
+          ],
+          "24": [
+            91,
+            859
+          ],
+          "25": [
+            231,
+            859
+          ],
+          "26": [
+            371,
+            859
+          ],
+          "27": [
+            511,
+            859
+          ],
+          "28": [
+            651,
+            859
+          ],
+          "29": [
+            791,
+            859
+          ],
+          "3": [
+            511,
+            359
+          ],
+          "30": [
+            91,
+            984
+          ],
+          "31": [
+            231,
+            984
+          ],
+          "32": [
+            371,
+            984
+          ],
+          "33": [
+            511,
+            984
+          ],
+          "34": [
+            651,
+            984
+          ],
+          "35": [
+            791,
+            984
+          ],
+          "4": [
+            651,
+            359
+          ],
+          "5": [
+            791,
+            359
+          ],
+          "6": [
+            91,
+            484
+          ],
+          "7": [
+            231,
+            484
+          ],
+          "8": [
+            371,
+            484
+          ],
+          "9": [
+            511,
+            484
+          ]
+        },
+        "logical_viewport": [
+          780.0,
+          360.0
+        ],
+        "phase": "planning",
+        "window": [
+          2340,
+          1080
+        ]
+      },
+      "recording_influences_first_profile": false,
+      "observed_metrics": [
+        {
+          "draw_calls_max": 206.0,
+          "draw_calls_p50": 206.0,
+          "limits": "process wall intervals, not GPU timing; cache, debugger, emulator, recording and synthetic tests affect values",
+          "platform": "Android",
+          "process_interval_p50_ms": 33.055,
+          "process_interval_p95_ms": 36.59,
+          "result_phase": "failed",
+          "samples": 21,
+          "static_memory_bytes": 43270359.0,
+          "video_fixed_fps": false
+        },
+        {
+          "draw_calls_max": 207.0,
+          "draw_calls_p50": 207.0,
+          "limits": "process wall intervals, not GPU timing; cache, debugger, emulator, recording and synthetic tests affect values",
+          "platform": "Android",
+          "process_interval_p50_ms": 33.406,
+          "process_interval_p95_ms": 35.754,
+          "result_phase": "won",
+          "samples": 70,
+          "static_memory_bytes": 43307585.0,
+          "video_fixed_fps": false
+        }
+      ]
+    }
+  ],
+  "apk_sha256": "439642453891b3d38dfd819a1add55a9835ef31711fe61be6ca3387797174d10",
+  "apk_bytes": 62247260,
+  "original_display": "Physical size: 1080x2400",
+  "density": "Physical density: 420",
+  "android_api": "36",
+  "gpu_backend": "host",
+  "activity": "org.studio100games.switchworks.postal.ui/com.godot.game.GodotAppLauncher",
+  "processes": [
+    {
+      "pid": "11010",
+      "launch": "Starting: Intent { cmp=org.studio100games.switchworks.postal.ui/com.godot.game.GodotAppLauncher }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: org.studio100games.switchworks.postal.ui/com.godot.game.GodotApp\r\nTotalTime: 2207\r\nWaitTime: 2210\r\nComplete",
+      "first_frame_since_ready_ms": 2249.2
+    },
+    {
+      "pid": "11861",
+      "launch": "Starting: Intent { cmp=org.studio100games.switchworks.postal.ui/com.godot.game.GodotAppLauncher }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: org.studio100games.switchworks.postal.ui/com.godot.game.GodotApp\r\nTotalTime: 2203\r\nWaitTime: 2207\r\nComplete",
+      "first_frame_since_ready_ms": 1405.65
+    },
+    {
+      "pid": "11985",
+      "launch": "Starting: Intent { cmp=org.studio100games.switchworks.postal.ui/com.godot.game.GodotAppLauncher }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: org.studio100games.switchworks.postal.ui/com.godot.game.GodotApp\r\nTotalTime: 2162\r\nWaitTime: 2163\r\nComplete",
+      "first_frame_since_ready_ms": 2317.52
+    },
+    {
+      "pid": "12567",
+      "launch": "Starting: Intent { cmp=org.studio100games.switchworks.postal.ui/com.godot.game.GodotAppLauncher }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: org.studio100games.switchworks.postal.ui/com.godot.game.GodotApp\r\nTotalTime: 1605\r\nWaitTime: 1637\r\nComplete",
+      "first_frame_since_ready_ms": 1461.54
+    },
+    {
+      "pid": "12728",
+      "launch": "Starting: Intent { cmp=org.studio100games.switchworks.postal.ui/com.godot.game.GodotAppLauncher }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: org.studio100games.switchworks.postal.ui/com.godot.game.GodotApp\r\nTotalTime: 2280\r\nWaitTime: 2281\r\nComplete",
+      "first_frame_since_ready_ms": 2175.84
+    },
+    {
+      "pid": "13299",
+      "launch": "Starting: Intent { cmp=org.studio100games.switchworks.postal.ui/com.godot.game.GodotAppLauncher }\r\nStatus: ok\r\nLaunchState: COLD\r\nActivity: org.studio100games.switchworks.postal.ui/com.godot.game.GodotApp\r\nTotalTime: 1480\r\nWaitTime: 1482\r\nComplete",
+      "first_frame_since_ready_ms": 1386.05
+    }
+  ],
+  "status": "passed",
+  "restored_display": "Physical size: 1080x2400",
+  "restored_density": "Physical density: 420"
+}

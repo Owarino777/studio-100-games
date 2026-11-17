@@ -1,0 +1,378 @@
+{
+  "models": [
+    {
+      "id": "boite_a",
+      "bytes": 318988,
+      "sha256": "daa709f2d20361cddf0fa87f318291cb2efcdeedb64c64462c42e3a57a822813",
+      "mesh_triangles": 2132,
+      "degenerate_triangles": 0,
+      "faces_against_normals": 0,
+      "local_mesh_bounds_before_node_transforms": [
+        [
+          -0.5,
+          -0.4699999988079071,
+          -0.39500004053115845
+        ],
+        [
+          0.4300000071525574,
+          0.7459999918937683,
+          0.42454320192337036
+        ]
+      ],
+      "ports": [
+        {
+          "name": "Port8",
+          "translation": [
+            -0.5,
+            0.17499999701976776,
+            0.0
+          ]
+        }
+      ],
+      "rail_geometry_border_ports": [
+        8
+      ],
+      "embedded_dependencies": true,
+      "limitations": "GLB structure and geometry inspection, not full Khronos certification; open rail end caps and separated solids intentional; animation checked in Godot"
+    },
+    {
+      "id": "boite_b",
+      "bytes": 322796,
+      "sha256": "ece0a61ec9287e29f1086b7c3dd201bf7a044f5b823a4779a967bedccd3f1c2a",
+      "mesh_triangles": 2157,
+      "degenerate_triangles": 0,
+      "faces_against_normals": 0,
+      "local_mesh_bounds_before_node_transforms": [
+        [
+          -0.5,
+          -0.4699999988079071,
+          -0.39500004053115845
+        ],
+        [
+          0.4300000071525574,
+          0.7459999918937683,
+          0.42958328127861023
+        ]
+      ],
+      "ports": [
+        {
+          "name": "Port8",
+          "translation": [
+            -0.5,
+            0.17499999701976776,
+            0.0
+          ]
+        }
+      ],
+      "rail_geometry_border_ports": [
+        8
+      ],
+      "embedded_dependencies": true,
+      "limitations": "GLB structure and geometry inspection, not full Khronos certification; open rail end caps and separated solids intentional; animation checked in Godot"
+    },
+    {
+      "id": "colis_a",
+      "bytes": 151616,
+      "sha256": "66afe2fbb54afef62fc7df7e9cb9c6e196f77ac2daa4d573a23bb45eb766dea5",
+      "mesh_triangles": 964,
+      "degenerate_triangles": 0,
+      "faces_against_normals": 0,
+      "local_mesh_bounds_before_node_transforms": [
+        [
+          -0.1550000011920929,
+          0.0,
+          -0.12999999523162842
+        ],
+        [
+          0.1550000011920929,
+          0.2549999952316284,
+          0.21569547057151794
+        ]
+      ],
+      "ports": [],
+      "rail_geometry_border_ports": [],
+      "embedded_dependencies": true,
+      "limitations": "GLB structure and geometry inspection, not full Khronos certification; open rail end caps and separated solids intentional; animation checked in Godot"
+    },
+    {
+      "id": "colis_b",
+      "bytes": 155524,
+      "sha256": "890dd0d738601f0a05f9583dac871a1bc20aceda2bf4ed3a4f616001e1287ed9",
+      "mesh_triangles": 989,
+      "degenerate_triangles": 0,
+      "faces_against_normals": 0,
+      "local_mesh_bounds_before_node_transforms": [
+        [
+          -0.1550000011920929,
+          0.0,
+          -0.12999999523162842
+        ],
+        [
+          0.1550000011920929,
+          0.2549999952316284,
+          0.21905553340911865
+        ]
+      ],
+      "ports": [],
+      "rail_geometry_border_ports": [],
+      "embedded_dependencies": true,
+      "limitations": "GLB structure and geometry inspection, not full Khronos certification; open rail end caps and separated solids intentional; animation checked in Godot"
+    },
+    {
+      "id": "guichet_a",
+      "bytes": 281548,
+      "sha256": "ff9fe7eaa6aedc8aa5638b3b6f7444d4eb750f7c4b55c51b775deb3dfbc59f24",
+      "mesh_triangles": 1809,
+      "degenerate_triangles": 0,
+      "faces_against_normals": 0,
+      "local_mesh_bounds_before_node_transforms": [
+        [
+          -0.5,
+          0.13099999725818634,
+          -0.39500004053115845
+        ],
+        [
+          0.5,
+          0.6970000267028809,
+          0.5145431756973267
+        ]
+      ],
+      "ports": [
+        {
+          "name": "Port2",
+          "translation": [
+            0.5,
+            0.17499999701976776,
+            0.0
+          ]
+        }
+      ],
+      "rail_geometry_border_ports": [
+        2
+      ],
+      "embedded_dependencies": true,
+      "limitations": "GLB structure and geometry inspection, not full Khronos certification; open rail end caps and separated solids intentional; animation checked in Godot"
+    },
+    {
+      "id": "guichet_b",
+      "bytes": 285504,
+      "sha256": "a976f95d7e8529f2a27ab7e86814dcf29df4dbafca2f740620b1155c7c604b95",
+      "mesh_triangles": 1834,
+      "degenerate_triangles": 0,
+      "faces_against_normals": 0,
+      "local_mesh_bounds_before_node_transforms": [
+        [
+          -0.5,
+          0.13099999725818634,
+          -0.39500004053115845
+        ],
+        [
+          0.5,
+          0.6970000267028809,
+          0.5195832848548889
+        ]
+      ],
+      "ports": [
+        {
+          "name": "Port2",
+          "translation": [
+            0.5,
+            0.17499999701976776,
+            0.0
+          ]
+        }
+      ],
+      "rail_geometry_border_ports": [
+        2
+      ],
+      "embedded_dependencies": true,
+      "limitations": "GLB structure and geometry inspection, not full Khronos certification; open rail end caps and separated solids intentional; animation checked in Godot"
+    },
+    {
+      "id": "socle",
+      "bytes": 36400,
+      "sha256": "01a8f34627f2b49b0c13a844357c8ddbff30b589760613ba81d8739ed6fa3ada",
+      "mesh_triangles": 320,
+      "degenerate_triangles": 0,
+      "faces_against_normals": 0,
+      "local_mesh_bounds_before_node_transforms": [
+        [
+          -3.109999895095825,
+          -0.1899999976158142,
+          -3.109999895095825
+        ],
+        [
+          3.109999895095825,
+          0.003999996930360794,
+          3.109999895095825
+        ]
+      ],
+      "ports": [],
+      "rail_geometry_border_ports": [],
+      "embedded_dependencies": true,
+      "limitations": "GLB structure and geometry inspection, not full Khronos certification; open rail end caps and separated solids intentional; animation checked in Godot"
+    },
+    {
+      "id": "tuile",
+      "bytes": 86728,
+      "sha256": "62b4071bca87f1495ce7b68a33a1484a9ddf41fa2496d82a1b0624d6c6af418a",
+      "mesh_triangles": 320,
+      "degenerate_triangles": 0,
+      "faces_against_normals": 0,
+      "local_mesh_bounds_before_node_transforms": [
+        [
+          -0.4869999885559082,
+          0.0,
+          -0.4869999885559082
+        ],
+        [
+          0.4869999885559082,
+          0.12999999523162842,
+          0.4869999885559082
+        ]
+      ],
+      "ports": [],
+      "rail_geometry_border_ports": [],
+      "embedded_dependencies": true,
+      "limitations": "GLB structure and geometry inspection, not full Khronos certification; open rail end caps and separated solids intentional; animation checked in Godot"
+    },
+    {
+      "id": "voie_coude",
+      "bytes": 417480,
+      "sha256": "45b20ba67322edea5685c9762836a68189eee351d0bf73ec7a600920e241cfe0",
+      "mesh_triangles": 2736,
+      "degenerate_triangles": 0,
+      "faces_against_normals": 0,
+      "local_mesh_bounds_before_node_transforms": [
+        [
+          -0.375,
+          0.13099999725818634,
+          -0.5009488463401794
+        ],
+        [
+          0.5009488463401794,
+          0.1979999989271164,
+          0.375
+        ]
+      ],
+      "ports": [
+        {
+          "name": "Port1",
+          "translation": [
+            0.0,
+            0.17499999701976776,
+            -0.5
+          ]
+        },
+        {
+          "name": "Port2",
+          "translation": [
+            0.5,
+            0.17499999701976776,
+            0.0
+          ]
+        }
+      ],
+      "rail_geometry_border_ports": [
+        1,
+        2
+      ],
+      "embedded_dependencies": true,
+      "limitations": "GLB structure and geometry inspection, not full Khronos certification; open rail end caps and separated solids intentional; animation checked in Godot"
+    },
+    {
+      "id": "voie_droite",
+      "bytes": 196280,
+      "sha256": "68e0c2b1ee8ad0db1b09fb280e5fbb08dd63ede90885c4924977b222c08653d4",
+      "mesh_triangles": 1264,
+      "degenerate_triangles": 0,
+      "faces_against_normals": 0,
+      "local_mesh_bounds_before_node_transforms": [
+        [
+          -0.375,
+          0.13099999725818634,
+          -0.5
+        ],
+        [
+          0.15000000596046448,
+          0.1979999989271164,
+          0.5
+        ]
+      ],
+      "ports": [
+        {
+          "name": "Port1",
+          "translation": [
+            0.0,
+            0.17499999701976776,
+            -0.5
+          ]
+        },
+        {
+          "name": "Port4",
+          "translation": [
+            0.0,
+            0.17499999701976776,
+            0.5
+          ]
+        }
+      ],
+      "rail_geometry_border_ports": [
+        1,
+        4
+      ],
+      "embedded_dependencies": true,
+      "limitations": "GLB structure and geometry inspection, not full Khronos certification; open rail end caps and separated solids intentional; animation checked in Godot"
+    }
+  ],
+  "svg_icons": [
+    {
+      "path": "ui/workshop/icons/hint.svg",
+      "sha256": "6847928ae06483f39015feb8b6c42150911b4227d41474af1bf17603e206e9ed"
+    },
+    {
+      "path": "ui/workshop/icons/replay.svg",
+      "sha256": "9047c22cfdc0bc661c2e3d0a95a1525ae8ff40ee490eb69347052f5812b013b8"
+    },
+    {
+      "path": "ui/workshop/icons/send.svg",
+      "sha256": "a4b6532c7fd8b6a17b146e04e7fd31e0958da7e87704b1288178210431217fad"
+    },
+    {
+      "path": "ui/workshop/icons/undo.svg",
+      "sha256": "fe2e833ebc0c6ac10e8813cdb7656385727cf05a2dbcd26815f6f1c2ac4a1365"
+    }
+  ],
+  "contrasts": [
+    {
+      "pair": "ink/surface",
+      "ratio": 10.761,
+      "scope": "semantic sRGB tokens,not actual 3D pixels or WCAG certification"
+    },
+    {
+      "pair": "ink/background",
+      "ratio": 9.945,
+      "scope": "semantic sRGB tokens,not actual 3D pixels or WCAG certification"
+    },
+    {
+      "pair": "surface/primary",
+      "ratio": 8.046,
+      "scope": "semantic sRGB tokens,not actual 3D pixels or WCAG certification"
+    },
+    {
+      "pair": "muted/background",
+      "ratio": 5.209,
+      "scope": "semantic sRGB tokens,not actual 3D pixels or WCAG certification"
+    },
+    {
+      "pair": "label A",
+      "ratio": 5.218,
+      "scope": "semantic sRGB tokens,not actual 3D pixels or WCAG certification"
+    },
+    {
+      "pair": "label B",
+      "ratio": 4.619,
+      "scope": "semantic sRGB tokens,not actual 3D pixels or WCAG certification"
+    }
+  ]
+}

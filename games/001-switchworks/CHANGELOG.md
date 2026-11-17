@@ -1,5 +1,15 @@
 # SWITCHWORKS — Journal du jeu
 
+## 2026-11-17 — Refonte native UI/UX Comptoir maritime
+
+- Brief PDF de 16 pages entièrement repris ; baseline de sept états, reproduction et contrôle A/B du bandeau sombre : infobulle du plateau corrigée à la source.
+- Banc de quatre familles exécuté avant intégration, dix nouveaux modèles TSCN/GLB originaux, grain déterministe et SVG ; anciens assets préservés, aucun crédit/API payant.
+- HUD éditable en Container/anchors, thème global et tokens, état de présentation centralisé ; plateau prioritaire, compteurs secondaires, résultat intégré et seule pause modale avec focus cohérent.
+- Rotation, prêt, transport, réception et mouvement réduit branchés sur le modèle existant ; aucune règle, donnée, structure de sauvegarde ou fonction d'undo modifiée.
+- Presets APK/Web distincts ; orientation capteur et dimensionnement DPI limités à cette scène, fenêtres réellement contrôlées et configuration AVD restaurée après recette.
+- Mesures PC/émulateur/Web distinguées des appareils physiques ; cache partiel et synchronisation IndexedDB qualifiés, aucune durabilité instantanée ou validation Safari/humaine inventée.
+- Captures comparables, gris natif, texte agrandi, vidéos exécutées, sources et rapports conservés ; pas de publication distante ni de push. Statut commercial TEST / HOLD.
+
 ## 2026-11-16 — Étude de composition Céramique littorale
 
 - Lecture des deux planches et contrat de transposition : ports et niveau 6×6 prioritaires, jonctions/échelles incohérentes écartées.

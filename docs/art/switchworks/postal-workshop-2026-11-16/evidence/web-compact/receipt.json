@@ -1,0 +1,207 @@
+{
+  "context": "Windows Chrome actual WASM, mobile/touch emulation; not Safari or physical iPhone",
+  "url": "http://127.0.0.1:8786/",
+  "profile": "compact",
+  "checks": [
+    {
+      "name": "exact current pack served",
+      "passed": true
+    },
+    {
+      "name": "real engine canvas",
+      "passed": true
+    },
+    {
+      "name": "no WASM threads",
+      "passed": true
+    },
+    {
+      "name": "reload preserves exact rotation",
+      "passed": true,
+      "detail": {
+        "before": {
+          "attempts": 0,
+          "css_height": 640,
+          "css_width": 360,
+          "device_pixel_ratio": 3,
+          "hints": 0,
+          "phase": "paused",
+          "ports_hash": "d576f73bc43027c2972832997f6dd59841b961052b8f0c8d7436ddc5b8f746dd",
+          "reason": "pagehide_or_blur",
+          "rotations": 1,
+          "secure_context": true,
+          "storage_reported_persistent": true
+        },
+        "restored": {
+          "attempts": 0,
+          "css_height": 640,
+          "css_width": 360,
+          "device_pixel_ratio": 3,
+          "hints": 0,
+          "phase": "planning",
+          "ports_hash": "d576f73bc43027c2972832997f6dd59841b961052b8f0c8d7436ddc5b8f746dd",
+          "reason": "ready",
+          "rotations": 1,
+          "secure_context": true,
+          "storage_reported_persistent": true
+        }
+      }
+    },
+    {
+      "name": "restart initial preparation",
+      "passed": true
+    },
+    {
+      "name": "ready derives from real model",
+      "passed": true
+    },
+    {
+      "name": "two local receptions",
+      "passed": true
+    },
+    {
+      "name": "pause state observed",
+      "passed": true
+    },
+    {
+      "name": "same primary control replays",
+      "passed": true
+    },
+    {
+      "name": "browser callback remains paused",
+      "passed": true,
+      "detail": {
+        "limitation": "synthetic blur/focus, not physical iOS Home"
+      }
+    },
+    {
+      "name": "last preparation observed durably before close",
+      "passed": true,
+      "detail": {
+        "elapsed_ms": 1533,
+        "rotation": 1,
+        "scope": "read-only public IndexedDB API; never forces FS sync or writes a save"
+      }
+    },
+    {
+      "name": "browser process restart restores exact preparation",
+      "passed": true,
+      "detail": {
+        "persisted": {
+          "attempts": 0,
+          "css_height": 640,
+          "css_width": 360,
+          "device_pixel_ratio": 3,
+          "hints": 0,
+          "phase": "planning",
+          "ports_hash": "d576f73bc43027c2972832997f6dd59841b961052b8f0c8d7436ddc5b8f746dd",
+          "reason": "ready",
+          "rotations": 1,
+          "secure_context": true,
+          "storage_reported_persistent": true
+        },
+        "closed": {
+          "attempts": 0,
+          "css_height": 640,
+          "css_width": 360,
+          "device_pixel_ratio": 3,
+          "hints": 0,
+          "phase": "paused",
+          "ports_hash": "d576f73bc43027c2972832997f6dd59841b961052b8f0c8d7436ddc5b8f746dd",
+          "reason": "pagehide_or_blur",
+          "rotations": 1,
+          "secure_context": true,
+          "storage_reported_persistent": true
+        }
+      }
+    },
+    {
+      "name": "runtime has no fatal browser errors",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "loads": [
+    {
+      "kind": "cold fresh isolated browser profile",
+      "elapsed_until_first_frame_ms": 9164,
+      "resources": [
+        {
+          "name": "/index.js",
+          "transferSize": 69762,
+          "encodedBodySize": 69462,
+          "duration": 6.800000011920929
+        },
+        {
+          "name": "/index.wasm",
+          "transferSize": 10241981,
+          "encodedBodySize": 10241681,
+          "duration": 165.60000002384186
+        },
+        {
+          "name": "/index.pck",
+          "transferSize": 5169607,
+          "encodedBodySize": 5169307,
+          "duration": 71.79999995231628
+        }
+      ]
+    },
+    {
+      "kind": "warm same-origin reload",
+      "elapsed_until_first_frame_ms": 1891,
+      "resources": [
+        {
+          "name": "/index.js",
+          "transferSize": 300,
+          "encodedBodySize": 0,
+          "duration": 2.200000047683716
+        },
+        {
+          "name": "/index.wasm",
+          "transferSize": 10241981,
+          "encodedBodySize": 10241681,
+          "duration": 134.5
+        },
+        {
+          "name": "/index.pck",
+          "transferSize": 5169607,
+          "encodedBodySize": 5169307,
+          "duration": 48.90000003576279
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "http_responses": [
+    {
+      "file": "/index.js",
+      "status": 200
+    },
+    {
+      "file": "/index.wasm",
+      "status": 200
+    },
+    {
+      "file": "/index.pck",
+      "status": 200
+    },
+    {
+      "file": "/index.js",
+      "status": 304
+    },
+    {
+      "file": "/index.wasm",
+      "status": 200
+    },
+    {
+      "file": "/index.pck",
+      "status": 200
+    }
+  ],
+  "indexeddb_observation": {
+    "elapsed_ms": 1533,
+    "rotation": 1,
+    "scope": "read-only public IndexedDB API; never forces FS sync or writes a save"
+  },
+  "status": "passed"
+}

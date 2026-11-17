@@ -30,3 +30,7 @@ games/001-switchworks/platform/web/** -text
 docs/art/switchworks/references-2026-11-16/** -text
 docs/art/switchworks/littoral-study-2026-11-16/evidence/** -text
 games/001-switchworks/assets/littoral-study/** -text
+games/001-switchworks/docs/design/SWITCHWORKS_BRIEF_REFONTE_UI_UX_GODOT_2026-11-16.pdf binary
+docs/art/switchworks/postal-workshop-2026-11-16/evidence/** -text
+games/001-switchworks/assets/postal-workshop/** -text
+games/001-switchworks/ui/workshop/** -text

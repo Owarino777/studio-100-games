@@ -1,0 +1,43 @@
+{
+  "context": "AVD host,1080x2340,density480; no video recording; not physical phone/GPU timing",
+  "samples": [
+    {
+      "draw_calls_max": 206.0,
+      "draw_calls_p50": 206.0,
+      "limits": "process wall intervals, not GPU timing; cache, debugger, emulator, recording and synthetic tests affect values",
+      "platform": "Android",
+      "process_interval_p50_ms": 33.006,
+      "process_interval_p95_ms": 36.265,
+      "result_phase": "won",
+      "samples": 70,
+      "static_memory_bytes": 43304113.0,
+      "video_fixed_fps": false
+    },
+    {
+      "draw_calls_max": 206.0,
+      "draw_calls_p50": 206.0,
+      "limits": "process wall intervals, not GPU timing; cache, debugger, emulator, recording and synthetic tests affect values",
+      "platform": "Android",
+      "process_interval_p50_ms": 32.426,
+      "process_interval_p95_ms": 37.345,
+      "result_phase": "won",
+      "samples": 74,
+      "static_memory_bytes": 43849425.0,
+      "video_fixed_fps": false
+    },
+    {
+      "draw_calls_max": 206.0,
+      "draw_calls_p50": 206.0,
+      "limits": "process wall intervals, not GPU timing; cache, debugger, emulator, recording and synthetic tests affect values",
+      "platform": "Android",
+      "process_interval_p50_ms": 33.052,
+      "process_interval_p95_ms": 35.992,
+      "result_phase": "won",
+      "samples": 70,
+      "static_memory_bytes": 43850373.0,
+      "video_fixed_fps": false
+    }
+  ],
+  "restore_size": "Physical size: 1080x2400",
+  "restore_density": "Physical density: 420"
+}

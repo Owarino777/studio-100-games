@@ -26,19 +26,23 @@ def saved() -> dict:
         raise
 
 
-def run() -> None:
+def run(*, apk_path: Path | None = None, output_root: Path | None = None,
+        density_profiles: bool = False, extra_ui_states: bool = False) -> None:
     stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%S%fZ")
-    base = p.GAME / "artifacts/art-study-2026-11-16" / ("android-" + stamp)
+    base = (output_root or p.GAME / "artifacts/art-study-2026-11-16") / ("android-" + stamp)
     base.mkdir(parents=True)
     p.PACKAGE = PACKAGE
     p.saved = saved
     p.OUT = base
     p.REPORT = {"context": "ANDROID_EMULATOR_NOT_PHYSICAL", "package": PACKAGE, "serial": p.SERIAL,
                 "avd": p.AVD, "adb_server_port": int(p.PORT), "checks": [], "profiles": []}
-    apk = p.GAME / "build/android/switchworks-littoral-study-debug.apk"
+    apk = apk_path or p.GAME / "build/android/switchworks-littoral-study-debug.apk"
     original = p.adb("shell", "wm", "size")
     override = re.search(r"Override size:\s*(\d+x\d+)", original)
     restore = override.group(1) if override else "reset"
+    original_density = p.adb("shell", "wm", "density") if density_profiles else ""
+    density_override = re.search(r"Override density:\s*(\d+)", original_density)
+    density_restore = density_override.group(1) if density_override else "reset"
     record = None
     stream = None
     try:
@@ -53,13 +57,19 @@ def run() -> None:
         p.check("activity belongs to study", activity.startswith(PACKAGE + "/"))
         p.REPORT["activity"] = activity
         level = json.loads((p.GAME / "data/archipel_double_flux.json").read_text(encoding="utf-8"))
-        for index, size in enumerate(["1080x2340", "720x1280"]):
+        profiles = [("1080x2340", 480), ("720x1280", 320), ("2340x1080", 480)] if density_profiles else [("1080x2340", None), ("720x1280", None)]
+        for index, (size, density) in enumerate(profiles):
             p.OUT = base / size
             p.OUT.mkdir()
             p.adb("shell", "am", "force-stop", PACKAGE)
             p.adb("shell", "wm", "size", size)
+            if density is not None: p.adb("shell", "wm", "density", str(density))
             p.SAVE_FILE = ""
             p.launch()
+            if density_profiles:
+                requested = [int(x) for x in size.split("x")]
+                p.until(lambda: p.layout()["window"] == requested, 20)
+                p.check(size + " actual app window matches profile", p.layout()["window"] == requested)
             p.pause()
             p.options(False, False)
             p.tap("buttons", "restart")
@@ -69,6 +79,12 @@ def run() -> None:
             p.tap("cells", 8)
             p.until(lambda: saved()["rotations"] == 1)
             p.check(size + " one tap, one rotation", saved()["rotations"] == 1)
+            if extra_ui_states:
+                p.capture("rotation-1")
+                p.tap("cells", 16)
+                p.until(lambda: saved()["rotations"] == 2)
+                p.capture("rotation-2")
+                p.tap("buttons", "undo")
             p.tap("buttons", "undo")
             p.check(size + " undo restores ports", saved()["ports"] == initial["ports"])
             source = level["sources"]["A"]
@@ -107,6 +123,7 @@ def run() -> None:
                 record = None
             # Home/reload checks are separate from the recorded in-game sequence.
             p.pause()
+            if extra_ui_states: p.capture("paused-won")
             p.tap("buttons", "restart")
             p.tap("cells", 8)
             before = saved()["ports"]
@@ -140,6 +157,9 @@ def run() -> None:
         if p.PID: (p.OUT / "all-available-runtime.log").write_text(p.logs(), encoding="utf-8")
         p.adb("shell", "wm", "size", restore)
         p.REPORT["restored_display"] = p.adb("shell", "wm", "size")
+        if density_profiles:
+            p.adb("shell", "wm", "density", density_restore)
+            p.REPORT["restored_density"] = p.adb("shell", "wm", "density")
         (base / "receipt.json").write_text(json.dumps(p.REPORT, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         print("Littoral Android receipt:", base, p.REPORT.get("status"), flush=True)
 

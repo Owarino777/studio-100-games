@@ -34,6 +34,7 @@ def main() -> None:
     parser.add_argument("--cert", type=Path)
     parser.add_argument("--key", type=Path)
     parser.add_argument("--password-file", type=Path, help="Optional local Basic auth secret, user studio")
+    parser.add_argument("--revalidate-cache", action="store_true", help="Private browser cache with authenticated ETag revalidation, for cold/warm measurement")
     args = parser.parse_args()
     if not 1024 <= args.port <= 65535:
         parser.error("choose an unprivileged local port")
@@ -98,6 +99,15 @@ def main() -> None:
                 self.send_error(404)
                 return
             data, mime, digest = content[name]
+            cache_policy = "private, no-cache" if args.revalidate_cache and name != "index.html" else ("no-store" if name == "index.html" or password else "private, max-age=3600")
+            if args.revalidate_cache and name != "index.html" and self.headers.get("If-None-Match", "") == '"' + digest + '"':
+                self.send_response(304)
+                self.send_header("ETag", '"' + digest + '"')
+                self.send_header("Cache-Control", cache_policy)
+                self.send_header("Vary", "Accept-Encoding, Authorization")
+                self.send_header("Content-Length", "0")
+                self.end_headers()
+                return
             zipped = "gzip" in self.headers.get("Accept-Encoding", "") and mime != "image/png"
             if zipped:
                 if name not in compressed:
@@ -106,7 +116,7 @@ def main() -> None:
             self.send_response(200)
             self.send_header("Content-Type", mime)
             self.send_header("Content-Length", str(len(data)))
-            self.send_header("Cache-Control", "no-store" if name == "index.html" or password else "private, max-age=3600")
+            self.send_header("Cache-Control", cache_policy)
             self.send_header("ETag", '"' + digest + '"')
             self.send_header("Vary", "Accept-Encoding, Authorization")
             self.send_header("X-Content-Type-Options", "nosniff")
